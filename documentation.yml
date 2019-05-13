@@ -1,0 +1,40 @@
+---
+# variables to be used inside the RST files.
+Variables:
+  doc_name: OTRS Feature Add-ons Manual
+  doc_description: This is the description of the documentation.
+  doc_version: 7.0
+  doc_yearstamp: current_yearstamp
+  doc_vendor: OTRS AG
+  doc_url: https://otrs.com
+  doc_datestamp: current_datestamp
+  doc_license: GNU Free Documentation License
+
+# project meta information
+ProjectName: OTRS Feature Add-ons Manual
+Copyright: 2001-2019 OTRS AG, https://otrs.com/
+Author: OTRS AG
+Version: 7.0
+Release: 7.0
+
+# sphinx extension module names to be used
+Extensions:
+  - sphinx.ext.autosectionlabel
+  - sphinx.ext.extlinks
+
+# enable "Edit on GitHub" link
+DisplayGitHubEditButton: 1
+
+# generate stable link to the current version
+Stable: 1
+
+# publish documentation to target repository
+Publish: 0
+
+# PDF output directory path and filename
+PDFOutputPath: doc-fao/{{Version}}/{{Language}}/
+PDFFilename: otrs_fao_manual_{{Version}}_{{Language}}.pdf
+
+# EPub output directory path and filename
+EPUBOutputPath: doc-fao/{{Version}}/{{Language}}/
+EPUBFilename: otrs_fao_manual_{{Version}}_{{Language}}.epub
