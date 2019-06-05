@@ -25,13 +25,9 @@ Target Groups
 
 .. note::
 
-   The feature add-on must be activated/deactivated in the system configuration.
+   This feature add-on requires the *ITSM Change Management* feature.
 
-.. note::
-
-   If a change is write-protected, this will affect all contained work orders.
-
-.. Original content: https://otrs.com/otrs-feature/brute-force-attack-protection/
+.. Original content: https://otrs.com/otrs-feature/feature-add-on-change-write-protection/
 
 .. toctree::
    :maxdepth: 1
