@@ -15,7 +15,7 @@ To add the fields for configuration items:
 
 1. Open the *Config Item* module of the *CMDB Settings* group in the administrator interface.
 2. Select a configuration item class and click on the *Change class definition* button.
-3. Add the following entries to the class definition:
+3. Add the new fields to the class definition.
 
    .. code-block:: yaml
 
