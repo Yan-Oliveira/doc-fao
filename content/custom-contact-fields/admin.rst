@@ -1,10 +1,11 @@
 Administrator Interface
 =======================
 
-This chapter describes the new features that are available in the administrator interface after installation of the package.
+This package contains a configuration interface to create dynamic fields of the type *Customer*. These fields can store customer information to a dynamic field and display them in the different views.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :caption: Contents
 
-   admin/administration
+   admin/communication-notifications
+   admin/processes-automation
