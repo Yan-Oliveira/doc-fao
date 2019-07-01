@@ -3,7 +3,7 @@ Customer Event Ticket Calendar
 
 With this feature add-on, time periods specified in a ticket are displayed as calendar entries.
 
-This allows appointments to appear in the customer interface in such a way that customers can easily see information about availability or scheduling, such as when they want to find the date of a WebEx meeting.
+This allows appointments to appear in the external interface in such a way that customer users can easily see information about availability or scheduling, such as when they want to find the date of a WebEx meeting.
 
 Benefits
    - Appointments are displayed in a calendar format.
