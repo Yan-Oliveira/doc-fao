@@ -1,9 +1,9 @@
 Customer-specific Services
 ==========================
 
-This feature add-on makes it possible to assign services to customer IDs or customer users so that only the assigned service is displayed when a ticket is created in the customer portal and only the appropriate SLAs are valid.
+This feature add-on makes it possible to assign services to customers so that only the assigned service is displayed when a ticket is created and only the appropriate SLAs are valid.
 
-After the installation, two new options appear in the *User, Groups & Roles* group in the administrator interface: *Customer ID ↔ Service* and *Customer User ↔ Service*. Here you can define which services should be assigned to a customer ID (customer company) and/or customer user within the same customer company.
+After the installation of the package, a new module *Customers ↔ Service* appears in the *User, Groups & Roles* group in the administrator interface. Here you can define which services should be assigned to a customers.
 
 Furthermore, you can define in the system configuration which of these options should be the leading one.
 
