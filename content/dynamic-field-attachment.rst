@@ -1,7 +1,7 @@
 Dynamic Field Attachment
 ========================
 
-Increase the information flow in your tickets and articles significantly with the feature add-on *Dynamic Field Attachment*. Add dynamic fields of the type attachment, which can store one or many files. Define the maximum size and the maximum amount of attachments. Share pictures, PDF documents, Excel lists and basically any file you want within dynamic fields of articles and tickets.
+Increase the information flow in your tickets and articles significantly with this feature add-on. Add dynamic fields of the type attachment, which can store one or many files. Define the maximum size and the maximum amount of attachments. Share pictures, PDF documents, Excel lists and basically any file you want within dynamic fields of articles and tickets.
 
 Benefits
    - Add attachments wherever you want in the system.
