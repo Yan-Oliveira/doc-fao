@@ -1,5 +1,5 @@
-Resource Planning
-=================
+Calendar Resource Planning
+==========================
 
 This feature add-on provides a detailed overview of the entire team’s operations. By linking calendar entries with tickets, you have easy access to your appointments.
 
@@ -31,6 +31,6 @@ Target Groups
    :maxdepth: 1
    :caption: Contents
 
-   resource-planning/admin
-   resource-planning/agent
-   resource-planning/external
+   calendar-resource-planning/admin
+   calendar-resource-planning/agent
+   calendar-resource-planning/external

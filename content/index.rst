@@ -21,6 +21,7 @@ Permission is granted to copy, distribute and/or modify this document under the 
    automatic-start-of-processes
    brute-force-attack-protection
    cache-memcached-fast
+   calendar-resource-planning
    categories-for-text-modules
    change-write-protection
    ci-assignment-attribute-dynamic-field-map
@@ -52,7 +53,6 @@ Permission is granted to copy, distribute and/or modify this document under the 
    ready2adopt-itsm-processes
    ready2adopt-processes
    ready2adopt-web-services
-   resource-planning
    restore-pending-information
    restrict-customer-data-view
    service-based-queue-routing

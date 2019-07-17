@@ -94,6 +94,7 @@ Not all feature add-ons are available on any service levels. The following categ
 
 SILVER
    - :doc:`credit-card-filter`
+   - :doc:`calendar-resource-planning`
    - :doc:`custom-contact-fields`
    - :doc:`customer-activity-widget`
    - :doc:`customer-frontend-link-object`
