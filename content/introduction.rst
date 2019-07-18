@@ -1,7 +1,7 @@
 Introduction
 ============
 
-This manual lists all feature addons.
+This manual lists all feature add-ons.
 
 
 Categories

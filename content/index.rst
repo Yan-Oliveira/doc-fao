@@ -37,6 +37,7 @@ Permission is granted to copy, distribute and/or modify this document under the 
    dashboard-news-widget
    delete-attachments
    dynamic-field-attachment
+   dynamic-field-calculation
    dynamic-field-ci
    dynamic-field-database
    dynamic-field-search-booster
