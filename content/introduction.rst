@@ -47,7 +47,6 @@ Individualization
 Integration
    - :doc:`dynamic-field-database`
    - :doc:`dynamic-field-web-service`
-   - :doc:`openbook-connector`
    - :doc:`ready2adopt-web-services`
 
 Knowledge Management & Self Service
@@ -133,7 +132,6 @@ GOLD
    - :doc:`dynamic-sender-addresses`
    - :doc:`escalation-suspend`
    - :doc:`hide-show-dynamic-fields`
-   - :doc:`openbook-connector`
    - :doc:`process-management-article-email`
    - :doc:`queue-responsible`
    - :doc:`ready2adopt-web-services`

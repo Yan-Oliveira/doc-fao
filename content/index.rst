@@ -47,7 +47,6 @@ Permission is granted to copy, distribute and/or modify this document under the 
    escalation-suspend
    extended-ticket-stats
    hide-show-dynamic-fields
-   openbook-connector
    out-of-office
    process-management-article-email
    queue-responsible
