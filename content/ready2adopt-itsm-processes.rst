@@ -45,6 +45,10 @@ Target Groups
    - Security management
    - Service providers
 
+.. note::
+
+   This feature add-on requires the *ITSM Configuration Management* feature.
+
 .. Original content: https://otrs.com/otrs-feature/ready2adopt-itsm-processes/
 
 .. toctree::
