@@ -19,4 +19,4 @@ To import a Ready2Adopt process:
 3. Click on the *Import Ready2Adopt process* button.
 4. Deploy all processes.
 
-During the process import, the system takes care of creating the needed dynamic fields and/or any needed updates to the system configuration.
+During the import process, the system takes care of creating the needed dynamic fields and/or any needed updates to the system configuration.

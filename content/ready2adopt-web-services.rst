@@ -22,6 +22,10 @@ Target Groups
    - Security management
    - Service providers
 
+.. note::
+
+   This feature add-on requires the :doc:`ticket-invoker` feature.
+
 .. Original content: https://otrs.com/otrs-feature/ready2adopt-web-services/
 
 .. toctree::
