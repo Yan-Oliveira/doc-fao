@@ -1,7 +1,7 @@
 Service Categories
 ==================
 
-If an agent or a customer creates a ticket and defines the ticket type, this feature add-on makes it easier to automatically display only the linked services from there on. The linking of ticket types and ticket services is carried out by an administrator with ticket configuration permissions, and it is possible to link a service to more than one ticket type, as well as a ticket type to more than one service. Ticket types and services can be additionally filtered and sorted in a dropdown menu.
+If an agent or a customer creates a ticket and defines the ticket type, this feature add-on makes it easier to automatically display only the linked services from there on. The linking of ticket types and ticket services is carried out by an administrator with ticket configuration permissions, and it is possible to link a service to more than one ticket type, as well as a ticket type to more than one service. Ticket types and services can be additionally filtered and sorted in a drop-down menu.
 
 Benefits
    - Input help for agents and customers.
