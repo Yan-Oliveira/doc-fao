@@ -1,5 +1,5 @@
-Administrator Interface
-=======================
+Ticket Settings
+===============
 
 After installation of the package a new module will be available in the *Ticket Settings* group of the administrator interface.
 
@@ -7,4 +7,4 @@ After installation of the package a new module will be available in the *Ticket 
    :maxdepth: 3
    :caption: Contents
 
-   admin/ticket-settings
+   ticket-settings/services-queues
