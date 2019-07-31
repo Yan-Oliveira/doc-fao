@@ -21,3 +21,10 @@ In this widget the agents can set services to be a responsible agent to those se
    Service Responsible Widget
 
 Select one or more services from the drop-down list.
+
+.. note::
+
+   To activate this widget in personal preferences, you need to enable the following system configuration options:
+
+   - ``Ticket::Service``
+   - ``Ticket::Responsible``
