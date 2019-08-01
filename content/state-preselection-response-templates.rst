@@ -1,7 +1,7 @@
-State Preselection Response Templates
-=====================================
+State Pre-selection Response Templates
+======================================
 
-The use of response templates in **OTRS** saves a lot of time – especially if an agent has to answer a lot of similar customer requests, such as requests for a quote or a manual.
+The use of response templates saves a lot of time – especially if an agent has to answer a lot of similar customer requests, such as requests for a quote or a manual.
 
 In the standard version of **OTRS** you need to define the ticket state manually every time you use a response template. This is an additional task, which needlessly costs a lot of time and even is a source for mistakes, especially when you use response templates very often.
 
