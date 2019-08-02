@@ -3,7 +3,7 @@ System Configuration History
 
 System configuration import and export are fully possible in the standard version of **OTRS**. An export always represents your complete configuration.
 
-With the System Configuration History feature, previous revisions can now be viewed and restored individually. This makes it easy to reset a setting, reducing errors and downtime. In addition, changes are auditable and revision-proof – the system registers which changes have been made by whom.
+With this feature add-on, previous revisions can now be viewed and restored individually. This makes it easy to reset a setting, reducing errors and downtime. In addition, changes are auditable and revision-proof – the system registers which changes have been made by whom.
 
 Benefits
    - Error reduction by restoring configurations.
