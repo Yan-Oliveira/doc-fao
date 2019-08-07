@@ -1,16 +1,16 @@
 Ticket Forms
 ============
 
-For service organizations that use the OTRS Help Desk software in different departments or that have to respond to many different types of customer requests, this Feature Add-on is a definite must-have. With it you can display different ticket masks and forms in the agent and customer interfaces, depending on which dynamic fields are relevant to the customer request. Moreover, the ticket creation process is faster as headlines and message body fields are pre-filled with the necessary information. You can define required fields for forms as well as display pre-filled fields, such as ticket types and services, in the customer interface based on the Customer Group settings. Since version 1.2.1, you can also pre-fill ticket masks by adding attachments, using rich text format, or using the OTRS Smart Tags ``<OTRS_CONFIG_*>`` and ``<OTRS_CURRENT_*>`` in the template body.
+For service organizations that use the OTRS helpdesk software in different departments or that have to respond to many different types of customer requests, this feature add-on is a definite must-have. With it you can display different ticket masks and forms in the agent and external interfaces, depending on which dynamic fields are relevant to the customer request. Moreover, the ticket creation process is faster as headlines and message body fields are pre-filled with the necessary information. You can define required fields for forms as well as display pre-filled fields, such as ticket types and services, in the customer interface based on the customer group settings. You can also pre-fill ticket masks by adding attachments, using Rich Text format, or using the OTRS smart tags ``<OTRS_CONFIG_*>`` and ``<OTRS_CURRENT_*>`` in the template body.
 
 With this feature add-on the following screens can be configured:
 
-- Agent Interface
+- Agent interface
 
    - New phone ticket
    - New email ticket
 
-- Customer Interface
+- External interface
 
    - New ticket
 
@@ -23,7 +23,7 @@ The following information can be restored:
 - Pending Date
 - State
 - Title
-- Text (only pre-filled if the text comes from a note article; for example, one created by the AgentTicketPending pop-up screen)
+- Text (only pre-filled if the text comes from a note article)
 
 This feature add-on works when the target time of the reminder has not expired; otherwise, the standard functionality sets the usual default values.
 
@@ -46,12 +46,12 @@ Target Groups
    Not compatible with the following feature add-ons:
 
    - :doc:`advanced-editor`
-   - :doc:`categories-for-text-modules` (when deployed in OTRS 3.2)
+   - :doc:`categories-for-text-modules`
    - :doc:`cis-in-customer-frontend`
    - :doc:`dynamic-field-ci`
    - :doc:`hide-show-dynamic-fields`
    - :doc:`restore-pending-information`
-   - :doc:`service-based-queue-routing` (when deployed in OTRS 3.3)
+   - :doc:`service-based-queue-routing`
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-ticket-forms/
 
