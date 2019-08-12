@@ -29,7 +29,7 @@ DisplayGitHubEditButton: 1
 Stable: 1
 
 # publish documentation to target repository
-Publish: 0
+Publish: 1
 
 # PDF output directory path and filename
 PDFOutputPath: doc-fao/{{Version}}/{{Language}}/
