@@ -1,7 +1,7 @@
 Ticket Workflow
 ===============
 
-The feature add-on allows one to easily define business workflow templates for common tasks. Workflow *task* tickets can be dependent on any other task(s) in that workflow, giving a high level of control over the order in which tasks are completed. A task that is dependent on preceding tasks will not appear in the queue until the preceding tasks are closed.
+The feature add-on allows one to easily define business workflow templates for common tasks. Workflow *task* tickets can be dependent on any other task in that workflow, giving a high level of control over the order in which tasks are completed. A task that is dependent on preceding tasks will not appear in the queue until the preceding tasks are closed.
 
 Each task ticket within a workflow can be predefined using these fields:
 

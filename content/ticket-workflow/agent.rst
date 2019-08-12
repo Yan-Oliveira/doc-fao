@@ -1,4 +1,10 @@
 Agent Interface
 ===============
 
-This package has no agent interface.
+This package provides support for workflows based on master and task tickets.
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents
+
+   agent/tickets
