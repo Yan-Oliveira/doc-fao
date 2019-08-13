@@ -1,4 +1,4 @@
 External Interface
 ==================
 
-This package has no external interface.
+The quota of each customer is also displayed in the head of the external interface.

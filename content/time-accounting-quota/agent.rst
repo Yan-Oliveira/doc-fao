@@ -1,4 +1,11 @@
 Agent Interface
 ===============
 
-This package has no agent interface.
+This package extends the quota functionality to be able to set different quota for each customer.
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents
+
+   agent/customers
+   agent/tickets
