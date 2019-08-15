@@ -20,7 +20,6 @@ Permission is granted to copy, distribute and/or modify this document under the 
    automated-faq-ticket-creator
    automatic-start-of-processes
    brute-force-attack-protection
-   cache-memcached-fast
    calendar-resource-planning
    categories-for-text-modules
    change-write-protection

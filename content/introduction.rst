@@ -58,7 +58,6 @@ Knowledge Management & Self Service
    - :doc:`tag-cloud`
 
 Performance
-   - :doc:`cache-memcached-fast`
    - :doc:`dynamic-field-search-booster`
 
 Reporting
@@ -150,7 +149,6 @@ TITANIUM
 
 PLATINUM
    - :doc:`advanced-escalations`
-   - :doc:`cache-memcached-fast`
    - :doc:`dynamic-field-search-booster`
    - :doc:`extended-ticket-stats`
 
