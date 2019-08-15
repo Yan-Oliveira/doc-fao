@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-12 14:09+0000\n"
+"POT-Creation-Date: 2019-08-15 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -462,6 +462,11 @@ msgstr ""
 #: ../../content/ticket-workflow/agent.rst:6
 #: ../../content/ticket-workflow/agent/tickets.rst:6
 #: ../../content/time-accounting-quota.rst:25
+#: ../../content/time-accounting-quota/admin.rst:6
+#: ../../content/time-accounting-quota/admin/users-groups-roles.rst:6
+#: ../../content/time-accounting-quota/agent.rst:6
+#: ../../content/time-accounting-quota/agent/customers.rst:6
+#: ../../content/time-accounting-quota/agent/tickets.rst:6
 #: ../../content/vip-customer.rst:33
 msgid "Contents"
 msgstr ""
@@ -544,7 +549,6 @@ msgstr ""
 #: ../../content/tag-cloud/admin.rst:4
 #: ../../content/ticket-time-unit-dropdown/admin.rst:4
 #: ../../content/ticket-watchlist/admin.rst:4
-#: ../../content/time-accounting-quota/admin.rst:4
 #: ../../content/vip-customer/admin.rst:4
 msgid "This package has no administrator interface."
 msgstr ""
@@ -556,6 +560,7 @@ msgstr ""
 #: ../../content/brute-force-attack-protection/admin/administration/system-configuration.rst:2
 #: ../../content/delete-attachments/admin.rst:8
 #: ../../content/system-configuration-history/admin/administration/system-configuration.rst:2
+#: ../../content/vip-customer/admin.rst:8
 msgid "System Configuration"
 msgstr ""
 
@@ -597,6 +602,8 @@ msgstr ""
 #: ../../content/ticket-forms/admin/communication-notifications/ticket-notifications.rst:15
 #: ../../content/ticket-queue-selection/admin.rst:16
 #: ../../content/ticket-time-unit-dropdown/admin.rst:12
+#: ../../content/vip-customer/admin.rst:14
+#: ../../content/vip-customer/admin.rst:21
 msgid "Go to *System Configuration* screen."
 msgstr ""
 
@@ -819,6 +826,7 @@ msgstr ""
 
 #: ../../content/adjust-sort-ticket-overview/agent.rst:10
 #: ../../content/customer-specific-services/agent/customers/customer-information-center.rst:2
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:2
 msgid "Customer Information Center"
 msgstr ""
 
@@ -944,7 +952,6 @@ msgstr ""
 #: ../../content/ticket-time-unit-dropdown/external.rst:4
 #: ../../content/ticket-watchlist/external.rst:4
 #: ../../content/ticket-workflow/external.rst:4
-#: ../../content/time-accounting-quota/external.rst:4
 #: ../../content/vip-customer/external.rst:4
 msgid "This package has no external interface."
 msgstr ""
@@ -1188,8 +1195,6 @@ msgstr ""
 #: ../../content/ticket-forms/agent.rst:4
 #: ../../content/ticket-invoker/agent.rst:4
 #: ../../content/ticket-queue-selection/agent.rst:4
-#: ../../content/time-accounting-quota/agent.rst:4
-#: ../../content/vip-customer/agent.rst:4
 msgid "This package has no agent interface."
 msgstr ""
 
@@ -2434,6 +2439,8 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:70
 #: ../../content/customer-specific-services/agent/customers.rst:2
+#: ../../content/time-accounting-quota/admin/users-groups-roles/customers.rst:2
+#: ../../content/time-accounting-quota/agent/customers.rst:2
 msgid "Customers"
 msgstr ""
 
@@ -2778,6 +2785,7 @@ msgid "Add Service Level Agreement Screen"
 msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/service-level-agreements.rst:13
+#: ../../content/time-accounting-quota/admin/users-groups-roles/customers.rst:13
 msgid "New Field"
 msgstr ""
 
@@ -2905,6 +2913,7 @@ msgstr ""
 #: ../../content/restore-pending-information/agent/tickets.rst:2
 #: ../../content/ticket-watchlist/agent/tickets.rst:2
 #: ../../content/ticket-workflow/agent/tickets.rst:2
+#: ../../content/time-accounting-quota/agent/tickets.rst:2
 msgid "Tickets"
 msgstr ""
 
@@ -2917,6 +2926,7 @@ msgstr ""
 #: ../../content/restore-pending-information/agent/tickets/ticket-zoom.rst:2
 #: ../../content/ticket-watchlist/agent/tickets/ticket-zoom.rst:2
 #: ../../content/ticket-workflow/agent/tickets/ticket-zoom.rst:2
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:2
 msgid "Ticket Zoom"
 msgstr ""
 
@@ -4241,6 +4251,7 @@ msgstr ""
 #: ../../content/specific-ticket-notifications/admin/users-groups-roles.rst:2
 #: ../../content/ticket-allocation/admin/users-groups-roles.rst:2
 #: ../../content/ticket-forms/admin/users-groups-roles.rst:2
+#: ../../content/time-accounting-quota/admin/users-groups-roles.rst:2
 msgid "Users, Groups & Roles"
 msgstr ""
 
@@ -10569,6 +10580,7 @@ msgstr ""
 
 #: ../../content/introduction.rst:71
 #: ../../content/introduction.rst:138
+#: ../../content/vip-customer.rst:29
 msgid ":doc:`restrict-customer-data-view`"
 msgstr ""
 
@@ -14817,7 +14829,7 @@ msgid "This feature add-on is perfect for call centers and IT service providers 
 msgstr ""
 
 #: ../../content/time-accounting-quota.rst:6
-msgid "This feature add-on provides a new dashboard widget in the customer information center where time quotas and reference numbers, such as Purchase Order numbers, can be assigned to customers and where the current status of the quota is shown."
+msgid "This feature add-on provides a new dashboard widget in the customer information center where time quotas and reference numbers, such as purchase order numbers, can be assigned to customers and where the current status of the quota is shown."
 msgstr ""
 
 #: ../../content/time-accounting-quota.rst:8
@@ -14836,12 +14848,124 @@ msgstr ""
 msgid "All companies"
 msgstr ""
 
+#: ../../content/time-accounting-quota/admin.rst:4
+msgid "This module adds additional functionality to set time contingents for customers."
+msgstr ""
+
+#: ../../content/time-accounting-quota/admin/users-groups-roles.rst:4
+msgid "It is possible to set working hours per day to set a different value for the calculation of the new contingent."
+msgstr ""
+
+#: ../../content/time-accounting-quota/admin/users-groups-roles/customers.rst:4
+msgid "After installation of the package a new field is added to the *Add Customer* and *Edit Customer* screens."
+msgstr ""
+
+#: ../../content/time-accounting-quota/admin/users-groups-roles/customers.rst:9
+msgid "Add Customer Screen"
+msgstr ""
+
+#: ../../content/time-accounting-quota/admin/users-groups-roles/customers.rst:15
+msgid "Workhours per day"
+msgstr ""
+
+#: ../../content/time-accounting-quota/admin/users-groups-roles/customers.rst:16
+msgid "Add the working hours per day if it is different from the normal working day. If the field is left empty, 8 hours par day is calculated."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent.rst:4
+msgid "This package extends the quota functionality to be able to set different quota for each customer."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers.rst:4
+msgid "This package extends the *Customer Information Center* screen with quota management."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:4
+msgid "After installation of the package two new widget will be displayed in the customer information center to set a quota for your customers. You can also set a reference number to recognize the purchase number of this contingent."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:6
+msgid "To set a quota for a customer:"
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:8
+msgid "Search for a customer in the *Customer Information Center*."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:9
+msgid "Add a reference number and new quota to the customer in the *Add quota to customer* widget in the right sidebar."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:14
+msgid "Add Quota to Customer Widget"
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:16
+msgid "Check the entered data in the *Quota list* widget below."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:21
+msgid "Quota List Widget"
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:23
+msgid "You can set the quota in hours or days. The quota will be recalculated into days and hours in the *Quota list* widget."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:25
+msgid "A working day contains 8 working hours by default. The working hours per day can be changed in the :doc:`../../admin/users-groups-roles/customers` management screen."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/customers/customer-information-center.rst:27
+msgid "The quota can be reduced by adding tickets or by adding articles to existing ticket in the :doc:`../tickets/ticket-zoom` screen."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets.rst:4
+msgid "Use the *Ticket Zoom* screen to reduce the quota set for a customer."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:4
+msgid "For each ticket you can set a time to reduce the quota of the customer. It is based on the work time units and there is a new drop-down field to reduce the contingent in hours or minutes."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:6
+msgid "To reduce quota in a ticket:"
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:8
+msgid "Create a ticket based for the customer."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:9
+msgid "Open the ticket in the *Ticket Zoom* screen. A new *Quota list* widget is also displayed in the right sidebar."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:10
+msgid "Add a note or any other communication article that has quota field."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:11
+msgid "Add a new time unit based on hours or minutes to reduce the quota."
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:16
+msgid "Add Article Screen"
+msgstr ""
+
+#: ../../content/time-accounting-quota/agent/tickets/ticket-zoom.rst:20
+msgid "The quota can be also reduced in any ticket create screens."
+msgstr ""
+
+#: ../../content/time-accounting-quota/external.rst:4
+msgid "The quota of each customer is also displayed in the head of the external interface."
+msgstr ""
+
 #: ../../content/vip-customer.rst:2
 msgid "VIP Customer"
 msgstr ""
 
 #: ../../content/vip-customer.rst:4
-msgid "Service organizations who have to meet strict service level agreements (SLA) or those who want to react faster to requests from their most important clients should use this Feature Add-on."
+msgid "Service organizations who have to meet strict service level agreements (SLA) or those who want to react faster to requests from their most important clients should use this feature add-on."
 msgstr ""
 
 #: ../../content/vip-customer.rst:6
@@ -14853,7 +14977,7 @@ msgid "An additional list in system configuration allows an agent to assign the 
 msgstr ""
 
 #: ../../content/vip-customer.rst:10
-msgid "Furthermore, SLA’s can be restricted to be available to VIP customer users only. Keep an eye on your most important customers and deliver excellent service to them!"
+msgid "Furthermore, SLAs can be restricted to be available to VIP customer users only. Keep an eye on your most important customers and deliver excellent service to them."
 msgstr ""
 
 #: ../../content/vip-customer.rst:13
@@ -14868,7 +14992,53 @@ msgstr ""
 msgid "All companies working with SLAs"
 msgstr ""
 
-#: ../../content/vip-customer.rst:29
-msgid ":doc:`restrict-customer-data-view` (when deployed with OTRS 3.2 and higher)"
+#: ../../content/vip-customer/admin.rst:10
+msgid "The package has no default configuration for customer users and SLAs available only for VIP customer users. Customer users and SLAs have to be added in the system configuration."
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:12
+msgid "To set VIP status for a customer user:"
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:15
+#: ../../content/vip-customer/admin.rst:22
+msgid "Select *OTRSVIPCustomer* in the *Navigation* widget."
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:16
+#: ../../content/vip-customer/admin.rst:23
+msgid "Navigate to *Core → OTRSVIPCustomer* in the navigation tree."
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:17
+msgid "Add the customer user IDs (login names) to setting ``VIP::UIDs``."
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:19
+msgid "To set an existing SLA only available for VIP customer users:"
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:24
+msgid "Add the SLAs to setting ``VIP::SLAs``."
+msgstr ""
+
+#: ../../content/vip-customer/admin.rst:28
+msgid "If a customer user is configured as a VIP, the internal customer record will have the attribute ``UserVIP`` set to ``TRUE``. This allows to access the customer user’s VIP status through other technical facilities, such as ACL definitions."
+msgstr ""
+
+#: ../../content/vip-customer/agent.rst:4
+msgid "If a customer user is configured as a VIP, the *Customer Information* widget will show the VIP status of the user with a big red *VIP Customer* badge."
+msgstr ""
+
+#: ../../content/vip-customer/agent.rst:9
+msgid "Customer Information Widget"
+msgstr ""
+
+#: ../../content/vip-customer/agent.rst:11
+msgid "The extended *Customer Information* widget is available in all tecket create screens as well as in the *Ticket Zoom* screen."
+msgstr ""
+
+#: ../../content/vip-customer/agent.rst:13
+msgid "If an SLA is configured to be only shown for VIP customer users, it will not be available anymore to regular users and will be only shown for VIP customer users."
 msgstr ""
 
