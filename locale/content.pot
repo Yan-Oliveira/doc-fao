@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-15 09:17+0000\n"
+"POT-Creation-Date: 2019-08-16 12:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,6 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:13
 #: ../../content/automatic-start-of-processes.rst:10
 #: ../../content/brute-force-attack-protection.rst:8
-#: ../../content/cache-memcached-fast.rst:9
 #: ../../content/calendar-resource-planning.rst:12
 #: ../../content/categories-for-text-modules.rst:12
 #: ../../content/change-write-protection.rst:17
@@ -120,7 +119,6 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:16
 #: ../../content/automatic-start-of-processes.rst:13
 #: ../../content/brute-force-attack-protection.rst:11
-#: ../../content/cache-memcached-fast.rst:12
 #: ../../content/calendar-resource-planning.rst:15
 #: ../../content/categories-for-text-modules.rst:15
 #: ../../content/change-write-protection.rst:20
@@ -189,7 +187,7 @@ msgstr ""
 #: ../../content/dynamic-sender-addresses.rst:15
 #: ../../content/escalation-suspend.rst:14
 #: ../../content/hide-show-dynamic-fields.rst:14
-#: ../../content/introduction.rst:142
+#: ../../content/introduction.rst:141
 #: ../../content/process-management-article-email.rst:14
 #: ../../content/queue-responsible.rst:13
 #: ../../content/ready2adopt-itsm-processes.rst:38
@@ -210,7 +208,6 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:23
 #: ../../content/automatic-start-of-processes.rst:22
 #: ../../content/brute-force-attack-protection.rst:18
-#: ../../content/cache-memcached-fast.rst:15
 #: ../../content/calendar-resource-planning.rst:26
 #: ../../content/categories-for-text-modules.rst:21
 #: ../../content/change-write-protection.rst:24
@@ -317,7 +314,6 @@ msgstr ""
 #: ../../content/brute-force-attack-protection/admin.rst:6
 #: ../../content/brute-force-attack-protection/admin/administration.rst:6
 #: ../../content/brute-force-attack-protection/admin/users-groups-roles.rst:6
-#: ../../content/cache-memcached-fast.rst:19
 #: ../../content/calendar-resource-planning.rst:30
 #: ../../content/calendar-resource-planning/agent.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar.rst:6
@@ -479,7 +475,6 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator/admin.rst:2
 #: ../../content/automatic-start-of-processes/admin.rst:2
 #: ../../content/brute-force-attack-protection/admin.rst:2
-#: ../../content/cache-memcached-fast/admin.rst:2
 #: ../../content/calendar-resource-planning/admin.rst:2
 #: ../../content/categories-for-text-modules/admin.rst:2
 #: ../../content/change-write-protection/admin.rst:2
@@ -749,7 +744,6 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator/agent.rst:2
 #: ../../content/automatic-start-of-processes/agent.rst:2
 #: ../../content/brute-force-attack-protection/agent.rst:2
-#: ../../content/cache-memcached-fast/agent.rst:2
 #: ../../content/calendar-resource-planning/agent.rst:2
 #: ../../content/categories-for-text-modules/agent.rst:2
 #: ../../content/change-write-protection/agent.rst:2
@@ -846,7 +840,6 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator/external.rst:2
 #: ../../content/automatic-start-of-processes/external.rst:2
 #: ../../content/brute-force-attack-protection/external.rst:2
-#: ../../content/cache-memcached-fast/external.rst:2
 #: ../../content/calendar-resource-planning/external.rst:2
 #: ../../content/categories-for-text-modules/external.rst:2
 #: ../../content/change-write-protection/external.rst:2
@@ -908,7 +901,6 @@ msgstr ""
 #: ../../content/agent-email-interface/external.rst:4
 #: ../../content/automated-faq-ticket-creator/external.rst:4
 #: ../../content/automatic-start-of-processes/external.rst:4
-#: ../../content/cache-memcached-fast/external.rst:4
 #: ../../content/calendar-resource-planning/external.rst:4
 #: ../../content/categories-for-text-modules/external.rst:4
 #: ../../content/change-write-protection/external.rst:4
@@ -1000,8 +992,8 @@ msgstr ""
 #: ../../content/advanced-editor.rst:22
 #: ../../content/customer-activity-widget.rst:24
 #: ../../content/hide-show-dynamic-fields.rst:31
-#: ../../content/introduction.rst:74
-#: ../../content/introduction.rst:122
+#: ../../content/introduction.rst:73
+#: ../../content/introduction.rst:121
 #: ../../content/ticket-forms.rst:49
 msgid ":doc:`categories-for-text-modules`"
 msgstr ""
@@ -1010,7 +1002,7 @@ msgstr ""
 #: ../../content/categories-for-text-modules.rst:29
 #: ../../content/cis-in-customer-frontend.rst:32
 #: ../../content/introduction.rst:43
-#: ../../content/introduction.rst:134
+#: ../../content/introduction.rst:133
 #: ../../content/restore-pending-information.rst:26
 #: ../../content/ticket-forms.rst:52
 msgid ":doc:`hide-show-dynamic-fields`"
@@ -1021,7 +1013,7 @@ msgstr ""
 #: ../../content/dynamic-field-ci.rst:43
 #: ../../content/hide-show-dynamic-fields.rst:34
 #: ../../content/introduction.rst:45
-#: ../../content/introduction.rst:141
+#: ../../content/introduction.rst:140
 #: ../../content/restore-pending-information.rst:27
 msgid ":doc:`ticket-forms`"
 msgstr ""
@@ -1171,7 +1163,6 @@ msgstr ""
 #: ../../content/agent-email-interface/agent.rst:4
 #: ../../content/automatic-start-of-processes/agent.rst:4
 #: ../../content/brute-force-attack-protection/agent.rst:4
-#: ../../content/cache-memcached-fast/agent.rst:4
 #: ../../content/ci-assignment-attribute-dynamic-field-map/agent.rst:4
 #: ../../content/cis-in-customer-frontend/agent.rst:4
 #: ../../content/credit-card-filter/agent.rst:4
@@ -1291,10 +1282,9 @@ msgid "More precise service time management by detailed indication of remaining 
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:38
-#: ../../content/cache-memcached-fast.rst:12
 #: ../../content/dynamic-field-search-booster.rst:13
 #: ../../content/extended-ticket-stats.rst:22
-#: ../../content/introduction.rst:155
+#: ../../content/introduction.rst:153
 msgid "PLATINUM"
 msgstr ""
 
@@ -1341,14 +1331,14 @@ msgid "Advertising or communications agencies"
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:51
-#: ../../content/introduction.rst:85
-#: ../../content/introduction.rst:133
+#: ../../content/introduction.rst:84
+#: ../../content/introduction.rst:132
 msgid ":doc:`escalation-suspend`"
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:52
-#: ../../content/introduction.rst:81
-#: ../../content/introduction.rst:112
+#: ../../content/introduction.rst:80
+#: ../../content/introduction.rst:111
 msgid ":doc:`ticket-watchlist`"
 msgstr ""
 
@@ -3153,7 +3143,7 @@ msgstr ""
 
 #: ../../content/advanced-generic-agent.rst:28
 #: ../../content/introduction.rst:29
-#: ../../content/introduction.rst:140
+#: ../../content/introduction.rst:139
 msgid ":doc:`ticket-allocation`"
 msgstr ""
 
@@ -3345,7 +3335,7 @@ msgstr ""
 
 #: ../../content/automated-faq-ticket-creator.rst:16
 #: ../../content/customer-event-ticket-calendar.rst:13
-#: ../../content/introduction.rst:149
+#: ../../content/introduction.rst:148
 #: ../../content/out-of-office.rst:13
 #: ../../content/service-responsible.rst:16
 msgid "TITANIUM"
@@ -4133,7 +4123,7 @@ msgstr ""
 #: ../../content/delete-attachments.rst:18
 #: ../../content/dynamic-field-database.rst:12
 #: ../../content/dynamic-field-web-service.rst:12
-#: ../../content/introduction.rst:115
+#: ../../content/introduction.rst:114
 #: ../../content/ready2adopt-processes.rst:25
 #: ../../content/restore-pending-information.rst:13
 #: ../../content/service-based-queue-routing.rst:14
@@ -4305,106 +4295,6 @@ msgstr ""
 
 #: ../../content/brute-force-attack-protection/external.rst:8
 msgid "This mechanism works for customer users which are stored in the OTRS database itself or in a tethered LDAP server."
-msgstr ""
-
-#: ../../content/cache-memcached-fast.rst:2
-msgid "Cache Memcached Fast"
-msgstr ""
-
-#: ../../content/cache-memcached-fast.rst:4
-msgid "This feature add-on allows the use of a memory backend for the caches used in **OTRS**. This package makes it possible to allocate the entire cache through the Round Robin method on several memcached servers."
-msgstr ""
-
-#: ../../content/cache-memcached-fast.rst:6
-msgid "The number of memcached servers that can be used is unlimited. After proper setup of the memcached servers, you can use **OTRS** to configure which of them should be used by OTRS. We strongly recommend that configuration is carried out only by our **OTRS** consultants."
-msgstr ""
-
-#: ../../content/cache-memcached-fast.rst:9
-msgid "Smooth deployment of **OTRS** in a high-availability environment."
-msgstr ""
-
-#: ../../content/cache-memcached-fast.rst:15
-msgid "Businesses that use **OTRS** in a high-availability environment."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:4
-msgid "This package has no dedicated administrator interface, but adds the MemcachedFast cache backend to OTRS."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:6
-msgid "The MemcachedFast OTRS cache backend uses the CPAN module `Cache::Memcached::Fast <https://metacpan.org/pod/release/KROKI/Cache-Memcached-Fast-0.23/lib/Cache/Memcached/Fast.pm>`__, which is a Perl client for memcached, a memory cache daemon."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:8
-msgid "`Memcached <https://www.memcached.org/>`__ is a free and open source, high-performance, distributed memory object caching system. It is often used to speed up big dynamic database-driven websites by caching data and objects in RAM to reduce the number of times an external data source (such as a database or API) must be read."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:12
-msgid "Basics"
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:16
-msgid "After installation and configuration, you need to change the ``Cache::Module`` setting to use ``MemcachedFast``, if you haven't done this yet."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:18
-msgid "It is required to have at least 1 memcache server. It is recommended to have more (smaller) servers than a single big one. High availability clusters will definitely need more than 1 server. Only 1 server means a single point of failure."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:20
-msgid "It is recommended to use the latest versions of the required CPAN modules ``Storable`` and ``Cache::Memcached::Fast``."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:24
-msgid "Memcached does not handle authentification and replication."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:28
-msgid "Do not use patches that will install replication, like ``repcached``. It is not supported."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:32
-msgid "Memory Settings"
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:34
-msgid "By default, memcached generally only sets aside a small amount of RAM for the cache. This may differ depending on the operating system or Linux distribution, but it varies between 64MB and 512MB. The more memory you can give to memcached, the better is. At least 4GB is required for OTRS. Large deployments may want to give even more."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:36
-msgid "A rough guideline from our experience for a frontend server without database is to divide the memory equally between the OS, apache and memcached (1/3)."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:38
-msgid "To increase the amount of memory available to memcached, modify the value passed along with ``-m``. This value is in megabytes. For example, to specify 2GB of cache space, pass ``-m 2048``. Your setup most likely has a configuration file where you can set this. On Linux, memcached stores its settings in ``/etc/memcached.conf``."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:42
-msgid "Restart the memcache daemon, when changing the configuration."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:46
-msgid "Security"
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:48
-msgid "Memcached does not handle authentification. The user is responsible for data security. So make sure to secure your network (e.g. subnetting, separated network or firewalling)."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:50
-msgid "But also make sure that each OTRS instance can communicate with each memcached server."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:54
-msgid "Monitoring"
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:56
-msgid "It is recommended to use monitoring tools, like `phpmemcacheadmin <https://code.google.com/archive/p/phpmemcacheadmin/>`__."
-msgstr ""
-
-#: ../../content/cache-memcached-fast/admin.rst:58
-msgid "There are also extensions for Nagios, like `these <https://exchange.nagios.org/index.php?option=com_mtree&amp;task=search&amp;Itemid=74&amp;searchword=memcached>`__."
 msgstr ""
 
 #: ../../content/calendar-resource-planning.rst:2
@@ -4793,14 +4683,14 @@ msgstr ""
 #: ../../content/categories-for-text-modules.rst:27
 #: ../../content/hide-show-dynamic-fields.rst:30
 #: ../../content/introduction.rst:17
-#: ../../content/introduction.rst:119
+#: ../../content/introduction.rst:118
 #: ../../content/ticket-forms.rst:48
 msgid ":doc:`advanced-editor`"
 msgstr ""
 
 #: ../../content/categories-for-text-modules.rst:28
 #: ../../content/introduction.rst:34
-#: ../../content/introduction.rst:97
+#: ../../content/introduction.rst:96
 msgid ":doc:`custom-contact-fields`"
 msgstr ""
 
@@ -9415,8 +9305,8 @@ msgid "Internal IT"
 msgstr ""
 
 #: ../../content/escalation-suspend.rst:25
-#: ../../content/introduction.rst:84
-#: ../../content/introduction.rst:152
+#: ../../content/introduction.rst:83
+#: ../../content/introduction.rst:151
 #: ../../content/ticket-watchlist.rst:46
 msgid ":doc:`advanced-escalations`"
 msgstr ""
@@ -9823,14 +9713,14 @@ msgstr ""
 
 #: ../../content/hide-show-dynamic-fields.rst:32
 #: ../../content/introduction.rst:53
-#: ../../content/introduction.rst:127
+#: ../../content/introduction.rst:126
 #: ../../content/ticket-forms.rst:50
 msgid ":doc:`cis-in-customer-frontend`"
 msgstr ""
 
 #: ../../content/hide-show-dynamic-fields.rst:33
-#: ../../content/introduction.rst:78
-#: ../../content/introduction.rst:105
+#: ../../content/introduction.rst:77
+#: ../../content/introduction.rst:104
 #: ../../content/ticket-forms.rst:53
 msgid ":doc:`restore-pending-information`"
 msgstr ""
@@ -10364,12 +10254,12 @@ msgid "Each feature add-on can be categorized based on its purpose."
 msgstr ""
 
 #: ../../content/introduction.rst:13
-#: ../../content/introduction.rst:130
+#: ../../content/introduction.rst:129
 msgid ":doc:`dynamic-field-value-import`"
 msgstr ""
 
 #: ../../content/introduction.rst:14
-#: ../../content/introduction.rst:109
+#: ../../content/introduction.rst:108
 msgid ":doc:`system-configuration-history`"
 msgstr ""
 
@@ -10378,69 +10268,69 @@ msgid "Automation & Processes"
 msgstr ""
 
 #: ../../content/introduction.rst:18
-#: ../../content/introduction.rst:120
+#: ../../content/introduction.rst:119
 #: ../../content/ticket-allocation.rst:30
 msgid ":doc:`advanced-generic-agent`"
 msgstr ""
 
 #: ../../content/introduction.rst:19
-#: ../../content/introduction.rst:121
+#: ../../content/introduction.rst:120
 msgid ":doc:`agent-email-interface`"
 msgstr ""
 
 #: ../../content/introduction.rst:20
-#: ../../content/introduction.rst:145
+#: ../../content/introduction.rst:144
 msgid ":doc:`automated-faq-ticket-creator`"
 msgstr ""
 
 #: ../../content/introduction.rst:21
-#: ../../content/introduction.rst:124
+#: ../../content/introduction.rst:123
 msgid ":doc:`ci-assignment-attribute-dynamic-field-map`"
 msgstr ""
 
 #: ../../content/introduction.rst:22
-#: ../../content/introduction.rst:132
+#: ../../content/introduction.rst:131
 msgid ":doc:`dynamic-sender-addresses`"
 msgstr ""
 
 #: ../../content/introduction.rst:23
-#: ../../content/introduction.rst:135
+#: ../../content/introduction.rst:134
 msgid ":doc:`process-management-article-email`"
 msgstr ""
 
 #: ../../content/introduction.rst:24
-#: ../../content/introduction.rst:136
+#: ../../content/introduction.rst:135
 msgid ":doc:`queue-responsible`"
 msgstr ""
 
 #: ../../content/introduction.rst:25
-#: ../../content/introduction.rst:148
+#: ../../content/introduction.rst:147
 msgid ":doc:`ready2adopt-itsm-processes`"
 msgstr ""
 
 #: ../../content/introduction.rst:26
-#: ../../content/introduction.rst:104
+#: ../../content/introduction.rst:103
 msgid ":doc:`ready2adopt-processes`"
 msgstr ""
 
 #: ../../content/introduction.rst:27
-#: ../../content/introduction.rst:106
+#: ../../content/introduction.rst:105
 #: ../../content/ticket-forms.rst:54
 msgid ":doc:`service-based-queue-routing`"
 msgstr ""
 
 #: ../../content/introduction.rst:28
-#: ../../content/introduction.rst:149
+#: ../../content/introduction.rst:148
 msgid ":doc:`service-responsible`"
 msgstr ""
 
 #: ../../content/introduction.rst:30
-#: ../../content/introduction.rst:142
+#: ../../content/introduction.rst:141
 msgid ":doc:`ticket-queue-selection`"
 msgstr ""
 
 #: ../../content/introduction.rst:31
-#: ../../content/introduction.rst:113
+#: ../../content/introduction.rst:112
 msgid ":doc:`ticket-workflow`"
 msgstr ""
 
@@ -10449,22 +10339,22 @@ msgid "Customer Management"
 msgstr ""
 
 #: ../../content/introduction.rst:35
-#: ../../content/introduction.rst:98
+#: ../../content/introduction.rst:97
 msgid ":doc:`customer-activity-widget`"
 msgstr ""
 
 #: ../../content/introduction.rst:36
-#: ../../content/introduction.rst:100
+#: ../../content/introduction.rst:99
 msgid ":doc:`customer-specific-services`"
 msgstr ""
 
 #: ../../content/introduction.rst:37
-#: ../../content/introduction.rst:114
+#: ../../content/introduction.rst:113
 msgid ":doc:`time-accounting-quota`"
 msgstr ""
 
 #: ../../content/introduction.rst:38
-#: ../../content/introduction.rst:115
+#: ../../content/introduction.rst:114
 #: ../../content/restrict-customer-data-view.rst:26
 msgid ":doc:`vip-customer`"
 msgstr ""
@@ -10474,17 +10364,17 @@ msgid "Individualization"
 msgstr ""
 
 #: ../../content/introduction.rst:41
-#: ../../content/introduction.rst:118
+#: ../../content/introduction.rst:117
 msgid ":doc:`adjust-sort-ticket-overview`"
 msgstr ""
 
 #: ../../content/introduction.rst:42
-#: ../../content/introduction.rst:125
+#: ../../content/introduction.rst:124
 msgid ":doc:`ci-custom-search`"
 msgstr ""
 
 #: ../../content/introduction.rst:44
-#: ../../content/introduction.rst:139
+#: ../../content/introduction.rst:138
 msgid ":doc:`specific-ticket-notifications`"
 msgstr ""
 
@@ -10493,17 +10383,17 @@ msgid "Integration"
 msgstr ""
 
 #: ../../content/introduction.rst:48
-#: ../../content/introduction.rst:103
+#: ../../content/introduction.rst:102
 msgid ":doc:`dynamic-field-database`"
 msgstr ""
 
 #: ../../content/introduction.rst:49
-#: ../../content/introduction.rst:131
+#: ../../content/introduction.rst:130
 msgid ":doc:`dynamic-field-web-service`"
 msgstr ""
 
 #: ../../content/introduction.rst:50
-#: ../../content/introduction.rst:137
+#: ../../content/introduction.rst:136
 msgid ":doc:`ready2adopt-web-services`"
 msgstr ""
 
@@ -10512,126 +10402,121 @@ msgid "Knowledge Management & Self Service"
 msgstr ""
 
 #: ../../content/introduction.rst:54
-#: ../../content/introduction.rst:146
+#: ../../content/introduction.rst:145
 msgid ":doc:`customer-event-ticket-calendar`"
 msgstr ""
 
 #: ../../content/introduction.rst:55
-#: ../../content/introduction.rst:99
+#: ../../content/introduction.rst:98
 msgid ":doc:`customer-frontend-link-object`"
 msgstr ""
 
 #: ../../content/introduction.rst:56
-#: ../../content/introduction.rst:101
+#: ../../content/introduction.rst:100
 msgid ":doc:`dashboard-news-widget`"
 msgstr ""
 
 #: ../../content/introduction.rst:57
-#: ../../content/introduction.rst:126
+#: ../../content/introduction.rst:125
 msgid ":doc:`ci-references`"
 msgstr ""
 
 #: ../../content/introduction.rst:58
-#: ../../content/introduction.rst:110
+#: ../../content/introduction.rst:109
 msgid ":doc:`tag-cloud`"
 msgstr ""
 
-#: ../../content/introduction.rst:62
+#: ../../content/introduction.rst:61
 msgid "Performance"
 msgstr ""
 
 #: ../../content/introduction.rst:61
-#: ../../content/introduction.rst:153
-msgid ":doc:`cache-memcached-fast`"
-msgstr ""
-
-#: ../../content/introduction.rst:62
-#: ../../content/introduction.rst:154
+#: ../../content/introduction.rst:152
 msgid ":doc:`dynamic-field-search-booster`"
 msgstr ""
 
-#: ../../content/introduction.rst:65
+#: ../../content/introduction.rst:64
 msgid "Reporting"
 msgstr ""
 
-#: ../../content/introduction.rst:65
-#: ../../content/introduction.rst:155
+#: ../../content/introduction.rst:64
+#: ../../content/introduction.rst:153
 msgid ":doc:`extended-ticket-stats`"
 msgstr ""
 
-#: ../../content/introduction.rst:71
+#: ../../content/introduction.rst:70
 msgid "Security & Permissions"
 msgstr ""
 
-#: ../../content/introduction.rst:68
-#: ../../content/introduction.rst:123
+#: ../../content/introduction.rst:67
+#: ../../content/introduction.rst:122
 msgid ":doc:`change-write-protection`"
 msgstr ""
 
-#: ../../content/introduction.rst:69
-#: ../../content/introduction.rst:95
+#: ../../content/introduction.rst:68
+#: ../../content/introduction.rst:94
 msgid ":doc:`credit-card-filter`"
 msgstr ""
 
-#: ../../content/introduction.rst:70
-#: ../../content/introduction.rst:102
+#: ../../content/introduction.rst:69
+#: ../../content/introduction.rst:101
 msgid ":doc:`delete-attachments`"
 msgstr ""
 
-#: ../../content/introduction.rst:71
-#: ../../content/introduction.rst:138
+#: ../../content/introduction.rst:70
+#: ../../content/introduction.rst:137
 #: ../../content/vip-customer.rst:29
 msgid ":doc:`restrict-customer-data-view`"
 msgstr ""
 
-#: ../../content/introduction.rst:81
+#: ../../content/introduction.rst:80
 msgid "Ticket Management"
+msgstr ""
+
+#: ../../content/introduction.rst:74
+#: ../../content/introduction.rst:127
+msgid ":doc:`dynamic-field-attachment`"
 msgstr ""
 
 #: ../../content/introduction.rst:75
 #: ../../content/introduction.rst:128
-msgid ":doc:`dynamic-field-attachment`"
-msgstr ""
-
-#: ../../content/introduction.rst:76
-#: ../../content/introduction.rst:129
 #: ../../content/ticket-forms.rst:51
 msgid ":doc:`dynamic-field-ci`"
 msgstr ""
 
-#: ../../content/introduction.rst:77
-#: ../../content/introduction.rst:147
+#: ../../content/introduction.rst:76
+#: ../../content/introduction.rst:146
 msgid ":doc:`out-of-office`"
+msgstr ""
+
+#: ../../content/introduction.rst:78
+#: ../../content/introduction.rst:106
+msgid ":doc:`service-categories`"
 msgstr ""
 
 #: ../../content/introduction.rst:79
 #: ../../content/introduction.rst:107
-msgid ":doc:`service-categories`"
-msgstr ""
-
-#: ../../content/introduction.rst:80
-#: ../../content/introduction.rst:108
 msgid ":doc:`state-preselection-response-templates`"
 msgstr ""
 
-#: ../../content/introduction.rst:87
+#: ../../content/introduction.rst:86
 msgid "Time Management"
 msgstr ""
 
-#: ../../content/introduction.rst:86
-#: ../../content/introduction.rst:111
+#: ../../content/introduction.rst:85
+#: ../../content/introduction.rst:110
 msgid ":doc:`ticket-time-unit-dropdown`"
 msgstr ""
 
-#: ../../content/introduction.rst:90
+#: ../../content/introduction.rst:89
 msgid "Service Levels"
 msgstr ""
 
-#: ../../content/introduction.rst:92
+#: ../../content/introduction.rst:91
 msgid "Not all feature add-ons are available on any service levels. The following categorization is based on service levels."
 msgstr ""
 
-#: ../../content/introduction.rst:96
+#: ../../content/introduction.rst:95
 msgid ":doc:`calendar-resource-planning`"
 msgstr ""
 
