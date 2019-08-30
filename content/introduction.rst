@@ -3,6 +3,10 @@ Introduction
 
 This manual lists all feature add-ons.
 
+.. note::
+
+   The feature add-ons are installed into **OTRS** by the *Customer Solution Team*. In case of *On-Premise* systems, the customer can install the feature add-ons from the package manager, when the *Customer Solution Team* added the selected feature add-ons to the repository. To install a feature add-on, please contact the *Customer Solution Team* via support@otrs.com or in the `OTRS Portal <https://portal.otrs.com/>`__.
+
 
 Categories
 ----------

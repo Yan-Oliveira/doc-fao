@@ -11,7 +11,6 @@ Permission is granted to copy, distribute and/or modify this document under the 
    :caption: Contents
 
    introduction
-   install-update-uninstall
    adjust-sort-ticket-overview
    advanced-editor
    advanced-escalations

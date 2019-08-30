@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 12:49+0000\n"
+"POT-Creation-Date: 2019-08-30 10:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,7 +187,7 @@ msgstr ""
 #: ../../content/dynamic-sender-addresses.rst:15
 #: ../../content/escalation-suspend.rst:14
 #: ../../content/hide-show-dynamic-fields.rst:14
-#: ../../content/introduction.rst:141
+#: ../../content/introduction.rst:145
 #: ../../content/process-management-article-email.rst:14
 #: ../../content/queue-responsible.rst:13
 #: ../../content/ready2adopt-itsm-processes.rst:38
@@ -992,8 +992,8 @@ msgstr ""
 #: ../../content/advanced-editor.rst:22
 #: ../../content/customer-activity-widget.rst:24
 #: ../../content/hide-show-dynamic-fields.rst:31
-#: ../../content/introduction.rst:73
-#: ../../content/introduction.rst:121
+#: ../../content/introduction.rst:77
+#: ../../content/introduction.rst:125
 #: ../../content/ticket-forms.rst:49
 msgid ":doc:`categories-for-text-modules`"
 msgstr ""
@@ -1001,8 +1001,8 @@ msgstr ""
 #: ../../content/advanced-editor.rst:23
 #: ../../content/categories-for-text-modules.rst:29
 #: ../../content/cis-in-customer-frontend.rst:32
-#: ../../content/introduction.rst:43
-#: ../../content/introduction.rst:133
+#: ../../content/introduction.rst:47
+#: ../../content/introduction.rst:137
 #: ../../content/restore-pending-information.rst:26
 #: ../../content/ticket-forms.rst:52
 msgid ":doc:`hide-show-dynamic-fields`"
@@ -1012,8 +1012,8 @@ msgstr ""
 #: ../../content/cis-in-customer-frontend.rst:33
 #: ../../content/dynamic-field-ci.rst:43
 #: ../../content/hide-show-dynamic-fields.rst:34
-#: ../../content/introduction.rst:45
-#: ../../content/introduction.rst:140
+#: ../../content/introduction.rst:49
+#: ../../content/introduction.rst:144
 #: ../../content/restore-pending-information.rst:27
 msgid ":doc:`ticket-forms`"
 msgstr ""
@@ -1284,7 +1284,7 @@ msgstr ""
 #: ../../content/advanced-escalations.rst:38
 #: ../../content/dynamic-field-search-booster.rst:13
 #: ../../content/extended-ticket-stats.rst:22
-#: ../../content/introduction.rst:153
+#: ../../content/introduction.rst:157
 msgid "PLATINUM"
 msgstr ""
 
@@ -1331,14 +1331,14 @@ msgid "Advertising or communications agencies"
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:51
-#: ../../content/introduction.rst:84
-#: ../../content/introduction.rst:132
+#: ../../content/introduction.rst:88
+#: ../../content/introduction.rst:136
 msgid ":doc:`escalation-suspend`"
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:52
-#: ../../content/introduction.rst:80
-#: ../../content/introduction.rst:111
+#: ../../content/introduction.rst:84
+#: ../../content/introduction.rst:115
 msgid ":doc:`ticket-watchlist`"
 msgstr ""
 
@@ -1353,7 +1353,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/administration.rst:2
 #: ../../content/brute-force-attack-protection/admin/administration.rst:2
-#: ../../content/introduction.rst:14
+#: ../../content/introduction.rst:18
 #: ../../content/system-configuration-history/admin/administration.rst:2
 msgid "Administration"
 msgstr ""
@@ -2599,8 +2599,6 @@ msgid "To import an escalation type:"
 msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-types.rst:57
-#: ../../content/install-update-uninstall.rst:36
-#: ../../content/install-update-uninstall.rst:65
 msgid "Click on the *Browse…* button in the left sidebar."
 msgstr ""
 
@@ -3142,8 +3140,8 @@ msgid "Not compatible with the following feature add-on:"
 msgstr ""
 
 #: ../../content/advanced-generic-agent.rst:28
-#: ../../content/introduction.rst:29
-#: ../../content/introduction.rst:139
+#: ../../content/introduction.rst:33
+#: ../../content/introduction.rst:143
 msgid ":doc:`ticket-allocation`"
 msgstr ""
 
@@ -3335,7 +3333,7 @@ msgstr ""
 
 #: ../../content/automated-faq-ticket-creator.rst:16
 #: ../../content/customer-event-ticket-calendar.rst:13
-#: ../../content/introduction.rst:148
+#: ../../content/introduction.rst:152
 #: ../../content/out-of-office.rst:13
 #: ../../content/service-responsible.rst:16
 msgid "TITANIUM"
@@ -4123,7 +4121,7 @@ msgstr ""
 #: ../../content/delete-attachments.rst:18
 #: ../../content/dynamic-field-database.rst:12
 #: ../../content/dynamic-field-web-service.rst:12
-#: ../../content/introduction.rst:114
+#: ../../content/introduction.rst:118
 #: ../../content/ready2adopt-processes.rst:25
 #: ../../content/restore-pending-information.rst:13
 #: ../../content/service-based-queue-routing.rst:14
@@ -4682,15 +4680,15 @@ msgstr ""
 
 #: ../../content/categories-for-text-modules.rst:27
 #: ../../content/hide-show-dynamic-fields.rst:30
-#: ../../content/introduction.rst:17
-#: ../../content/introduction.rst:118
+#: ../../content/introduction.rst:21
+#: ../../content/introduction.rst:122
 #: ../../content/ticket-forms.rst:48
 msgid ":doc:`advanced-editor`"
 msgstr ""
 
 #: ../../content/categories-for-text-modules.rst:28
-#: ../../content/introduction.rst:34
-#: ../../content/introduction.rst:96
+#: ../../content/introduction.rst:38
+#: ../../content/introduction.rst:100
 msgid ":doc:`custom-contact-fields`"
 msgstr ""
 
@@ -4703,7 +4701,7 @@ msgid "After installation of the package two new modules will be available in th
 msgstr ""
 
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:2
-#: ../../content/introduction.rst:8
+#: ../../content/introduction.rst:12
 msgid "Categories"
 msgstr ""
 
@@ -9305,8 +9303,8 @@ msgid "Internal IT"
 msgstr ""
 
 #: ../../content/escalation-suspend.rst:25
-#: ../../content/introduction.rst:83
-#: ../../content/introduction.rst:151
+#: ../../content/introduction.rst:87
+#: ../../content/introduction.rst:155
 #: ../../content/ticket-watchlist.rst:46
 msgid ":doc:`advanced-escalations`"
 msgstr ""
@@ -9712,15 +9710,15 @@ msgid "IT support"
 msgstr ""
 
 #: ../../content/hide-show-dynamic-fields.rst:32
-#: ../../content/introduction.rst:53
-#: ../../content/introduction.rst:126
+#: ../../content/introduction.rst:57
+#: ../../content/introduction.rst:130
 #: ../../content/ticket-forms.rst:50
 msgid ":doc:`cis-in-customer-frontend`"
 msgstr ""
 
 #: ../../content/hide-show-dynamic-fields.rst:33
-#: ../../content/introduction.rst:77
-#: ../../content/introduction.rst:104
+#: ../../content/introduction.rst:81
+#: ../../content/introduction.rst:108
 #: ../../content/ticket-forms.rst:53
 msgid ":doc:`restore-pending-information`"
 msgstr ""
@@ -10091,156 +10089,6 @@ msgstr ""
 msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the `GNU website <https://www.gnu.org/licenses/fdl-1.3.txt>`__."
 msgstr ""
 
-#: ../../content/install-update-uninstall.rst:2
-msgid "Install, Update and Uninstall"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:4
-msgid "The packages can be installed, updated or uninstalled with the package manager in the administrator interface or using the command line tool."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:8
-msgid "You need to be in the *admin* group to access the administrator interface and use the `Package Manager <https://doc.otrs.com/doc/manual/admin/7.0/en/content/administration/package-manager.html>`__, which is described in the administration manual more detailed."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:12
-msgid "We assumed that username ``otrs`` is created for OTRS and it is installed to ``/opt/otrs``. If you use different user or install location, you need to change the install command. For more information about the command line tool execute this command:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:18
-msgid "Then execute the needed command with ``--help`` option to see its possibilities."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:22
-msgid "Requirements"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:24
-msgid "OTRS Framework 7.0.x"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:28
-msgid "Install"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:31
-msgid "Install Via Administrator Interface"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:33
-msgid "To install this package from the package manager:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:35
-#: ../../content/install-update-uninstall.rst:64
-#: ../../content/install-update-uninstall.rst:98
-msgid "Open the *Package Manager* module in the administrator interface."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:37
-msgid "Select an ``.opm`` file from your local file system."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:38
-#: ../../content/install-update-uninstall.rst:67
-msgid "Click on the *Install Package* button."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:39
-msgid "Follow the installation instructions."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:40
-msgid "After installation, the package is displayed in the *Local Repository* widget."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:44
-msgid "Install Via Command Line"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:46
-msgid "To install this package from the command line:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:48
-#: ../../content/install-update-uninstall.rst:77
-msgid "Save the ``.opm`` file to a folder where ``otrs`` user has read permission."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:49
-#: ../../content/install-update-uninstall.rst:78
-#: ../../content/install-update-uninstall.rst:109
-msgid "Execute this command:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:57
-msgid "Update"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:60
-msgid "Update Via Administrator Interface"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:62
-msgid "To update this package from the package manager:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:66
-msgid "Select an ``.opm`` file which is newer than the installed package."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:68
-msgid "Follow the update instructions."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:69
-msgid "After updating, the package is displayed in the *Local Repository* widget."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:73
-msgid "Update Via Command Line"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:75
-msgid "To update this package from the command line:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:86
-msgid "Uninstall"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:90
-msgid "If you uninstall this package, all database tables that were created during installation will be deleted. All data from these tables **will be irrevocably lost**!"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:94
-msgid "Uninstall Via Administrator Interface"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:96
-msgid "To uninstall this package from the package manager:"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:99
-msgid "Select the package from the *Local Repository* widget."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:100
-msgid "Click on the *Uninstall* link in the *Action* column."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:101
-msgid "Follow the uninstall instructions."
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:105
-msgid "Uninstall Via Command Line"
-msgstr ""
-
-#: ../../content/install-update-uninstall.rst:107
-msgid "To uninstall this package from the command line:"
-msgstr ""
-
 #: ../../content/introduction.rst:2
 msgid "Introduction"
 msgstr ""
@@ -10249,274 +10097,278 @@ msgstr ""
 msgid "This manual lists all feature add-ons."
 msgstr ""
 
-#: ../../content/introduction.rst:10
-msgid "Each feature add-on can be categorized based on its purpose."
-msgstr ""
-
-#: ../../content/introduction.rst:13
-#: ../../content/introduction.rst:129
-msgid ":doc:`dynamic-field-value-import`"
+#: ../../content/introduction.rst:8
+msgid "The feature add-ons are installed into **OTRS** by the *Customer Solution Team*. In case of *On-Premise* systems, the customer can install the feature add-ons from the package manager, when the *Customer Solution Team* added the selected feature add-ons to the repository. To install a feature add-on, please contact the *Customer Solution Team* via support@otrs.com or in the `OTRS Portal <https://portal.otrs.com/>`__."
 msgstr ""
 
 #: ../../content/introduction.rst:14
-#: ../../content/introduction.rst:108
-msgid ":doc:`system-configuration-history`"
+msgid "Each feature add-on can be categorized based on its purpose."
 msgstr ""
 
-#: ../../content/introduction.rst:31
-msgid "Automation & Processes"
+#: ../../content/introduction.rst:17
+#: ../../content/introduction.rst:133
+msgid ":doc:`dynamic-field-value-import`"
 msgstr ""
 
 #: ../../content/introduction.rst:18
-#: ../../content/introduction.rst:119
+#: ../../content/introduction.rst:112
+msgid ":doc:`system-configuration-history`"
+msgstr ""
+
+#: ../../content/introduction.rst:35
+msgid "Automation & Processes"
+msgstr ""
+
+#: ../../content/introduction.rst:22
+#: ../../content/introduction.rst:123
 #: ../../content/ticket-allocation.rst:30
 msgid ":doc:`advanced-generic-agent`"
 msgstr ""
 
-#: ../../content/introduction.rst:19
-#: ../../content/introduction.rst:120
+#: ../../content/introduction.rst:23
+#: ../../content/introduction.rst:124
 msgid ":doc:`agent-email-interface`"
 msgstr ""
 
-#: ../../content/introduction.rst:20
-#: ../../content/introduction.rst:144
+#: ../../content/introduction.rst:24
+#: ../../content/introduction.rst:148
 msgid ":doc:`automated-faq-ticket-creator`"
 msgstr ""
 
-#: ../../content/introduction.rst:21
-#: ../../content/introduction.rst:123
+#: ../../content/introduction.rst:25
+#: ../../content/introduction.rst:127
 msgid ":doc:`ci-assignment-attribute-dynamic-field-map`"
 msgstr ""
 
-#: ../../content/introduction.rst:22
-#: ../../content/introduction.rst:131
+#: ../../content/introduction.rst:26
+#: ../../content/introduction.rst:135
 msgid ":doc:`dynamic-sender-addresses`"
 msgstr ""
 
-#: ../../content/introduction.rst:23
-#: ../../content/introduction.rst:134
+#: ../../content/introduction.rst:27
+#: ../../content/introduction.rst:138
 msgid ":doc:`process-management-article-email`"
 msgstr ""
 
-#: ../../content/introduction.rst:24
-#: ../../content/introduction.rst:135
+#: ../../content/introduction.rst:28
+#: ../../content/introduction.rst:139
 msgid ":doc:`queue-responsible`"
 msgstr ""
 
-#: ../../content/introduction.rst:25
-#: ../../content/introduction.rst:147
+#: ../../content/introduction.rst:29
+#: ../../content/introduction.rst:151
 msgid ":doc:`ready2adopt-itsm-processes`"
 msgstr ""
 
-#: ../../content/introduction.rst:26
-#: ../../content/introduction.rst:103
+#: ../../content/introduction.rst:30
+#: ../../content/introduction.rst:107
 msgid ":doc:`ready2adopt-processes`"
 msgstr ""
 
-#: ../../content/introduction.rst:27
-#: ../../content/introduction.rst:105
+#: ../../content/introduction.rst:31
+#: ../../content/introduction.rst:109
 #: ../../content/ticket-forms.rst:54
 msgid ":doc:`service-based-queue-routing`"
 msgstr ""
 
-#: ../../content/introduction.rst:28
-#: ../../content/introduction.rst:148
+#: ../../content/introduction.rst:32
+#: ../../content/introduction.rst:152
 msgid ":doc:`service-responsible`"
 msgstr ""
 
-#: ../../content/introduction.rst:30
-#: ../../content/introduction.rst:141
+#: ../../content/introduction.rst:34
+#: ../../content/introduction.rst:145
 msgid ":doc:`ticket-queue-selection`"
 msgstr ""
 
-#: ../../content/introduction.rst:31
-#: ../../content/introduction.rst:112
+#: ../../content/introduction.rst:35
+#: ../../content/introduction.rst:116
 msgid ":doc:`ticket-workflow`"
 msgstr ""
 
-#: ../../content/introduction.rst:38
+#: ../../content/introduction.rst:42
 msgid "Customer Management"
 msgstr ""
 
-#: ../../content/introduction.rst:35
-#: ../../content/introduction.rst:97
+#: ../../content/introduction.rst:39
+#: ../../content/introduction.rst:101
 msgid ":doc:`customer-activity-widget`"
 msgstr ""
 
-#: ../../content/introduction.rst:36
-#: ../../content/introduction.rst:99
+#: ../../content/introduction.rst:40
+#: ../../content/introduction.rst:103
 msgid ":doc:`customer-specific-services`"
-msgstr ""
-
-#: ../../content/introduction.rst:37
-#: ../../content/introduction.rst:113
-msgid ":doc:`time-accounting-quota`"
-msgstr ""
-
-#: ../../content/introduction.rst:38
-#: ../../content/introduction.rst:114
-#: ../../content/restrict-customer-data-view.rst:26
-msgid ":doc:`vip-customer`"
-msgstr ""
-
-#: ../../content/introduction.rst:45
-msgid "Individualization"
 msgstr ""
 
 #: ../../content/introduction.rst:41
 #: ../../content/introduction.rst:117
-msgid ":doc:`adjust-sort-ticket-overview`"
+msgid ":doc:`time-accounting-quota`"
 msgstr ""
 
 #: ../../content/introduction.rst:42
-#: ../../content/introduction.rst:124
-msgid ":doc:`ci-custom-search`"
-msgstr ""
-
-#: ../../content/introduction.rst:44
-#: ../../content/introduction.rst:138
-msgid ":doc:`specific-ticket-notifications`"
-msgstr ""
-
-#: ../../content/introduction.rst:50
-msgid "Integration"
-msgstr ""
-
-#: ../../content/introduction.rst:48
-#: ../../content/introduction.rst:102
-msgid ":doc:`dynamic-field-database`"
+#: ../../content/introduction.rst:118
+#: ../../content/restrict-customer-data-view.rst:26
+msgid ":doc:`vip-customer`"
 msgstr ""
 
 #: ../../content/introduction.rst:49
-#: ../../content/introduction.rst:130
-msgid ":doc:`dynamic-field-web-service`"
+msgid "Individualization"
 msgstr ""
 
-#: ../../content/introduction.rst:50
-#: ../../content/introduction.rst:136
-msgid ":doc:`ready2adopt-web-services`"
+#: ../../content/introduction.rst:45
+#: ../../content/introduction.rst:121
+msgid ":doc:`adjust-sort-ticket-overview`"
 msgstr ""
 
-#: ../../content/introduction.rst:58
-msgid "Knowledge Management & Self Service"
+#: ../../content/introduction.rst:46
+#: ../../content/introduction.rst:128
+msgid ":doc:`ci-custom-search`"
+msgstr ""
+
+#: ../../content/introduction.rst:48
+#: ../../content/introduction.rst:142
+msgid ":doc:`specific-ticket-notifications`"
 msgstr ""
 
 #: ../../content/introduction.rst:54
-#: ../../content/introduction.rst:145
-msgid ":doc:`customer-event-ticket-calendar`"
+msgid "Integration"
 msgstr ""
 
-#: ../../content/introduction.rst:55
-#: ../../content/introduction.rst:98
-msgid ":doc:`customer-frontend-link-object`"
+#: ../../content/introduction.rst:52
+#: ../../content/introduction.rst:106
+msgid ":doc:`dynamic-field-database`"
 msgstr ""
 
-#: ../../content/introduction.rst:56
-#: ../../content/introduction.rst:100
-msgid ":doc:`dashboard-news-widget`"
+#: ../../content/introduction.rst:53
+#: ../../content/introduction.rst:134
+msgid ":doc:`dynamic-field-web-service`"
 msgstr ""
 
-#: ../../content/introduction.rst:57
-#: ../../content/introduction.rst:125
-msgid ":doc:`ci-references`"
+#: ../../content/introduction.rst:54
+#: ../../content/introduction.rst:140
+msgid ":doc:`ready2adopt-web-services`"
+msgstr ""
+
+#: ../../content/introduction.rst:62
+msgid "Knowledge Management & Self Service"
 msgstr ""
 
 #: ../../content/introduction.rst:58
-#: ../../content/introduction.rst:109
+#: ../../content/introduction.rst:149
+msgid ":doc:`customer-event-ticket-calendar`"
+msgstr ""
+
+#: ../../content/introduction.rst:59
+#: ../../content/introduction.rst:102
+msgid ":doc:`customer-frontend-link-object`"
+msgstr ""
+
+#: ../../content/introduction.rst:60
+#: ../../content/introduction.rst:104
+msgid ":doc:`dashboard-news-widget`"
+msgstr ""
+
+#: ../../content/introduction.rst:61
+#: ../../content/introduction.rst:129
+msgid ":doc:`ci-references`"
+msgstr ""
+
+#: ../../content/introduction.rst:62
+#: ../../content/introduction.rst:113
 msgid ":doc:`tag-cloud`"
 msgstr ""
 
-#: ../../content/introduction.rst:61
+#: ../../content/introduction.rst:65
 msgid "Performance"
 msgstr ""
 
-#: ../../content/introduction.rst:61
-#: ../../content/introduction.rst:152
+#: ../../content/introduction.rst:65
+#: ../../content/introduction.rst:156
 msgid ":doc:`dynamic-field-search-booster`"
 msgstr ""
 
-#: ../../content/introduction.rst:64
+#: ../../content/introduction.rst:68
 msgid "Reporting"
 msgstr ""
 
-#: ../../content/introduction.rst:64
-#: ../../content/introduction.rst:153
+#: ../../content/introduction.rst:68
+#: ../../content/introduction.rst:157
 msgid ":doc:`extended-ticket-stats`"
 msgstr ""
 
-#: ../../content/introduction.rst:70
+#: ../../content/introduction.rst:74
 msgid "Security & Permissions"
 msgstr ""
 
-#: ../../content/introduction.rst:67
-#: ../../content/introduction.rst:122
+#: ../../content/introduction.rst:71
+#: ../../content/introduction.rst:126
 msgid ":doc:`change-write-protection`"
 msgstr ""
 
-#: ../../content/introduction.rst:68
-#: ../../content/introduction.rst:94
+#: ../../content/introduction.rst:72
+#: ../../content/introduction.rst:98
 msgid ":doc:`credit-card-filter`"
 msgstr ""
 
-#: ../../content/introduction.rst:69
-#: ../../content/introduction.rst:101
+#: ../../content/introduction.rst:73
+#: ../../content/introduction.rst:105
 msgid ":doc:`delete-attachments`"
 msgstr ""
 
-#: ../../content/introduction.rst:70
-#: ../../content/introduction.rst:137
+#: ../../content/introduction.rst:74
+#: ../../content/introduction.rst:141
 #: ../../content/vip-customer.rst:29
 msgid ":doc:`restrict-customer-data-view`"
 msgstr ""
 
-#: ../../content/introduction.rst:80
+#: ../../content/introduction.rst:84
 msgid "Ticket Management"
 msgstr ""
 
-#: ../../content/introduction.rst:74
-#: ../../content/introduction.rst:127
+#: ../../content/introduction.rst:78
+#: ../../content/introduction.rst:131
 msgid ":doc:`dynamic-field-attachment`"
 msgstr ""
 
-#: ../../content/introduction.rst:75
-#: ../../content/introduction.rst:128
+#: ../../content/introduction.rst:79
+#: ../../content/introduction.rst:132
 #: ../../content/ticket-forms.rst:51
 msgid ":doc:`dynamic-field-ci`"
 msgstr ""
 
-#: ../../content/introduction.rst:76
-#: ../../content/introduction.rst:146
+#: ../../content/introduction.rst:80
+#: ../../content/introduction.rst:150
 msgid ":doc:`out-of-office`"
 msgstr ""
 
-#: ../../content/introduction.rst:78
-#: ../../content/introduction.rst:106
+#: ../../content/introduction.rst:82
+#: ../../content/introduction.rst:110
 msgid ":doc:`service-categories`"
 msgstr ""
 
-#: ../../content/introduction.rst:79
-#: ../../content/introduction.rst:107
+#: ../../content/introduction.rst:83
+#: ../../content/introduction.rst:111
 msgid ":doc:`state-preselection-response-templates`"
 msgstr ""
 
-#: ../../content/introduction.rst:86
+#: ../../content/introduction.rst:90
 msgid "Time Management"
 msgstr ""
 
-#: ../../content/introduction.rst:85
-#: ../../content/introduction.rst:110
+#: ../../content/introduction.rst:89
+#: ../../content/introduction.rst:114
 msgid ":doc:`ticket-time-unit-dropdown`"
 msgstr ""
 
-#: ../../content/introduction.rst:89
+#: ../../content/introduction.rst:93
 msgid "Service Levels"
 msgstr ""
 
-#: ../../content/introduction.rst:91
+#: ../../content/introduction.rst:95
 msgid "Not all feature add-ons are available on any service levels. The following categorization is based on service levels."
 msgstr ""
 
-#: ../../content/introduction.rst:95
+#: ../../content/introduction.rst:99
 msgid ":doc:`calendar-resource-planning`"
 msgstr ""
 
