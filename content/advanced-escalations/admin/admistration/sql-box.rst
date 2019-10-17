@@ -137,7 +137,7 @@ The ``escalation_history`` table has the following columns:
    This column contains ID of the user who triggered the history data set.
 
 ``change_time``
-   This column contains data and time when the escalation history data set was changed.
+   This column contains date and time when the escalation history data set was changed.
 
 ``change_by``
    This column contains ID of the user who triggered the data set change.
@@ -187,7 +187,7 @@ The data of the ticket and dynamic fields will be saved in a separate table ``es
    This column contains ID of the user who triggered the escalation history data set.
 
 ``change_time``
-   This column contains data and time when the escalation history data set was changed.
+   This column contains date and time when the escalation history data set was changed.
 
 ``change_by``
    This column contains ID of the user who triggered the data set change.
