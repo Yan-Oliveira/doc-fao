@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-30 10:09+0200\n"
+"POT-Creation-Date: 2019-10-21 04:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1686,7 +1686,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/admistration/sql-box.rst:140
 #: ../../content/advanced-escalations/admin/admistration/sql-box.rst:190
-msgid "This column contains data and time when the escalation history data set was changed."
+msgid "This column contains date and time when the escalation history data set was changed."
 msgstr ""
 
 #: ../../content/advanced-escalations/admin/admistration/sql-box.rst:144
