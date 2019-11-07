@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 04:46+0000\n"
+"POT-Creation-Date: 2019-11-07 14:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,7 @@ msgstr ""
 #: ../../content/customer-frontend-link-object.rst:11
 #: ../../content/customer-specific-services.rst:14
 #: ../../content/dashboard-news-widget.rst:9
+#: ../../content/data-privacy-protection.rst:15
 #: ../../content/delete-attachments.rst:15
 #: ../../content/dynamic-field-attachment.rst:9
 #: ../../content/dynamic-field-ci.rst:23
@@ -222,6 +223,7 @@ msgstr ""
 #: ../../content/customer-frontend-link-object.rst:19
 #: ../../content/customer-specific-services.rst:25
 #: ../../content/dashboard-news-widget.rst:18
+#: ../../content/data-privacy-protection.rst:23
 #: ../../content/delete-attachments.rst:25
 #: ../../content/dynamic-field-attachment.rst:19
 #: ../../content/dynamic-field-ci.rst:33
@@ -264,6 +266,7 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:19
 #: ../../content/categories-for-text-modules.rst:18
 #: ../../content/change-write-protection.rst:23
+#: ../../content/data-privacy-protection.rst:18
 #: ../../content/escalation-suspend.rst:17
 #: ../../content/out-of-office.rst:19
 #: ../../content/queue-responsible.rst:16
@@ -355,6 +358,7 @@ msgstr ""
 #: ../../content/dashboard-news-widget/agent/avatar.rst:6
 #: ../../content/dashboard-news-widget/agent/dashboard.rst:6
 #: ../../content/dashboard-news-widget/agent/dashboard-news.rst:6
+#: ../../content/data-privacy-protection.rst:27
 #: ../../content/delete-attachments.rst:29
 #: ../../content/dynamic-field-attachment.rst:23
 #: ../../content/dynamic-field-attachment/admin.rst:6
@@ -489,6 +493,7 @@ msgstr ""
 #: ../../content/customer-frontend-link-object/admin.rst:2
 #: ../../content/customer-specific-services/admin.rst:2
 #: ../../content/dashboard-news-widget/admin.rst:2
+#: ../../content/data-privacy-protection/admin.rst:2
 #: ../../content/delete-attachments/admin.rst:2
 #: ../../content/dynamic-field-attachment/admin.rst:2
 #: ../../content/dynamic-field-calculation/admin.rst:2
@@ -758,6 +763,7 @@ msgstr ""
 #: ../../content/customer-frontend-link-object/agent.rst:2
 #: ../../content/customer-specific-services/agent.rst:2
 #: ../../content/dashboard-news-widget/agent.rst:2
+#: ../../content/data-privacy-protection/agent.rst:2
 #: ../../content/delete-attachments/agent.rst:2
 #: ../../content/dynamic-field-attachment/agent.rst:2
 #: ../../content/dynamic-field-calculation/agent.rst:2
@@ -854,6 +860,7 @@ msgstr ""
 #: ../../content/customer-frontend-link-object/external.rst:2
 #: ../../content/customer-specific-services/external.rst:2
 #: ../../content/dashboard-news-widget/external.rst:2
+#: ../../content/data-privacy-protection/external.rst:2
 #: ../../content/delete-attachments/external.rst:2
 #: ../../content/dynamic-field-attachment/external.rst:2
 #: ../../content/dynamic-field-calculation/external.rst:2
@@ -911,6 +918,7 @@ msgstr ""
 #: ../../content/custom-contact-fields/external.rst:4
 #: ../../content/customer-activity-widget/external.rst:4
 #: ../../content/dashboard-news-widget/external.rst:4
+#: ../../content/data-privacy-protection/external.rst:4
 #: ../../content/delete-attachments/external.rst:4
 #: ../../content/dynamic-field-attachment/external.rst:4
 #: ../../content/dynamic-field-calculation/external.rst:4
@@ -1169,6 +1177,7 @@ msgstr ""
 #: ../../content/custom-contact-fields/agent.rst:4
 #: ../../content/customer-event-ticket-calendar/agent.rst:4
 #: ../../content/customer-frontend-link-object/agent.rst:4
+#: ../../content/data-privacy-protection/agent.rst:4
 #: ../../content/delete-attachments/agent.rst:4
 #: ../../content/dynamic-field-search-booster/agent.rst:4
 #: ../../content/dynamic-field-value-import/agent.rst:4
@@ -3128,6 +3137,7 @@ msgstr ""
 
 #: ../../content/advanced-generic-agent.rst:22
 #: ../../content/brute-force-attack-protection.rst:16
+#: ../../content/data-privacy-protection.rst:21
 msgid "Government"
 msgstr ""
 
@@ -3990,6 +4000,7 @@ msgstr ""
 #: ../../content/automatic-start-of-processes.rst:20
 #: ../../content/brute-force-attack-protection.rst:17
 #: ../../content/calendar-resource-planning.rst:22
+#: ../../content/data-privacy-protection.rst:22
 #: ../../content/dynamic-field-database.rst:21
 #: ../../content/dynamic-field-web-service.rst:21
 #: ../../content/ready2adopt-itsm-processes.rst:44
@@ -3999,6 +4010,7 @@ msgid "IT service"
 msgstr ""
 
 #: ../../content/automatic-start-of-processes.rst:21
+#: ../../content/data-privacy-protection.rst:23
 #: ../../content/dynamic-field-database.rst:23
 #: ../../content/dynamic-field-web-service.rst:23
 #: ../../content/ready2adopt-itsm-processes.rst:45
@@ -4321,6 +4333,7 @@ msgstr ""
 
 #: ../../content/calendar-resource-planning.rst:20
 #: ../../content/dashboard-news-widget.rst:17
+#: ../../content/data-privacy-protection.rst:19
 #: ../../content/delete-attachments.rst:21
 #: ../../content/dynamic-field-attachment.rst:17
 #: ../../content/dynamic-field-database.rst:19
@@ -6757,6 +6770,7 @@ msgid "After installation of the package the available configuration settings ca
 msgstr ""
 
 #: ../../content/customer-event-ticket-calendar/admin.rst:8
+#: ../../content/data-privacy-protection/admin.rst:8
 msgid "System Configuration Settings"
 msgstr ""
 
@@ -7437,6 +7451,422 @@ msgstr ""
 
 #: ../../content/dashboard-news-widget/agent/dashboard/dashboard.rst:23
 msgid "Announcement Overview Screen"
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:2
+msgid "Data Privacy Protection"
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:4
+msgid "This feature add-on takes care about the data privacy of specific information within OTRS. Based on customizable rules, different actions can be performed on different types of data."
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:8
+msgid "The use of this feature add-on can result in a complete loss of data! We recommend a backup of the database **before** execution and if possible a test on a test system."
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:12
+msgid "The use of this feature add-on is at your own risk. *OTRS AG* does not take any responsibility for lost data."
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:15
+msgid "Compliance with data protection guidelines."
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:20
+#: ../../content/escalation-suspend.rst:18
+#: ../../content/process-management-article-email.rst:19
+#: ../../content/ticket-allocation.rst:23
+#: ../../content/ticket-workflow.rst:38
+msgid "Internal IT"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:4
+msgid "This package has no administrator interface. All data privacy protection rules must be added via the system configuration and executed by a console command."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:10
+msgid "For security reasons, this package does not come with any pre-configured rules. Therefore the functionality does not work out-of-the-box and the rules must be configured by an administrator first."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:12
+msgid "To add a rule configuration:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:14
+#: ../../content/system-configuration-history/admin/administration/system-configuration.rst:12
+msgid "Go to the *System Configuration* screen of the administrator interface."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:15
+msgid "Select *OTRSDataPrivacyProtection* in the *Navigation* widget."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:16
+msgid "Navigate to *Core → OTRSDataPrivacyProtection* in the navigation tree."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:17
+msgid "Add a rule configuration in YAML format to setting ``OTRSDataPrivacyProtection::RuleConfiguration``."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:19
+msgid "The configuration of the individual rule sets are stored in YAML format and consists of the five options. The options marked with an asterisk are mandatory."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:22
+msgid "``RuleName`` \\*"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:22
+msgid "This string option has to be unique for all rules. It is a string, that is used to identify every different rule. The rule name appears in all related outputs and history entries, but does not affect any functionality."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:25
+msgid "``RuleSource``"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:25
+msgid "This string option is just for informational usage. Different countries and regions have different types and kinds of data protection regulations, that might be part of laws and/or written papers. To identify the related original sources, the different configured rules are based on. ``RuleSource`` can be used to add names and/or descriptions, that will be added to related history entries (if available)."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:49
+msgid "``RuleType`` \\*"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:28
+msgid "This string option describes the action, that will be executed on all objects, that were found during a search. The following actions are supported (in short format or in long format):"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:35
+msgid "``Anonymization`` or ``PrivacyByAnonymization``"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:31
+msgid "The anonymization rule type is used to anonymize data sets, as identified in the data classification fields. Anonymization means, that the different fields will be replaced by a string *Anonymized*."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:35
+msgid "During anonymizations, the original data sets are replaced by the mentioned string in the database. The original data is not saved and is therefore irretrievably lost!"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:42
+msgid "``Pseudonymization`` or ``PrivacyByPseudonymization``"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:38
+msgid "Like the anonymization, the pseudonymization rule type is used to remove the related data from their original fields. There is a major difference to the ``Anonymization`` rule type, as the data will be stored in a separated database table, called ``data_pseudonymization``."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:40
+msgid "This table is not used by any other sub-system of OTRS, and it is not usable via the GUI. It acts as a backup table, that can be (manually) searched by any administrator, that has access to the database or using the SQL box of the OTRS administrator interface."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:42
+msgid "During pseudonymizations, a universal unique identifier (UUID) will be created for the related data field, which is used to identify the original data later. The original data will then be copied to the backup table, using the UUID as the field identifier. Afterwards the original data will be replaced by just the UUID, which is effectively the same as an anonymization, but including a pointer to the stored original source data."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:49
+msgid "``Deletion`` or ``PrivacyByDeletion``"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:45
+msgid "The deletion rule type is used to delete data sets, as identified in the data classification fields. Deletion means, that the different fields will be replaced by a string *Deleted*. Technically the original data will be deleted, as it will be replaced with a non-sensitive string, it therefore works equal to the ``Anonymization`` rule type."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:49
+msgid "During deletions, the original data sets are replaced by the mentioned string in the database. The original data is not saved and is therefore irretrievably lost!"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:56
+msgid "``DataClassification`` \\*"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:52
+msgid "This hash option to identify the data types for which the associated actions are to be applied. It contains the different fields of any data object as an array. Every object drivers provides a list of possible data classification fields, that might be used."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:56
+msgid "The specific fields are described in the *Drivers* section below."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:63
+msgid "``ObjectFilter`` \\*"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:59
+msgid "This hash option implements the search and filter criteria for every used driver. Every driver provides a list of possible search and filter options, that are allowed to be used."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:63
+msgid "Please see the *Drivers* section below for more detailed information."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:65
+msgid "The different types of information in OTRS represented by objects (e.g. ticket, customer user, etc.) are called *object types* within this package. Therefore we are talking about *object types*."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:67
+msgid "The modules implemented for the specific data processing, search functions and verification of such specific object types are called *drivers* or *driver objects*."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:71
+msgid "Rule Execution"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:73
+msgid "Once the rules have been defined, they can be applied to the existing data sets. There is a console command ``Maint::DataPrivacy::Execute`` for this."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:75
+msgid "Execute the console command with the ``--help`` option for more information:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:81
+msgid "This command essentially offers three different options:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:83
+msgid "Checking the integrity / validity of the existing rules."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:84
+msgid "Test execution of existing rules without changing data records."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:85
+msgid "Execution of the existing rules, whereby the matching data sets are permanently changed."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:87
+msgid "The validation checks all available rules in the context of the affected drivers and object types. If certain options are missing or incorrect, the rule is declared invalid and execution is skipped for all drivers."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:89
+msgid "For security reasons, the validity of the corresponding rules is implicitly checked both before each dry run and before each execution and is either completely stopped or skipped in case of errors."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:93
+msgid "We recommend, that new rules or significant changes should be executed on test systems first to ensure that no data is accidentally changed or deleted."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:97
+msgid "We recommend that you back up the database first to ensure that untested data is not lost after rules or rule changes are executed."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:101
+msgid "Since rules are designed to change or completely delete data, it is very important to carefully check all rules in advance and execute the test runs for each rule change."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:105
+msgid "Drivers"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:107
+msgid "This section describe the configuration and usage of the various drivers. In addition, this section contains sample configurations that can be copied and customized to your personal needs."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:111
+msgid "Customer Company Driver"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:113
+msgid "The customer company driver provides the functionality to search and modify the information for customer company."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:115
+#: ../../content/data-privacy-protection/admin.rst:198
+#: ../../content/data-privacy-protection/admin.rst:578
+msgid "Possible data classifications:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:129
+#: ../../content/data-privacy-protection/admin.rst:218
+#: ../../content/data-privacy-protection/admin.rst:332
+msgid "The driver supports dynamic fields for data classification. Dynamic fields will be identified by the prefix ``DynamicField_`` and the related field name."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:131
+#: ../../content/data-privacy-protection/admin.rst:220
+#: ../../content/data-privacy-protection/admin.rst:588
+msgid "Possible object filters:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:146
+#: ../../content/data-privacy-protection/admin.rst:241
+#: ../../content/data-privacy-protection/admin.rst:602
+msgid "Object filter descriptions:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:148
+#: ../../content/data-privacy-protection/admin.rst:243
+#: ../../content/data-privacy-protection/admin.rst:604
+msgid "``Limit``: Limits the number of search results."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:149
+#: ../../content/data-privacy-protection/admin.rst:244
+#: ../../content/data-privacy-protection/admin.rst:605
+msgid "``CreateTime``: Searches for dates *greater than or equal to* (>=) the given time."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:150
+msgid "``WildcardSearch``: Affects all object filters, except ``ValidID``."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:154
+#: ../../content/data-privacy-protection/admin.rst:250
+#: ../../content/data-privacy-protection/admin.rst:508
+#: ../../content/data-privacy-protection/admin.rst:612
+msgid "Rule Configuration Examples"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:156
+#: ../../content/data-privacy-protection/admin.rst:252
+#: ../../content/data-privacy-protection/admin.rst:510
+#: ../../content/data-privacy-protection/admin.rst:614
+msgid "Here are some examples for rule configurations. These examples are valid YAML codes. You can copy these examples and modify them according to your needs."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:158
+msgid "Delete customer company name and customer company country by customer company name without wildcard search:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:175
+msgid "Delete customer company name and customer company country by customer company name with wildcard search:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:194
+msgid "Customer User Driver"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:196
+msgid "The customer user driver provides the functionality to search and modify the information for customer users."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:245
+#: ../../content/data-privacy-protection/admin.rst:606
+msgid "``Valid``: Searches for valid or invalid users. Possible values are 0 or 1."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:246
+msgid "``WildcardSearch``: Affects the object filters except ``ValidID``."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:254
+msgid "Delete user first names and user last names by user first name with wildcard search:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:271
+msgid "Anonymize user first names and user last names by user first name and without wildcard search:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:288
+msgid "Delete user first names and user last names by user first name and user last name with wildcard search:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:308
+msgid "Ticket Driver"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:310
+msgid "The ticket driver provides the functionality to search and modify the information for tickets and related articles."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:312
+msgid "Possible data classifications for tickets:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:321
+msgid "Possible data classifications for articles:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:336
+msgid "The ticket driver is used to search for tickets, even if the rule contains filters for article fields. If article fields are part of the data classification, all articles of the related, matching ticket will be processed!"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:338
+msgid "The following fields can be used as search terms or filters for tickets and articles. Possible object filters:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:432
+msgid "All possible object filter parameters can be used to filter tickets and articles. Most of the attributes can be single strings or array references, like:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:457
+msgid "The corresponding YAML code could look as follows:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:477
+msgid "This rule would find all tickets, that are located in the queue *Junk* or *Raw* and which have the service *Service A* or *Service B* assigned. The fields ``CustomerUserID`` and ``CustomerID`` would be deleted."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:479
+msgid "There are several possible filter parameters, regarding relative times and dates, like:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:488
+msgid "A filter like ``*\\*TimeOlderMinutes*`` means *older than x minutes*."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:490
+msgid "The following statement would mean: all tickets, that have a ``CreateTime`` older than one day (1440 minutes)."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:496
+msgid "The following statement would mean: all tickets, that have a ``CreateTime`` newer than one day (1440 minutes)."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:502
+msgid "This is principal valid for all filter parameters with this syntax."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:504
+msgid "For more descriptions about the single search parameters, check the `TicketSearch() in API reference <https://doc.otrs.com/doc/api/otrs/stable/Perl/Kernel/System/Ticket/TicketSearch.pm.html>`__."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:512
+msgid "Delete ticket titles by state names, that are older than one month:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:530
+msgid "Pseudonymize customer user IDs for tickets, that are closed and archived:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:548
+msgid "Anonymize customer IDs and some dynamic fields, that are closed, have certain services and are located in special queues:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:574
+msgid "User Driver"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:576
+msgid "The user driver provides the functionality to search and modify the information for users."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:607
+msgid "``WildcardSearch``: Affects the object filters ``UserFirstname``, ``UserLastname``, ``UserLogin`` and ``UserTitle``."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:608
+msgid "``UserPreferences``: Hash containing the user preferences like *user email address* as keys with certain search criteria as values (see YAML configuration examples)."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:616
+msgid "Delete user first names by first name:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:631
+msgid "Delete user first names and user last names by user email:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:648
+msgid "Delete user first names and user last names with wildcard search:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:665
+msgid "Delete user first names by user first name and create time, which are greater than or equal with the specified date:"
 msgstr ""
 
 #: ../../content/delete-attachments.rst:2
@@ -9293,13 +9723,6 @@ msgstr ""
 
 #: ../../content/escalation-suspend.rst:11
 msgid "Provides greater flexibility through its configurable status."
-msgstr ""
-
-#: ../../content/escalation-suspend.rst:18
-#: ../../content/process-management-article-email.rst:19
-#: ../../content/ticket-allocation.rst:23
-#: ../../content/ticket-workflow.rst:38
-msgid "Internal IT"
 msgstr ""
 
 #: ../../content/escalation-suspend.rst:25
@@ -11953,10 +12376,6 @@ msgstr ""
 
 #: ../../content/system-configuration-history/admin/administration/system-configuration.rst:10
 msgid "To see the deployment history:"
-msgstr ""
-
-#: ../../content/system-configuration-history/admin/administration/system-configuration.rst:12
-msgid "Go to the *System Configuration* screen of the administrator interface."
 msgstr ""
 
 #: ../../content/system-configuration-history/admin/administration/system-configuration.rst:13

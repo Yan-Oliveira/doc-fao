@@ -33,6 +33,7 @@ Permission is granted to copy, distribute and/or modify this document under the 
    customer-frontend-link-object
    customer-specific-services
    dashboard-news-widget
+   data-privacy-protection
    delete-attachments
    dynamic-field-attachment
    dynamic-field-calculation
