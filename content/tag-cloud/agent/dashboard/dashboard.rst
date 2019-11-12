@@ -38,7 +38,7 @@ Shown
    Select, how many tags should be displayed in the widget. The most common tags are always displayed.
 
 Source
-   Select, from which source should be the tags visualizing. It is possible to selected between the ticket fields like priority, queue, SLA, service, status and type, as well as for ticket search configured dynamic fields.
+   Select, from which source should be the tags visualizing. It is possible to select between the ticket fields like priority, queue, SLA, service, status and type, as well as for ticket search configured dynamic fields.
 
    .. seealso::
 

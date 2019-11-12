@@ -39,7 +39,7 @@ Available in Service Package
    GOLD
 
 Target Groups
-   - Can be used in all areas where agents are not logged in permanently to the OTRS agent interface.
+   - Can be used in all areas where agents are not logged in permanently to the **OTRS** agent interface.
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-agent-email-interface/
 

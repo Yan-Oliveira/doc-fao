@@ -31,86 +31,86 @@ This event module will track the following escalation events:
 The ``escalation_history`` table has the following columns:
 
 ``id``
-   This columns contains the id of the escalation history (auto increment).
+   This column contains the ID of the escalation history (auto increment).
 
 ``event_trigger``
-   This columns contains the event of the escalation (e.g. ``EscalationStart``).
+   This column contains the event of the escalation (e.g. ``EscalationStart``).
 
 ``object_id``
-   This columns contains object ID of the escalation (e.g. the ticket ID).
+   This column contains object ID of the escalation (e.g. the ticket ID).
 
 ``object_type``
-   This columns contains object type of the escalation (e.g. ``Ticket``).
+   This column contains object type of the escalation (e.g. ``Ticket``).
 
 ``object_history_id``
-   This columns contains the related id of the ``ticket_history`` table to the escalation event.
+   This column contains the related ID of the ``ticket_history`` table to the escalation event.
 
 ``escalation_type_id``
-   This columns contains the escalation type ID of the escalation.
+   This column contains the escalation type ID of the escalation.
 
 ``escalation_reached``
-   This columns contains if the escalation time is already reached (possible values: 0/1).
+   This column contains whether the escalation time is already reached (possible values: 0/1).
 
 ``escalation_datetime``
-   This columns contains the timestamp of the escalation date.
+   This column contains the timestamp of the escalation date.
 
 ``escalation_time``
-   This columns contains the rest of time (seconds) until the ticket will escalate.
+   This column contains the rest of time (seconds) until the ticket will escalate.
 
 ``escalation_wt``
-   This columns contains the rest of time (seconds) until the ticket will escalate (calculated with working calendars).
+   This column contains the rest of time (seconds) until the ticket will escalate (calculated with working calendars).
 
 ``notify_datetime``
-   This columns contains the date-time timestamp of the notify start.
+   This column contains the date-time timestamp of the notify start.
 
 ``notify_time``
-   This columns contains the seconds until the notify start.
+   This column contains the seconds until the notify start.
 
 ``escalation_remaining_time``
-   This columns contains the rest of time until the ticket will escalate after a suspend of a escalation type.
+   This column contains the rest of time until the ticket will escalate after a suspend of an escalation type.
 
    .. note::
 
       This column is only filled on suspend state.
 
 ``escalation_remaining_wt``
-   This columns contains the rest of time until the ticket will escalate after a suspend of a escalation type (calculated with working calendars).
+   This column contains the rest of time until the ticket will escalate after a suspend of an escalation type (calculated with working calendars).
 
    .. note::
 
       This column is only filled on suspend state.
 
 ``notify_remaining_time``
-   This columns contains he seconds until the notify start after a suspend of an escalation type.
+   This column contains the seconds until the notify start after a suspend of an escalation type.
 
    .. note::
 
       This column is only filled on suspend state.
 
 ``notify_remaining_wt``
-   This columns contains he seconds until the notify start after a suspend of an escalation type (calculated with working calendars).
+   This column contains the seconds until the notify start after a suspend of an escalation type (calculated with working calendars).
 
    .. note::
 
       This column is only filled on suspend state.
 
 ``running_total_time``
-   This columns contains the total amount of seconds the timer was running based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events.
+   This column contains the total amount of seconds the timer was running based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events.
 
 ``running_total_wt``
-   This columns contains the total amount of seconds the timer was running based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events (calculated with working calendars).
+   This column contains the total amount of seconds the timer was running based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events (calculated with working calendars).
 
 ``running_total_virtual_time``
-   This columns contains the total amount of seconds the timer was running based history entries.
+   This column contains the total amount of seconds the timer was running based history entries.
 
 ``running_total_virtual_wt``
-   This columns contains the total amount of seconds the timer was running based history entries (calculated with working calendars).
+   This column contains the total amount of seconds the timer was running based history entries (calculated with working calendars).
 
 ``suspend_total_time``
-   This columns contains the total amount of suspended seconds of the escalation type based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events.
+   This column contains the total amount of suspended seconds of the escalation type based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events.
 
 ``suspend_total_wt``
-   This columns contains the total amount of suspended seconds of the escalation type based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events (calculated with working calendars).
+   This column contains the total amount of suspended seconds of the escalation type based on the ``Timer(Start|Restart|Suspend|Resume|Stop)`` events (calculated with working calendars).
 
 ``running_last_time``
    This column contains the seconds between a start or resuming event and a stop or suspending event (e.g. ``EscalationStart`` to ``EscalationSuspend`` or ``EscalationResume`` to ``EscalationStop``).
@@ -169,16 +169,16 @@ Make sure OTRS daemon is running.
 The data of the ticket and dynamic fields will be saved in a separate table ``escalation_history_data`` with the following columns:
 
 ``id``
-   This columns contains the ID of the escalation history (auto increment).
+   This column contains the ID of the escalation history (auto increment).
 
 ``escalation_history_id``
-   This columns contains id of the related ``escalation_history`` entry.
+   This column contains ID of the related ``escalation_history`` entry.
 
 ``field_key``
-   This columns contains key of the related data (e.g. *DynamicField_Test* or *Queue*).
+   This column contains key of the related data (e.g. *DynamicField_Test* or *Queue*).
 
 ``field_value``
-   This columns contains value of the related data (e.g. a dynamic field value or the values of ticket attributes).
+   This column contains value of the related data (e.g. a dynamic field value or the values of ticket attributes).
 
 ``create_time``
    This column contains create time of the escalation history data entry.

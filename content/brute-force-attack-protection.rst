@@ -15,7 +15,7 @@ Target Groups
    - E-commerce
    - Government
    - IT service
-   - Service provider
+   - Service providers
 
 .. Original content: https://otrs.com/otrs-feature/brute-force-attack-protection/
 

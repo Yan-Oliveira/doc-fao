@@ -23,10 +23,11 @@ Go to the administration interface and choose *Escalation Type Bundle*. Click on
 
 Fill in the needed fields. See the description on the previous pages in order to fill in *Execution order* correctly. After submitting the form, you will be redirected to the edit screen for the new bundle. You will now be able to add your previously created escalation type by choosing it from the *Add escalation type* drop-down menu. After you have added the escalation type, you can set up its parameters. Set up a time span (like *1*) and a time unit (like *Hour(s)*). Save the screen.
 
+
 Assigning the New Bundle to an SLA
 ----------------------------------
 
-In order to get the new escalation type to work, you need to assign it to an existing SLA. Call the SLA administration screen for an existing SLA and mark your bundle from the list of available bundles. Save the screen.
+In order to get the new escalation type to work, you need to assign it to an existing SLA. Go to the SLA management screen for an existing SLA and select your bundle from the list of available bundles. Save the screen.
 
 
 Conclusion

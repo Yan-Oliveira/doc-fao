@@ -3,12 +3,12 @@ Customer-specific Services
 
 This feature add-on makes it possible to assign services to customers so that only the assigned service is displayed when a ticket is created and only the appropriate SLAs are valid.
 
-After the installation of the package, a new module *Customers ↔ Service* appears in the *User, Groups & Roles* group in the administrator interface. Here you can define which services should be assigned to a customers.
+After installation of the package, a new module *Customers ↔ Service* appears in the *Users, Groups & Roles* group in the administrator interface. Here you can define which services should be assigned to customers.
 
 Furthermore, you can define in the system configuration which of these options should be the leading one.
 
 Benefits
-   - Efficient and well-structured administration of multiple services and SLAs for many clients.
+   - Efficient and well-structured administration of multiple services and SLAs for many customers.
    - Avoid the creation of unwarranted tickets that stress out your service team.
    - Optimal guidance for the customer regarding for which services he or she can open a ticket.
    - Speed-up of ticket handling process.
@@ -30,7 +30,7 @@ Target Groups
 
 .. note::
 
-   The ``CustomerUserSearchListLimit`` option should be configured in the ``CustomerUser`` section in the ``Config.pm``.
+   The ``CustomerUserSearchListLimit`` setting should be configured in the ``CustomerUser`` section in the ``Kernel/Config.pm``.
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-customer-specific-services/
 

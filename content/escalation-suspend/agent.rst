@@ -10,9 +10,9 @@ This package has no dedicated agent interface.
 Example usage:
 
 1. Go to one of the new ticket screens, and create a new ticket for one of the queues configured with escalation (for this example *Escalation - first response time* is OK).
-2. Open the ticket zoom for the just created ticket. Notice the escalation is running.
+2. Open the *Ticket Zoom* screen for the newly created ticket. Notice that the escalation is running.
 3. Once the escalation is running, change the ticket state to one that has been configured in ``EscalationSuspendStates`` setting.
-4. Go back to the ticket zoom for the suspended escalation ticket and verify that the escalation is not running.
+4. Go back to the *Ticket Zoom* screen for the suspended escalation ticket and verify that the escalation is not running.
 5. Change the ticket state to one different from those configured on ``EscalationSuspendStates`` setting. The escalation continues.
 
-On ticket menu will be located a new option for *Escalation view - Without Suspend State*. Open this view and check the tickets without a suspend state.
+On ticket menu will be located a new option for *Escalation view - Without Suspend State*. Open this view and check the ticket without a suspend state.

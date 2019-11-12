@@ -44,8 +44,8 @@ The following outgoing mapping example shows an XSLT mapping that discards any d
 
    <?xml version="1.0" encoding="UTF-8"?>
    <xsl:transform
-       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-       xmlns:date="http://exsalt.org/dates-and-times"
+       xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+       xmlns:date="https://exsalt.org/dates-and-times"
        version="1.0"
        extension-element-prefixes="date">
 
@@ -76,8 +76,8 @@ The following incoming mapping example shows an XSLT mapping that converts the r
 
    <?xml version="1.0" encoding="UTF-8"?>
    <xsl:transform
-       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-       xmlns:date="http://exsalt.org/dates-and-times"
+       xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+       xmlns:date="https://exsalt.org/dates-and-times"
        version="1.0"
        extension-element-prefixes="date">
 
@@ -115,6 +115,10 @@ The following incoming mapping example shows an XSLT mapping that converts the r
 
 The following web service definition (importable YAML file) can be used for testing the field, but the endpoint must be adapted to match current system. This web service acts as requester and provider and it always returns the state and queue from ``TicketID`` 1, as possible values to the field.
 
+.. note::
+
+   This example should not be used in conjunction with the development web server.
+
 .. code-block:: YAML
 
    ---
@@ -137,7 +141,7 @@ The following web service definition (importable YAML file) can be used for test
        Config:
          AdditionalHeaders: ~
          MaxLength: '100000000'
-         NameSpace: http://www.otrs.org/TicketConnector/
+         NameSpace: https://www.otrs.org/TicketConnector/
          RequestNameFreeText: ''
          RequestNameScheme: Plain
          ResponseNameFreeText: ''
@@ -156,10 +160,10 @@ The following web service definition (importable YAML file) can be used for test
              Template: |-
                  <?xml version="1.0" encoding="UTF-8"?>
                  <!--
-                 Copyright (C) 2001-2019 OTRS AG, http://otrs.com/
+                 Copyright (C) 2001-2019 OTRS AG, https://otrs.com/
                  This software comes with ABSOLUTELY NO WARRANTY. For details, see
                  the enclosed file COPYING for license information (GPL). If you
-                 did not receive this file, see http://www.gnu.org/licenses/gpl.txt.
+                 did not receive this file, see https://www.gnu.org/licenses/gpl.txt.
                  -->
 
                  <!-- DOCUMENTATION
@@ -187,8 +191,8 @@ The following web service definition (importable YAML file) can be used for test
 
 
                  <xsl:transform
-                     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                     xmlns:date="http://exslt.org/dates-and-times"
+                     xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+                     xmlns:date="https://exslt.org/dates-and-times"
                      version="1.0"
                      extension-element-prefixes="date">
 
@@ -225,11 +229,11 @@ The following web service definition (importable YAML file) can be used for test
              Template: |-
                  <?xml version="1.0" encoding="UTF-8"?>
                  <!--
-                 Copyright (C) 2001-2019 OTRS AG, http://otrs.com/
+                 Copyright (C) 2001-2019 OTRS AG, https://otrs.com/
 
                  This software comes with ABSOLUTELY NO WARRANTY. For details, see
                  the enclosed file COPYING for license information (GPL). If you
-                 did not receive this file, see http://www.gnu.org/licenses/gpl.txt.
+                 did not receive this file, see https://www.gnu.org/licenses/gpl.txt.
                  -->
 
                  <!-- DOCUMENTATION
@@ -256,8 +260,8 @@ The following web service definition (importable YAML file) can be used for test
                  -->
 
                  <xsl:transform
-                     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                     xmlns:date="http://exslt.org/dates-and-times"
+                     xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+                     xmlns:date="https://exslt.org/dates-and-times"
                      version="1.0"
                      extension-element-prefixes="date">
                      <xsl:output method="xml" encoding="utf-8" indent="yes" />
@@ -283,8 +287,8 @@ The following web service definition (importable YAML file) can be used for test
      Transport:
        Config:
          Encoding: ''
-         Endpoint: http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP
-         NameSpace: http://www.otrs.org/TicketConnector/
+         Endpoint: https://localhost/otrs/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP
+         NameSpace: https://www.otrs.org/TicketConnector/
          RequestNameFreeText: ''
          RequestNameScheme: Plain
          ResponseNameFreeText: ''
@@ -297,5 +301,3 @@ The following web service definition (importable YAML file) can be used for test
            SSLProxyUser: ''
        Type: HTTP::SOAP
      UseMappedData: '1'
-
-This example should not be used in conjunction with the development web server.

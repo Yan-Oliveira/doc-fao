@@ -11,7 +11,7 @@ Use this screen to set announcement overview limit in the agent personal prefere
 Miscellaneous
 -------------
 
-These settings are for change some visual appearance of OTRS.
+These settings are for change some visual appearance of **OTRS**.
 
 
 Announcement Overview Limit

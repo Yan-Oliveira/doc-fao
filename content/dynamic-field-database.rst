@@ -1,7 +1,7 @@
 Dynamic Field Database
 ======================
 
-Integrate data from any number of external databases, such as an ERP, CRM, tracking or other ticket systems, and have it displayed in dynamic fields. These records can then be searched and prefiltered with additional masks.
+Integrate data from any number of external databases, such as an ERP, CRM, tracking or other ticket systems, and have it displayed in dynamic fields. These records can then be searched and pre-filtered with additional masks.
 
 Benefits
    - Time saved when searching, filtering (e.g. according to customer data) and overwriting ticket data.
@@ -22,7 +22,7 @@ Target Groups
    - Project management
    - Security management
    - Service providers
-   - Supply chain management
+   - Supply-chain management
 
 .. Original content: https://otrs.com/otrs-feature/dynamic-field-database/
 

@@ -13,7 +13,7 @@ This feature is a complete subsystem that allows the following:
 - Mask credit card numbers for new tickets and articles.
 - Mask credit card numbers contained in articles already stored in the system.
 
-The credit card detection mechanism requires credit card numbers of 13, 15 or 16 digits. These credit card numbers should be at least potentially valid numerically, which means they pass the `Luhn algorithm <http://en.wikipedia.org/wiki/Luhn_algorithm>`__ test.
+The credit card detection mechanism requires credit card numbers of 13, 15 or 16 digits. These credit card numbers should be at least potentially valid numerically, which means they pass the `Luhn algorithm <https://en.wikipedia.org/wiki/Luhn_algorithm>`__ test.
 
 For the current version only a subgroup of all potentially valid credit card number are detected. This is the list of the credit cards numbers that are considered valid:
 
@@ -91,6 +91,10 @@ To use this feature:
 
 Credit Card Warning Message
 ---------------------------
+
+It is possible to display a warning message next to the credit card number.
+
+To use this feature:
 
 1. Make sure that setting ``OTRSCreditCardFilter::ActiveMaskEnabled`` is not enabled.
 2. Make sure that setting ``OTRSCreditCardFilter::WarningTextEnabled`` is enabled.

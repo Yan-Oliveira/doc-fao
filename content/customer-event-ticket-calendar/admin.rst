@@ -21,9 +21,9 @@ To display the tickets in this calendar, the following settings need to be set b
    | Ticket | Date / Time | ``CustomerTicketCalendarEndTime``   | Calendar End Time   |
    +--------+-------------+-------------------------------------+---------------------+
 
-2. Navigate to *Frontend* → *Agent* → *View* and select a view to add the dynamic field to.
+2. Navigate to *Frontend → Agent → View* and select a view to add the dynamic field to.
 
-   For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous* → *Free Fields* menu item of the *Ticket Zoom* screen.
+   For example add these dynamic fields to *New Phone Ticket* screen and *New Email Ticket* screen to set the dates at ticket creation time, or to *Ticket Free Fields* screen to set the dates for existing ticket in the *Miscellaneous → Free Fields* menu item of the *Ticket Zoom* screen.
 
    - ``Ticket::Frontend::AgentTicketPhone###DynamicField``
 

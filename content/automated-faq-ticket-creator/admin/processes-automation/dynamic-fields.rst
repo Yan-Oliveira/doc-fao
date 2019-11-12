@@ -43,7 +43,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Subject``
 
@@ -52,7 +52,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Title``
 
@@ -61,25 +61,25 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###CustomerUser``
 
 ``OTRSAutomatedFAQTicketCreatorOwner``
-   This dynamic field defines the ticket owner for the ticket creation. Possible values are: *[Owner user login] → [Owner user name]*, for example: *root@localhost → Admin OTRS*.
+   This dynamic field defines the ticket owner for the ticket creation. Possible values are: *[Owner user login] → [Owner full name]*, for example: *root@localhost → Admin OTRS*.
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Owner``
 
 ``OTRSAutomatedFAQTicketCreatorResponsible``
-   This dynamic field defines the ticket responsible for the ticket creation. Possible values are: *[Responsible user login] → [Responsible user full name]*, for example: *root@localhost → Admin OTRS*.
+   This dynamic field defines the ticket responsible for the ticket creation. Possible values are: *[Responsible user login] → [Responsible full name]*, for example: *root@localhost → Admin OTRS*.
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Responsible``
 
@@ -88,7 +88,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Priority``
 
@@ -97,7 +97,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###State``
 
@@ -106,7 +106,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Service``
 
@@ -115,7 +115,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default text value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Body``
 
@@ -124,7 +124,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###SLA``
 
@@ -133,7 +133,7 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
    .. seealso::
 
-      To define a default value for this dynamic field, you also can set a value to the following system configuration option:
+      To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
       - ``OTRSAutomatedFAQTicketCreator::DefaultValues###Type``
 
@@ -149,8 +149,8 @@ This packages provides new dynamic fields and an OTRS daemon cron job to create 
 
 To add new values:
 
-1. Choose the dynamic field you like to change the values for.
-2. Add a new value in the *Fields Settings* widget.
+1. Choose the dynamic field you would like to change the values for.
+2. Add a new value in the *Field Settings* widget.
 3. Click on the *Save* button to save the dynamic field.
 
 
@@ -161,7 +161,7 @@ Use the following system configuration option to copy dynamic field values of th
 
 - ``OTRSAutomatedFAQTicketCreator::Core::DynamicFieldMapping###DynamicField``
 
-To define a default value for dynamic fields, you also can set a value to the following system configuration option:
+To define a default value for this dynamic field, you can also set a value to the following system configuration option:
 
 - ``OTRSAutomatedFAQTicketCreator::DefaultValues###DynamicField``
 
@@ -173,12 +173,12 @@ The following use case example will show how to edit and add a customer user.
 
 To edit field values of a dynamic field:
 
-1. Go to the *Dynamic Field* module of the administrator interface.
+1. Go to the *Dynamic Fields* module of the administrator interface.
 2. Choose the dynamic field you like to change the values for.
-3. Add a new value in the *Fields Settings* widget.
+3. Add a new value in the *Field Settings* widget.
 4. Click on the *Save* or *Save and finish* button to save the dynamic field.
 
-For example copy the customer username, the first name and last name of the customer user to the field.
+For example copy the login name, first name and last name of the customer user to the field.
 
 .. figure:: images/dynamic-field-edit-value.png
    :alt: Edit Dynamic Field Value
@@ -193,11 +193,11 @@ To edit default field values of a dynamic field:
 4. Add the default value for customer user to setting ``OTRSAutomatedFAQTicketCreator::DefaultValues###CustomerUser``.
 
 .. figure:: images/system-configuration-default-value.png
-   :alt: System Configuration Default Value
+   :alt: System Configuration – Default Value
 
-   System Configuration Default Value
+   System Configuration – Default Value
 
-To copy a dynamic field value of a FAQ dynamic field into the new ticket dynamic field:
+To copy a field value of a FAQ dynamic field into the new ticket dynamic field:
 
 1. Go to *System Configuration* screen.
 2. Select *OTRSAutomatedFAQTicketCreator* in the *Navigation* widget.
@@ -206,9 +206,9 @@ To copy a dynamic field value of a FAQ dynamic field into the new ticket dynamic
 5. Set mapping for a dynamic field. You need to use the ticket field as key and the FAQ field as value.
 
 .. figure:: images/system-configuration-copy-value.png
-   :alt: System Configuration Copy Value
+   :alt: System Configuration – Copy Value
 
-   System Configuration Copy Value
+   System Configuration – Copy Value
 
 .. note::
 
@@ -229,6 +229,6 @@ To set default field values of a dynamic field for the ticket created dynamic fi
    - Checkbox: ``ExampleTicketDynamicField1Checkbox`` → *1*
 
 .. figure:: images/system-configuration-default-field-value.png
-   :alt: System Configuration Default Field Value
+   :alt: System Configuration – Default Field Value
 
-   System Configuration Default Field Value
+   System Configuration – Default Field Value

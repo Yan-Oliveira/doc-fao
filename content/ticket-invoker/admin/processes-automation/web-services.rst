@@ -8,7 +8,7 @@ After installation of the package, two new invokers will be available in the *In
 Request Example
 ---------------
 
-``TicketCreate``/``TicketUpdate`` invoker returns the complete ticket and article data based on ticket ID, article ID of the triggered event.
+``TicketCreate`` and ``TicketUpdate`` invoker returns the complete ticket and article data based on ticket ID and article ID of the triggered event.
 
 Prepare the invocation of the configured remote web service. Event data:
 
@@ -80,7 +80,9 @@ Invoker result:
 
    The invoker will return the newest article of the ticket if no article ID is given.
 
-   The invoker will not return dynamic fields with undefined values, because the same named operations ``TicketCreate``/``TicketUpdate`` does not handle dynamic fields with undefined values.
+.. note::
+
+   The invoker will not return dynamic fields with undefined values, because the same named operations ``TicketCreate`` and ``TicketUpdate`` does not handle dynamic fields with undefined values.
 
 
 Advanced Filtering for Outgoing Data
@@ -88,7 +90,7 @@ Advanced Filtering for Outgoing Data
 
 For outgoing data, it is possible to define what kind of ticket fields, article fields or dynamic fields the request should contain. Furthermore it is possible to filter by article type and article sender type.
 
-The different filter options can be selected within every single invoker configuration and are listed in section *Settings for outgoing request data*:
+The different filter options can be selected within every single invoker configuration and are listed in section *Settings for outgoing request data*.
 
 .. figure:: images/invoker-details.png
    :alt: Invoker Details Screen
@@ -108,7 +110,7 @@ Description
    Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
 Invoker backend
-   This OTRS invoker back end module will be called to prepare the data to be sent to the remote system, and to process its response data. The field is read-only, it was selected in the previous screen.
+   This invoker back end module will be called to prepare the data to be sent to the remote system, and to process its response data. The field is read-only, it was selected in the previous screen.
 
 
 Settings for Outgoing Request Data
@@ -143,10 +145,10 @@ Mapping
 ~~~~~~~
 
 Mapping for outgoing request data
-   The data from the invoker of OTRS will be processed by this mapping, to transform it to the kind of data the remote system expects.
+   The data from the invoker will be processed by this mapping, to transform it to the kind of data the remote system expects.
 
 Mapping for incoming response data
-   The response data will be processed by this mapping, to transform it to the kind of data the invoker of OTRS expects.
+   The response data will be processed by this mapping, to transform it to the kind of data the invoker expects.
 
 
 Settings for Incoming Response Data
@@ -160,7 +162,7 @@ Remote Ticket ID dynamic field
 Ticket dynamic fields
    A multi-select menu containing the available ticket dynamic fields in the system. All selected dynamic fields, that also available in the response data and containing values, will be saved to the local dynamic fields.
 
-The dynamic field values of the response data, will be used from the following data structure:
+The dynamic field values of the response data will be used from the following data structure:
 
 .. code-block:: xml
 
@@ -188,7 +190,7 @@ Event
    This invoker will be triggered by the configured events.
 
 Add Event Trigger
-   To add a new event select the event object and event name and click on the *+* button. Asynchronous event triggers are handled by the OTRS scheduler daemon in background (recommended). Synchronous event triggers would be processed directly during the web request.
+   To add a new event select the event object and event name and click on the *+* button. Asynchronous event triggers are handled by the OTRS daemon in background (recommended). Synchronous event triggers would be processed directly during the web request.
 
 
 Set Additional Outbound Headers
@@ -208,4 +210,4 @@ Some headers are blocked for safety purposes. If needed, the list of blocked hea
 
 .. note::
 
-   Headers defined using the previous *additional response header* functionality will continue to work and will be upgraded to the new functionality when the *Provider* transport configuration is changed the next time.
+   Headers defined using the previous *additional response headers* functionality will continue to work and will be upgraded to the new functionality when the *Provider* transport configuration is changed the next time.

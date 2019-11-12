@@ -25,7 +25,7 @@ To assign some teams to an agent:
 .. figure:: images/calendar-manage-team-agents-agent.png
    :alt: Change Team Relations for Agent
 
-   Change Group Relations for Agent
+   Change Team Relations for Agent
 
 To assign some agents to a team:
 

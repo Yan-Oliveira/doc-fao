@@ -13,14 +13,14 @@ Every agent who is a member of the group ``custom_notifications`` gets a *Custom
 Custom Notifications
 ~~~~~~~~~~~~~~~~~~~~
 
-This widget contains a link that points to the :doc:`../../admin/communication-notifications/ticket-notifications` screen of the administrator interface, if an administrator clicks on the link. If an agent clicks on it, it opens a reduced variant of the *Ticket Notification* screen.
+This widget contains a link that points to the :doc:`../../admin/communication-notifications/ticket-notifications` screen of the administrator interface, if an administrator clicks on the link. If an agent clicks on it, it opens a reduced variant of the *Ticket Notifications* screen.
 
 .. figure:: images/preferences-notification-custom-notifications.png
    :alt: Custom Notifications Widget
 
    Custom Notifications Widget
 
-The *Ticket Notification* screen does not contain the administrative elements, if an agent opens it.
+The *Ticket Notifications* screen does not contain the administrative elements, if an agent opens it.
 
 .. figure:: images/ticket-notification-management.png
    :alt: Ticket Notification Management Screen

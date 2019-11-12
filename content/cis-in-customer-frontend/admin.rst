@@ -17,11 +17,11 @@ You can use more than one ``CustomerID`` per configuration item, to make one con
 
    To use more than one ``CustomerID`` or use another name than ``CustomerID``, it is necessary to change the setting ``ITSMConfigItem::CustomerIDField`` in system configuration or add additional entries for each entry field.
 
-If your class definition doesn’t contain the ``CustomerID`` attribute, then you have to add it manually.
+If your class definition does not contain the ``CustomerID`` attribute, then you have to add it manually.
 
 To add the fields for configuration items:
 
-1. Open the *Config Item* module of the *CMDB Settings* group in the administrator interface.
+1. Open the *Config Items* module of the *CMDB Settings* group in the administrator interface.
 2. Select a configuration item class and click on the *Change class definition* button.
 3. Add the new fields to the class definition. The input type could be either ``Text`` or ``CustomerCompany``.
 
@@ -52,7 +52,7 @@ To add the fields for configuration items:
 
 4. Save the new definition.
 5. Edit a configuration item from the modified class. Find the *Customer Company* field (or another field you have added) and fill it with the customer ID of an existing customer.
-6. Login to the external interface with any customer that has the customer ID described above.
+6. Login to the external interface with any customer user that has the customer ID described above.
 7. Go to *Company Configuration Items*. The edited configuration item must be listed.
 
 
@@ -61,7 +61,7 @@ Define Strictness of Customer ID Restriction
 
 The setting ``ITSMConfigItem::CustomerCIPermissionByLink`` is set to 0 by default, so configuration items are only accessible in the external interface if the company (customer ID) of the customer user matches the value of a configured field. If this behavior is more strict than desired or not all configuration items can/should be configured in such a way, the configuration can be changed to consider links between configuration items (permission inheritance by links). When linking configuration items to new tickets in the external interface and in the agent interface (if enabled), only direct permission is considered though (i. e. ``CustomerID`` field in configuration item matches).
 
-Example:
+For example:
 
 - There are multiple computer configuration items assigned to the customer company. All computer configuration items are linked to at least one network configuration item (switches). These devices do not belong to the customer and are therefore not visible. Also the network configuration items are linked to other network configuration items (router).
 - By default, only the companies computers are visible under *Company Configuration Items*, are shown in linked tickets and (depending on the configuration) can be viewed in detail and used for new tickets.
@@ -76,15 +76,15 @@ Example:
 Hide Configuration Item Fields in External Interface
 ----------------------------------------------------
 
-It could be possible that configuration items has fields that customer does not need to view, or that contains sensitive information that customers must not know. For this cases an administrator can restrict a field by placing a simple new attribute ``NotForCustomer`` to the field definition on a particular class.
+It could be possible that configuration items has fields that customer does not need to view, or that contains sensitive information that customers must not know. For these cases an administrator can restrict a field by placing a simple new attribute ``NotForCustomer`` to the field definition on a particular class.
 
 To hide a field in external interface:
 
-1. Open the *Config Item* module of the *CMDB Settings* group in the administrator interface.
+1. Open the *Config Items* module of the *CMDB Settings* group in the administrator interface.
 2. Select a configuration item class and click on the *Change class definition* button.
 3. Add the attribute ``NotForCustomer: 1`` to the field definition.
 
-   Example:
+   For example:
 
    .. code-block:: yaml
 

@@ -1,7 +1,7 @@
 Processes & Automation
 ======================
 
-This package makes it possible to create dynamic fields of the type *Database*, which can configuration items in tickets.
+This package makes it possible to create dynamic fields of the type *Database*, which can store data from external databases in tickets.
 
 .. toctree::
    :maxdepth: 3

@@ -7,16 +7,16 @@ Advanced Escalations Data in Statistics
 By installing the advanced escalations package, you have the possibility to use the new statistics object modules:
 
 ``TicketAccountedTimeEscalation``
-   A new matrix statistic which only contains tickets with accounted time. It is a copy of the ``TicketAccountedTime`` statistic out of the OTRS framework, but you are able to show advanced escalations data and to filter the data by ticket attributes as well as by advanced escalations.
+   A new matrix statistic which only contains tickets with accounted time. It is a copy of the ``TicketAccountedTime`` statistic out of the **OTRS** framework, but you are able to show advanced escalations data and to filter the data by ticket attributes as well as by advanced escalations.
 
 ``TicketEscalation``
-   A new matrix statistic which shows configured columns on X- and Y-axis. It is a copy of the ticket matrix statistic out of the OTRS framework, but you are able to show advanced escalations data and to filter the data by ticket attributes as well as by advanced escalations.
+   A new matrix statistic which shows configured columns on X- and Y-axis. It is a copy of the ticket matrix statistic out of the **OTRS** framework, but you are able to show advanced escalations data and to filter the data by ticket attributes as well as by advanced escalations.
 
 ``TicketListEscalation``
    A new statistic which shows configured columns (advanced escalations data, too) on X-axis. You can specify a column which is used in an order by clause on Y-axis. You are able to filter the data by ticket attributes as well as by advanced escalations columns.
 
 ``TicketSolutionResponseTimeEscalation``
-   A new matrix statistic which only contains closed tickets. It is a copy of the default ``TicketSolutionResponseTimeEscalation`` statistic out of the OTRS framework, but you able to select advanced escalations columns in the *Elevation by* field. As already mentioned in the other new statistics, you can filter the data by advanced escalations columns.
+   A new matrix statistic which only contains closed tickets. It is a copy of the default ``TicketSolutionResponseTimeEscalation`` statistic out of the **OTRS** framework, but you able to select advanced escalations columns in the *Elevation by* field. As already mentioned in the other new statistics, you can filter the data by advanced escalations columns.
 
 
 Filtering
@@ -32,9 +32,9 @@ Datetime columns
 
    .. note::
 
-      Please note that in the ``TicketListEscalation`` statistic this columns are not available on the Y-axis.
+      Please note that in the ``TicketListEscalation`` statistic these columns are not available on the Y-axis.
 
 Time columns (seconds)
-   For this type of columns (e.g. ``RunningTotalTime``), a normal input field is shown. You can use this columns only as filter as *greater equal* and/or *smaller equal*.
+   For this type of columns (e.g. ``RunningTotalTime``), a normal input field is shown. You can use these columns only as filter as *greater or equal* and/or *smaller or equal*.
 
-   Entered values are treated as minutes. For example if you enter 30 it is converted to 30 * 60 = 1800 seconds automatically.
+   Entered values are treated as minutes. For example if you enter 30 it is converted to 30 × 60 = 1800 seconds automatically.

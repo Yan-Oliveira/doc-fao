@@ -1,9 +1,9 @@
 Advanced Escalations
 ====================
 
-This feature add-on makes your escalation management more flexible and adjusts it according to your customers or to different service level agreements. Escalation types defined in OTRS, such as *First Response Time*, *Update Time*, and *Solution Time*, can be enhanced by creating new types and defining your own names and properties.
+This feature add-on makes your escalation management more flexible and adjusts it according to your customers or to different service level agreements. Escalation types defined in **OTRS**, such as *First Response Time*, *Update Time*, and *Solution Time*, can be enhanced by creating new types and defining your own names and properties.
 
-The *Ticket Escalation Types* option in the Admin section of OTRS enables you to define when escalations should:
+The *Ticket Escalation Types* option in the administrator interface enables you to define when escalations should:
 
 - start,
 - stop,
@@ -11,7 +11,7 @@ The *Ticket Escalation Types* option in the Admin section of OTRS enables you to
 - be resumed
 - and be restarted.
 
-Ticket attributes, like its status or certain events like creating or answering a ticket, can be used as a trigger. For example, an escalation can start when a ticket is created, is stopped, or when the ticket is answered by the agent. If the status of a ticket is changed to *Pending Reminder*, the escalation is suspended, but if the status is changed back to *Open*, the escalation resumes. An up-to-date display of the escalation time left makes accurate service time management possible.
+Ticket attributes, like its status or certain events like creating or answering a ticket, can be used as a trigger. For example, an escalation can start when a ticket is created, but the escalation can stop when the ticket is answered by the agent. If the status of a ticket is changed to *Pending Reminder*, the escalation is suspended, but if the status is changed back to *Open*, the escalation resumes. An up-to-date display of the escalation time left makes accurate service time management possible.
 
 In the ticket view, the new widget *Escalation Information* appears. This shows through the use of different colors and numerical values whether or not:
 
@@ -21,7 +21,7 @@ In the ticket view, the new widget *Escalation Information* appears. This shows 
 - the escalation time has been reached, i.e. the ticket has escalated (red) or
 - escalation has been suspended or the ticket has been worked on during escalation (the window is no longer visible).
 
-The *Ticket Escalation Type Bundle* option enables you to assign newly created escalation types to different clients or Service Level Agreements.
+The *Ticket Escalation Type Bundle* option enables you to assign newly created escalation types to different customers or service level agreements.
 
 The following scenarios can now be handled more flexibly with *Advanced Escalations*:
 

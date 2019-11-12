@@ -19,4 +19,4 @@ Now the value is automatically linked to the created configuration item.
 
 .. seealso::
 
-   The fields in the *Add Configuration Item Screen* can be very different on each classes. The new fields added by this feature add-on is described in the :doc:`../../admin/` chapter.
+   The fields in the *Add Configuration Item* screen can be very different on each classes. The new fields added by this feature add-on is described in the :doc:`../../admin` chapter.

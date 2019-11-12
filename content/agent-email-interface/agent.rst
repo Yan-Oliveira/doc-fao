@@ -13,7 +13,7 @@ Reply any ticket notification and insert for example the following tag anywhere 
 
    <OTRS_CMD> close </OTRS_CMD>
 
-Switch to the ticket from the ticket notification and compare the ticket state. The ticket should have the state *close*.
+Switch to the ticket from the ticket notification and compare the ticket state. The ticket should have the state *closed*.
 
 .. note::
 

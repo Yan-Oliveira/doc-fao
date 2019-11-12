@@ -1,9 +1,9 @@
 VIP Customer
 ============
 
-Service organizations who have to meet strict service level agreements (SLA) or those who want to react faster to requests from their most important clients should use this feature add-on.
+Service organizations who have to meet strict service level agreements (SLA) or those who want to react faster to requests from their most important customers should use this feature add-on.
 
-Specific customer users can be defined as VIP customer users, which is shown in the OTRS customer information widget when a new ticket is created for him or the service staff is working on one of his existing tickets.
+Specific customer users can be defined as VIP customer users, which is shown in the customer information widget when a new ticket is created for him or the service staff is working on one of his existing tickets.
 
 An additional list in system configuration allows an agent to assign the VIP status to several customer users.
 

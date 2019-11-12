@@ -49,7 +49,7 @@ To assign deputies to a watch list:
 
 1. Click on a watch list in the list of watch lists.
 2. Click on the *Assign deputies to watchlist* button in the left sidebar.
-3. Select deputies agents from the list.
+3. Select deputy agents from the list.
 4. Click on the *Submit* button.
 
 .. figure:: images/watchlist-deputies.png
@@ -71,7 +71,7 @@ To change the watch list owner:
 
 .. warning::
 
-   The original owner agent does not have access to the watch list anymore.
+   The original owner agent will not have access to the watch list anymore.
 
 To export the ticket list from a watch list:
 

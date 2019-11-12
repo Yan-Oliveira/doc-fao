@@ -50,7 +50,7 @@ To delete a mapping:
 
 .. seealso::
 
-   This administration screen reads and writes the system configuration setting ``DynamicSenderAddresses###Mapping``, where the key is the name if the mapping and the value is the internal ID of the system email address.
+   This administration screen reads and writes the system configuration setting ``DynamicSenderAddresses###Mapping``, where the key is the name of the mapping and the value is the internal ID of the system email address.
 
    .. figure:: images/dynamic-sender-addresses-mappings.png
       :alt: ``DynamicSenderAddresses###Mapping`` Setting

@@ -1,7 +1,7 @@
 Data Privacy Protection
 =======================
 
-This feature add-on takes care about the data privacy of specific information within OTRS. Based on customizable rules, different actions can be performed on different types of data.
+This feature add-on takes care about the data privacy of specific information within **OTRS**. Based on customizable rules, different actions can be performed on different types of data.
 
 .. warning::
 

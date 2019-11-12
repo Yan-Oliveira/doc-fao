@@ -7,7 +7,7 @@ In the generic agent job configuration you can define the event that will trigge
 
 You can also define which tickets are relevant. To avoid flooding your agents with tickets, you can restrict the number of allocated tickets per agent. Ticket ordering can also be configured with an additional *order module*. By default, it is the ticket creation time, but you can also choose queue priority or service times. Additionally, a maximum number of allocated tickets per queue can be defined.
 
-Last but not least, you can also create competence groups in order to react more quickly to emergency tickets or to assign tickets to a team with special knowledge of tricky issues right from the start. By default the *Queue*, *Priority*, *Type*, and *Group* competences are active; however, you can also add *SLA* and *Service* in the system configuration.
+Last but not least, you can also create competence groups in order to react more quickly to emergency tickets or to assign tickets to a team with special knowledge of tricky issues right from the start. By default the queue, priority, type, and group competences are active; however, you can also add SLA and service in the system configuration.
 
 Benefits
    - Optimal capacity utilization of your service team by automatic allocation of tickets.

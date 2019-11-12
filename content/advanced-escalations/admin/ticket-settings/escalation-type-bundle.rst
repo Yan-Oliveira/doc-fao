@@ -23,7 +23,7 @@ To create a new escalation type bundle:
 1. Click on the *Create New Escalation Type Bundle* button in the left sidebar.
 2. Fill in the required fields.
 3. Click on the *Create* button.
-4. You will be redirected to *Edit Escalation Type Bundle* screen to edit the escalation type details.
+4. You will be redirected to *Edit Escalation Type Bundle* screen to edit the escalation type bundle details.
 
 .. figure:: images/escalation-type-bundle-add.png
    :alt: Create New Escalation Type Bundle Screen

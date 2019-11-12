@@ -4,9 +4,9 @@ PartnerID ↔ CustomerID
 Use this screen to manage mappings between partners and customers. The management screen is available in the *PartnerID ↔ CustomerID* module of the *Miscellaneous* group.
 
 .. figure:: images/partnerid-customerid-management.png
-   :alt: Manage PartnerID-CustomerID Relations
+   :alt: Manage PartnerID-CustomerID Relations Screen
 
-   Manage PartnerID-CustomerID Relations
+   Manage PartnerID-CustomerID Relations Screen
 
 
 Manage PartnerID ↔ CustomerID Relations

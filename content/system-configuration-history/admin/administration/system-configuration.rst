@@ -35,7 +35,7 @@ It is possible to compare the old and the new settings side-by-side by clicking 
 Additionally, older deployments (every one before current state) can be restored with a simple click. By restoring a deployment, all settings will be reverted to the value they had at the
 time of the deployment in question.
 
-Finally, deployments can be exported with click on the export button. User will be presented with a download of a YML file that contains changed settings. This YML file can be later restored via *Import & Export* screen in the system configuration screen.
+Finally, deployments can be exported with click on the export button. User will be presented with a download of a YML file that contains changed settings. This YML file can be later restored via *Import & Export* screen in the system configuration.
 
 .. note::
 
@@ -49,7 +49,7 @@ Specific setting history can be accessed via *History* button in the setting wid
 
 To see the setting history:
 
-1. Go to the *System Configuration*  screen of the administrator interface.
+1. Go to the *System Configuration* screen of the administrator interface.
 2. Search for a system configuration setting.
 3. Open the setting for editing and click on its header to reveal the buttons.
 4. Click on the *History* button.

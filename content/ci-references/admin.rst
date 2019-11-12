@@ -7,11 +7,11 @@ This package has no administrator interface, but it allows to add additional inp
 Additional Configuration Item Fields
 ------------------------------------
 
-It is possible to add additional reference fields to refer to different data in OTRS, like to other configuration items, services and users.
+It is possible to add additional reference fields to refer to different data in **OTRS**, like to other configuration items, services and users.
 
 To add the fields for configuration items:
 
-1. Open the *Config Item* module of the *CMDB Settings* group in the administrator interface.
+1. Open the *Config Items* module of the *CMDB Settings* group in the administrator interface.
 2. Select a configuration item class and click on the *Change class definition* button.
 3. Add the new fields to the class definition.
 
@@ -51,7 +51,7 @@ The following settings are available when adding or editing this resource. The f
 
    .. seealso::
 
-      Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
+      Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
 
 ``Searchable``
    Defines whether the field is searchable or not. Possible values are *0* or *1*.
@@ -126,7 +126,7 @@ The following settings are available when adding or editing this resource. The f
 
    .. seealso::
 
-      Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
+      Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
 
 ``Searchable``
    Defines whether the field is searchable or not. Possible values are *0* or *1*.
@@ -152,7 +152,7 @@ The following settings are available when adding or editing this resource. The f
          - ``Includes``
          - ``ConnectedTo``
 
-         Additional link types can be defined in the OTRS configuration.
+         Additional link types can be defined in the system configuration.
 
       ``LinkDirection``
          Defines the direction of the link. Possible values are ``Source`` and ``Target``.
@@ -192,7 +192,7 @@ The following settings are available when adding or editing this resource. The f
 
    .. seealso::
 
-      Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
+      Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
 
 ``Searchable``
    Defines whether the field is searchable or not. Possible values are *0* or *1*.

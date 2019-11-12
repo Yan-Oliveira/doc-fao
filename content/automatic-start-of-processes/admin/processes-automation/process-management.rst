@@ -1,7 +1,7 @@
 Process Management
 ==================
 
-After installation of the package a new *Start Event* element will be available in the accordion section of the process management. Processes can now contain a normal start point and a scheduled start point. The schedule of the start event can be configured via an interface.
+After installation of the package a new *Start Event* element will be available in the accordion widget of the process management. Processes can now contain a normal start point and a scheduled start point. The schedule of the start event can be configured via an interface.
 
 
 Create Start Events

@@ -5,7 +5,7 @@ This feature add-on is perfect for call centers and IT service providers or any 
 
 This feature add-on provides a new dashboard widget in the customer information center where time quotas and reference numbers, such as purchase order numbers, can be assigned to customers and where the current status of the quota is shown.
 
-Additionally, agents can record the working time for the customer in the ticket view, and the customer can see the status of the quota in the customer portal. With this feature add-on, **OTRS** can be used as a time accounting software.
+Additionally, agents can record the working time for the customer in the ticket view, and the customer can see the status of the quota in the external interface. With this feature add-on, **OTRS** can be used as a time accounting software.
 
 Benefits
    - Simple time recording and transparent documentation in one system.

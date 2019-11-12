@@ -19,7 +19,7 @@ Target Groups
    - Companies that offer services for different devices/products (CIs)
    - Agents
    - Internal and external IT
-   - Facility Management
+   - Facility management
 
 .. note::
 

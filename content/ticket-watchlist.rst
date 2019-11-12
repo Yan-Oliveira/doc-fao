@@ -17,10 +17,10 @@ Define notification events for each watchlist
    This email notification is independent of the notification preferences of the current owner of the ticket – unlike the standard subscribe/watchlist feature add-on of **OTRS**.
 
 Assign a watchlist to another agent
-   A watchlist can be handed over to another agent. The list will disappear in the overview of the former owner and appear in the overview of the new owner. This feature add-on is typically used to hand the list over to another agent when the original agent goes on vacation.
+   A watchlist can be handed over to another agent. The list will disappear in the overview of the former owner and appear in the overview of the new owner. This feature is typically used to hand the list over to another agent when the original agent goes on vacation.
 
 Assign a deputy
-   One or more deputy agents can be assigned to a watchlist. A deputy then sees the new watchlist in his overview, and he is allowed to add or remove tickets to or from this watchlist. This feature add-on is typically used to share a watchlist with colleagues to work on a ticket in a team.
+   One or more deputy agents can be assigned to a watchlist. A deputy then sees the new watchlist in his overview, and he is allowed to add or remove tickets to or from this watchlist. This feature is typically used to share a watchlist with colleagues to work on a ticket in a team.
 
 Export to CSV
    The list can be exported to a CSV file, e. g. to process it in Excel.
@@ -35,7 +35,7 @@ Available in Service Package
 
 Target Groups
    - IT service management
-   - Service provider
+   - Service providers
    - Call centers
    - Service manager
 

@@ -1,7 +1,7 @@
 Ticket Queue Selection
 ======================
 
-This feature add-on makes it possible to automatically move a ticket to preferred queues on the basis of ticket and customer data when it is created. In the standard version of OTRS, some similar selection can be done by using several email addresses or moving tickets manually.
+This feature add-on makes it possible to automatically move a ticket to preferred queues on the basis of ticket and customer data when it is created. In the standard version of **OTRS**, some similar selection can be done by using several email addresses or moving tickets manually.
 
 After installing the feature add-on, you can define in the system configuration on which data the queue selection should be executed. For example, it would be possible to define certain customer names, which causes their tickets to move into a special queue where the appropriate customer consultant can work on it immediately.
 

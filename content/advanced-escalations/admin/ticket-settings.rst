@@ -1,7 +1,7 @@
 Ticket Settings
 ===============
 
-After installation of the package two new modules will be available in the *Ticket Settings* group of the administrator interface and a new type is added to *Service Level Agreement* module.
+After installation of the package two new modules will be available in the *Ticket Settings* group of the administrator interface and a new field is added to the *Service Level Agreements* module.
 
 .. toctree::
    :maxdepth: 4

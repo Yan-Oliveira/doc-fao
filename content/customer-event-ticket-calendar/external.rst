@@ -1,7 +1,7 @@
 External Interface
 ==================
 
-This package implements the *Event Ticket Calendar* for the external interface. If a ticket has dynamic fields contain date values, the ticket will be displayed in the calendar widget.
+This package implements the *Events Ticket Calendar* for the external interface. If a ticket has dynamic fields contain date values, the ticket will be displayed in the calendar widget.
 
 .. seealso::
 

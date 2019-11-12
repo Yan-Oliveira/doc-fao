@@ -1,7 +1,7 @@
 Customers
 =========
 
-After the installation of the package, a new widget *Services* appears in the *Customer Information Center* screen in the agent interface. In this widget is displayed all assigned services and the amount of open and closed tickets.
+After the installation of the package, a new widget *Services* appears in the *Customer Information Center* screen in the agent interface. In this widget all assigned services and the amount of open and closed tickets are displayed.
 
 .. toctree::
    :maxdepth: 3

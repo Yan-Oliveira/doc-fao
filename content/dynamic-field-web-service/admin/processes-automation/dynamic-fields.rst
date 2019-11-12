@@ -7,7 +7,7 @@ This dynamic field can be created the same way as default dynamic fields are cre
 
 .. seealso::
 
-   The usage of dynamic fields and the general dynamic field settings are described in the `administrator manual <http://doc.otrs.com/doc/manual/admin/7.0/en/content/processes-automation/dynamic-fields.html>`__.
+   The usage of dynamic fields and the general dynamic field settings are described in the `administrator manual <https://doc.otrs.com/doc/manual/admin/7.0/en/content/processes-automation/dynamic-fields.html>`__.
 
 
 Dynamic Field Settings
@@ -35,7 +35,7 @@ Invoker \*
    The invoker that is used to send requests to external systems. Within this field, just invokers of type ``Generic::PassThrough`` will be displayed.
 
 Multiselect
-   A drop-down menu to determine if the displayed dynamic field should act as a multi-select field instead of a drop-down field.
+   A drop-down menu to determine if the displayed dynamic field should act as a multiselect field instead of a drop-down field.
 
 Cache TTL
    A cache time to live value, that contains a value (in minutes). If the value is 0 or empty, no caching will be active. This cache is to prevent unnecessary requests to the remote server using the same values.
@@ -58,7 +58,7 @@ Show link
 
    .. code-block:: none
 
-      http://some.example.com/handle?query=[% Data.Field1 | uri %]
+      https://some.example.com/handle?query=[% Data.Field1 | uri %]
 
    If special characters (&, @, :, /, etc.) should not be encoded, use ``url`` instead of ``uri`` filter.
 

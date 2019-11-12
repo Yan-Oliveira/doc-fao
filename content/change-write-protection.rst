@@ -3,7 +3,7 @@ Change Write Protection
 
 This feature add-on makes it possible to hide specific changes or work orders in a particular status, thus preventing further changes.
 
-The feature add-on is ideal for use in IT service management. For example, the authorization for a change normally comes after its description. After authorization is given, the description of the change can no longer be changed retroactively in the change builder. In addition, the change is then no longer shown in the *Change Zoom* view.
+The feature add-on is ideal for use in IT service management. For example, the authorization for a change normally comes after its description. After authorization is given, the description of the change can no longer be changed retroactively in the change builder. In addition, the change is then no longer shown in the *Change Zoom* screen.
 
 With system configuration you can define:
 
@@ -21,7 +21,7 @@ Available in Service Package
 
 Target Groups
    - IT service management
-   - All clients that use the OTRS::ITSM feature
+   - All customers that use the OTRS::ITSM feature
 
 .. note::
 

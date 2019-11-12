@@ -8,6 +8,6 @@ If a customer user is configured as a VIP, the *Customer Information* widget wil
 
    Customer Information Widget
 
-The extended *Customer Information* widget is available in all tecket create screens as well as in the *Ticket Zoom* screen.
+The extended *Customer Information* widget is available in all ticket create screens as well as in the *Ticket Zoom* screen.
 
-If an SLA is configured to be only shown for VIP customer users, it will not be available anymore to regular users and will be only shown for VIP customer users.
+If an SLA is configured to be only shown for VIP customer users, it will not be available anymore to regular users.

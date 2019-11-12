@@ -15,7 +15,7 @@ Available in Service Package
 Target Groups
    - Complaint management
    - Customer service
-   - Facility Management
+   - Facility management
    - Finance and accounting
    - IT service
    - Security management

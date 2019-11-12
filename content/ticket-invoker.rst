@@ -1,7 +1,7 @@
 Ticket Invoker
 ==============
 
-This package adds the functionality of two new invokers ``TicketCreate`` and ``TicketUpdate`` for web services of OTRS.
+This package adds the functionality of two new invokers ``TicketCreate`` and ``TicketUpdate`` for web services.
 
 .. toctree::
    :maxdepth: 1

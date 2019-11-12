@@ -7,36 +7,41 @@ By default only certain dynamic fields are shown in the FAQ creation and edit sc
 
 .. seealso::
 
-   To show the dynamic fields that sets ticket values:
+   To show the dynamic fields that set ticket values:
 
    1. Go to *System Configuration* screen.
    2. Search for settings ``FAQ::Frontend::AgentFAQAdd###DynamicField`` and/or ``FAQ::Frontend::AgentFAQEdit###DynamicField``.
    3. Update their values from *0* to *1* as any other dynamic field.
 
-Create a FAQ item which will be triggered for the ticket creation
-   This example assumes that all FAQ dynamic fields that sets ticket values are activated for the FAQ add screen and the configuration of each dynamic field is set with valid values for the system.
 
-   1. Create a new FAQ item.
-   2. Set *2019-04-15 10:00:00* for *Ticket create start time*.
-   3. Set *2020-04-15 10:00:00* for *Ticket create end time*.
-   4. Set *Daily* for *Ticket create frequency*.
-   5. Set *01* for *Ticket create repeat times*.
-   6. Select *Monday* and *Friday* for *Ticket create repeat on days*.
-   7. Fill the following fields to define the values for the ticket which will be created:
+Use Case Example
+----------------
 
-      - Ticket create customer user
-      - Ticket create owner
-      - Ticket create responsible
-      - Ticket create ticket type
-      - Ticket create queue
-      - Ticket create priority
-      - Ticket create service
-      - Ticket create SLA
-      - Ticket create state
+The following example assumes that all FAQ dynamic fields that set ticket values are activated for the FAQ add screen and the configuration of each dynamic field is set with valid values for the system.
 
-   .. figure:: images/faq-create.png
-      :alt: Create New FAQ Article
+To create a FAQ item which will be triggered for the ticket creation:
 
-      Create New FAQ Article
+1. Create a new FAQ item.
+2. Set *2019-04-15 10:00:00* for *Ticket create start time*.
+3. Set *2020-04-15 10:00:00* for *Ticket create end time*.
+4. Set *Daily* for *Ticket create frequency*.
+5. Set *01* for *Ticket create repeat times*.
+6. Select *Monday* and *Friday* for *Ticket create repeat on days*.
+7. Fill the following fields to define the values for the ticket which will be created:
 
-   Now every Monday and Friday in the range of 2019-2020 years the OTRS daemon cron job will create a ticket for this FAQ item.
+   - Ticket create customer user
+   - Ticket create owner
+   - Ticket create responsible
+   - Ticket create ticket type
+   - Ticket create queue
+   - Ticket create priority
+   - Ticket create service
+   - Ticket create SLA
+   - Ticket create state
+
+.. figure:: images/faq-create.png
+   :alt: Create New FAQ Article
+
+   Create New FAQ Article
+
+Now every Monday and Friday in the range of 2019-2020 years the OTRS daemon cron job will create a ticket for this FAQ item.

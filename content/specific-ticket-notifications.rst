@@ -18,7 +18,6 @@ Target Groups
    - Customer service
    - Sales
    - Finance
-   - And more
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-specific-ticket-notifications/
 

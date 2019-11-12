@@ -68,7 +68,7 @@ Create the following dynamic fields:
 |        |             |                               |                             | - ``RearCamera`` → Rear Camera             |
 |        |             |                               |                             | - ``ClimateControl`` → Climate Control     |
 +--------+-------------+-------------------------------+-----------------------------+--------------------------------------------+
-| Ticket | TextArea    | ``Remarks``                   | Remarks                     |                                            |
+| Ticket | Textarea    | ``Remarks``                   | Remarks                     |                                            |
 +--------+-------------+-------------------------------+-----------------------------+--------------------------------------------+
 | Ticket | Date        | ``RegistrationDate``          | Registration Date           |                                            |
 +--------+-------------+-------------------------------+-----------------------------+--------------------------------------------+
@@ -128,7 +128,7 @@ Detailed explanation:
    DynamicField_Brand:
    - VW
 
-The condition for this ACL rule. If brand *VW* is selected, the rule will come into action. The array contains the used possible values keys found in your database inside the ``dynamic_field`` table in column ``config``. In this example it is a dynamic field of type *Dropdown*.
+The condition for this ACL rule. If brand *VW* is selected, the rule will come into action. The array contains the used possible values. These are keys found in your database inside the ``dynamic_field`` table in column ``config``. In this example it is a dynamic field of type *Dropdown*.
 
 .. code-block:: YAML
 
@@ -216,7 +216,7 @@ In this example two conditions should be met. Brand has to be *VW* and VW model 
      - RegistrationDate
      - InvoiceDate
 
-Here the dynamic fields *VW Model*, *VW Production Facility* were already visible and they remain, but *Accessories*, *Fuel*, *Remarks*, *Registration Date*, and *Invoice Date* has to be re-added to the fields that are visible. This is done in the *PossibleAdd* section as the first ACL sets this fields as not shown and both ACLs works together. If this was done in the *Possible* section for example, the result will be that only this fields explicitly will be shown and *VW Model* and *VW Production Facility* will be hidden as they are not longer part of the (new) *Possible* section.
+Here the dynamic fields *VW Model* and *VW Production Facility* were already visible and they remain, but *Accessories*, *Fuel*, *Remarks*, *Registration Date* and *Invoice Date* has to be re-added to the fields that are visible. This is done in the *PossibleAdd* section as the first ACL sets this fields as not shown and both ACLs works together. If this was done in the *Possible* section for example, the result will be that only these fields explicitly will be shown and *VW Model* and *VW Production Facility* will be hidden as they are not longer part of the (new) *Possible* section.
 
 .. code-block:: YAML
 
@@ -227,7 +227,7 @@ Here the dynamic fields *VW Model*, *VW Production Facility* were already visibl
 
 Just *Peugeot Model* and *Peugeot Production Facility* are invisible (in our example it does not make much sense to configure a Peugeot model if the user has a VW Up).
 
-In addition to the visibility of dynamic fields there is the possibility to show just some of the possible values of a dynamic field. Combined into ACL rules like in here, makes it easier to handle big multi-selects.
+In addition to the visibility of dynamic fields there is the possibility to show just some of the possible values of a dynamic field. Combined into ACL rules like in here, makes it easier to handle big multiselects.
 
 .. code-block:: YAML
 

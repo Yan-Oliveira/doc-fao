@@ -1,7 +1,7 @@
 Service Level Agreements
 ========================
 
-It is possible to assign escalation type bundles to an SLA. Therefore, a multi select box has been added to the *Add Service Level Agreements* screen.
+It is possible to assign escalation type bundles to an SLA. Therefore, a multiselect field has been added to the *Add Service Level Agreement* screen.
 
 .. figure:: images/sla-add.png
    :alt: Add Service Level Agreement Screen

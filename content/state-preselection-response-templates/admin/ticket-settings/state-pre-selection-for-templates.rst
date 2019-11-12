@@ -29,7 +29,7 @@ To assign a ticket state to a response template:
 
 .. note::
 
-   If several templates are added to the system, a filter box is useful to find a particular template by just typing to filter.
+   If several templates are added to the system, use the filter box to find a particular template by just typing to filter.
 
 
 Response Settings

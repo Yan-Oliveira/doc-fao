@@ -16,7 +16,7 @@ Available in Service Package
 Target Groups
    - Call centers
    - Customer service
-   - Service provider
+   - Service providers
    - IT service management
 
 .. note::

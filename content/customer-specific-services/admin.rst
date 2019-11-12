@@ -1,7 +1,7 @@
 Administrator Interface
 =======================
 
-After installation of the package a new module will be available in the *User, Groups & Roles* group of the administrator interface.
+After installation of the package a new module will be available in the *Users, Groups & Roles* group of the administrator interface.
 
 .. note::
 

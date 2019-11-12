@@ -1,7 +1,7 @@
 System Configuration
 ====================
 
-The customer passwords can be restricted in the external interface to avoid using of week passwords.
+The customer user passwords can be restricted in the external interface to avoid using of weak passwords.
 
 To activate these features:
 

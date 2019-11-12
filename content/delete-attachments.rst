@@ -1,7 +1,7 @@
 Delete Attachments
 ==================
 
-Enables the automatic deletion of ticket attachments that were closed in a definable timespan.
+Enables the automatic deletion of ticket attachments that were closed in a definable time span.
 
 Furthermore, file types can be defined as additional filter criteria. For example:
 
@@ -19,10 +19,9 @@ Available in Service Package
 
 Target Groups
    - Human resources
-   - Internal & external IT
+   - Internal and external IT
    - Finance
    - Public authorities
-   - And many more
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-delete-attachments/
 

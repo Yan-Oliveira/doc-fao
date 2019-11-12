@@ -7,7 +7,7 @@ This dynamic field can be created the same way as default dynamic fields are cre
 
 .. seealso::
 
-   The usage of dynamic fields and the general dynamic field settings are described in the `administrator manual <http://doc.otrs.com/doc/manual/admin/7.0/en/content/processes-automation/dynamic-fields.html>`__.
+   The usage of dynamic fields and the general dynamic field settings are described in the `administrator manual <https://doc.otrs.com/doc/manual/admin/7.0/en/content/processes-automation/dynamic-fields.html>`__.
 
 
 Dynamic Field Settings
@@ -41,7 +41,7 @@ Possible values
       The data type which will be stored in the dynamic field. Possible values: *Date*, *Integer* or *Text*.
 
    Filter
-      With the filter field, it is possible to choose a ticket attribute or a dynamic field as a filter for the related column. If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise the filters will be ignored. If filter will be configured to a table column, only search results matching to the search term and the related ticket attribute on exactly the configured column will be displayed.
+      With the filter field, it is possible to choose a ticket attribute or a dynamic field as a filter for the related column. If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise the filters will be ignored. If the filter will be configured to a table column, only search results matching to the search term and the related ticket attribute on exactly the configured column will be displayed.
 
    Searchfield
       Indicates if a field should be included in the search requests.

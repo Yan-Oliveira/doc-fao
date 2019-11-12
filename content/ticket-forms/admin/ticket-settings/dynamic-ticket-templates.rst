@@ -4,9 +4,9 @@ Dynamic Ticket Templates
 Use this screen to add dynamic ticket templates for use in communications. The dynamic ticket template management screen is available in the *Dynamic Ticket Templates* module of the *Ticket Settings* group.
 
 .. figure:: images/dynamic-ticket-template-management.png
-   :alt: Dynamic Ticket Template Management Screen
+   :alt: Dynamic Ticket Templates Management Screen
 
-   Dynamic Ticket Template Management Screen
+   Dynamic Ticket Templates Management Screen
 
 
 Manage Dynamic Ticket Templates
@@ -38,7 +38,7 @@ To edit a dynamic ticket template:
 
    Edit Dynamic Ticket Template Screen
 
-To delete a template:
+To delete a dynamic ticket template:
 
 1. Click on the trash icon in the list of dynamic ticket templates.
 2. Click on the *Confirm* button.
@@ -50,7 +50,7 @@ To delete a template:
 
 .. note::
 
-   If several dynamic ticket templates are added to the system, a filter box is useful to find a particular dynamic ticket template by just typing to filter.
+   If several dynamic ticket templates are added to the system, use the filter box to find a particular dynamic ticket template by just typing to filter.
 
 
 Dynamic Ticket Template Settings
@@ -103,7 +103,7 @@ Dynamic Fields
 Dynamic Ticket Template Variables
 ---------------------------------
 
-Using variables in the text makes it possible to personalize messages. Variables, known as OTRS tags, are replaced by OTRS when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens.
+Using variables in the text makes it possible to personalize messages. Variables, known as OTRS tags, are replaced by the system when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens.
 
 .. figure:: images/dynamic-ticket-template-variables.png
    :alt: Dynamic Ticket Template Variables

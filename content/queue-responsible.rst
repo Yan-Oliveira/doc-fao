@@ -14,7 +14,7 @@ Available in Service Package
 
 Target Groups
    - IT service management
-   - Call Centers
+   - Call centers
    - Sales
    - Logistics
 

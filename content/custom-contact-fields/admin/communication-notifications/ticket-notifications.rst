@@ -18,7 +18,7 @@ To activate sending emails to custom contact field customer users:
    - Set agent and customer in the *Article Sender Type* field.
    - Set *Visible to customer* in the *Customer visibility* field.
    - Select *Email* in the *Communication channel* field.
-   - Switch *Include attachments* to notification to *Yes*.
+   - Switch *Include attachments to notification* to *Yes*.
 
 6. In the *Recipients* section set a dynamic contact field in the *Send to* field.
 7. In the *Notification Methods* section:

@@ -32,7 +32,7 @@ To assign a queue to a service:
 .. figure:: images/service-queue-queue.png
    :alt: Change Service Relations for Queue
 
-   Change Template Relations for Queue
+   Change Service Relations for Queue
 
 .. note::
 

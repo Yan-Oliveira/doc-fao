@@ -11,8 +11,8 @@ The package is not working out-of-the-box, it must be configured by an administr
 
 1. Go to the *System Configuration* screen.
 2. Select *OTRSDeleteAttachments* in the *Navigation* widget.
-3. Navigate to *Core* → *Ticket* in the navigation tree.
-4. Add some file MIME type to setting ``OTRSDeleteAttachments::Filetypes`` as key-value pairs. The key is the MIME type, the value is the deletion flag.
+3. Navigate to *Core → Ticket* in the navigation tree.
+4. Add some file MIME types to setting ``OTRSDeleteAttachments::Filetypes`` as key-value pairs. The key is the MIME type, the value is the deletion flag.
 
    - 0: This type of attachments are not to be deleted.
    - 1: This type of attachments are going to deleted.
@@ -45,8 +45,8 @@ There is a console command ``Maint::Ticket::Attachment::AddMIMETypes`` to popula
    The console command collects only MIME types of attachments, that are in closed tickets and received within the last 90 days.
 
 
-Delete Attachments
-~~~~~~~~~~~~~~~~~~
+Delete Attachments From Tickets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The attachment deletion is done by console command ``Maint::Ticket::Attachment::Delete``. Check the following settings to customize the job:
 
@@ -63,7 +63,7 @@ The attachment deletion is done by console command ``Maint::Ticket::Attachment::
 ``OTRSDeleteAttachments::TimeSpan``
    The minimum time span (in days) between the current time and the time when the ticket was closed, to delete the attachments of a ticket.
 
-With a ``TimeSpan`` value of 1 and ``TimePeriod`` value of 30 means that the eligible tickets to delete their attachments are the ones that has been closed between 30 days ago and yesterday.
+With a ``TimeSpan`` value of *1* and ``TimePeriod`` value of *30* means that the eligible tickets to delete their attachments are the ones that has been closed between 30 days ago and yesterday.
 
 .. code-block:: none
 
@@ -95,4 +95,4 @@ Updating the file types and deleting the attachments can be run in the backgroun
 
 .. note::
 
-   Remember to stop and start the OTRS daemon after the system configuration is changed.
+   Do not forget to restart the OTRS daemon after the system configuration is changed.

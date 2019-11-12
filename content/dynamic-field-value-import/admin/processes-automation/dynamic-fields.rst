@@ -1,7 +1,7 @@
 Dynamic Fields
 ==============
 
-After installation of the package a new widget *Value Import* will be available in the left sidebar of the *Dynamic Field Management* screen.
+After installation of the package a new widget *Value Import* will be available in the left sidebar of the *Dynamic Fields Management* screen.
 
 .. figure:: images/dynamic-field-value-import-widget.png
    :alt: Value Import Widget
@@ -54,18 +54,16 @@ By default the separator defined in your language will be used (usually ``,`` or
    Audi,A5,2016
    Audi,A6,2016
 
-The CSV files contains information about possible values for dynamic fields. The first header line contains the target dynamic field names.
+The CSV file contains information about possible values for dynamic fields. The first header line contains the target dynamic field names.
 
 Browse for the CSV file and check the *Create dependencies (ACLs)* box if you want to generate ACLs. Click on the *Import* button, a new screen will be opened.
-
-In this overview you will see a table indicating CSV column, the selected target dynamic field, a colorized change difference between old and new possible values and (if ACL setting is enabled) a preview of the relations between the fields. This helps comparing the data before the values are written.
 
 .. figure:: images/dynamic-field-value-import-change-overview.png
    :alt: Change Overview Widget
 
    Change Overview Widget
 
-The change overview displays a table indicating CSV column, the selected target dynamic field, a colorized change difference between old and new possible values and (if ACL setting is enabled) a preview of the relations between the fields. This helps comparing the data before the values are written.
+In this overview you will see a table indicating CSV column, the selected target dynamic field, a colorized change difference between old and new possible values and (if ACL setting is enabled) a preview of the relations between the fields. This helps comparing the data before the values are written.
 
 Data from every CSV column will be assigned to a specific dynamic field. The target field can be chosen. If a header line is used, the field names are pre-selected.
 
@@ -105,7 +103,7 @@ Auto deploy
 The ACL creation is implemented in the following way:
 
 - If the dynamic field with the value(s) from the left side is matched, it is (only) possible to select the dynamic field with the value(s) from the right side.
-- If values for more than two dynamic fields are imported (3 or more columns exist in the CSV), ACL relations are always created starting from the leftmost column. This allows for multi-level dependencies.
+- If values for more than two dynamic fields are imported (3 or more columns exist in the CSV file), ACL relations are always created starting from the leftmost column. This allows for multi-level dependencies.
 
 After you have finished all checks, just submit the form. The values of the affected dynamic fields will be updated in the background and, if activated, the ACLs will be generated. Afterwards you will be redirected to the dynamic field overview again.
 

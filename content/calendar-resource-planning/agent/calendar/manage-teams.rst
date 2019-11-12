@@ -49,7 +49,7 @@ To manage team agents:
 
 To export a team:
 
-1. Click on the *Export* icon in the last column of the overview.
+1. Click on the export icon in the last column of the overview table.
 2. Choose a location in your computer to save the ``Export_Team_Team_name.yml`` file.
 
 .. figure:: images/calendar-manage-teams-export.png

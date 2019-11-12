@@ -6,7 +6,7 @@ Increase the information flow in your tickets and articles significantly with th
 Benefits
    - Add attachments wherever you want in the system.
    - Have control over how many and which size of attachments your agent should use.
-   - Possibility to use OTRS as your document management system.
+   - Possibility to use **OTRS** as your document management system.
 
 Available in Service Package
    GOLD

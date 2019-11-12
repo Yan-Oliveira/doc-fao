@@ -9,7 +9,7 @@ In the ticket overviews and also on ticket dashboard widgets, information regard
 
 In addition to this, you have the possibility to specify which advanced escalations columns you want to use in ticket overviews and ticket dashboard widgets.
 
-In all this system configuration options the possible advanced escalations columns are predefined, but they are not active. If you want to use them, you have to change the value to 1 in setting ``AgentDashboard###AdvancedEscalationsDefaultColumns``.
+In the system configuration options the possible advanced escalations columns are predefined, but they are not active. If you want to use them, you have to change the value to 1 in setting ``AgentDashboard###AdvancedEscalationsDefaultColumns``.
 
 Due to a technical reason there is only one system configuration option for the ticket dashboard widgets. So you are not able to define the advanced escalations columns for each ticket dashboard widget.
 

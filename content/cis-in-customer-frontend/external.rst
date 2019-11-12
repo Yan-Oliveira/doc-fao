@@ -9,20 +9,20 @@ Link Configuration Item With Ticket
 
 In the *New Ticket* screen the customer user can search and select the configuration items that are assigned to his company. When the ticket is created, the selected configuration items will be automatically linked to the new ticket.
 
-To add a configuration to a new ticket:
+To link a configuration item to a new ticket:
 
 1. Create a new ticket in the external interface.
 2. Fill in the required fields.
 3. Click on the *Add affected configuration items* button at the end of the ticket form. A new set of fields will appear below.
 4. In the new section fill any search criteria for class, name or number.
 
-   - *Class* drop-down list will only show classes that are already prepared and contains configuration items assigned to a ``CustomerID`` (for more information take a look at the :doc:`admin`).
-   - *Name* field will match any configuration item which name starts with the content of the field. For example, if *ca* is typed in the field, it will match *cat*, *car*, *card*, etc.
-   - *ConfigItem#* field will match any configuration item which number starts with the content of the field. For example, if *12* is typed in the field, it will match *123*, *1211*, *1298*, etc.
+   - *Class* drop-down list only shows classes that are already prepared and contain configuration items assigned to a ``CustomerID`` (for more information take a look at the :doc:`admin`).
+   - *Name* field matches any configuration item which name starts with the content of the field. For example, if *ca* is typed in the field, it will match *cat*, *car*, *card*, etc.
+   - *ConfigItem#* field matches any configuration item which number starts with the content of the field. For example, if *12* is typed in the field, it will match *123*, *1211*, *1298*, etc.
 
    .. note::
 
-      This search fields will only reduce the search results in order to have smaller lists to be able to select faster. Leaving them in blank will bring the full list of configuration items assigned to the company of the current customer user.
+      These search fields will only reduce the search results in order to have smaller lists to be able to select faster. Leaving them in blank will bring the full list of configuration items assigned to the company of the current customer user.
 
 5. Select the configuration items from the list.
 6. Click on the *Create Ticket* button.

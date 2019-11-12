@@ -37,7 +37,7 @@ The configuration of the individual rule sets are stored in YAML format and cons
    ``Pseudonymization`` or ``PrivacyByPseudonymization``
       Like the anonymization, the pseudonymization rule type is used to remove the related data from their original fields. There is a major difference to the ``Anonymization`` rule type, as the data will be stored in a separated database table, called ``data_pseudonymization``.
 
-      This table is not used by any other sub-system of OTRS, and it is not usable via the GUI. It acts as a backup table, that can be (manually) searched by any administrator, that has access to the database or using the SQL box of the OTRS administrator interface.
+      This table is not used by any other sub-system, and it is not usable via the GUI. It acts as a backup table, that can be (manually) searched by any administrator, that has access to the database or using the *SQL Box* module of the administrator interface.
 
       During pseudonymizations, a universal unique identifier (UUID) will be created for the related data field, which is used to identify the original data later. The original data will then be copied to the backup table, using the UUID as the field identifier. Afterwards the original data will be replaced by just the UUID, which is effectively the same as an anonymization, but including a pointer to the stored original source data.
 
@@ -49,20 +49,20 @@ The configuration of the individual rule sets are stored in YAML format and cons
          During deletions, the original data sets are replaced by the mentioned string in the database. The original data is not saved and is therefore irretrievably lost!
 
 ``DataClassification`` \*
-   This hash option to identify the data types for which the associated actions are to be applied. It contains the different fields of any data object as an array. Every object drivers provides a list of possible data classification fields, that might be used.
+   This list option is used to identify the data types for which the associated actions are to be applied. It contains the different fields of any data object as an array. Every object drivers provides a list of possible data classification fields, that might be used.
 
    .. seealso::
 
       The specific fields are described in the *Drivers* section below.
 
 ``ObjectFilter`` \*
-   This hash option implements the search and filter criteria for every used driver. Every driver provides a list of possible search and filter options, that are allowed to be used.
+   This list option implements the search and filter criteria for every used driver. Every driver provides a list of possible search and filter options, that are allowed to be used.
 
    .. seealso::
 
       Please see the *Drivers* section below for more detailed information.
 
-The different types of information in OTRS represented by objects (e.g. ticket, customer user, etc.) are called *object types* within this package. Therefore we are talking about *object types*.
+The different types of information represented by objects (e.g. ticket, customer user, etc.) are called *object types* within this package. Therefore we are talking about *object types*.
 
 The modules implemented for the specific data processing, search functions and verification of such specific object types are called *drivers* or *driver objects*.
 
@@ -80,7 +80,7 @@ Execute the console command with the ``--help`` option for more information:
 
 This command essentially offers three different options:
 
-- Checking the integrity / validity of the existing rules.
+- Checking the integrity and validity of the existing rules.
 - Test execution of existing rules without changing data records.
 - Execution of the existing rules, whereby the matching data sets are permanently changed.
 
@@ -110,7 +110,7 @@ This section describe the configuration and usage of the various drivers. In add
 Customer Company Driver
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The customer company driver provides the functionality to search and modify the information for customer company.
+The customer company driver provides the functionality to search and modify the information for customer companies.
 
 Possible data classifications:
 
@@ -243,7 +243,7 @@ Object filter descriptions:
 - ``Limit``: Limits the number of search results.
 - ``CreateTime``: Searches for dates *greater than or equal to* (>=) the given time.
 - ``Valid``: Searches for valid or invalid users. Possible values are 0 or 1.
-- ``WildcardSearch``: Affects the object filters except ``ValidID``.
+- ``WildcardSearch``: Affects all object filters, except ``ValidID``.
 
 
 Rule Configuration Examples
@@ -485,7 +485,7 @@ There are several possible filter parameters, regarding relative times and dates
    - ArticleCreateTimeNewerDate
    - ArticleCreateTimeOlderDate
 
-A filter like ``*\*TimeOlderMinutes*`` means *older than x minutes*.
+A filter like ``*\*TimeOlderMinutes*`` means *older than X minutes*.
 
 The following statement would mean: all tickets, that have a ``CreateTime`` older than one day (1440 minutes).
 
@@ -501,7 +501,7 @@ The following statement would mean: all tickets, that have a ``CreateTime`` newe
 
 This is principal valid for all filter parameters with this syntax.
 
-For more descriptions about the single search parameters, check the `TicketSearch() in API reference <https://doc.otrs.com/doc/api/otrs/stable/Perl/Kernel/System/Ticket/TicketSearch.pm.html>`__.
+For more descriptions about the single search parameters, check the `TicketSearch() in API reference <https://doc.otrs.com/doc/api/otrs/7.0/Perl/Kernel/System/Ticket/TicketSearch.pm.html>`__.
 
 
 Rule Configuration Examples
@@ -605,7 +605,7 @@ Object filter descriptions:
 - ``CreateTime``: Searches for dates *greater than or equal to* (>=) the given time.
 - ``Valid``: Searches for valid or invalid users. Possible values are 0 or 1.
 - ``WildcardSearch``: Affects the object filters ``UserFirstname``, ``UserLastname``, ``UserLogin`` and ``UserTitle``.
-- ``UserPreferences``: Hash containing the user preferences like *user email address* as keys with certain search criteria as values (see YAML configuration examples).
+- ``UserPreferences``: Array containing the user preferences like user email address as keys with certain search criteria as values (see YAML configuration examples).
 
 
 Rule Configuration Examples
@@ -613,12 +613,12 @@ Rule Configuration Examples
 
 Here are some examples for rule configurations. These examples are valid YAML codes. You can copy these examples and modify them according to your needs.
 
-Delete user first names by first name:
+Delete user first names by user first name:
 
 .. code-block:: yaml
 
    ---
-   RuleName: Delete user first names by first name.
+   RuleName: Delete user first names by user first name.
    RuleSource: GDPR
    RuleType: PrivacyByDeletion
    DataClassification:

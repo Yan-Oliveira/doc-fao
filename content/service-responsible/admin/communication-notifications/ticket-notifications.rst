@@ -17,7 +17,7 @@ The following settings are available when adding or editing this resource. The f
 
 .. seealso::
 
-   For an example, see a default ticket notification which is included in a fresh OTRS installation.
+   For an example, see a default ticket notification which is included in a fresh **OTRS** installation.
 
 
 Recipients
@@ -31,4 +31,4 @@ Recipients
 Send to
    The service responsibilities of all assigned agents can be chosen with the option *All agents responsible for the service* to notify the responsible agents.
 
-All other setting and options are part of the OTRS framework.
+All other setting and options are part of the **OTRS** framework.

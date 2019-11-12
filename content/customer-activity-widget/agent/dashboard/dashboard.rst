@@ -13,7 +13,7 @@ By clicking on the number of tickets a list of tickets will be shown. Click on a
 To turn on and off the widget:
 
 1. Expand the *Settings* widget in the right sidebar by clicking on its header bar.
-2. Modify the checked state of a the *Customer Activity* entry.
+2. Modify the checked state of the *Customer Activity* entry.
 3. Click on the *Save settings* button.
 
 To add customers to the widget:

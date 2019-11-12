@@ -113,8 +113,8 @@ After adding a new set, you can add conditions to this set by using the *Add att
 
    All configured conditions are used to evaluate values present on each action, which is defined as a snapshot of the ticket values taken from the ticket history. The time window for this snapshot is defined by the ``TicketHistorySplitTimeThreshold`` setting. All actions for a ticket are evaluated one by one each time the escalation is recalculated.
 
-The ticket created by a customer
-   This condition type means that the ticket has to be created by customer (by sending an email, using the customer front-end or by an agent using the ticket phone mask).
+Ticket created by a customer
+   This condition type means that the ticket has to be created by customer user (by sending an email, using the external interface or by an agent using the *New Phone Ticket* screen).
 
 Ticket Attributes
    In this drop-down menu you can choose from a list of match types:
@@ -122,14 +122,14 @@ Ticket Attributes
    equals now
       (Is) – One of the configured ticket attributes should match the particular attribute value from the action which is currently being evaluated. The condition evaluates as true if there is at least one match.
 
-   doesn't equal now
+   doesn’t equal now
       (Is not) – None of the configured ticket attributes should match the particular attribute value from the action which is currently being evaluated. The condition evaluates as true if there is no match.
 
    equaled
-      (Was) - One of the configured ticket attributes should match the particular attribute value from the action which is currently being evaluated. All actions from the history of the particular ticket are being evaluated. The condition evaluates as true if there is at least one match in one of the historical ticket attribute values.
+      (Was) – One of the configured ticket attributes should match the particular attribute value from the action which is currently being evaluated. All actions from the history of the particular ticket are being evaluated. The condition evaluates as true if there is at least one match in one of the historical ticket attribute values.
 
    did never equal
-      (Was never) - None of the configured ticket attributes should match the particular attribute value from the action which is currently being evaluated. All actions from the history of the particular ticket are being evaluated. The condition evaluates as true if there is no match in one of the historical ticket attribute values.
+      (Was never) – None of the configured ticket attributes should match the particular attribute value from the action which is currently being evaluated. All actions from the history of the particular ticket are being evaluated. The condition evaluates as true if there is no match in one of the historical ticket attribute values.
 
    changed to
       (Changed to) – The configured ticket attribute changed to one of the given values. This implies that the value was different before (= on the previous action).
@@ -137,13 +137,13 @@ Ticket Attributes
    equals previous
       (Was previously) – At least one of the configured ticket attributes should match the particular attribute value on the previous action, which means going back exactly one step in the ticket history. The condition evaluates as true if there is a match in one of the historical ticket attribute values of the previous action.
 
-   doesn't equal previous
+   doesn’t equal previous
       (Was not previously) – None of the configured ticket attributes should match the particular attribute value on the previous action, which means going back exactly one step in the ticket history. The condition evaluates as true if there is no match in the historical ticket attribute values of the previous action.
 
 Message presence
-   This condition type defines if a customer or agent message must be/must not be present.
+   This condition type defines if a customer user or agent message must be/must not be present.
 
 Message delivery
-   If enabled, this will define that the customer or agent has to send a message to match the condition.
+   If enabled, this will define that the customer user or agent has to send a message to match the condition.
 
 To remove a condition, uncheck the checkbox in the *Active* column, and click on the *Save* button.

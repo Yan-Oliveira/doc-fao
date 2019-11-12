@@ -7,7 +7,7 @@ This dynamic field can be created the same way as default dynamic fields are cre
 
 .. seealso::
 
-   The usage of dynamic fields and the general dynamic field settings are described in the `administrator manual <http://doc.otrs.com/doc/manual/admin/7.0/en/content/processes-automation/dynamic-fields.html>`__.
+   The usage of dynamic fields and the general dynamic field settings are described in the `administrator manual <https://doc.otrs.com/doc/manual/admin/7.0/en/content/processes-automation/dynamic-fields.html>`__.
 
 
 Dynamic Field Settings

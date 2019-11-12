@@ -11,7 +11,7 @@ Personalize your statistics using a wide range of configuration options: First, 
 - Rate of resolution, adjusted for account work calendars
 - Join and leave times for queues
 
-Each chosen attribute is displayed as distinct value series in the statics. Afterwards, decide whether to sort the data in ascending or descending order and define its absolute or relative timeframe.
+Each chosen attribute is displayed as distinct value series in the statistics. Afterwards, decide whether to sort the data in ascending or descending order and define its absolute or relative time frame.
 
 Benefits
    - Obtain detailed information regarding the duration of tickets in your **OTRS**.

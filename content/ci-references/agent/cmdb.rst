@@ -1,7 +1,7 @@
 CMDB
 ====
 
-Select the *New* menu item in the *CMDB* in order to see the new input fields for configuration items.
+Select the *New* menu item from the *CMDB* menu in order to see the new input fields for configuration items.
 
 .. note::
 

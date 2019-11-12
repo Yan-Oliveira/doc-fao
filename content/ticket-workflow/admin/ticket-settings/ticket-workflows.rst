@@ -32,9 +32,9 @@ To view the details of a ticket workflow template and go to the management scree
 1. Click on a ticket workflow template in the list of ticket workflow templates.
 
 .. figure:: images/ticket-workflow-template-details.png
-   :alt: Ticket Workflow Details Screen
+   :alt: Ticket Workflow Template Details Screen
 
-   Ticket Workflow Details Screen
+   Ticket Workflow Template Details Screen
 
 To edit a ticket workflow template:
 
@@ -116,7 +116,7 @@ To clone a ticket workflow template:
 
 .. note::
 
-   If several templates are added to the system, a filter box is useful to find a particular template by just typing to filter.
+   If several templates are added to the system, use the filter box to find a particular template by just typing to filter.
 
 
 Ticket Workflow Template Settings

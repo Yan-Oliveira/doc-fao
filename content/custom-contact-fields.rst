@@ -4,14 +4,14 @@ Custom Contact Fields
 This feature add-on makes it possible to create new *customer* dynamic fields, which can store customer data from integrated external customer databases as contacts in a ticket. In an additional configuration interface, it is possible to define whether the new dynamic field type should:
 
 - Store one or more customers.
-- Add an additional navigation option in the OTRS customer portal.
+- Add an additional navigation option in the external interface.
 - Include additional contacts in the ticket communication.
 - Restrict the adding of new contacts based on customer number or postal codes.
 - Be filterable for certain attributes.
 
 Furthermore, event-based notifications can now be configured to be sent to contacts that are stored in the ticket.
 
-This feature add-on is perfect for all businesses that have to deal with different groups of customers, partners or sub-contractors, as it adds, in addition to the OTRS *Customer Information Center*, a second possibility for storing customer data in a ticket and including it in communication processes.
+This feature add-on is perfect for all businesses that have to deal with different groups of customers, partners or sub-contractors, as it adds, in addition to the *Customer Information Center*, a second possibility for storing customer data in a ticket and including it in communication processes.
 
 Benefits
    - More flexible and enhanced storage of external customer data in tickets.
