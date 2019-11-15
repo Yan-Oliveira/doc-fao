@@ -74,8 +74,6 @@ The following settings are available when adding or editing this resource. The f
       ``LinkType``
          Defines the type of the link which will be created if the value will be saved. Possible values are:
 
-         - ``Normal``
-         - ``ParentChild``
          - ``DependsOn``
          - ``AlternativeTo``
          - ``RelevantTo``

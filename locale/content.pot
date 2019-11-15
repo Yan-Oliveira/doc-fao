@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-13 05:42+0000\n"
+"POT-Creation-Date: 2019-11-15 15:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2360,8 +2360,8 @@ msgstr ""
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:80
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:45
 #: ../../content/ci-references/admin.rst:40
-#: ../../content/ci-references/admin.rst:115
-#: ../../content/ci-references/admin.rst:181
+#: ../../content/ci-references/admin.rst:113
+#: ../../content/ci-references/admin.rst:179
 #: ../../content/custom-contact-fields/admin/processes-automation/dynamic-fields.rst:16
 #: ../../content/dashboard-news-widget/admin/communication-notifications/dashboard-news.rst:57
 #: ../../content/dynamic-field-attachment/admin/processes-automation/dynamic-fields.rst:16
@@ -5467,68 +5467,68 @@ msgid "This field adds an input field with auto-completion feature to search for
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:43
-#: ../../content/ci-references/admin.rst:118
-#: ../../content/ci-references/admin.rst:184
+#: ../../content/ci-references/admin.rst:116
+#: ../../content/ci-references/admin.rst:182
 msgid "``Key`` \\*"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:43
-#: ../../content/ci-references/admin.rst:118
-#: ../../content/ci-references/admin.rst:184
+#: ../../content/ci-references/admin.rst:116
+#: ../../content/ci-references/admin.rst:182
 msgid "Must be unique and only accept alphabetic and numeric characters. If this is changed, data will not be readable from old definitions."
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:54
-#: ../../content/ci-references/admin.rst:129
-#: ../../content/ci-references/admin.rst:195
+#: ../../content/ci-references/admin.rst:127
+#: ../../content/ci-references/admin.rst:193
 msgid "``Name`` \\*"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:46
-#: ../../content/ci-references/admin.rst:121
-#: ../../content/ci-references/admin.rst:187
+#: ../../content/ci-references/admin.rst:119
+#: ../../content/ci-references/admin.rst:185
 msgid "The label of the field in the form. Any type of characters can be entered to this field including uppercase letters and spaces."
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:50
-#: ../../content/ci-references/admin.rst:125
-#: ../../content/ci-references/admin.rst:191
+#: ../../content/ci-references/admin.rst:123
+#: ../../content/ci-references/admin.rst:189
 msgid "It is recommended to always use English words for names."
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:54
-#: ../../content/ci-references/admin.rst:129
-#: ../../content/ci-references/admin.rst:195
+#: ../../content/ci-references/admin.rst:127
+#: ../../content/ci-references/admin.rst:193
 msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otrs.com/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:57
-#: ../../content/ci-references/admin.rst:132
-#: ../../content/ci-references/admin.rst:198
+#: ../../content/ci-references/admin.rst:130
+#: ../../content/ci-references/admin.rst:196
 msgid "``Searchable``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:57
-#: ../../content/ci-references/admin.rst:132
-#: ../../content/ci-references/admin.rst:198
+#: ../../content/ci-references/admin.rst:130
+#: ../../content/ci-references/admin.rst:196
 msgid "Defines whether the field is searchable or not. Possible values are *0* or *1*."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:89
-#: ../../content/ci-references/admin.rst:158
-#: ../../content/ci-references/admin.rst:207
+#: ../../content/ci-references/admin.rst:87
+#: ../../content/ci-references/admin.rst:156
+#: ../../content/ci-references/admin.rst:205
 msgid "``Input`` \\*"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:60
-#: ../../content/ci-references/admin.rst:135
-#: ../../content/ci-references/admin.rst:201
+#: ../../content/ci-references/admin.rst:133
+#: ../../content/ci-references/admin.rst:199
 msgid "Initiates the definition of the input field."
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:63
-#: ../../content/ci-references/admin.rst:138
-#: ../../content/ci-references/admin.rst:204
+#: ../../content/ci-references/admin.rst:136
+#: ../../content/ci-references/admin.rst:202
 msgid "``Type`` \\*"
 msgstr ""
 
@@ -5537,24 +5537,24 @@ msgid "Defines the type of the element. Must be placed indented as a logical blo
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:66
-#: ../../content/ci-references/admin.rst:141
-#: ../../content/ci-references/admin.rst:207
+#: ../../content/ci-references/admin.rst:139
+#: ../../content/ci-references/admin.rst:205
 msgid "``Required``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:66
-#: ../../content/ci-references/admin.rst:141
-#: ../../content/ci-references/admin.rst:207
+#: ../../content/ci-references/admin.rst:139
+#: ../../content/ci-references/admin.rst:205
 msgid "Defines whether the field is mandatory or not. Possible values are *0* or *1*."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:89
-#: ../../content/ci-references/admin.rst:158
+#: ../../content/ci-references/admin.rst:87
+#: ../../content/ci-references/admin.rst:156
 msgid "``Reference``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:69
-#: ../../content/ci-references/admin.rst:144
+#: ../../content/ci-references/admin.rst:142
 msgid "Initiates the definition of the reference field."
 msgstr ""
 
@@ -5566,121 +5566,113 @@ msgstr ""
 msgid "Defines the class of the configuration item which should be possible to search for."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:83
-#: ../../content/ci-references/admin.rst:155
+#: ../../content/ci-references/admin.rst:81
+#: ../../content/ci-references/admin.rst:153
 msgid "``LinkType``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:75
-#: ../../content/ci-references/admin.rst:147
+#: ../../content/ci-references/admin.rst:145
 msgid "Defines the type of the link which will be created if the value will be saved. Possible values are:"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:77
-msgid "``Normal``"
+#: ../../content/ci-references/admin.rst:147
+msgid "``DependsOn``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:78
-msgid "``ParentChild``"
+#: ../../content/ci-references/admin.rst:148
+msgid "``AlternativeTo``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:79
 #: ../../content/ci-references/admin.rst:149
-msgid "``DependsOn``"
+msgid "``RelevantTo``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:80
 #: ../../content/ci-references/admin.rst:150
-msgid "``AlternativeTo``"
+msgid "``Includes``"
 msgstr ""
 
 #: ../../content/ci-references/admin.rst:81
 #: ../../content/ci-references/admin.rst:151
-msgid "``RelevantTo``"
-msgstr ""
-
-#: ../../content/ci-references/admin.rst:82
-#: ../../content/ci-references/admin.rst:152
-msgid "``Includes``"
-msgstr ""
-
-#: ../../content/ci-references/admin.rst:83
-#: ../../content/ci-references/admin.rst:153
 msgid "``ConnectedTo``"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:86
-#: ../../content/ci-references/admin.rst:158
+#: ../../content/ci-references/admin.rst:84
+#: ../../content/ci-references/admin.rst:156
 msgid "``LinkDirection``"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:86
-#: ../../content/ci-references/admin.rst:158
+#: ../../content/ci-references/admin.rst:84
+#: ../../content/ci-references/admin.rst:156
 msgid "Defines the direction of the link. Possible values are ``Source`` and ``Target``."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:89
+#: ../../content/ci-references/admin.rst:87
 msgid "``ImportExportKey``"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:89
+#: ../../content/ci-references/admin.rst:87
 msgid "Defines the value for the identification of the referenced configuration item. Possible values are ``Name``, ``Number`` or a configured field key."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:91
-#: ../../content/ci-references/admin.rst:160
+#: ../../content/ci-references/admin.rst:89
+#: ../../content/ci-references/admin.rst:158
 msgid "After a value is set for the input field the value will be used to set a link to the given configuration item. If there is already a value, then the old value will be unlinked. If the reference field in the class definition has been extended with the setting ``CountDefault``, several configuration items can also be linked."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:93
+#: ../../content/ci-references/admin.rst:91
 msgid "For the export and import of this field the name and the configuration item number are used. If a configuration item is not found for the import, then it will imported 2 times to verify that the linked configuration item which is needed for the link is already imported."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:95
+#: ../../content/ci-references/admin.rst:93
 msgid "Example export value: ``ConfigItemName1``."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:99
+#: ../../content/ci-references/admin.rst:97
 msgid "``ReferenceService`` Field"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:101
+#: ../../content/ci-references/admin.rst:99
 msgid "This field adds an input field with auto-completion feature to search for services in the configuration item dialog. The following example configuration is needed to insert this kind of field:"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:138
+#: ../../content/ci-references/admin.rst:136
 msgid "Defines the type of the element. Must be placed indented as a logical block. The value is ``ReferenceService`` in this case."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:155
+#: ../../content/ci-references/admin.rst:153
 msgid "Additional link types can be defined in the system configuration."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:162
+#: ../../content/ci-references/admin.rst:160
 msgid "For the export and import of this field the name of the service is used."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:164
+#: ../../content/ci-references/admin.rst:162
 msgid "Example export value: *Service 1*."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:168
+#: ../../content/ci-references/admin.rst:166
 msgid "``ReferenceUser`` Field"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:170
+#: ../../content/ci-references/admin.rst:168
 msgid "This field adds an input field with auto-completion feature to search for users in the configuration item dialog. The following example configuration is needed to insert this kind of field:"
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:204
+#: ../../content/ci-references/admin.rst:202
 msgid "Defines the type of the element. Must be placed indented as a logical block. The value is ``ReferenceUser`` in this case."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:209
+#: ../../content/ci-references/admin.rst:207
 msgid "For the export and import of this field the login of the user is used."
 msgstr ""
 
-#: ../../content/ci-references/admin.rst:211
+#: ../../content/ci-references/admin.rst:209
 msgid "Example export value: *root@localhost*."
 msgstr ""
 
