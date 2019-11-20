@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019, OTRS AG
+# Copyright (C) 2001-2019 OTRS AG, https://otrs.com/
 # This file is distributed under the same license as the OTRS Feature Add-ons Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-12 19:49+0100\n"
+"POT-Creation-Date: 2019-11-20 15:59+0100\n"
 "PO-Revision-Date: 2019-08-15 09:24+0000\n"
 "Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -125,89 +125,92 @@ msgstr "Megkönnyíti a munkát az ügyintézői jegyáttekintő kis nézetével
 msgid "Increases flexibility through optimized adaptability."
 msgstr "Növeli a rugalmasságot az optimalizált felhasználhatóságon keresztül."
 
-#: ../../content/adjust-sort-ticket-overview.rst:17
-#: ../../content/advanced-editor.rst:12
-#: ../../content/advanced-escalations.rst:38
-#: ../../content/advanced-generic-agent.rst:15
+#: ../../content/adjust-sort-ticket-overview.rst:19
+#: ../../content/advanced-editor.rst:13
+#: ../../content/advanced-escalations.rst:42
+#: ../../content/advanced-generic-agent.rst:19
 #: ../../content/agent-email-interface.rst:39
+#: ../../content/automated-faq-ticket-creator.rst:20
+#: ../../content/automatic-start-of-processes.rst:19
+#: ../../content/brute-force-attack-protection.rst:15
+#: ../../content/calendar-resource-planning.rst:23
+#: ../../content/categories-for-text-modules.rst:18
+#: ../../content/change-write-protection.rst:21
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
+#: ../../content/ci-custom-search.rst:18 ../../content/ci-references.rst:24
+#: ../../content/cis-in-customer-frontend.rst:23
+#: ../../content/credit-card-filter.rst:17
+#: ../../content/custom-contact-fields.rst:27
+#: ../../content/customer-activity-widget.rst:15
+#: ../../content/customer-event-ticket-calendar.rst:15
+#: ../../content/customer-frontend-link-object.rst:16
+#: ../../content/customer-specific-services.rst:22
+#: ../../content/dashboard-news-widget.rst:15
+#: ../../content/data-privacy-protection.rst:23
+#: ../../content/delete-attachments.rst:21
+#: ../../content/dynamic-field-attachment.rst:16
+#: ../../content/dynamic-field-calculation.rst:9
+#: ../../content/dynamic-field-ci.rst:29
+#: ../../content/dynamic-field-database.rst:22
+#: ../../content/dynamic-field-search-booster.rst:17
+#: ../../content/dynamic-field-value-import.rst:22
+#: ../../content/dynamic-field-web-service.rst:20
+#: ../../content/dynamic-sender-addresses.rst:19
+#: ../../content/escalation-suspend.rst:16
+#: ../../content/extended-ticket-stats.rst:26
+#: ../../content/hide-show-dynamic-fields.rst:21
+#: ../../content/out-of-office.rst:18
+#: ../../content/process-management-article-email.rst:19
+#: ../../content/queue-responsible.rst:16
+#: ../../content/ready2adopt-itsm-processes.rst:43
+#: ../../content/ready2adopt-processes.rst:28
+#: ../../content/ready2adopt-web-services.rst:20
+#: ../../content/restore-pending-information.rst:17
+#: ../../content/restrict-customer-data-view.rst:17
+#: ../../content/service-based-queue-routing.rst:17
+#: ../../content/service-categories.rst:17
+#: ../../content/service-responsible.rst:20
+#: ../../content/specific-ticket-notifications.rst:17
+#: ../../content/state-preselection-response-templates.rst:19
+#: ../../content/system-configuration-history.rst:15
+#: ../../content/tag-cloud.rst:29 ../../content/ticket-allocation.rst:21
+#: ../../content/ticket-forms.rst:39
+#: ../../content/ticket-queue-selection.rst:20
+#: ../../content/ticket-time-unit-dropdown.rst:24
+#: ../../content/ticket-watchlist.rst:37 ../../content/ticket-workflow.rst:35
+#: ../../content/time-accounting-quota.rst:18
+#: ../../content/vip-customer.rst:20
+msgid "Target Groups"
+msgstr "Célcsoportok"
+
+#: ../../content/adjust-sort-ticket-overview.rst:17
+#: ../../content/advanced-generic-agent.rst:15
 #: ../../content/automated-faq-ticket-creator.rst:16
-#: ../../content/automatic-start-of-processes.rst:13
-#: ../../content/brute-force-attack-protection.rst:11
-#: ../../content/calendar-resource-planning.rst:15
 #: ../../content/categories-for-text-modules.rst:15
 #: ../../content/change-write-protection.rst:20
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:16
-#: ../../content/ci-custom-search.rst:16 ../../content/ci-references.rst:21
-#: ../../content/cis-in-customer-frontend.rst:20
-#: ../../content/credit-card-filter.rst:13
-#: ../../content/custom-contact-fields.rst:22
-#: ../../content/customer-activity-widget.rst:12
-#: ../../content/customer-event-ticket-calendar.rst:13
-#: ../../content/customer-frontend-link-object.rst:14
-#: ../../content/customer-specific-services.rst:17
-#: ../../content/dashboard-news-widget.rst:12
-#: ../../content/delete-attachments.rst:18
-#: ../../content/dynamic-field-attachment.rst:12
-#: ../../content/dynamic-field-ci.rst:25
-#: ../../content/dynamic-field-database.rst:12
-#: ../../content/dynamic-field-search-booster.rst:13
-#: ../../content/dynamic-field-value-import.rst:18
-#: ../../content/dynamic-field-web-service.rst:12
-#: ../../content/dynamic-sender-addresses.rst:15
-#: ../../content/escalation-suspend.rst:14
-#: ../../content/extended-ticket-stats.rst:22
-#: ../../content/hide-show-dynamic-fields.rst:14
-#: ../../content/out-of-office.rst:13
-#: ../../content/process-management-article-email.rst:14
+#: ../../content/data-privacy-protection.rst:18
+#: ../../content/escalation-suspend.rst:14 ../../content/out-of-office.rst:16
 #: ../../content/queue-responsible.rst:13
-#: ../../content/ready2adopt-itsm-processes.rst:38
-#: ../../content/ready2adopt-processes.rst:25
-#: ../../content/ready2adopt-web-services.rst:15
-#: ../../content/restore-pending-information.rst:13
-#: ../../content/restrict-customer-data-view.rst:15
-#: ../../content/service-based-queue-routing.rst:14
-#: ../../content/service-categories.rst:12
-#: ../../content/service-responsible.rst:16
-#: ../../content/specific-ticket-notifications.rst:14
-#: ../../content/state-preselection-response-templates.rst:15
-#: ../../content/system-configuration-history.rst:14
-#: ../../content/tag-cloud.rst:25 ../../content/ticket-allocation.rst:17
-#: ../../content/ticket-forms.rst:36
-#: ../../content/ticket-queue-selection.rst:16
+#: ../../content/service-based-queue-routing.rst:17
+#: ../../content/tag-cloud.rst:28 ../../content/ticket-forms.rst:37
 #: ../../content/ticket-time-unit-dropdown.rst:21
 #: ../../content/ticket-watchlist.rst:34 ../../content/ticket-workflow.rst:32
 #: ../../content/time-accounting-quota.rst:15
 #: ../../content/vip-customer.rst:17
-msgid "Available in Service Package"
-msgstr "Elérhető a következő szolgáltatáscsomagban"
+msgid "IT service management"
+msgstr "IT-szolgáltatásmenedzsment"
 
-#: ../../content/adjust-sort-ticket-overview.rst:17
-#: ../../content/advanced-editor.rst:12
-#: ../../content/advanced-generic-agent.rst:15
-#: ../../content/agent-email-interface.rst:39
-#: ../../content/automatic-start-of-processes.rst:13
-#: ../../content/categories-for-text-modules.rst:15
-#: ../../content/change-write-protection.rst:20
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:16
-#: ../../content/ci-custom-search.rst:16 ../../content/ci-references.rst:21
-#: ../../content/cis-in-customer-frontend.rst:20
-#: ../../content/dynamic-field-attachment.rst:12
-#: ../../content/dynamic-field-ci.rst:25
-#: ../../content/dynamic-field-value-import.rst:18
-#: ../../content/dynamic-sender-addresses.rst:15
-#: ../../content/escalation-suspend.rst:14
-#: ../../content/hide-show-dynamic-fields.rst:14
-#: ../../content/introduction.rst:145
-#: ../../content/process-management-article-email.rst:14
-#: ../../content/queue-responsible.rst:13
-#: ../../content/ready2adopt-itsm-processes.rst:38
-#: ../../content/ready2adopt-web-services.rst:15
-#: ../../content/restrict-customer-data-view.rst:15
-#: ../../content/specific-ticket-notifications.rst:14
-#: ../../content/ticket-allocation.rst:17 ../../content/ticket-forms.rst:36
-#: ../../content/ticket-queue-selection.rst:16
-msgid "GOLD"
-msgstr "ARANY"
+#: ../../content/adjust-sort-ticket-overview.rst:18
+#: ../../content/ticket-time-unit-dropdown.rst:22
+msgid "Internal IT service"
+msgstr "Belső IT-szolgáltatás"
+
+#: ../../content/adjust-sort-ticket-overview.rst:19
+#: ../../content/advanced-generic-agent.rst:16
+#: ../../content/ticket-forms.rst:36
+#: ../../content/ticket-time-unit-dropdown.rst:23
+msgid "Customer service/support"
+msgstr "Vevőszolgálat és támogatás"
 
 #: ../../content/adjust-sort-ticket-overview.rst:22
 #: ../../content/advanced-editor.rst:16
@@ -230,9 +233,10 @@ msgstr "ARANY"
 #: ../../content/customer-frontend-link-object.rst:19
 #: ../../content/customer-specific-services.rst:25
 #: ../../content/dashboard-news-widget.rst:18
-#: ../../content/data-privacy-protection.rst:23
+#: ../../content/data-privacy-protection.rst:26
 #: ../../content/delete-attachments.rst:24
 #: ../../content/dynamic-field-attachment.rst:19
+#: ../../content/dynamic-field-calculation.rst:12
 #: ../../content/dynamic-field-ci.rst:32
 #: ../../content/dynamic-field-database.rst:25
 #: ../../content/dynamic-field-search-booster.rst:20
@@ -257,47 +261,110 @@ msgstr "ARANY"
 #: ../../content/state-preselection-response-templates.rst:22
 #: ../../content/system-configuration-history.rst:18
 #: ../../content/tag-cloud.rst:32 ../../content/ticket-allocation.rst:24
-#: ../../content/ticket-forms.rst:42
+#: ../../content/ticket-forms.rst:42 ../../content/ticket-invoker.rst:7
 #: ../../content/ticket-queue-selection.rst:23
 #: ../../content/ticket-time-unit-dropdown.rst:27
 #: ../../content/ticket-watchlist.rst:40 ../../content/ticket-workflow.rst:38
 #: ../../content/time-accounting-quota.rst:21
 #: ../../content/vip-customer.rst:23
-msgid "Target Groups"
-msgstr "Célcsoportok"
-
-#: ../../content/adjust-sort-ticket-overview.rst:20
-#: ../../content/advanced-generic-agent.rst:18
-#: ../../content/automated-faq-ticket-creator.rst:19
-#: ../../content/categories-for-text-modules.rst:18
-#: ../../content/change-write-protection.rst:23
-#: ../../content/data-privacy-protection.rst:18
-#: ../../content/escalation-suspend.rst:17 ../../content/out-of-office.rst:19
-#: ../../content/queue-responsible.rst:16
-#: ../../content/service-based-queue-routing.rst:20
-#: ../../content/tag-cloud.rst:31 ../../content/ticket-forms.rst:40
-#: ../../content/ticket-time-unit-dropdown.rst:24
-#: ../../content/ticket-watchlist.rst:37 ../../content/ticket-workflow.rst:35
-#: ../../content/time-accounting-quota.rst:18
-#: ../../content/vip-customer.rst:20
-msgid "IT service management"
-msgstr "IT-szolgáltatásmenedzsment"
-
-#: ../../content/adjust-sort-ticket-overview.rst:21
-#: ../../content/ticket-time-unit-dropdown.rst:25
-msgid "Internal IT service"
-msgstr "Belső IT-szolgáltatás"
+msgid "Available in Service Package"
+msgstr "Elérhető a következő szolgáltatáscsomagban"
 
 #: ../../content/adjust-sort-ticket-overview.rst:22
-#: ../../content/advanced-generic-agent.rst:19
-#: ../../content/ticket-forms.rst:39
-#: ../../content/ticket-time-unit-dropdown.rst:26
-msgid "Customer service/support"
-msgstr "Vevőszolgálat és támogatás"
+#: ../../content/advanced-editor.rst:16
+#: ../../content/advanced-generic-agent.rst:22
+#: ../../content/agent-email-interface.rst:42
+#: ../../content/automatic-start-of-processes.rst:22
+#: ../../content/categories-for-text-modules.rst:21
+#: ../../content/change-write-protection.rst:24
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:22
+#: ../../content/ci-custom-search.rst:21 ../../content/ci-references.rst:27
+#: ../../content/cis-in-customer-frontend.rst:26
+#: ../../content/dynamic-field-attachment.rst:19
+#: ../../content/dynamic-field-calculation.rst:12
+#: ../../content/dynamic-field-ci.rst:32
+#: ../../content/dynamic-field-value-import.rst:25
+#: ../../content/dynamic-sender-addresses.rst:22
+#: ../../content/escalation-suspend.rst:19
+#: ../../content/hide-show-dynamic-fields.rst:24
+#: ../../content/introduction.rst:150
+#: ../../content/process-management-article-email.rst:22
+#: ../../content/queue-responsible.rst:19
+#: ../../content/ready2adopt-itsm-processes.rst:46
+#: ../../content/ready2adopt-web-services.rst:23
+#: ../../content/restrict-customer-data-view.rst:20
+#: ../../content/specific-ticket-notifications.rst:20
+#: ../../content/ticket-allocation.rst:24 ../../content/ticket-forms.rst:42
+#: ../../content/ticket-invoker.rst:7
+#: ../../content/ticket-queue-selection.rst:23
+msgid "GOLD"
+msgstr "ARANY"
 
-#: ../../content/adjust-sort-ticket-overview.rst:26
-#: ../../content/advanced-editor.rst:28
-#: ../../content/advanced-escalations.rst:56
+#: ../../content/adjust-sort-ticket-overview.rst:25
+#: ../../content/advanced-editor.rst:19
+#: ../../content/advanced-escalations.rst:48
+#: ../../content/advanced-generic-agent.rst:25
+#: ../../content/agent-email-interface.rst:45
+#: ../../content/automated-faq-ticket-creator.rst:26
+#: ../../content/automatic-start-of-processes.rst:25
+#: ../../content/brute-force-attack-protection.rst:21
+#: ../../content/calendar-resource-planning.rst:29
+#: ../../content/categories-for-text-modules.rst:24
+#: ../../content/change-write-protection.rst:27
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:25
+#: ../../content/ci-custom-search.rst:24 ../../content/ci-references.rst:30
+#: ../../content/cis-in-customer-frontend.rst:29
+#: ../../content/credit-card-filter.rst:23
+#: ../../content/custom-contact-fields.rst:33
+#: ../../content/customer-activity-widget.rst:21
+#: ../../content/customer-event-ticket-calendar.rst:21
+#: ../../content/customer-frontend-link-object.rst:22
+#: ../../content/customer-specific-services.rst:28
+#: ../../content/dashboard-news-widget.rst:21
+#: ../../content/data-privacy-protection.rst:29
+#: ../../content/delete-attachments.rst:27
+#: ../../content/dynamic-field-attachment.rst:22
+#: ../../content/dynamic-field-calculation.rst:15
+#: ../../content/dynamic-field-ci.rst:35
+#: ../../content/dynamic-field-database.rst:28
+#: ../../content/dynamic-field-search-booster.rst:23
+#: ../../content/dynamic-field-value-import.rst:28
+#: ../../content/dynamic-field-web-service.rst:26
+#: ../../content/dynamic-sender-addresses.rst:25
+#: ../../content/escalation-suspend.rst:22
+#: ../../content/extended-ticket-stats.rst:32
+#: ../../content/hide-show-dynamic-fields.rst:27
+#: ../../content/out-of-office.rst:24
+#: ../../content/process-management-article-email.rst:25
+#: ../../content/queue-responsible.rst:22
+#: ../../content/ready2adopt-itsm-processes.rst:49
+#: ../../content/ready2adopt-processes.rst:34
+#: ../../content/ready2adopt-web-services.rst:26
+#: ../../content/restore-pending-information.rst:23
+#: ../../content/restrict-customer-data-view.rst:23
+#: ../../content/service-based-queue-routing.rst:23
+#: ../../content/service-categories.rst:23
+#: ../../content/service-responsible.rst:26
+#: ../../content/specific-ticket-notifications.rst:23
+#: ../../content/state-preselection-response-templates.rst:25
+#: ../../content/system-configuration-history.rst:21
+#: ../../content/tag-cloud.rst:35 ../../content/ticket-allocation.rst:27
+#: ../../content/ticket-forms.rst:45 ../../content/ticket-invoker.rst:10
+#: ../../content/ticket-queue-selection.rst:26
+#: ../../content/ticket-time-unit-dropdown.rst:30
+#: ../../content/ticket-watchlist.rst:43 ../../content/ticket-workflow.rst:41
+#: ../../content/time-accounting-quota.rst:24
+#: ../../content/vip-customer.rst:26
+msgid "Package Name in OTRS Package Manager"
+msgstr "Csomagnév az OTRS csomagkezelőben"
+
+#: ../../content/adjust-sort-ticket-overview.rst:25
+msgid "OTRSAdjustSortTicketOverview"
+msgstr "OTRSAdjustSortTicketOverview"
+
+#: ../../content/adjust-sort-ticket-overview.rst:29
+#: ../../content/advanced-editor.rst:31
+#: ../../content/advanced-escalations.rst:59
 #: ../../content/advanced-escalations/admin.rst:8
 #: ../../content/advanced-escalations/admin/administration.rst:8
 #: ../../content/advanced-escalations/admin/communication-notifications.rst:6
@@ -305,166 +372,167 @@ msgstr "Vevőszolgálat és támogatás"
 #: ../../content/advanced-escalations/agent.rst:12
 #: ../../content/advanced-escalations/agent/reports.rst:6
 #: ../../content/advanced-escalations/agent/tickets.rst:6
-#: ../../content/advanced-generic-agent.rst:32
-#: ../../content/agent-email-interface.rst:46
-#: ../../content/automated-faq-ticket-creator.rst:27
+#: ../../content/advanced-generic-agent.rst:35
+#: ../../content/agent-email-interface.rst:49
+#: ../../content/automated-faq-ticket-creator.rst:30
 #: ../../content/automated-faq-ticket-creator/admin.rst:6
 #: ../../content/automated-faq-ticket-creator/admin/processes-automation.rst:6
 #: ../../content/automated-faq-ticket-creator/agent.rst:6
 #: ../../content/automated-faq-ticket-creator/agent/faq.rst:6
-#: ../../content/automatic-start-of-processes.rst:26
+#: ../../content/automatic-start-of-processes.rst:29
 #: ../../content/automatic-start-of-processes/admin.rst:6
 #: ../../content/automatic-start-of-processes/admin/processes-automation.rst:6
-#: ../../content/brute-force-attack-protection.rst:22
+#: ../../content/brute-force-attack-protection.rst:25
 #: ../../content/brute-force-attack-protection/admin.rst:6
 #: ../../content/brute-force-attack-protection/admin/administration.rst:6
 #: ../../content/brute-force-attack-protection/admin/users-groups-roles.rst:6
-#: ../../content/calendar-resource-planning.rst:30
+#: ../../content/calendar-resource-planning.rst:33
 #: ../../content/calendar-resource-planning/agent.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar.rst:6
-#: ../../content/categories-for-text-modules.rst:34
+#: ../../content/categories-for-text-modules.rst:37
 #: ../../content/categories-for-text-modules/admin.rst:6
 #: ../../content/categories-for-text-modules/admin/ticket-settings.rst:6
 #: ../../content/categories-for-text-modules/agent.rst:6
 #: ../../content/categories-for-text-modules/agent/tickets.rst:6
-#: ../../content/change-write-protection.rst:32
+#: ../../content/change-write-protection.rst:35
 #: ../../content/change-write-protection/agent.rst:6
 #: ../../content/change-write-protection/agent/itsm-changes.rst:6
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:30
-#: ../../content/ci-custom-search.rst:29
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:33
+#: ../../content/ci-custom-search.rst:32
 #: ../../content/ci-custom-search/agent.rst:6
 #: ../../content/ci-custom-search/agent/cmdb.rst:12
-#: ../../content/ci-references.rst:35 ../../content/ci-references/agent.rst:6
+#: ../../content/ci-references.rst:38 ../../content/ci-references/agent.rst:6
 #: ../../content/ci-references/agent/cmdb.rst:12
-#: ../../content/cis-in-customer-frontend.rst:41
-#: ../../content/credit-card-filter.rst:24
-#: ../../content/custom-contact-fields.rst:34
+#: ../../content/cis-in-customer-frontend.rst:44
+#: ../../content/credit-card-filter.rst:27
+#: ../../content/custom-contact-fields.rst:37
 #: ../../content/custom-contact-fields/admin.rst:6
 #: ../../content/custom-contact-fields/admin/communication-notifications.rst:10
 #: ../../content/custom-contact-fields/admin/processes-automation.rst:6
-#: ../../content/customer-activity-widget.rst:28
+#: ../../content/customer-activity-widget.rst:31
 #: ../../content/customer-activity-widget/agent.rst:6
 #: ../../content/customer-activity-widget/agent/dashboard.rst:6
-#: ../../content/customer-event-ticket-calendar.rst:22
-#: ../../content/customer-frontend-link-object.rst:23
-#: ../../content/customer-specific-services.rst:37
+#: ../../content/customer-event-ticket-calendar.rst:25
+#: ../../content/customer-frontend-link-object.rst:26
+#: ../../content/customer-specific-services.rst:40
 #: ../../content/customer-specific-services/admin.rst:10
 #: ../../content/customer-specific-services/admin/users-groups-roles.rst:6
 #: ../../content/customer-specific-services/agent.rst:8
 #: ../../content/customer-specific-services/agent/customers.rst:6
-#: ../../content/dashboard-news-widget.rst:22
+#: ../../content/dashboard-news-widget.rst:25
 #: ../../content/dashboard-news-widget/admin.rst:6
 #: ../../content/dashboard-news-widget/admin/communication-notifications.rst:6
 #: ../../content/dashboard-news-widget/agent.rst:6
 #: ../../content/dashboard-news-widget/agent/avatar.rst:6
 #: ../../content/dashboard-news-widget/agent/dashboard.rst:6
 #: ../../content/dashboard-news-widget/agent/dashboard-news.rst:6
-#: ../../content/data-privacy-protection.rst:27
-#: ../../content/delete-attachments.rst:28
-#: ../../content/dynamic-field-attachment.rst:23
+#: ../../content/data-privacy-protection.rst:33
+#: ../../content/delete-attachments.rst:31
+#: ../../content/dynamic-field-attachment.rst:26
 #: ../../content/dynamic-field-attachment/admin.rst:6
 #: ../../content/dynamic-field-attachment/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-calculation.rst:6
+#: ../../content/dynamic-field-calculation.rst:17
 #: ../../content/dynamic-field-calculation/admin.rst:6
 #: ../../content/dynamic-field-calculation/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-ci.rst:46
+#: ../../content/dynamic-field-ci.rst:49
 #: ../../content/dynamic-field-ci/admin.rst:6
 #: ../../content/dynamic-field-ci/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-database.rst:29
+#: ../../content/dynamic-field-database.rst:32
 #: ../../content/dynamic-field-database/admin.rst:6
 #: ../../content/dynamic-field-database/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-search-booster.rst:24
-#: ../../content/dynamic-field-value-import.rst:29
+#: ../../content/dynamic-field-search-booster.rst:27
+#: ../../content/dynamic-field-value-import.rst:32
 #: ../../content/dynamic-field-value-import/admin.rst:6
 #: ../../content/dynamic-field-value-import/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-web-service.rst:27
+#: ../../content/dynamic-field-web-service.rst:30
 #: ../../content/dynamic-field-web-service/admin.rst:10
 #: ../../content/dynamic-field-web-service/admin/processes-automation.rst:6
-#: ../../content/dynamic-sender-addresses.rst:26
+#: ../../content/dynamic-sender-addresses.rst:29
 #: ../../content/dynamic-sender-addresses/admin.rst:6
 #: ../../content/dynamic-sender-addresses/admin/communication-notifications.rst:6
 #: ../../content/dynamic-sender-addresses/admin/processes-automation.rst:6
-#: ../../content/escalation-suspend.rst:29
-#: ../../content/extended-ticket-stats.rst:33
+#: ../../content/escalation-suspend.rst:32
+#: ../../content/extended-ticket-stats.rst:36
 #: ../../content/extended-ticket-stats/agent.rst:6
 #: ../../content/extended-ticket-stats/agent/reports.rst:6
-#: ../../content/hide-show-dynamic-fields.rst:38 ../../content/index.rst:9
-#: ../../content/out-of-office.rst:25
-#: ../../content/process-management-article-email.rst:26
+#: ../../content/hide-show-dynamic-fields.rst:41 ../../content/index.rst:9
+#: ../../content/out-of-office.rst:28
+#: ../../content/process-management-article-email.rst:29
 #: ../../content/process-management-article-email/admin.rst:6
 #: ../../content/process-management-article-email/admin/processes-automation.rst:6
 #: ../../content/process-management-article-email/agent.rst:6
 #: ../../content/process-management-article-email/agent/tickets.rst:6
-#: ../../content/queue-responsible.rst:23
-#: ../../content/ready2adopt-itsm-processes.rst:54
+#: ../../content/queue-responsible.rst:26
+#: ../../content/ready2adopt-itsm-processes.rst:57
 #: ../../content/ready2adopt-itsm-processes/admin.rst:6
 #: ../../content/ready2adopt-itsm-processes/admin/processes-automation.rst:6
-#: ../../content/ready2adopt-processes.rst:35
+#: ../../content/ready2adopt-processes.rst:38
 #: ../../content/ready2adopt-processes/admin.rst:6
 #: ../../content/ready2adopt-processes/admin/processes-automation.rst:6
-#: ../../content/ready2adopt-web-services.rst:31
+#: ../../content/ready2adopt-web-services.rst:34
 #: ../../content/ready2adopt-web-services/admin.rst:6
 #: ../../content/ready2adopt-web-services/admin/processes-automation.rst:6
-#: ../../content/restore-pending-information.rst:31
+#: ../../content/restore-pending-information.rst:34
 #: ../../content/restore-pending-information/agent.rst:6
 #: ../../content/restore-pending-information/agent/tickets.rst:13
-#: ../../content/restrict-customer-data-view.rst:30
+#: ../../content/restrict-customer-data-view.rst:33
 #: ../../content/restrict-customer-data-view/admin.rst:6
 #: ../../content/restrict-customer-data-view/admin/miscellaneous.rst:6
-#: ../../content/service-based-queue-routing.rst:28
+#: ../../content/service-based-queue-routing.rst:31
 #: ../../content/service-based-queue-routing/admin.rst:6
 #: ../../content/service-based-queue-routing/admin/ticket-settings.rst:6
-#: ../../content/service-categories.rst:24
+#: ../../content/service-categories.rst:27
 #: ../../content/service-categories/admin.rst:6
 #: ../../content/service-categories/admin/ticket-settings.rst:6
-#: ../../content/service-responsible.rst:27
+#: ../../content/service-responsible.rst:30
 #: ../../content/service-responsible/admin.rst:6
 #: ../../content/service-responsible/admin/communication-notifications.rst:6
 #: ../../content/service-responsible/agent.rst:6
 #: ../../content/service-responsible/agent/avatar.rst:6
-#: ../../content/specific-ticket-notifications.rst:24
+#: ../../content/specific-ticket-notifications.rst:27
 #: ../../content/specific-ticket-notifications/admin.rst:6
 #: ../../content/specific-ticket-notifications/admin/communication-notifications.rst:6
 #: ../../content/specific-ticket-notifications/admin/users-groups-roles.rst:6
 #: ../../content/specific-ticket-notifications/agent.rst:6
 #: ../../content/specific-ticket-notifications/agent/avatar.rst:6
-#: ../../content/state-preselection-response-templates.rst:26
+#: ../../content/state-preselection-response-templates.rst:29
 #: ../../content/state-preselection-response-templates/admin.rst:6
 #: ../../content/state-preselection-response-templates/admin/ticket-settings.rst:6
-#: ../../content/system-configuration-history.rst:22
+#: ../../content/system-configuration-history.rst:25
 #: ../../content/system-configuration-history/admin.rst:6
 #: ../../content/system-configuration-history/admin/administration.rst:6
-#: ../../content/tag-cloud.rst:36 ../../content/tag-cloud/agent.rst:6
+#: ../../content/tag-cloud.rst:39 ../../content/tag-cloud/agent.rst:6
 #: ../../content/tag-cloud/agent/dashboard.rst:6
-#: ../../content/ticket-allocation.rst:34
+#: ../../content/ticket-allocation.rst:37
 #: ../../content/ticket-allocation/admin.rst:17
 #: ../../content/ticket-allocation/admin/processes-automation.rst:6
 #: ../../content/ticket-allocation/admin/users-groups-roles.rst:6
-#: ../../content/ticket-forms.rst:58 ../../content/ticket-forms/admin.rst:16
+#: ../../content/ticket-forms.rst:61 ../../content/ticket-forms/admin.rst:16
 #: ../../content/ticket-forms/admin/communication-notifications.rst:6
 #: ../../content/ticket-forms/admin/ticket-settings.rst:6
 #: ../../content/ticket-forms/admin/users-groups-roles.rst:6
-#: ../../content/ticket-invoker.rst:6 ../../content/ticket-invoker/admin.rst:6
+#: ../../content/ticket-invoker.rst:12
+#: ../../content/ticket-invoker/admin.rst:6
 #: ../../content/ticket-invoker/admin/processes-automation.rst:6
-#: ../../content/ticket-queue-selection.rst:27
-#: ../../content/ticket-time-unit-dropdown.rst:31
-#: ../../content/ticket-watchlist.rst:50
+#: ../../content/ticket-queue-selection.rst:30
+#: ../../content/ticket-time-unit-dropdown.rst:34
+#: ../../content/ticket-watchlist.rst:53
 #: ../../content/ticket-watchlist/admin.rst:10
 #: ../../content/ticket-watchlist/admin/communication-notifications.rst:6
 #: ../../content/ticket-watchlist/agent.rst:8
 #: ../../content/ticket-watchlist/agent/tickets.rst:6
-#: ../../content/ticket-workflow.rst:46
+#: ../../content/ticket-workflow.rst:49
 #: ../../content/ticket-workflow/admin.rst:6
 #: ../../content/ticket-workflow/admin/ticket-settings.rst:6
 #: ../../content/ticket-workflow/agent.rst:6
 #: ../../content/ticket-workflow/agent/tickets.rst:6
-#: ../../content/time-accounting-quota.rst:25
+#: ../../content/time-accounting-quota.rst:28
 #: ../../content/time-accounting-quota/admin.rst:6
 #: ../../content/time-accounting-quota/admin/users-groups-roles.rst:6
 #: ../../content/time-accounting-quota/agent.rst:6
 #: ../../content/time-accounting-quota/agent/customers.rst:6
 #: ../../content/time-accounting-quota/agent/tickets.rst:6
-#: ../../content/vip-customer.rst:33
+#: ../../content/vip-customer.rst:36
 msgid "Contents"
 msgstr "Tartalom"
 
@@ -1069,11 +1137,11 @@ msgstr "Válaszsablonok erőforrás-takarékos használata."
 msgid "Increases your **OTRS** performance."
 msgstr "Növeli az **OTRS** teljesítményét."
 
-#: ../../content/advanced-editor.rst:15
+#: ../../content/advanced-editor.rst:12
 msgid "OTRS administrators with Template Toolkit experience"
 msgstr "Template Toolkit tapasztalattal rendelkező OTRS adminisztrátorok"
 
-#: ../../content/advanced-editor.rst:16
+#: ../../content/advanced-editor.rst:13
 msgid ""
 "Organizations that want to easily customize their OTRS templates, e.g. for "
 "many languages"
@@ -1081,43 +1149,47 @@ msgstr ""
 "Olyan szerveztek, amelyek egyszerűen szeretnék személyre szabni a "
 "sablonjaikat, például több nyelvhez"
 
-#: ../../content/advanced-editor.rst:20
-#: ../../content/advanced-escalations.rst:49
-#: ../../content/categories-for-text-modules.rst:25
-#: ../../content/cis-in-customer-frontend.rst:30
-#: ../../content/customer-activity-widget.rst:22
-#: ../../content/dynamic-field-ci.rst:40
-#: ../../content/escalation-suspend.rst:23
-#: ../../content/hide-show-dynamic-fields.rst:28
-#: ../../content/restore-pending-information.rst:24
-#: ../../content/ticket-forms.rst:46
+#: ../../content/advanced-editor.rst:19
+msgid "OTRSAdvancedEditor"
+msgstr "OTRSAdvancedEditor"
+
+#: ../../content/advanced-editor.rst:23
+#: ../../content/advanced-escalations.rst:52
+#: ../../content/categories-for-text-modules.rst:28
+#: ../../content/cis-in-customer-frontend.rst:33
+#: ../../content/customer-activity-widget.rst:25
+#: ../../content/dynamic-field-ci.rst:43
+#: ../../content/escalation-suspend.rst:26
+#: ../../content/hide-show-dynamic-fields.rst:31
+#: ../../content/restore-pending-information.rst:27
+#: ../../content/ticket-forms.rst:49
 msgid "Not compatible with the following feature add-ons:"
 msgstr "Nem használható együtt a következő funkciókiegészítőkkel:"
 
-#: ../../content/advanced-editor.rst:22
-#: ../../content/customer-activity-widget.rst:24
-#: ../../content/hide-show-dynamic-fields.rst:31
-#: ../../content/introduction.rst:77 ../../content/introduction.rst:125
-#: ../../content/ticket-forms.rst:49
+#: ../../content/advanced-editor.rst:25
+#: ../../content/customer-activity-widget.rst:27
+#: ../../content/hide-show-dynamic-fields.rst:34
+#: ../../content/introduction.rst:79 ../../content/introduction.rst:128
+#: ../../content/ticket-forms.rst:52
 msgid ":doc:`categories-for-text-modules`"
 msgstr ":doc:`categories-for-text-modules`"
 
-#: ../../content/advanced-editor.rst:23
-#: ../../content/categories-for-text-modules.rst:29
-#: ../../content/cis-in-customer-frontend.rst:32
-#: ../../content/introduction.rst:47 ../../content/introduction.rst:137
-#: ../../content/restore-pending-information.rst:26
-#: ../../content/ticket-forms.rst:52
+#: ../../content/advanced-editor.rst:26
+#: ../../content/categories-for-text-modules.rst:32
+#: ../../content/cis-in-customer-frontend.rst:35
+#: ../../content/introduction.rst:47 ../../content/introduction.rst:141
+#: ../../content/restore-pending-information.rst:29
+#: ../../content/ticket-forms.rst:55
 msgid ":doc:`hide-show-dynamic-fields`"
 msgstr ":doc:`hide-show-dynamic-fields`"
 
-#: ../../content/advanced-editor.rst:24
-#: ../../content/categories-for-text-modules.rst:30
-#: ../../content/cis-in-customer-frontend.rst:33
-#: ../../content/dynamic-field-ci.rst:42
-#: ../../content/hide-show-dynamic-fields.rst:34
-#: ../../content/introduction.rst:49 ../../content/introduction.rst:144
-#: ../../content/restore-pending-information.rst:27
+#: ../../content/advanced-editor.rst:27
+#: ../../content/categories-for-text-modules.rst:33
+#: ../../content/cis-in-customer-frontend.rst:36
+#: ../../content/dynamic-field-ci.rst:45
+#: ../../content/hide-show-dynamic-fields.rst:37
+#: ../../content/introduction.rst:49 ../../content/introduction.rst:148
+#: ../../content/restore-pending-information.rst:30
 msgid ":doc:`ticket-forms`"
 msgstr ":doc:`ticket-forms`"
 
@@ -1526,63 +1598,67 @@ msgstr ""
 "kijelzésével."
 
 #: ../../content/advanced-escalations.rst:38
-#: ../../content/dynamic-field-search-booster.rst:13
-#: ../../content/extended-ticket-stats.rst:22
-#: ../../content/introduction.rst:157
-msgid "PLATINUM"
-msgstr "PLATINA"
-
-#: ../../content/advanced-escalations.rst:41
-#: ../../content/state-preselection-response-templates.rst:18
+#: ../../content/state-preselection-response-templates.rst:15
 msgid "Customer service organizations having many partners or suppliers"
 msgstr ""
 "Vevőszolgálati szervezetek, amelyeknek sok partnere vagy beszállítója van"
 
-#: ../../content/advanced-escalations.rst:42
-#: ../../content/ci-custom-search.rst:20
-#: ../../content/cis-in-customer-frontend.rst:24
-#: ../../content/custom-contact-fields.rst:26
-#: ../../content/customer-specific-services.rst:21
-#: ../../content/state-preselection-response-templates.rst:19
+#: ../../content/advanced-escalations.rst:39
+#: ../../content/ci-custom-search.rst:17
+#: ../../content/cis-in-customer-frontend.rst:21
+#: ../../content/custom-contact-fields.rst:23
+#: ../../content/customer-specific-services.rst:18
+#: ../../content/state-preselection-response-templates.rst:16
 msgid "External IT service providers"
 msgstr "Külső IT-szolgáltatók"
 
-#: ../../content/advanced-escalations.rst:43
-#: ../../content/categories-for-text-modules.rst:19
-#: ../../content/custom-contact-fields.rst:27
-#: ../../content/customer-specific-services.rst:22
-#: ../../content/dynamic-field-search-booster.rst:16
-#: ../../content/dynamic-field-value-import.rst:21
-#: ../../content/dynamic-sender-addresses.rst:18
-#: ../../content/extended-ticket-stats.rst:26
-#: ../../content/queue-responsible.rst:17
-#: ../../content/restore-pending-information.rst:19
-#: ../../content/restrict-customer-data-view.rst:19
-#: ../../content/service-based-queue-routing.rst:17
-#: ../../content/state-preselection-response-templates.rst:20
-#: ../../content/ticket-queue-selection.rst:20
-#: ../../content/ticket-watchlist.rst:39
-#: ../../content/time-accounting-quota.rst:19
-#: ../../content/vip-customer.rst:21
+#: ../../content/advanced-escalations.rst:40
+#: ../../content/categories-for-text-modules.rst:16
+#: ../../content/custom-contact-fields.rst:24
+#: ../../content/customer-specific-services.rst:19
+#: ../../content/dynamic-field-search-booster.rst:13
+#: ../../content/dynamic-field-value-import.rst:18
+#: ../../content/dynamic-sender-addresses.rst:15
+#: ../../content/extended-ticket-stats.rst:23
+#: ../../content/queue-responsible.rst:14
+#: ../../content/restore-pending-information.rst:16
+#: ../../content/restrict-customer-data-view.rst:16
+#: ../../content/service-based-queue-routing.rst:14
+#: ../../content/state-preselection-response-templates.rst:17
+#: ../../content/ticket-queue-selection.rst:17
+#: ../../content/ticket-watchlist.rst:36
+#: ../../content/time-accounting-quota.rst:16
+#: ../../content/vip-customer.rst:18
 msgid "Call centers"
 msgstr "Telefonos ügyfélszolgálatok"
 
-#: ../../content/advanced-escalations.rst:44
-#: ../../content/state-preselection-response-templates.rst:21
+#: ../../content/advanced-escalations.rst:41
+#: ../../content/state-preselection-response-templates.rst:18
 msgid "Sales departments and sales companies"
 msgstr "Értékesítési osztályok és értékesítéssel foglalkozó vállalatok"
 
-#: ../../content/advanced-escalations.rst:45
+#: ../../content/advanced-escalations.rst:42
 msgid "Advertising or communications agencies"
 msgstr "Hirdetési vagy hírközlési ügynökségek"
 
-#: ../../content/advanced-escalations.rst:51 ../../content/introduction.rst:88
-#: ../../content/introduction.rst:136
+#: ../../content/advanced-escalations.rst:45
+#: ../../content/dynamic-field-search-booster.rst:20
+#: ../../content/extended-ticket-stats.rst:29
+#: ../../content/introduction.rst:163
+msgid "PLATINUM"
+msgstr "PLATINA"
+
+#: ../../content/advanced-escalations.rst:48
+msgid "OTRSAdvancedEscalations"
+msgstr "OTRSAdvancedEscalations"
+
+#: ../../content/advanced-escalations.rst:54 ../../content/introduction.rst:91
+#: ../../content/introduction.rst:140
 msgid ":doc:`escalation-suspend`"
 msgstr ":doc:`escalation-suspend`"
 
-#: ../../content/advanced-escalations.rst:52 ../../content/introduction.rst:84
-#: ../../content/introduction.rst:115
+#: ../../content/advanced-escalations.rst:55 ../../content/introduction.rst:87
+#: ../../content/introduction.rst:118
 msgid ":doc:`ticket-watchlist`"
 msgstr ":doc:`ticket-watchlist`"
 
@@ -3125,8 +3201,8 @@ msgstr "Eszkalációtípus-csomag beállításai"
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:80
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:45
 #: ../../content/ci-references/admin.rst:40
-#: ../../content/ci-references/admin.rst:115
-#: ../../content/ci-references/admin.rst:181
+#: ../../content/ci-references/admin.rst:113
+#: ../../content/ci-references/admin.rst:179
 #: ../../content/custom-contact-fields/admin/processes-automation/dynamic-fields.rst:16
 #: ../../content/dashboard-news-widget/admin/communication-notifications/dashboard-news.rst:57
 #: ../../content/dynamic-field-attachment/admin/processes-automation/dynamic-fields.rst:16
@@ -4387,44 +4463,48 @@ msgstr ""
 msgid "Saves work through automation."
 msgstr "Megspórolja a munkát az automatizáláson keresztül."
 
-#: ../../content/advanced-generic-agent.rst:20
-#: ../../content/calendar-resource-planning.rst:26
-#: ../../content/ci-references.rst:27 ../../content/credit-card-filter.rst:18
-#: ../../content/customer-activity-widget.rst:17
-#: ../../content/dynamic-field-attachment.rst:18
-#: ../../content/dynamic-field-ci.rst:32
-#: ../../content/dynamic-field-search-booster.rst:18
-#: ../../content/dynamic-field-value-import.rst:24
-#: ../../content/dynamic-sender-addresses.rst:20
-#: ../../content/hide-show-dynamic-fields.rst:22
-#: ../../content/queue-responsible.rst:18
-#: ../../content/service-categories.rst:17
-#: ../../content/specific-ticket-notifications.rst:19
-#: ../../content/tag-cloud.rst:30 ../../content/ticket-allocation.rst:21
-#: ../../content/ticket-forms.rst:41
-#: ../../content/ticket-queue-selection.rst:21
+#: ../../content/advanced-generic-agent.rst:17
+#: ../../content/calendar-resource-planning.rst:23
+#: ../../content/ci-references.rst:24 ../../content/credit-card-filter.rst:15
+#: ../../content/customer-activity-widget.rst:14
+#: ../../content/dynamic-field-attachment.rst:15
+#: ../../content/dynamic-field-ci.rst:29
+#: ../../content/dynamic-field-search-booster.rst:15
+#: ../../content/dynamic-field-value-import.rst:21
+#: ../../content/dynamic-sender-addresses.rst:17
+#: ../../content/hide-show-dynamic-fields.rst:19
+#: ../../content/queue-responsible.rst:15
+#: ../../content/service-categories.rst:14
+#: ../../content/specific-ticket-notifications.rst:16
+#: ../../content/tag-cloud.rst:27 ../../content/ticket-allocation.rst:18
+#: ../../content/ticket-forms.rst:38
+#: ../../content/ticket-queue-selection.rst:18
 msgid "Sales"
 msgstr "Értékesítés"
 
-#: ../../content/advanced-generic-agent.rst:21
+#: ../../content/advanced-generic-agent.rst:18
 msgid "Universities"
 msgstr "Egyetemek"
 
-#: ../../content/advanced-generic-agent.rst:22
-#: ../../content/brute-force-attack-protection.rst:16
+#: ../../content/advanced-generic-agent.rst:19
+#: ../../content/brute-force-attack-protection.rst:13
 #: ../../content/data-privacy-protection.rst:21
 msgid "Government"
 msgstr "Kormányzat"
 
-#: ../../content/advanced-generic-agent.rst:26
-#: ../../content/restrict-customer-data-view.rst:24
-#: ../../content/ticket-allocation.rst:28
-#: ../../content/ticket-watchlist.rst:44 ../../content/vip-customer.rst:27
+#: ../../content/advanced-generic-agent.rst:25
+msgid "OTRSAdvancedGenericAgent"
+msgstr "OTRSAdvancedGenericAgent"
+
+#: ../../content/advanced-generic-agent.rst:29
+#: ../../content/restrict-customer-data-view.rst:27
+#: ../../content/ticket-allocation.rst:31
+#: ../../content/ticket-watchlist.rst:47 ../../content/vip-customer.rst:30
 msgid "Not compatible with the following feature add-on:"
 msgstr "Nem használható együtt a következő funkciókiegészítővel:"
 
-#: ../../content/advanced-generic-agent.rst:28
-#: ../../content/introduction.rst:33 ../../content/introduction.rst:143
+#: ../../content/advanced-generic-agent.rst:31
+#: ../../content/introduction.rst:33 ../../content/introduction.rst:147
 msgid ":doc:`ticket-allocation`"
 msgstr ":doc:`ticket-allocation`"
 
@@ -4573,13 +4653,17 @@ msgstr "Időt takarít meg, mert nem szükséges gyakori be- és kijelentkezés.
 msgid "Increase flexibility because you do not have to log in to the system."
 msgstr "Növeli a rugalmasságot, mert nem kell bejelentkeznie a rendszerbe."
 
-#: ../../content/agent-email-interface.rst:42
+#: ../../content/agent-email-interface.rst:39
 msgid ""
 "Can be used in all areas where agents are not logged in permanently to the "
 "**OTRS** agent interface."
 msgstr ""
 "Használható minden olyan területen, ahol az ügyintézők nincsenek álladóan "
 "bejelentkezve az **OTRS** ügyintézői felületére."
+
+#: ../../content/agent-email-interface.rst:45
+msgid "OTRSAgentEmailInterface"
+msgstr "OTRSAgentEmailInterface"
 
 #: ../../content/agent-email-interface/admin.rst:10
 msgid ""
@@ -4720,54 +4804,59 @@ msgstr ""
 "Még az összetett feladatokat is el tudják végezni az új vagy képzetlen "
 "alkalmazottak."
 
-#: ../../content/automated-faq-ticket-creator.rst:16
-#: ../../content/customer-event-ticket-calendar.rst:13
-#: ../../content/introduction.rst:152 ../../content/out-of-office.rst:13
-#: ../../content/service-responsible.rst:16
-msgid "TITANIUM"
-msgstr "TITÁN"
-
-#: ../../content/automated-faq-ticket-creator.rst:20
-#: ../../content/automatic-start-of-processes.rst:18
-#: ../../content/calendar-resource-planning.rst:19
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:22
-#: ../../content/ci-references.rst:26
-#: ../../content/customer-frontend-link-object.rst:19
-#: ../../content/dynamic-field-ci.rst:31
-#: ../../content/dynamic-field-database.rst:18
-#: ../../content/process-management-article-email.rst:21
-#: ../../content/ready2adopt-itsm-processes.rst:42
-#: ../../content/ready2adopt-processes.rst:30
-#: ../../content/restore-pending-information.rst:18
-#: ../../content/service-categories.rst:18
-#: ../../content/ticket-allocation.rst:22
+#: ../../content/automated-faq-ticket-creator.rst:17
+#: ../../content/automatic-start-of-processes.rst:15
+#: ../../content/calendar-resource-planning.rst:16
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
+#: ../../content/ci-references.rst:23
+#: ../../content/customer-frontend-link-object.rst:16
+#: ../../content/dynamic-field-ci.rst:28
+#: ../../content/dynamic-field-database.rst:15
+#: ../../content/process-management-article-email.rst:18
+#: ../../content/ready2adopt-itsm-processes.rst:39
+#: ../../content/ready2adopt-processes.rst:27
+#: ../../content/restore-pending-information.rst:15
+#: ../../content/service-categories.rst:15
+#: ../../content/ticket-allocation.rst:19
 msgid "Facility management"
 msgstr "Létesítménygazdálkodás"
 
-#: ../../content/automated-faq-ticket-creator.rst:21
-#: ../../content/automatic-start-of-processes.rst:22
-#: ../../content/brute-force-attack-protection.rst:18
-#: ../../content/categories-for-text-modules.rst:20
-#: ../../content/dynamic-field-database.rst:24
-#: ../../content/out-of-office.rst:21
-#: ../../content/ready2adopt-itsm-processes.rst:46
-#: ../../content/ready2adopt-web-services.rst:23
-#: ../../content/service-based-queue-routing.rst:19
-#: ../../content/ticket-watchlist.rst:38
-#: ../../content/time-accounting-quota.rst:20
-#: ../../content/vip-customer.rst:22
+#: ../../content/automated-faq-ticket-creator.rst:18
+#: ../../content/automatic-start-of-processes.rst:19
+#: ../../content/brute-force-attack-protection.rst:15
+#: ../../content/categories-for-text-modules.rst:17
+#: ../../content/dynamic-field-database.rst:21
+#: ../../content/out-of-office.rst:18
+#: ../../content/ready2adopt-itsm-processes.rst:43
+#: ../../content/ready2adopt-web-services.rst:20
+#: ../../content/service-based-queue-routing.rst:16
+#: ../../content/ticket-watchlist.rst:35
+#: ../../content/time-accounting-quota.rst:17
+#: ../../content/vip-customer.rst:19
 msgid "Service providers"
 msgstr "Szolgáltatók"
 
-#: ../../content/automated-faq-ticket-creator.rst:22
+#: ../../content/automated-faq-ticket-creator.rst:19
 msgid "Companies with recurring activities, such as maintenance work"
 msgstr ""
 "Ismétlődő tevékenységeket, mint például karbantartási munkákat végző "
 "vállalatok"
 
-#: ../../content/automated-faq-ticket-creator.rst:23
+#: ../../content/automated-faq-ticket-creator.rst:20
 msgid "Companies with a large number of employees"
 msgstr "Nagyszámú alkalmazottat foglalkoztató vállalatok"
+
+#: ../../content/automated-faq-ticket-creator.rst:23
+#: ../../content/customer-event-ticket-calendar.rst:18
+#: ../../content/data-privacy-protection.rst:26
+#: ../../content/introduction.rst:158 ../../content/out-of-office.rst:21
+#: ../../content/service-responsible.rst:23
+msgid "TITANIUM"
+msgstr "TITÁN"
+
+#: ../../content/automated-faq-ticket-creator.rst:26
+msgid "OTRSAutomatedFAQTicketCreator"
+msgstr "OTRSAutomatedFAQTicketCreator"
 
 #: ../../content/automated-faq-ticket-creator/admin.rst:4
 #: ../../content/brute-force-attack-protection/admin.rst:4
@@ -5595,67 +5684,73 @@ msgstr "Állandó teljesítmény, kevesebb hibával."
 msgid "The right tasks are completed at the right times."
 msgstr "A megfelelő feladatok kerülnek végrehajtásra a megfelelő időben."
 
-#: ../../content/automatic-start-of-processes.rst:16
-#: ../../content/credit-card-filter.rst:20
-#: ../../content/dynamic-field-database.rst:15
-#: ../../content/dynamic-field-search-booster.rst:20
-#: ../../content/dynamic-field-web-service.rst:15
-#: ../../content/hide-show-dynamic-fields.rst:18
-#: ../../content/ready2adopt-processes.rst:28
-#: ../../content/service-categories.rst:20
+#: ../../content/automatic-start-of-processes.rst:13
+#: ../../content/credit-card-filter.rst:17
+#: ../../content/dynamic-field-database.rst:12
+#: ../../content/dynamic-field-search-booster.rst:17
+#: ../../content/dynamic-field-web-service.rst:12
+#: ../../content/hide-show-dynamic-fields.rst:15
+#: ../../content/ready2adopt-processes.rst:25
+#: ../../content/service-categories.rst:17
 msgid "Complaint management"
 msgstr "Panaszkezelés"
 
-#: ../../content/automatic-start-of-processes.rst:17
-#: ../../content/brute-force-attack-protection.rst:14
-#: ../../content/calendar-resource-planning.rst:18
-#: ../../content/credit-card-filter.rst:16
-#: ../../content/customer-event-ticket-calendar.rst:17
-#: ../../content/customer-frontend-link-object.rst:18
-#: ../../content/dynamic-field-attachment.rst:19
-#: ../../content/dynamic-field-ci.rst:29
-#: ../../content/dynamic-field-database.rst:16
-#: ../../content/dynamic-field-search-booster.rst:17
-#: ../../content/dynamic-field-value-import.rst:22
-#: ../../content/dynamic-field-web-service.rst:16
-#: ../../content/dynamic-sender-addresses.rst:19
-#: ../../content/escalation-suspend.rst:19 ../../content/out-of-office.rst:20
-#: ../../content/process-management-article-email.rst:20
-#: ../../content/ready2adopt-itsm-processes.rst:41
-#: ../../content/ready2adopt-processes.rst:29
-#: ../../content/ready2adopt-web-services.rst:18
-#: ../../content/restore-pending-information.rst:20
-#: ../../content/service-based-queue-routing.rst:18
-#: ../../content/specific-ticket-notifications.rst:18
-#: ../../content/ticket-queue-selection.rst:22
+#: ../../content/automatic-start-of-processes.rst:14
+#: ../../content/brute-force-attack-protection.rst:11
+#: ../../content/calendar-resource-planning.rst:15
+#: ../../content/credit-card-filter.rst:13
+#: ../../content/customer-event-ticket-calendar.rst:14
+#: ../../content/customer-frontend-link-object.rst:15
+#: ../../content/dynamic-field-attachment.rst:16
+#: ../../content/dynamic-field-ci.rst:26
+#: ../../content/dynamic-field-database.rst:13
+#: ../../content/dynamic-field-search-booster.rst:14
+#: ../../content/dynamic-field-value-import.rst:19
+#: ../../content/dynamic-field-web-service.rst:13
+#: ../../content/dynamic-sender-addresses.rst:16
+#: ../../content/escalation-suspend.rst:16 ../../content/out-of-office.rst:17
+#: ../../content/process-management-article-email.rst:17
+#: ../../content/ready2adopt-itsm-processes.rst:38
+#: ../../content/ready2adopt-processes.rst:26
+#: ../../content/ready2adopt-web-services.rst:15
+#: ../../content/restore-pending-information.rst:17
+#: ../../content/service-based-queue-routing.rst:15
+#: ../../content/specific-ticket-notifications.rst:15
+#: ../../content/ticket-queue-selection.rst:19
 msgid "Customer service"
 msgstr "Vevőszolgálat"
 
-#: ../../content/automatic-start-of-processes.rst:19
+#: ../../content/automatic-start-of-processes.rst:16
+#: ../../content/dynamic-field-calculation.rst:7
 msgid "Finance and accounting"
 msgstr "Pénzügy és könyvelés"
 
-#: ../../content/automatic-start-of-processes.rst:20
-#: ../../content/brute-force-attack-protection.rst:17
-#: ../../content/calendar-resource-planning.rst:22
+#: ../../content/automatic-start-of-processes.rst:17
+#: ../../content/brute-force-attack-protection.rst:14
+#: ../../content/calendar-resource-planning.rst:19
 #: ../../content/data-privacy-protection.rst:22
-#: ../../content/dynamic-field-database.rst:21
-#: ../../content/dynamic-field-web-service.rst:21
-#: ../../content/ready2adopt-itsm-processes.rst:44
-#: ../../content/ready2adopt-web-services.rst:21
-#: ../../content/ticket-allocation.rst:20
+#: ../../content/dynamic-field-database.rst:18
+#: ../../content/dynamic-field-web-service.rst:18
+#: ../../content/ready2adopt-itsm-processes.rst:41
+#: ../../content/ready2adopt-web-services.rst:18
+#: ../../content/ticket-allocation.rst:17
 msgid "IT service"
 msgstr "IT-szolgáltatás"
 
-#: ../../content/automatic-start-of-processes.rst:21
+#: ../../content/automatic-start-of-processes.rst:18
 #: ../../content/data-privacy-protection.rst:23
-#: ../../content/dynamic-field-database.rst:23
-#: ../../content/dynamic-field-web-service.rst:23
-#: ../../content/ready2adopt-itsm-processes.rst:45
-#: ../../content/ready2adopt-web-services.rst:22
-#: ../../content/system-configuration-history.rst:18
+#: ../../content/dynamic-field-calculation.rst:9
+#: ../../content/dynamic-field-database.rst:20
+#: ../../content/dynamic-field-web-service.rst:20
+#: ../../content/ready2adopt-itsm-processes.rst:42
+#: ../../content/ready2adopt-web-services.rst:19
+#: ../../content/system-configuration-history.rst:15
 msgid "Security management"
 msgstr "Biztonságmenedzsment"
+
+#: ../../content/automatic-start-of-processes.rst:25
+msgid "OTRSAutomaticStartOfProcesses"
+msgstr "OTRSAutomaticStartOfProcesses"
 
 #: ../../content/automatic-start-of-processes/admin.rst:4
 msgid ""
@@ -5834,37 +5929,41 @@ msgstr "Megnöveli az **OTRS** biztonságát."
 msgid "Protects from misuse of your customer accounts."
 msgstr "Megvédi az ügyfelek fiókját a visszaélésektől."
 
-#: ../../content/brute-force-attack-protection.rst:11
-#: ../../content/calendar-resource-planning.rst:15
-#: ../../content/credit-card-filter.rst:13
-#: ../../content/custom-contact-fields.rst:22
-#: ../../content/customer-activity-widget.rst:12
-#: ../../content/customer-frontend-link-object.rst:14
-#: ../../content/customer-specific-services.rst:17
-#: ../../content/dashboard-news-widget.rst:12
-#: ../../content/delete-attachments.rst:18
-#: ../../content/dynamic-field-database.rst:12
-#: ../../content/dynamic-field-web-service.rst:12
-#: ../../content/introduction.rst:118
-#: ../../content/ready2adopt-processes.rst:25
-#: ../../content/restore-pending-information.rst:13
-#: ../../content/service-based-queue-routing.rst:14
-#: ../../content/service-categories.rst:12
-#: ../../content/state-preselection-response-templates.rst:15
-#: ../../content/system-configuration-history.rst:14
-#: ../../content/tag-cloud.rst:25
-#: ../../content/ticket-time-unit-dropdown.rst:21
-#: ../../content/ticket-watchlist.rst:34 ../../content/ticket-workflow.rst:32
-#: ../../content/time-accounting-quota.rst:15
-#: ../../content/vip-customer.rst:17
+#: ../../content/brute-force-attack-protection.rst:12
+#: ../../content/dynamic-field-web-service.rst:16
+#: ../../content/hide-show-dynamic-fields.rst:16
+msgid "E-commerce"
+msgstr "E-kereskedelem"
+
+#: ../../content/brute-force-attack-protection.rst:18
+#: ../../content/calendar-resource-planning.rst:26
+#: ../../content/credit-card-filter.rst:20
+#: ../../content/custom-contact-fields.rst:30
+#: ../../content/customer-activity-widget.rst:18
+#: ../../content/customer-frontend-link-object.rst:19
+#: ../../content/customer-specific-services.rst:25
+#: ../../content/dashboard-news-widget.rst:18
+#: ../../content/delete-attachments.rst:24
+#: ../../content/dynamic-field-database.rst:25
+#: ../../content/dynamic-field-web-service.rst:23
+#: ../../content/introduction.rst:121
+#: ../../content/ready2adopt-processes.rst:31
+#: ../../content/restore-pending-information.rst:20
+#: ../../content/service-based-queue-routing.rst:20
+#: ../../content/service-categories.rst:20
+#: ../../content/state-preselection-response-templates.rst:22
+#: ../../content/system-configuration-history.rst:18
+#: ../../content/tag-cloud.rst:32
+#: ../../content/ticket-time-unit-dropdown.rst:27
+#: ../../content/ticket-watchlist.rst:40 ../../content/ticket-workflow.rst:38
+#: ../../content/time-accounting-quota.rst:21
+#: ../../content/vip-customer.rst:23
 msgid "SILVER"
 msgstr "EZÜST"
 
-#: ../../content/brute-force-attack-protection.rst:15
-#: ../../content/dynamic-field-web-service.rst:19
-#: ../../content/hide-show-dynamic-fields.rst:19
-msgid "E-commerce"
-msgstr "E-kereskedelem"
+#: ../../content/brute-force-attack-protection.rst:21
+msgid "OTRSBruteForceAttackProtection"
+msgstr "OTRSBruteForceAttackProtection"
 
 #: ../../content/brute-force-attack-protection/admin/administration.rst:4
 msgid ""
@@ -6134,42 +6233,47 @@ msgstr "Az összes csapat és erőforrás osztályok közötti áttekintése."
 msgid "Calendar, resource planning and project planning in one tool."
 msgstr "Naptár, erőforrás-tervezés és projekttervezés egyetlen eszközzel."
 
-#: ../../content/calendar-resource-planning.rst:20
-#: ../../content/dashboard-news-widget.rst:17
+#: ../../content/calendar-resource-planning.rst:17
+#: ../../content/dashboard-news-widget.rst:14
 #: ../../content/data-privacy-protection.rst:19
-#: ../../content/delete-attachments.rst:21
-#: ../../content/dynamic-field-attachment.rst:17
-#: ../../content/dynamic-field-database.rst:19
-#: ../../content/ready2adopt-processes.rst:31 ../../content/tag-cloud.rst:29
-#: ../../content/ticket-workflow.rst:36
+#: ../../content/delete-attachments.rst:18
+#: ../../content/dynamic-field-attachment.rst:14
+#: ../../content/dynamic-field-database.rst:16
+#: ../../content/ready2adopt-processes.rst:28 ../../content/tag-cloud.rst:26
+#: ../../content/ticket-workflow.rst:33
 msgid "Human resources"
 msgstr "Emberi erőforrások"
 
-#: ../../content/calendar-resource-planning.rst:21
-#: ../../content/dynamic-field-database.rst:20
-#: ../../content/dynamic-field-web-service.rst:20
-#: ../../content/ready2adopt-itsm-processes.rst:43
-#: ../../content/ready2adopt-web-services.rst:20
-#: ../../content/system-configuration-history.rst:17
+#: ../../content/calendar-resource-planning.rst:18
+#: ../../content/dynamic-field-database.rst:17
+#: ../../content/dynamic-field-web-service.rst:17
+#: ../../content/ready2adopt-itsm-processes.rst:40
+#: ../../content/ready2adopt-web-services.rst:17
+#: ../../content/system-configuration-history.rst:14
 msgid "IT"
 msgstr "IT"
 
-#: ../../content/calendar-resource-planning.rst:23
-#: ../../content/cis-in-customer-frontend.rst:25
-#: ../../content/queue-responsible.rst:19
+#: ../../content/calendar-resource-planning.rst:20
+#: ../../content/cis-in-customer-frontend.rst:22
+#: ../../content/queue-responsible.rst:16
 msgid "Logistics"
 msgstr "Logisztika"
 
-#: ../../content/calendar-resource-planning.rst:24
+#: ../../content/calendar-resource-planning.rst:21
 msgid "Marketing and public relations"
 msgstr "Marketing és közönségkapcsolatok"
 
-#: ../../content/calendar-resource-planning.rst:25
-#: ../../content/dynamic-field-database.rst:22
-#: ../../content/dynamic-field-web-service.rst:22
-#: ../../content/extended-ticket-stats.rst:28
+#: ../../content/calendar-resource-planning.rst:22
+#: ../../content/dynamic-field-calculation.rst:8
+#: ../../content/dynamic-field-database.rst:19
+#: ../../content/dynamic-field-web-service.rst:19
+#: ../../content/extended-ticket-stats.rst:25
 msgid "Project management"
 msgstr "Projektmenedzsment"
+
+#: ../../content/calendar-resource-planning.rst:29
+msgid "OTRSCalendarResourcePlanning"
+msgstr "OTRSCalendarResourcePlanning"
 
 #: ../../content/calendar-resource-planning/admin.rst:4
 msgid ""
@@ -6363,7 +6467,7 @@ msgid ""
 "Teams can not be deleted from the system. They can only be deactivated by "
 "setting the *Validity* option to *invalid* or *invalid-temporarily*."
 msgstr ""
-"A csapatok nem törölhetők a rendszerről. Azonban kikapcsolhatók az "
+"A csapatok nem törölhetők a rendszerből. Azonban kikapcsolhatók az "
 "*Érvényesség* beállítás *érvénytelen* vagy *átmenetileg érvénytelen* értékre"
 " állításával."
 
@@ -6701,19 +6805,23 @@ msgstr ""
 msgid "Facilitates job training of new agents."
 msgstr "Megkönnyíti az új ügyintézők munkahelyi képzését is."
 
-#: ../../content/categories-for-text-modules.rst:21
+#: ../../content/categories-for-text-modules.rst:18
 msgid "Any company working with SLAs"
 msgstr "Minden vállalat, amely SLA-kal dolgozik"
 
-#: ../../content/categories-for-text-modules.rst:27
-#: ../../content/hide-show-dynamic-fields.rst:30
-#: ../../content/introduction.rst:21 ../../content/introduction.rst:122
-#: ../../content/ticket-forms.rst:48
+#: ../../content/categories-for-text-modules.rst:24
+msgid "OTRSCategoriesForTextModules"
+msgstr "OTRSCategoriesForTextModules"
+
+#: ../../content/categories-for-text-modules.rst:30
+#: ../../content/hide-show-dynamic-fields.rst:33
+#: ../../content/introduction.rst:21 ../../content/introduction.rst:125
+#: ../../content/ticket-forms.rst:51
 msgid ":doc:`advanced-editor`"
 msgstr ":doc:`advanced-editor`"
 
-#: ../../content/categories-for-text-modules.rst:28
-#: ../../content/introduction.rst:38 ../../content/introduction.rst:100
+#: ../../content/categories-for-text-modules.rst:31
+#: ../../content/introduction.rst:38 ../../content/introduction.rst:103
 msgid ":doc:`custom-contact-fields`"
 msgstr ":doc:`custom-contact-fields`"
 
@@ -6766,7 +6874,7 @@ msgid ""
 "Categories can not be deleted from the system. They can only be deactivated "
 "by setting the *Validity* option to *invalid* or *invalid-temporarily*."
 msgstr ""
-"A kategóriák nem törölhetők a rendszerről. Azonban kikapcsolhatók az "
+"A kategóriák nem törölhetők a rendszerből. Azonban kikapcsolhatók az "
 "*Érvényesség* beállítás *érvénytelen* vagy *átmenetileg érvénytelen* értékre"
 " állításával."
 
@@ -7140,11 +7248,15 @@ msgstr ""
 msgid "Optimizes the general transparency of your system."
 msgstr "Optimalizálja a rendszer általános átláthatóságát."
 
-#: ../../content/change-write-protection.rst:24
+#: ../../content/change-write-protection.rst:21
 msgid "All customers that use the OTRS::ITSM feature"
 msgstr "Minden olyan ügyfél, amely az OTRS::ITSM funkciót használja"
 
-#: ../../content/change-write-protection.rst:28
+#: ../../content/change-write-protection.rst:27
+msgid "OTRSChangeWriteProtection"
+msgstr "OTRSChangeWriteProtection"
+
+#: ../../content/change-write-protection.rst:31
 msgid "This feature add-on requires the *ITSM Change Management* feature."
 msgstr ""
 "Ez a funkciókiegészítő az *ITSM változásmenedzsment* csomagot igényli."
@@ -7330,32 +7442,36 @@ msgstr ""
 msgid "CI attributes are readable and searchable."
 msgstr "A konfigurációelem-attribútumok olvashatók és kereshetők."
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:16
 msgid "Companies that offer services for different devices/products (CIs)"
 msgstr ""
 "Olyan vállalatok, amelyek különböző eszközökhöz vagy termékekhez "
 "(konfigurációelemekhez) nyújtanak szolgáltatásokat"
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:20
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:17
 #: ../../content/ticket-allocation/admin/users-groups-roles/agents.rst:2
 msgid "Agents"
 msgstr "Ügyintézők"
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:21
-#: ../../content/ci-references.rst:25
-#: ../../content/customer-frontend-link-object.rst:17
-#: ../../content/dashboard-news-widget.rst:18
-#: ../../content/delete-attachments.rst:22
-#: ../../content/dynamic-field-ci.rst:30
-#: ../../content/specific-ticket-notifications.rst:17
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:18
+#: ../../content/ci-references.rst:22
+#: ../../content/customer-frontend-link-object.rst:14
+#: ../../content/dashboard-news-widget.rst:15
+#: ../../content/delete-attachments.rst:19
+#: ../../content/dynamic-field-ci.rst:27
+#: ../../content/specific-ticket-notifications.rst:14
 msgid "Internal and external IT"
 msgstr "Belső és külső IT"
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:26
-#: ../../content/ci-custom-search.rst:25
-#: ../../content/cis-in-customer-frontend.rst:37
-#: ../../content/dynamic-field-ci.rst:36
-#: ../../content/ready2adopt-itsm-processes.rst:50
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:25
+msgid "OTRSCIAssignmentAttributeDynamicFieldMap"
+msgstr "OTRSCIAssignmentAttributeDynamicFieldMap"
+
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:29
+#: ../../content/ci-custom-search.rst:28
+#: ../../content/cis-in-customer-frontend.rst:40
+#: ../../content/dynamic-field-ci.rst:39
+#: ../../content/ready2adopt-itsm-processes.rst:53
 msgid ""
 "This feature add-on requires the *ITSM Configuration Management* feature."
 msgstr ""
@@ -7716,14 +7832,18 @@ msgid ""
 msgstr ""
 "Jobb ügyfélszolgálat, ha egy ügyfél a termékek széles skáláját használja."
 
-#: ../../content/ci-custom-search.rst:19
-#: ../../content/customer-specific-services.rst:20
+#: ../../content/ci-custom-search.rst:16
+#: ../../content/customer-specific-services.rst:17
 msgid "Internal IT departments"
 msgstr "Belső IT-osztályok"
 
-#: ../../content/ci-custom-search.rst:21
+#: ../../content/ci-custom-search.rst:18
 msgid "Customer support for a wide range of products"
 msgstr "Vevőtámogatás termékek széles skálájához"
+
+#: ../../content/ci-custom-search.rst:24
+msgid "OTRSCICustomSearch"
+msgstr "OTRSCICustomSearch"
 
 #: ../../content/ci-custom-search/admin.rst:8
 msgid "Add Search Attribute"
@@ -7977,11 +8097,15 @@ msgstr ""
 "A konfigurációelemek és más konfigurációelemek, szolgáltatások és "
 "felhasználók közötti összetett függőségek tiszta megjelenítése."
 
-#: ../../content/ci-references.rst:24
+#: ../../content/ci-references.rst:21
 msgid "Configuration item managers"
 msgstr "Konfigurációelem-menedzserek"
 
-#: ../../content/ci-references.rst:31
+#: ../../content/ci-references.rst:30
+msgid "OTRSCIReferences"
+msgstr "OTRSCIReferences"
+
+#: ../../content/ci-references.rst:34
 msgid ""
 "This feature add-on requires the *ITSM Configuration Management* and "
 "*Import/Export* features."
@@ -8030,14 +8154,14 @@ msgstr ""
 "mező beszúrásához:"
 
 #: ../../content/ci-references/admin.rst:43
-#: ../../content/ci-references/admin.rst:118
-#: ../../content/ci-references/admin.rst:184
+#: ../../content/ci-references/admin.rst:116
+#: ../../content/ci-references/admin.rst:182
 msgid "``Key`` \\*"
 msgstr "``Key`` \\*"
 
 #: ../../content/ci-references/admin.rst:43
-#: ../../content/ci-references/admin.rst:118
-#: ../../content/ci-references/admin.rst:184
+#: ../../content/ci-references/admin.rst:116
+#: ../../content/ci-references/admin.rst:182
 msgid ""
 "Must be unique and only accept alphabetic and numeric characters. If this is"
 " changed, data will not be readable from old definitions."
@@ -8047,14 +8171,14 @@ msgstr ""
 "meghatározásokból."
 
 #: ../../content/ci-references/admin.rst:54
-#: ../../content/ci-references/admin.rst:129
-#: ../../content/ci-references/admin.rst:195
+#: ../../content/ci-references/admin.rst:127
+#: ../../content/ci-references/admin.rst:193
 msgid "``Name`` \\*"
 msgstr "``Name`` \\*"
 
 #: ../../content/ci-references/admin.rst:46
-#: ../../content/ci-references/admin.rst:121
-#: ../../content/ci-references/admin.rst:187
+#: ../../content/ci-references/admin.rst:119
+#: ../../content/ci-references/admin.rst:185
 msgid ""
 "The label of the field in the form. Any type of characters can be entered to"
 " this field including uppercase letters and spaces."
@@ -8063,14 +8187,14 @@ msgstr ""
 "mezőbe, beleértve a nagybetűket és a szóközt is."
 
 #: ../../content/ci-references/admin.rst:50
-#: ../../content/ci-references/admin.rst:125
-#: ../../content/ci-references/admin.rst:191
+#: ../../content/ci-references/admin.rst:123
+#: ../../content/ci-references/admin.rst:189
 msgid "It is recommended to always use English words for names."
 msgstr "Ajánlott mindig angol szavakat használni a neveknél."
 
 #: ../../content/ci-references/admin.rst:54
-#: ../../content/ci-references/admin.rst:129
-#: ../../content/ci-references/admin.rst:195
+#: ../../content/ci-references/admin.rst:127
+#: ../../content/ci-references/admin.rst:193
 msgid ""
 "Names can be translated into other languages with custom translation files. "
 "See the `Custom Translation File "
@@ -8085,14 +8209,14 @@ msgstr ""
 "kézikönyvben."
 
 #: ../../content/ci-references/admin.rst:57
-#: ../../content/ci-references/admin.rst:132
-#: ../../content/ci-references/admin.rst:198
+#: ../../content/ci-references/admin.rst:130
+#: ../../content/ci-references/admin.rst:196
 msgid "``Searchable``"
 msgstr "``Searchable``"
 
 #: ../../content/ci-references/admin.rst:57
-#: ../../content/ci-references/admin.rst:132
-#: ../../content/ci-references/admin.rst:198
+#: ../../content/ci-references/admin.rst:130
+#: ../../content/ci-references/admin.rst:196
 msgid ""
 "Defines whether the field is searchable or not. Possible values are *0* or "
 "*1*."
@@ -8100,21 +8224,21 @@ msgstr ""
 "Meghatározza, hogy a mező kereshető-e vagy sem. Lehetséges értékek: *0* vagy"
 " *1*."
 
-#: ../../content/ci-references/admin.rst:89
-#: ../../content/ci-references/admin.rst:158
-#: ../../content/ci-references/admin.rst:207
+#: ../../content/ci-references/admin.rst:87
+#: ../../content/ci-references/admin.rst:156
+#: ../../content/ci-references/admin.rst:205
 msgid "``Input`` \\*"
 msgstr "``Input`` \\*"
 
 #: ../../content/ci-references/admin.rst:60
-#: ../../content/ci-references/admin.rst:135
-#: ../../content/ci-references/admin.rst:201
+#: ../../content/ci-references/admin.rst:133
+#: ../../content/ci-references/admin.rst:199
 msgid "Initiates the definition of the input field."
 msgstr "Előkészíti a beviteli mező meghatározását."
 
 #: ../../content/ci-references/admin.rst:63
-#: ../../content/ci-references/admin.rst:138
-#: ../../content/ci-references/admin.rst:204
+#: ../../content/ci-references/admin.rst:136
+#: ../../content/ci-references/admin.rst:202
 msgid "``Type`` \\*"
 msgstr "``Type`` \\*"
 
@@ -8127,14 +8251,14 @@ msgstr ""
 "érték ``ReferenceCI`` ebben az esetben."
 
 #: ../../content/ci-references/admin.rst:66
-#: ../../content/ci-references/admin.rst:141
-#: ../../content/ci-references/admin.rst:207
+#: ../../content/ci-references/admin.rst:139
+#: ../../content/ci-references/admin.rst:205
 msgid "``Required``"
 msgstr "``Required``"
 
 #: ../../content/ci-references/admin.rst:66
-#: ../../content/ci-references/admin.rst:141
-#: ../../content/ci-references/admin.rst:207
+#: ../../content/ci-references/admin.rst:139
+#: ../../content/ci-references/admin.rst:205
 msgid ""
 "Defines whether the field is mandatory or not. Possible values are *0* or "
 "*1*."
@@ -8142,13 +8266,13 @@ msgstr ""
 "Meghatározza, hogy a mező kötelező-e vagy sem. Lehetséges értékek: *0* vagy "
 "*1*."
 
-#: ../../content/ci-references/admin.rst:89
-#: ../../content/ci-references/admin.rst:158
+#: ../../content/ci-references/admin.rst:87
+#: ../../content/ci-references/admin.rst:156
 msgid "``Reference``"
 msgstr "``Reference``"
 
 #: ../../content/ci-references/admin.rst:69
-#: ../../content/ci-references/admin.rst:144
+#: ../../content/ci-references/admin.rst:142
 msgid "Initiates the definition of the reference field."
 msgstr "Előkészíti a hivatkozási mező meghatározását."
 
@@ -8164,13 +8288,13 @@ msgstr ""
 "Meghatározza annak a konfigurációelemnek az osztályát, amelyre lehetőséget "
 "kell adni a kereséshez."
 
-#: ../../content/ci-references/admin.rst:83
-#: ../../content/ci-references/admin.rst:155
+#: ../../content/ci-references/admin.rst:81
+#: ../../content/ci-references/admin.rst:153
 msgid "``LinkType``"
 msgstr "``LinkType``"
 
 #: ../../content/ci-references/admin.rst:75
-#: ../../content/ci-references/admin.rst:147
+#: ../../content/ci-references/admin.rst:145
 msgid ""
 "Defines the type of the link which will be created if the value will be "
 "saved. Possible values are:"
@@ -8179,45 +8303,37 @@ msgstr ""
 " elmentik. Lehetséges értékek:"
 
 #: ../../content/ci-references/admin.rst:77
-msgid "``Normal``"
-msgstr "``Normal``"
-
-#: ../../content/ci-references/admin.rst:78
-msgid "``ParentChild``"
-msgstr "``ParentChild``"
-
-#: ../../content/ci-references/admin.rst:79
-#: ../../content/ci-references/admin.rst:149
+#: ../../content/ci-references/admin.rst:147
 msgid "``DependsOn``"
 msgstr "``DependsOn``"
 
-#: ../../content/ci-references/admin.rst:80
-#: ../../content/ci-references/admin.rst:150
+#: ../../content/ci-references/admin.rst:78
+#: ../../content/ci-references/admin.rst:148
 msgid "``AlternativeTo``"
 msgstr "``AlternativeTo``"
 
-#: ../../content/ci-references/admin.rst:81
-#: ../../content/ci-references/admin.rst:151
+#: ../../content/ci-references/admin.rst:79
+#: ../../content/ci-references/admin.rst:149
 msgid "``RelevantTo``"
 msgstr "``RelevantTo``"
 
-#: ../../content/ci-references/admin.rst:82
-#: ../../content/ci-references/admin.rst:152
+#: ../../content/ci-references/admin.rst:80
+#: ../../content/ci-references/admin.rst:150
 msgid "``Includes``"
 msgstr "``Includes``"
 
-#: ../../content/ci-references/admin.rst:83
-#: ../../content/ci-references/admin.rst:153
+#: ../../content/ci-references/admin.rst:81
+#: ../../content/ci-references/admin.rst:151
 msgid "``ConnectedTo``"
 msgstr "``ConnectedTo``"
 
-#: ../../content/ci-references/admin.rst:86
-#: ../../content/ci-references/admin.rst:158
+#: ../../content/ci-references/admin.rst:84
+#: ../../content/ci-references/admin.rst:156
 msgid "``LinkDirection``"
 msgstr "``LinkDirection``"
 
-#: ../../content/ci-references/admin.rst:86
-#: ../../content/ci-references/admin.rst:158
+#: ../../content/ci-references/admin.rst:84
+#: ../../content/ci-references/admin.rst:156
 msgid ""
 "Defines the direction of the link. Possible values are ``Source`` and "
 "``Target``."
@@ -8225,11 +8341,11 @@ msgstr ""
 "Meghatározza a kapcsolat irányát. Lehetséges értékek: ``Source`` és "
 "``Target``."
 
-#: ../../content/ci-references/admin.rst:89
+#: ../../content/ci-references/admin.rst:87
 msgid "``ImportExportKey``"
 msgstr "``ImportExportKey``"
 
-#: ../../content/ci-references/admin.rst:89
+#: ../../content/ci-references/admin.rst:87
 msgid ""
 "Defines the value for the identification of the referenced configuration "
 "item. Possible values are ``Name``, ``Number`` or a configured field key."
@@ -8237,8 +8353,8 @@ msgstr ""
 "Meghatározza a hivatkozott konfigurációelem azonosítójának értékét. "
 "Lehetséges értékek: ``Name``, ``Number`` vagy egy beállított mező kulcsa."
 
-#: ../../content/ci-references/admin.rst:91
-#: ../../content/ci-references/admin.rst:160
+#: ../../content/ci-references/admin.rst:89
+#: ../../content/ci-references/admin.rst:158
 msgid ""
 "After a value is set for the input field the value will be used to set a "
 "link to the given configuration item. If there is already a value, then the "
@@ -8252,7 +8368,7 @@ msgstr ""
 "meghatározásban lévő hivatkozási mező ki lett egészítve a ``CountDefault`` "
 "beállítással, akkor több konfigurációelem is hozzákapcsolható."
 
-#: ../../content/ci-references/admin.rst:93
+#: ../../content/ci-references/admin.rst:91
 msgid ""
 "For the export and import of this field the name and the configuration item "
 "number are used. If a configuration item is not found for the import, then "
@@ -8264,15 +8380,15 @@ msgstr ""
 "akkor kétszer lesz importálva annak ellenőrzéséhez, hogy a kapcsolt "
 "konfigurációelem, amely szükséges a hivatkozáshoz, már importálva lett-e."
 
-#: ../../content/ci-references/admin.rst:95
+#: ../../content/ci-references/admin.rst:93
 msgid "Example export value: ``ConfigItemName1``."
 msgstr "Példa exportálási érték: ``ConfigItemName1``."
 
-#: ../../content/ci-references/admin.rst:99
+#: ../../content/ci-references/admin.rst:97
 msgid "``ReferenceService`` Field"
 msgstr "A ``ReferenceService`` mező"
 
-#: ../../content/ci-references/admin.rst:101
+#: ../../content/ci-references/admin.rst:99
 msgid ""
 "This field adds an input field with auto-completion feature to search for "
 "services in the configuration item dialog. The following example "
@@ -8283,7 +8399,7 @@ msgstr ""
 "párbeszédablakban. A következő beállítási példa szükséges az ilyen típusú "
 "mező beszúrásához:"
 
-#: ../../content/ci-references/admin.rst:138
+#: ../../content/ci-references/admin.rst:136
 msgid ""
 "Defines the type of the element. Must be placed indented as a logical block."
 " The value is ``ReferenceService`` in this case."
@@ -8291,25 +8407,25 @@ msgstr ""
 "Meghatározza az elem típusát. Behúzva kell elhelyezni logikai blokként. Az "
 "érték ``ReferenceService`` ebben az esetben."
 
-#: ../../content/ci-references/admin.rst:155
+#: ../../content/ci-references/admin.rst:153
 msgid "Additional link types can be defined in the system configuration."
 msgstr "További kapcsolattípusok határozhatók meg a rendszerbeállításokban."
 
-#: ../../content/ci-references/admin.rst:162
+#: ../../content/ci-references/admin.rst:160
 msgid ""
 "For the export and import of this field the name of the service is used."
 msgstr ""
 "A mező exportálásánál és importálásánál a szolgáltatás neve lesz használva."
 
-#: ../../content/ci-references/admin.rst:164
+#: ../../content/ci-references/admin.rst:162
 msgid "Example export value: *Service 1*."
 msgstr "Példa exportálási érték: *1. szolgáltatás*."
 
-#: ../../content/ci-references/admin.rst:168
+#: ../../content/ci-references/admin.rst:166
 msgid "``ReferenceUser`` Field"
 msgstr "A ``ReferenceUser`` mező"
 
-#: ../../content/ci-references/admin.rst:170
+#: ../../content/ci-references/admin.rst:168
 msgid ""
 "This field adds an input field with auto-completion feature to search for "
 "users in the configuration item dialog. The following example configuration "
@@ -8320,7 +8436,7 @@ msgstr ""
 "párbeszédablakban. A következő beállítási példa szükséges az ilyen típusú "
 "mező beszúrásához:"
 
-#: ../../content/ci-references/admin.rst:204
+#: ../../content/ci-references/admin.rst:202
 msgid ""
 "Defines the type of the element. Must be placed indented as a logical block."
 " The value is ``ReferenceUser`` in this case."
@@ -8328,13 +8444,13 @@ msgstr ""
 "Meghatározza az elem típusát. Behúzva kell elhelyezni logikai blokként. Az "
 "érték ``ReferenceUser`` ebben az esetben."
 
-#: ../../content/ci-references/admin.rst:209
+#: ../../content/ci-references/admin.rst:207
 msgid "For the export and import of this field the login of the user is used."
 msgstr ""
 "A mező exportálásánál és importálásánál a felhasználó bejelentkezési neve "
 "lesz használva."
 
-#: ../../content/ci-references/admin.rst:211
+#: ../../content/ci-references/admin.rst:209
 msgid "Example export value: *root@localhost*."
 msgstr "Példa exportálási érték: *root@localhost*."
 
@@ -8463,13 +8579,17 @@ msgstr "A konfigurációelemek automatikus hozzárendelése időt takarít meg."
 msgid "Customers can assign CIs to new tickets."
 msgstr "Az ügyfelek hozzárendelhetik a konfigurációelemeket az új jegyekhez."
 
-#: ../../content/cis-in-customer-frontend.rst:23
+#: ../../content/cis-in-customer-frontend.rst:20
 msgid "Customer service organizations"
 msgstr "Vevőszolgálati szervezetek"
 
-#: ../../content/cis-in-customer-frontend.rst:26
+#: ../../content/cis-in-customer-frontend.rst:23
 msgid "Technical field service"
 msgstr "Műszaki területű szolgáltatás"
+
+#: ../../content/cis-in-customer-frontend.rst:29
+msgid "OTRSCIsInCustomerFrontend"
+msgstr "OTRSCIsInCustomerFrontend"
 
 #: ../../content/cis-in-customer-frontend/admin.rst:8
 msgid "Extend Class Definition"
@@ -9035,19 +9155,23 @@ msgstr "Megnövelt adatvédelem."
 msgid "Less security risks for credit card data."
 msgstr "Kevesebb biztonsági kockázat a hitelkártya adatoknál."
 
-#: ../../content/credit-card-filter.rst:17
-#: ../../content/customer-activity-widget.rst:16
-#: ../../content/delete-attachments.rst:23
-#: ../../content/specific-ticket-notifications.rst:20
-#: ../../content/ticket-workflow.rst:37
+#: ../../content/credit-card-filter.rst:14
+#: ../../content/customer-activity-widget.rst:13
+#: ../../content/delete-attachments.rst:20
+#: ../../content/specific-ticket-notifications.rst:17
+#: ../../content/ticket-workflow.rst:34
 msgid "Finance"
 msgstr "Pénzügy"
 
-#: ../../content/credit-card-filter.rst:19
-#: ../../content/dynamic-field-search-booster.rst:19
-#: ../../content/dynamic-field-value-import.rst:25
+#: ../../content/credit-card-filter.rst:16
+#: ../../content/dynamic-field-search-booster.rst:16
+#: ../../content/dynamic-field-value-import.rst:22
 msgid "Order management"
 msgstr "Megrendelés-menedzsment"
+
+#: ../../content/credit-card-filter.rst:23
+msgid "OTRSCreditCardFilter"
+msgstr "OTRSCreditCardFilter"
 
 #: ../../content/credit-card-filter/admin.rst:8
 msgid "Legacy Credit Card Masking"
@@ -9453,23 +9577,27 @@ msgstr ""
 msgid "Seamless integration of external customer databases into **OTRS**."
 msgstr "Külső ügyféladatbázisok zökkenőmentes integrálása az **OTRS**-be."
 
-#: ../../content/custom-contact-fields.rst:25
+#: ../../content/custom-contact-fields.rst:22
 msgid "Customer service organizations with many partners or sub-contractors"
 msgstr ""
 "Sok partnerrel vagy alvállalkozóval rendelkező vevőszolgálati szervezetek"
 
-#: ../../content/custom-contact-fields.rst:28
+#: ../../content/custom-contact-fields.rst:25
 msgid "Web, PR or marketing agencies"
 msgstr "Web, PR vagy marketingügynökségek"
 
-#: ../../content/custom-contact-fields.rst:29
-#: ../../content/customer-specific-services.rst:24
+#: ../../content/custom-contact-fields.rst:26
+#: ../../content/customer-specific-services.rst:21
 msgid "Consulting businesses"
 msgstr "Tanácsadó vállalkozások"
 
-#: ../../content/custom-contact-fields.rst:30
+#: ../../content/custom-contact-fields.rst:27
 msgid "Sales departments"
 msgstr "Értékesítési osztályok"
+
+#: ../../content/custom-contact-fields.rst:33
+msgid "OTRSCustomContactFields"
+msgstr "OTRSCustomContactFields"
 
 #: ../../content/custom-contact-fields/admin.rst:4
 msgid ""
@@ -10135,13 +10263,17 @@ msgstr ""
 msgid "Facilitates ticket prioritization."
 msgstr "Megkönnyíti a jegy prioritásának kiválasztását."
 
-#: ../../content/customer-activity-widget.rst:15
+#: ../../content/customer-activity-widget.rst:12
 msgid "IT service providers"
 msgstr "IT-szolgáltatók"
 
-#: ../../content/customer-activity-widget.rst:18
+#: ../../content/customer-activity-widget.rst:15
 msgid "and many more"
 msgstr "és egyéb rendszereknek"
+
+#: ../../content/customer-activity-widget.rst:21
+msgid "OTRSCustomerActivityWidget"
+msgstr "OTRSCustomerActivityWidget"
 
 #: ../../content/customer-activity-widget/agent.rst:4
 msgid ""
@@ -10287,15 +10419,19 @@ msgstr "Az időpontok naptárformában jelennek meg."
 msgid "Availability can be seen at a glance."
 msgstr "Az elérhetőség első ránézésre látható."
 
-#: ../../content/customer-event-ticket-calendar.rst:16
+#: ../../content/customer-event-ticket-calendar.rst:13
 msgid "Service companies that want to visually represent availability"
 msgstr ""
 "Szolgáltató vállalatok, akik vizuálisan szeretnék megjeleníteni az "
 "elérhetőséget"
 
-#: ../../content/customer-event-ticket-calendar.rst:18
+#: ../../content/customer-event-ticket-calendar.rst:15
 msgid "ITSM"
 msgstr "ITSM"
+
+#: ../../content/customer-event-ticket-calendar.rst:21
+msgid "OTRSCustomerEventTicketCalendar"
+msgstr "OTRSCustomerEventTicketCalendar"
 
 #: ../../content/customer-event-ticket-calendar/admin.rst:4
 msgid ""
@@ -10572,6 +10708,10 @@ msgid "Gives customers greater insight into the incident-solving process."
 msgstr ""
 "Nagyobb betekintést ad az ügyfeleknek az incidensmegoldási folyamatba."
 
+#: ../../content/customer-frontend-link-object.rst:22
+msgid "OTRSCustomerFrontendLinkObject"
+msgstr "OTRSCustomerFrontendLinkObject"
+
 #: ../../content/customer-frontend-link-object/agent.rst:6
 msgid "To use this functionality on :doc:`external`:"
 msgstr "A funkcionalitás igénybe vételéhez a :doc:`external` használatával:"
@@ -10715,15 +10855,19 @@ msgstr ""
 msgid "Speed-up of ticket handling process."
 msgstr "A jegykezelési folyamat felgyorsítása."
 
-#: ../../content/customer-specific-services.rst:23
+#: ../../content/customer-specific-services.rst:20
 msgid "Agencies"
 msgstr "Ügynökségek"
 
-#: ../../content/customer-specific-services.rst:25
+#: ../../content/customer-specific-services.rst:22
 msgid "Companies offering a wide range of services or products"
 msgstr "Szolgáltatások és termékek széles skáláját kínáló vállalatok"
 
-#: ../../content/customer-specific-services.rst:29
+#: ../../content/customer-specific-services.rst:28
+msgid "OTRSCustomerSpecificServices"
+msgstr "OTRSCustomerSpecificServices"
+
+#: ../../content/customer-specific-services.rst:32
 msgid ""
 "Before your first use, please make sure that you activate the *Services* "
 "option in the administrator interface."
@@ -10731,7 +10875,7 @@ msgstr ""
 "Az első használat előtt győződjön meg arról, hogy bekapcsolta-e a "
 "*Szolgáltatások* lehetőséget az adminisztrátori felületen."
 
-#: ../../content/customer-specific-services.rst:33
+#: ../../content/customer-specific-services.rst:36
 msgid ""
 "The ``CustomerUserSearchListLimit`` setting should be configured in the "
 "``CustomerUser`` section in the ``Kernel/Config.pm``."
@@ -11044,13 +11188,17 @@ msgstr ""
 "A vállalati hírek egyértelműen strukturáltak, és központilag elérhetők "
 "egyetlen helyen."
 
-#: ../../content/dashboard-news-widget.rst:15
+#: ../../content/dashboard-news-widget.rst:12
 msgid "IT security"
 msgstr "IT biztonság"
 
-#: ../../content/dashboard-news-widget.rst:16
+#: ../../content/dashboard-news-widget.rst:13
 msgid "Internal and external communication"
 msgstr "Belső és külső kommunikáció"
+
+#: ../../content/dashboard-news-widget.rst:21
+msgid "OTRSDashboardNewsWidget"
+msgstr "OTRSDashboardNewsWidget"
 
 #: ../../content/dashboard-news-widget/admin/communication-notifications.rst:4
 msgid ""
@@ -11392,11 +11540,15 @@ msgid "Compliance with data protection guidelines."
 msgstr "Megfelelés az adatvédelmi útmutatóknak."
 
 #: ../../content/data-privacy-protection.rst:20
-#: ../../content/escalation-suspend.rst:18
-#: ../../content/process-management-article-email.rst:19
-#: ../../content/ticket-allocation.rst:23 ../../content/ticket-workflow.rst:38
+#: ../../content/escalation-suspend.rst:15
+#: ../../content/process-management-article-email.rst:16
+#: ../../content/ticket-allocation.rst:20 ../../content/ticket-workflow.rst:35
 msgid "Internal IT"
 msgstr "Belső IT"
+
+#: ../../content/data-privacy-protection.rst:29
+msgid "OTRSDataPrivacyProtection"
+msgstr "OTRSDataPrivacyProtection"
 
 #: ../../content/data-privacy-protection/admin.rst:4
 msgid ""
@@ -12153,9 +12305,13 @@ msgstr "Időmegtakarítás az automatikus törlésen keresztül."
 msgid "Reduced administrative effort."
 msgstr "Csökkentett adminisztrációs ráfordítás."
 
-#: ../../content/delete-attachments.rst:24 ../../content/ticket-forms.rst:42
+#: ../../content/delete-attachments.rst:21 ../../content/ticket-forms.rst:39
 msgid "Public authorities"
 msgstr "Hatóságok"
+
+#: ../../content/delete-attachments.rst:27
+msgid "OTRSDeleteAttachments"
+msgstr "OTRSDeleteAttachments"
 
 #: ../../content/delete-attachments/admin.rst:10
 msgid ""
@@ -12375,13 +12531,17 @@ msgid "Possibility to use **OTRS** as your document management system."
 msgstr ""
 "Lehetőség az **OTRS** dokumentumkezelő rendszerként való használatára."
 
-#: ../../content/dynamic-field-attachment.rst:15
+#: ../../content/dynamic-field-attachment.rst:12
 msgid "Internal and external IT service provider"
 msgstr "Belső és külső IT-szolgáltató"
 
-#: ../../content/dynamic-field-attachment.rst:16
+#: ../../content/dynamic-field-attachment.rst:13
 msgid "Government departments"
 msgstr "Kormányzati szervek"
+
+#: ../../content/dynamic-field-attachment.rst:22
+msgid "OTRSDynamicFieldAttachment"
+msgstr "OTRSDynamicFieldAttachment"
 
 #: ../../content/dynamic-field-attachment/admin.rst:4
 msgid ""
@@ -12726,6 +12886,10 @@ msgstr ""
 "létrehozásához vagy megváltoztatásához. Egyszerű matematikai műveletek és "
 "OTRS címkék használhatók, mint például ``<OTRS_TICKET_AccountedTime>``."
 
+#: ../../content/dynamic-field-calculation.rst:15
+msgid "OTRSDynamicFieldCalculation"
+msgstr "OTRSDynamicFieldCalculation"
+
 #: ../../content/dynamic-field-calculation/admin.rst:4
 msgid ""
 "This package contains a configuration interface to create dynamic fields of "
@@ -12896,13 +13060,17 @@ msgstr "A konfigurációelemek gyors keresése, ha egy jegyet létrehoznak."
 msgid "Useful for statistics and automatic ticket notifications."
 msgstr "Hasznos a statisztikáknál és az automatikus jegyértesítéseknél."
 
-#: ../../content/dynamic-field-ci.rst:28
+#: ../../content/dynamic-field-ci.rst:25
 msgid ""
 "Customers of companies that offer services for different devices/products "
 "(CIs)"
 msgstr ""
 "Olyan vállalatok ügyfelei, amelyek különböző eszközökhöz vagy termékekhez "
 "(konfigurációelemekhez) nyújtanak szolgáltatásokat."
+
+#: ../../content/dynamic-field-ci.rst:35
+msgid "OTRSDynamicFieldCI"
+msgstr "OTRSDynamicFieldCI"
 
 #: ../../content/dynamic-field-ci/admin.rst:4
 msgid ""
@@ -13306,7 +13474,7 @@ msgstr ""
 
 #: ../../content/dynamic-field-database.rst:2
 msgid "Dynamic Field Database"
-msgstr "Dinamikus mező adatbázis"
+msgstr "Dynamic Field Database"
 
 #: ../../content/dynamic-field-database.rst:4
 msgid ""
@@ -13336,15 +13504,19 @@ msgstr "Minden adat az **OTRS**-en belül központilag elérhető."
 msgid "Automatic transfer of additional data to the record."
 msgstr "A kiegészítő adatok automatikus átvitele a rekordba."
 
-#: ../../content/dynamic-field-database.rst:17
-#: ../../content/dynamic-field-web-service.rst:18
+#: ../../content/dynamic-field-database.rst:14
+#: ../../content/dynamic-field-web-service.rst:15
 msgid "Document management"
 msgstr "Dokumentumkezelés"
 
-#: ../../content/dynamic-field-database.rst:25
-#: ../../content/hide-show-dynamic-fields.rst:20
+#: ../../content/dynamic-field-database.rst:22
+#: ../../content/hide-show-dynamic-fields.rst:17
 msgid "Supply-chain management"
 msgstr "Ellátásilánc-menedzsment"
+
+#: ../../content/dynamic-field-database.rst:28
+msgid "OTRSDynamicFieldDatabase"
+msgstr "OTRSDynamicFieldDatabase"
 
 #: ../../content/dynamic-field-database/admin.rst:4
 msgid ""
@@ -13937,6 +14109,10 @@ msgstr "Gyors adatbázis-lekérdezések."
 msgid "System performance improvements."
 msgstr "A rendszer teljesítményének növelése."
 
+#: ../../content/dynamic-field-search-booster.rst:23
+msgid "OTRSDynamicFieldSearchBooster"
+msgstr "OTRSDynamicFieldSearchBooster"
+
 #: ../../content/dynamic-field-search-booster/admin.rst:4
 msgid ""
 "This package has no administrator interface. It provides performance "
@@ -14073,9 +14249,13 @@ msgid "Easier integration of partners from outsourced corporate areas."
 msgstr ""
 "Partnerek egyszerűbb integrálása a kiszervezett vállalati területekről."
 
-#: ../../content/dynamic-field-value-import.rst:23
+#: ../../content/dynamic-field-value-import.rst:20
 msgid "Wholesalers"
 msgstr "Nagykereskedők"
+
+#: ../../content/dynamic-field-value-import.rst:28
+msgid "OTRSDynamicFieldValueImport"
+msgstr "OTRSDynamicFieldValueImport"
 
 #: ../../content/dynamic-field-value-import/admin.rst:4
 msgid ""
@@ -14476,10 +14656,14 @@ msgstr ""
 "Tetszőleges összetett leképezés végrehajtása az XSLT leképező modulon "
 "keresztül."
 
-#: ../../content/dynamic-field-web-service.rst:17
-#: ../../content/ready2adopt-web-services.rst:19
+#: ../../content/dynamic-field-web-service.rst:14
+#: ../../content/ready2adopt-web-services.rst:16
 msgid "Development"
 msgstr "Fejlesztés"
+
+#: ../../content/dynamic-field-web-service.rst:26
+msgid "OTRSDynamicFieldWebService"
+msgstr "OTRSDynamicFieldWebService"
 
 #: ../../content/dynamic-field-web-service/admin.rst:4
 msgid ""
@@ -14821,16 +15005,20 @@ msgid "Simplified teamwork with partners or outsourced divisions."
 msgstr ""
 "Egyszerűsített csapatmunka a partnerekkel és a kiszervezett divíziókkal."
 
-#: ../../content/dynamic-sender-addresses.rst:21
-#: ../../content/hide-show-dynamic-fields.rst:23
-#: ../../content/tag-cloud.rst:28
+#: ../../content/dynamic-sender-addresses.rst:18
+#: ../../content/hide-show-dynamic-fields.rst:20
+#: ../../content/tag-cloud.rst:25
 msgid "Marketing"
 msgstr "Marketing"
 
-#: ../../content/dynamic-sender-addresses.rst:22
-#: ../../content/hide-show-dynamic-fields.rst:24
+#: ../../content/dynamic-sender-addresses.rst:19
+#: ../../content/hide-show-dynamic-fields.rst:21
 msgid "Procurement"
 msgstr "Beszerzés"
+
+#: ../../content/dynamic-sender-addresses.rst:25
+msgid "OTRSDynamicSenderAddresses"
+msgstr "OTRSDynamicSenderAddresses"
 
 #: ../../content/dynamic-sender-addresses/admin.rst:4
 msgid ""
@@ -15341,8 +15529,12 @@ msgstr "Pontos időelszámolást tesz lehetővé."
 msgid "Provides greater flexibility through its configurable status."
 msgstr "Nagyobb rugalmasságot biztosít a beállítható állapotain keresztül."
 
-#: ../../content/escalation-suspend.rst:25 ../../content/introduction.rst:87
-#: ../../content/introduction.rst:155 ../../content/ticket-watchlist.rst:46
+#: ../../content/escalation-suspend.rst:22
+msgid "OTRSEscalationSuspend"
+msgstr "OTRSEscalationSuspend"
+
+#: ../../content/escalation-suspend.rst:28 ../../content/introduction.rst:90
+#: ../../content/introduction.rst:161 ../../content/ticket-watchlist.rst:49
 msgid ":doc:`advanced-escalations`"
 msgstr ":doc:`advanced-escalations`"
 
@@ -15582,19 +15774,23 @@ msgstr ""
 "A munkavállalók túlterhelésének felismerése korai stádiumban, és időben "
 "intézkedni azzal kapcsolatban."
 
-#: ../../content/extended-ticket-stats.rst:25
-#: ../../content/hide-show-dynamic-fields.rst:17
-#: ../../content/restore-pending-information.rst:17
+#: ../../content/extended-ticket-stats.rst:22
+#: ../../content/hide-show-dynamic-fields.rst:14
+#: ../../content/restore-pending-information.rst:14
 msgid "IT services"
 msgstr "IT-szolgáltatások"
 
-#: ../../content/extended-ticket-stats.rst:27
+#: ../../content/extended-ticket-stats.rst:24
 msgid "Customer service manager"
 msgstr "Vevőszolgálati menedzser"
 
-#: ../../content/extended-ticket-stats.rst:29
+#: ../../content/extended-ticket-stats.rst:26
 msgid "Senior management"
 msgstr "Felső vezetés"
+
+#: ../../content/extended-ticket-stats.rst:32
+msgid "OTRSExtendedTicketStats"
+msgstr "OTRSExtendedTicketStats"
 
 #: ../../content/extended-ticket-stats/agent.rst:4
 msgid ""
@@ -15970,20 +16166,24 @@ msgstr ""
 "Az információk gyorsabb és pontosabb bevitele, amely időt takarít meg a "
 "munkavállalóknak és az ügyfeleknek."
 
-#: ../../content/hide-show-dynamic-fields.rst:21
-#: ../../content/restore-pending-information.rst:16
+#: ../../content/hide-show-dynamic-fields.rst:18
+#: ../../content/restore-pending-information.rst:13
 msgid "IT support"
 msgstr "IT támogatás"
 
-#: ../../content/hide-show-dynamic-fields.rst:32
-#: ../../content/introduction.rst:57 ../../content/introduction.rst:130
-#: ../../content/ticket-forms.rst:50
+#: ../../content/hide-show-dynamic-fields.rst:27
+msgid "OTRSHideShowDynamicFields"
+msgstr "OTRSHideShowDynamicFields"
+
+#: ../../content/hide-show-dynamic-fields.rst:35
+#: ../../content/introduction.rst:58 ../../content/introduction.rst:133
+#: ../../content/ticket-forms.rst:53
 msgid ":doc:`cis-in-customer-frontend`"
 msgstr ":doc:`cis-in-customer-frontend`"
 
-#: ../../content/hide-show-dynamic-fields.rst:33
-#: ../../content/introduction.rst:81 ../../content/introduction.rst:108
-#: ../../content/ticket-forms.rst:53
+#: ../../content/hide-show-dynamic-fields.rst:36
+#: ../../content/introduction.rst:84 ../../content/introduction.rst:111
+#: ../../content/ticket-forms.rst:56
 msgid ":doc:`restore-pending-information`"
 msgstr ":doc:`restore-pending-information`"
 
@@ -16505,11 +16705,11 @@ msgstr ""
 msgid "Each feature add-on can be categorized based on its purpose."
 msgstr "Minden egyes funkciókiegészítő osztályozható a célja alapján."
 
-#: ../../content/introduction.rst:17 ../../content/introduction.rst:133
+#: ../../content/introduction.rst:17 ../../content/introduction.rst:137
 msgid ":doc:`dynamic-field-value-import`"
 msgstr ":doc:`dynamic-field-value-import`"
 
-#: ../../content/introduction.rst:18 ../../content/introduction.rst:112
+#: ../../content/introduction.rst:18 ../../content/introduction.rst:115
 msgid ":doc:`system-configuration-history`"
 msgstr ":doc:`system-configuration-history`"
 
@@ -16517,57 +16717,57 @@ msgstr ":doc:`system-configuration-history`"
 msgid "Automation & Processes"
 msgstr "Automatizálás és folyamatok"
 
-#: ../../content/introduction.rst:22 ../../content/introduction.rst:123
-#: ../../content/ticket-allocation.rst:30
+#: ../../content/introduction.rst:22 ../../content/introduction.rst:126
+#: ../../content/ticket-allocation.rst:33
 msgid ":doc:`advanced-generic-agent`"
 msgstr ":doc:`advanced-generic-agent`"
 
-#: ../../content/introduction.rst:23 ../../content/introduction.rst:124
+#: ../../content/introduction.rst:23 ../../content/introduction.rst:127
 msgid ":doc:`agent-email-interface`"
 msgstr ":doc:`agent-email-interface`"
 
-#: ../../content/introduction.rst:24 ../../content/introduction.rst:148
+#: ../../content/introduction.rst:24 ../../content/introduction.rst:153
 msgid ":doc:`automated-faq-ticket-creator`"
 msgstr ":doc:`automated-faq-ticket-creator`"
 
-#: ../../content/introduction.rst:25 ../../content/introduction.rst:127
+#: ../../content/introduction.rst:25 ../../content/introduction.rst:130
 msgid ":doc:`ci-assignment-attribute-dynamic-field-map`"
 msgstr ":doc:`ci-assignment-attribute-dynamic-field-map`"
 
-#: ../../content/introduction.rst:26 ../../content/introduction.rst:135
+#: ../../content/introduction.rst:26 ../../content/introduction.rst:139
 msgid ":doc:`dynamic-sender-addresses`"
 msgstr ":doc:`dynamic-sender-addresses`"
 
-#: ../../content/introduction.rst:27 ../../content/introduction.rst:138
+#: ../../content/introduction.rst:27 ../../content/introduction.rst:142
 msgid ":doc:`process-management-article-email`"
 msgstr ":doc:`process-management-article-email`"
 
-#: ../../content/introduction.rst:28 ../../content/introduction.rst:139
+#: ../../content/introduction.rst:28 ../../content/introduction.rst:143
 msgid ":doc:`queue-responsible`"
 msgstr ":doc:`queue-responsible`"
 
-#: ../../content/introduction.rst:29 ../../content/introduction.rst:151
+#: ../../content/introduction.rst:29 ../../content/introduction.rst:157
 msgid ":doc:`ready2adopt-itsm-processes`"
 msgstr ":doc:`ready2adopt-itsm-processes`"
 
-#: ../../content/introduction.rst:30 ../../content/introduction.rst:107
+#: ../../content/introduction.rst:30 ../../content/introduction.rst:110
 msgid ":doc:`ready2adopt-processes`"
 msgstr ":doc:`ready2adopt-processes`"
 
-#: ../../content/introduction.rst:31 ../../content/introduction.rst:109
-#: ../../content/ticket-forms.rst:54
+#: ../../content/introduction.rst:31 ../../content/introduction.rst:112
+#: ../../content/ticket-forms.rst:57
 msgid ":doc:`service-based-queue-routing`"
 msgstr ":doc:`service-based-queue-routing`"
 
-#: ../../content/introduction.rst:32 ../../content/introduction.rst:152
+#: ../../content/introduction.rst:32 ../../content/introduction.rst:158
 msgid ":doc:`service-responsible`"
 msgstr ":doc:`service-responsible`"
 
-#: ../../content/introduction.rst:34 ../../content/introduction.rst:145
+#: ../../content/introduction.rst:34 ../../content/introduction.rst:150
 msgid ":doc:`ticket-queue-selection`"
 msgstr ":doc:`ticket-queue-selection`"
 
-#: ../../content/introduction.rst:35 ../../content/introduction.rst:116
+#: ../../content/introduction.rst:35 ../../content/introduction.rst:119
 msgid ":doc:`ticket-workflow`"
 msgstr ":doc:`ticket-workflow`"
 
@@ -16575,20 +16775,20 @@ msgstr ":doc:`ticket-workflow`"
 msgid "Customer Management"
 msgstr "Ügyfélkezelés"
 
-#: ../../content/introduction.rst:39 ../../content/introduction.rst:101
+#: ../../content/introduction.rst:39 ../../content/introduction.rst:104
 msgid ":doc:`customer-activity-widget`"
 msgstr ":doc:`customer-activity-widget`"
 
-#: ../../content/introduction.rst:40 ../../content/introduction.rst:103
+#: ../../content/introduction.rst:40 ../../content/introduction.rst:106
 msgid ":doc:`customer-specific-services`"
 msgstr ":doc:`customer-specific-services`"
 
-#: ../../content/introduction.rst:41 ../../content/introduction.rst:117
+#: ../../content/introduction.rst:41 ../../content/introduction.rst:120
 msgid ":doc:`time-accounting-quota`"
 msgstr ":doc:`time-accounting-quota`"
 
-#: ../../content/introduction.rst:42 ../../content/introduction.rst:118
-#: ../../content/restrict-customer-data-view.rst:26
+#: ../../content/introduction.rst:42 ../../content/introduction.rst:121
+#: ../../content/restrict-customer-data-view.rst:29
 msgid ":doc:`vip-customer`"
 msgstr ":doc:`vip-customer`"
 
@@ -16596,133 +16796,145 @@ msgstr ":doc:`vip-customer`"
 msgid "Individualization"
 msgstr "Személyre szabás"
 
-#: ../../content/introduction.rst:45 ../../content/introduction.rst:121
+#: ../../content/introduction.rst:45 ../../content/introduction.rst:124
 msgid ":doc:`adjust-sort-ticket-overview`"
 msgstr ":doc:`adjust-sort-ticket-overview`"
 
-#: ../../content/introduction.rst:46 ../../content/introduction.rst:128
+#: ../../content/introduction.rst:46 ../../content/introduction.rst:131
 msgid ":doc:`ci-custom-search`"
 msgstr ":doc:`ci-custom-search`"
 
-#: ../../content/introduction.rst:48 ../../content/introduction.rst:142
+#: ../../content/introduction.rst:48 ../../content/introduction.rst:146
 msgid ":doc:`specific-ticket-notifications`"
 msgstr ":doc:`specific-ticket-notifications`"
 
-#: ../../content/introduction.rst:54
+#: ../../content/introduction.rst:55
 msgid "Integration"
 msgstr "Integráció"
 
-#: ../../content/introduction.rst:52 ../../content/introduction.rst:106
+#: ../../content/introduction.rst:52 ../../content/introduction.rst:109
 msgid ":doc:`dynamic-field-database`"
 msgstr ":doc:`dynamic-field-database`"
 
-#: ../../content/introduction.rst:53 ../../content/introduction.rst:134
+#: ../../content/introduction.rst:53 ../../content/introduction.rst:138
 msgid ":doc:`dynamic-field-web-service`"
 msgstr ":doc:`dynamic-field-web-service`"
 
-#: ../../content/introduction.rst:54 ../../content/introduction.rst:140
+#: ../../content/introduction.rst:54 ../../content/introduction.rst:144
 msgid ":doc:`ready2adopt-web-services`"
 msgstr ":doc:`ready2adopt-web-services`"
 
-#: ../../content/introduction.rst:62
+#: ../../content/introduction.rst:55 ../../content/introduction.rst:149
+msgid ":doc:`ticket-invoker`"
+msgstr ":doc:`ticket-invoker`"
+
+#: ../../content/introduction.rst:63
 msgid "Knowledge Management & Self Service"
 msgstr "Tudásmenedzsment és önkiszolgálás"
 
-#: ../../content/introduction.rst:58 ../../content/introduction.rst:149
+#: ../../content/introduction.rst:59 ../../content/introduction.rst:154
 msgid ":doc:`customer-event-ticket-calendar`"
 msgstr ":doc:`customer-event-ticket-calendar`"
 
-#: ../../content/introduction.rst:59 ../../content/introduction.rst:102
+#: ../../content/introduction.rst:60 ../../content/introduction.rst:105
 msgid ":doc:`customer-frontend-link-object`"
 msgstr ":doc:`customer-frontend-link-object`"
 
-#: ../../content/introduction.rst:60 ../../content/introduction.rst:104
+#: ../../content/introduction.rst:61 ../../content/introduction.rst:107
 msgid ":doc:`dashboard-news-widget`"
 msgstr ":doc:`dashboard-news-widget`"
 
-#: ../../content/introduction.rst:61 ../../content/introduction.rst:129
+#: ../../content/introduction.rst:62 ../../content/introduction.rst:132
 msgid ":doc:`ci-references`"
 msgstr ":doc:`ci-references`"
 
-#: ../../content/introduction.rst:62 ../../content/introduction.rst:113
+#: ../../content/introduction.rst:63 ../../content/introduction.rst:116
 msgid ":doc:`tag-cloud`"
 msgstr ":doc:`tag-cloud`"
 
-#: ../../content/introduction.rst:65
+#: ../../content/introduction.rst:66
 msgid "Performance"
 msgstr "Teljesítmény"
 
-#: ../../content/introduction.rst:65 ../../content/introduction.rst:156
+#: ../../content/introduction.rst:66 ../../content/introduction.rst:162
 msgid ":doc:`dynamic-field-search-booster`"
 msgstr ":doc:`dynamic-field-search-booster`"
 
-#: ../../content/introduction.rst:68
+#: ../../content/introduction.rst:69
 msgid "Reporting"
 msgstr "Jelentés"
 
-#: ../../content/introduction.rst:68 ../../content/introduction.rst:157
+#: ../../content/introduction.rst:69 ../../content/introduction.rst:163
 msgid ":doc:`extended-ticket-stats`"
 msgstr ":doc:`extended-ticket-stats`"
 
-#: ../../content/introduction.rst:74
+#: ../../content/introduction.rst:76
 msgid "Security & Permissions"
 msgstr "Biztonság és jogosultságok"
 
-#: ../../content/introduction.rst:71 ../../content/introduction.rst:126
+#: ../../content/introduction.rst:72 ../../content/introduction.rst:129
 msgid ":doc:`change-write-protection`"
 msgstr ":doc:`change-write-protection`"
 
-#: ../../content/introduction.rst:72 ../../content/introduction.rst:98
+#: ../../content/introduction.rst:73 ../../content/introduction.rst:101
 msgid ":doc:`credit-card-filter`"
 msgstr ":doc:`credit-card-filter`"
 
-#: ../../content/introduction.rst:73 ../../content/introduction.rst:105
+#: ../../content/introduction.rst:74 ../../content/introduction.rst:155
+msgid ":doc:`data-privacy-protection`"
+msgstr ":doc:`data-privacy-protection`"
+
+#: ../../content/introduction.rst:75 ../../content/introduction.rst:108
 msgid ":doc:`delete-attachments`"
 msgstr ":doc:`delete-attachments`"
 
-#: ../../content/introduction.rst:74 ../../content/introduction.rst:141
-#: ../../content/vip-customer.rst:29
+#: ../../content/introduction.rst:76 ../../content/introduction.rst:145
+#: ../../content/vip-customer.rst:32
 msgid ":doc:`restrict-customer-data-view`"
 msgstr ":doc:`restrict-customer-data-view`"
 
-#: ../../content/introduction.rst:84
+#: ../../content/introduction.rst:87
 msgid "Ticket Management"
 msgstr "Jegykezelés"
 
-#: ../../content/introduction.rst:78 ../../content/introduction.rst:131
+#: ../../content/introduction.rst:80 ../../content/introduction.rst:134
 msgid ":doc:`dynamic-field-attachment`"
 msgstr ":doc:`dynamic-field-attachment`"
 
-#: ../../content/introduction.rst:79 ../../content/introduction.rst:132
-#: ../../content/ticket-forms.rst:51
+#: ../../content/introduction.rst:81 ../../content/introduction.rst:135
+msgid ":doc:`dynamic-field-calculation`"
+msgstr ":doc:`dynamic-field-calculation`"
+
+#: ../../content/introduction.rst:82 ../../content/introduction.rst:136
+#: ../../content/ticket-forms.rst:54
 msgid ":doc:`dynamic-field-ci`"
 msgstr ":doc:`dynamic-field-ci`"
 
-#: ../../content/introduction.rst:80 ../../content/introduction.rst:150
+#: ../../content/introduction.rst:83 ../../content/introduction.rst:156
 msgid ":doc:`out-of-office`"
 msgstr ":doc:`out-of-office`"
 
-#: ../../content/introduction.rst:82 ../../content/introduction.rst:110
+#: ../../content/introduction.rst:85 ../../content/introduction.rst:113
 msgid ":doc:`service-categories`"
 msgstr ":doc:`service-categories`"
 
-#: ../../content/introduction.rst:83 ../../content/introduction.rst:111
+#: ../../content/introduction.rst:86 ../../content/introduction.rst:114
 msgid ":doc:`state-preselection-response-templates`"
 msgstr ":doc:`state-preselection-response-templates`"
 
-#: ../../content/introduction.rst:90
+#: ../../content/introduction.rst:93
 msgid "Time Management"
 msgstr "Időmenedzsment"
 
-#: ../../content/introduction.rst:89 ../../content/introduction.rst:114
+#: ../../content/introduction.rst:92 ../../content/introduction.rst:117
 msgid ":doc:`ticket-time-unit-dropdown`"
 msgstr ":doc:`ticket-time-unit-dropdown`"
 
-#: ../../content/introduction.rst:93
+#: ../../content/introduction.rst:96
 msgid "Service Levels"
 msgstr "Szolgáltatási szintek"
 
-#: ../../content/introduction.rst:95
+#: ../../content/introduction.rst:98
 msgid ""
 "Not all feature add-ons are available on any service levels. The following "
 "categorization is based on service levels."
@@ -16730,7 +16942,7 @@ msgstr ""
 "Nem minden funkciókiegészítő érhető el az összes szolgáltatási szinten. A "
 "következő osztályozás a szolgáltatási szintek alapján történik."
 
-#: ../../content/introduction.rst:99
+#: ../../content/introduction.rst:102
 msgid ":doc:`calendar-resource-planning`"
 msgstr ":doc:`calendar-resource-planning`"
 
@@ -16777,17 +16989,21 @@ msgstr "Egyéni beállítás, amely kiszűri az irodán kívüli üzeneteket."
 msgid "Closed tickets are no longer opened by out-of-office replies."
 msgstr "A lezárt jegyeket többé nem nyitják újra az irodán kívüli válaszok."
 
-#: ../../content/out-of-office.rst:16
+#: ../../content/out-of-office.rst:13
 msgid "Companies of all sizes with high ticket volumes"
 msgstr "Bármekkora méretű, nagyszámú jeggyel dolgozó vállalatok"
 
-#: ../../content/out-of-office.rst:17
+#: ../../content/out-of-office.rst:14
 msgid "Anyone using out-of-office frequently"
 msgstr "Bárki, aki gyakran használja az irodán kívüli funkciót"
 
-#: ../../content/out-of-office.rst:18
+#: ../../content/out-of-office.rst:15
 msgid "Companies with frequent email traffic"
 msgstr "Nagy e-mail forgalommal rendelkező vállalatok"
+
+#: ../../content/out-of-office.rst:24
+msgid "OTRSOutOfOffice"
+msgstr "OTRSOutOfOffice"
 
 #: ../../content/out-of-office/admin.rst:10
 msgid ""
@@ -16890,19 +17106,23 @@ msgstr ""
 msgid "More efficient design of your business processes."
 msgstr "Az üzleti folyamatok hatékonyabb tervezése."
 
-#: ../../content/process-management-article-email.rst:17
+#: ../../content/process-management-article-email.rst:14
 msgid "Process managers"
 msgstr "Folyamatmenedzserek"
 
-#: ../../content/process-management-article-email.rst:18
+#: ../../content/process-management-article-email.rst:15
 msgid "External IT"
 msgstr "Külső IT"
 
-#: ../../content/process-management-article-email.rst:22
-#: ../../content/tag-cloud.rst:32 ../../content/ticket-allocation.rst:24
-#: ../../content/ticket-queue-selection.rst:23
+#: ../../content/process-management-article-email.rst:19
+#: ../../content/tag-cloud.rst:29 ../../content/ticket-allocation.rst:21
+#: ../../content/ticket-queue-selection.rst:20
 msgid "And many more"
 msgstr "És még sok más"
+
+#: ../../content/process-management-article-email.rst:25
+msgid "OTRSProcessManagementArticleEmail"
+msgstr "OTRSProcessManagementArticleEmail"
 
 #: ../../content/process-management-article-email/admin.rst:4
 msgid ""
@@ -17094,6 +17314,10 @@ msgstr "A részlegek egyértelmű szétválasztása a várólisták felelőseive
 msgid "More significant reporting."
 msgstr "Fontosabb és pontosabb jelentések."
 
+#: ../../content/queue-responsible.rst:22
+msgid "OTRSQueueResponsible"
+msgstr "OTRSQueueResponsible"
+
 #: ../../content/queue-responsible/admin.rst:10
 msgid ""
 "This package provides the responsible feature for queues and handles the "
@@ -17260,6 +17484,10 @@ msgid "Higher efficiency and quality through proven ITIL-inspired processes."
 msgstr ""
 "Magasabb hatékonyság és minőség a bevált ITIL-jellegű folyamatokon "
 "keresztül."
+
+#: ../../content/ready2adopt-itsm-processes.rst:49
+msgid "OTRSReady2AdoptITSMProcesses"
+msgstr "OTRSReady2AdoptITSMProcesses"
 
 #: ../../content/ready2adopt-itsm-processes/admin.rst:4
 #: ../../content/ready2adopt-processes/admin.rst:4
@@ -17478,6 +17706,10 @@ msgstr "A szerkesztés aktuális állapotának áttekintése."
 msgid "Automation options."
 msgstr "Automatizálási lehetőségek."
 
+#: ../../content/ready2adopt-processes.rst:34
+msgid "OTRSReady2AdoptProcesses"
+msgstr "OTRSReady2AdoptProcesses"
+
 #: ../../content/ready2adopt-processes/admin/processes-automation/process-management.rst:8
 msgid "``Conference Room Reservation``"
 msgstr "``Conference Room Reservation``"
@@ -17529,7 +17761,11 @@ msgstr "Bugzilla csatlakozó"
 msgid "OTRS-OTRS connector"
 msgstr "OTRS–OTRS csatlakozó"
 
-#: ../../content/ready2adopt-web-services.rst:27
+#: ../../content/ready2adopt-web-services.rst:26
+msgid "OTRSReady2AdoptWebServices"
+msgstr "OTRSReady2AdoptWebServices"
+
+#: ../../content/ready2adopt-web-services.rst:30
 msgid "This feature add-on requires the :doc:`ticket-invoker` feature."
 msgstr "Ez a funkciókiegészítő a :doc:`ticket-invoker` csomagot igényli."
 
@@ -17650,6 +17886,10 @@ msgstr "Kevesebb kattintás és kevesebb munka a memória funkció használatáv
 #: ../../content/restore-pending-information.rst:10
 msgid "Saves time managing recurring requests from a customer."
 msgstr "Időt takarít meg az ügyféltől érkező ismétlődő kéréseknél."
+
+#: ../../content/restore-pending-information.rst:23
+msgid "OTRSRestorePendingInformation"
+msgstr "OTRSRestorePendingInformation"
 
 #: ../../content/restore-pending-information/agent.rst:4
 msgid ""
@@ -17842,13 +18082,17 @@ msgstr ""
 "Leegyszerűsíti a leányvállalatokkal, az alvállalkozókkal és a partnerekkel "
 "való együttműködést."
 
-#: ../../content/restrict-customer-data-view.rst:18
+#: ../../content/restrict-customer-data-view.rst:15
 msgid "International companies"
 msgstr "Nemzetközi vállalatok"
 
-#: ../../content/restrict-customer-data-view.rst:20
+#: ../../content/restrict-customer-data-view.rst:17
 msgid "Companies offering a wide range of products"
 msgstr "Olyan vállalatok, amelyek termékek széles választékát kínálják"
+
+#: ../../content/restrict-customer-data-view.rst:23
+msgid "OTRSRestrictCustomerDataView"
+msgstr "OTRSRestrictCustomerDataView"
 
 #: ../../content/restrict-customer-data-view/admin.rst:4
 msgid ""
@@ -18106,7 +18350,11 @@ msgstr "Időmegtakarítás."
 msgid "Reduced workload."
 msgstr "Csökkentett munkaterhelés."
 
-#: ../../content/service-based-queue-routing.rst:24
+#: ../../content/service-based-queue-routing.rst:23
+msgid "OTRSServiceBasedQueueRouting"
+msgstr "OTRSServiceBasedQueueRouting"
+
+#: ../../content/service-based-queue-routing.rst:27
 msgid ""
 "This feature add-on is does not correspond with every ticket screen, e.g. in"
 " the notification and close screens."
@@ -18306,17 +18554,21 @@ msgid ""
 msgstr ""
 "Bizonyos ügyfélcsoportok vagy kéréstípusok gyorsabban dolgozhatók fel."
 
-#: ../../content/service-categories.rst:15
+#: ../../content/service-categories.rst:12
 msgid "Internal and external IT service management"
 msgstr "Belső és külső IT-szolgáltatásmenedzsment"
 
-#: ../../content/service-categories.rst:16
+#: ../../content/service-categories.rst:13
 msgid "Quality management"
 msgstr "Minőségmenedzsment"
 
-#: ../../content/service-categories.rst:19
+#: ../../content/service-categories.rst:16
 msgid "Customer satisfaction management"
 msgstr "Ügyfélelégedettség-menedzsment"
+
+#: ../../content/service-categories.rst:23
+msgid "OTRSServiceCategories"
+msgstr "OTRSServiceCategories"
 
 #: ../../content/service-categories/admin/ticket-settings/types-services.rst:2
 msgid "Types ↔ Services"
@@ -18518,25 +18770,29 @@ msgstr "A jegykiosztás gyorsabb és hatékonyabb."
 msgid "Assignment to outsourced first-level support is seamless."
 msgstr "Zökkenőmentes hozzárendelés a kiszervezett első szintű támogatáshoz."
 
-#: ../../content/service-responsible.rst:19
+#: ../../content/service-responsible.rst:16
 msgid "Large companies"
 msgstr "Nagyvállalatok"
 
-#: ../../content/service-responsible.rst:20
+#: ../../content/service-responsible.rst:17
 msgid "Companies with a high volume of tickets"
 msgstr "Nagyszámú jeggyel dolgozó vállalatok"
 
-#: ../../content/service-responsible.rst:21
+#: ../../content/service-responsible.rst:18
 msgid "Companies with many employees"
 msgstr "Sok alkalmazottat foglalkoztató vállalatok"
 
-#: ../../content/service-responsible.rst:22
+#: ../../content/service-responsible.rst:19
 msgid "Service-oriented workgroups"
 msgstr "Szolgáltatásorientált munkacsoportok"
 
-#: ../../content/service-responsible.rst:23
+#: ../../content/service-responsible.rst:20
 msgid "Companies with outsourced first-level support"
 msgstr "Kiszervezett első szintű támogatással rendelkező vállalatok"
+
+#: ../../content/service-responsible.rst:26
+msgid "OTRSServiceResponsible"
+msgstr "OTRSServiceResponsible"
 
 #: ../../content/service-responsible/admin.rst:4
 msgid ""
@@ -18738,6 +18994,10 @@ msgid ""
 msgstr ""
 "Az értesítések személyesebb beállítása, elkerülve a túlzott "
 "információáramlást."
+
+#: ../../content/specific-ticket-notifications.rst:23
+msgid "OTRSSpecificTicketNotifications"
+msgstr "OTRSSpecificTicketNotifications"
 
 #: ../../content/specific-ticket-notifications/admin.rst:4
 msgid ""
@@ -19089,9 +19349,13 @@ msgstr ""
 msgid "Decreasing the risk of incorrect status inputs."
 msgstr "A helytelen állapotbevitelek kockázatának csökkentése."
 
-#: ../../content/state-preselection-response-templates.rst:22
+#: ../../content/state-preselection-response-templates.rst:19
 msgid "Advertising or communication agencies"
 msgstr "Reklám vagy kommunikációs ügynökségek"
+
+#: ../../content/state-preselection-response-templates.rst:25
+msgid "OTRSStatePreselectionResponseTemplates"
+msgstr "OTRSStatePreselectionResponseTemplates"
 
 #: ../../content/state-preselection-response-templates/admin/ticket-settings.rst:4
 msgid ""
@@ -19258,6 +19522,10 @@ msgstr "Részletes változásnapló az összes beállításhoz."
 #: ../../content/system-configuration-history.rst:11
 msgid "Accountability of changes."
 msgstr "A változtatások felelősségre vonhatósága."
+
+#: ../../content/system-configuration-history.rst:21
+msgid "OTRSSystemConfigurationHistory"
+msgstr "OTRSSystemConfigurationHistory"
 
 #: ../../content/system-configuration-history/admin.rst:4
 msgid ""
@@ -19494,6 +19762,10 @@ msgstr "Az ügyintézők dinamikus és aktuális munkaterhelésének megtekinté
 #: ../../content/tag-cloud.rst:22
 msgid "React fast to anomalies."
 msgstr "Gyors reagálás az anomáliákra."
+
+#: ../../content/tag-cloud.rst:35
+msgid "OTRSTagCloud"
+msgstr "OTRSTagCloud"
 
 #: ../../content/tag-cloud/agent.rst:4
 msgid ""
@@ -19784,6 +20056,10 @@ msgstr ""
 #: ../../content/ticket-allocation.rst:14
 msgid "Simple handling of an increased number of tickets."
 msgstr "A jegyek megnövekedett számának egyszerű kezelése."
+
+#: ../../content/ticket-allocation.rst:27
+msgid "OTRSTicketAllocation"
+msgstr "OTRSTicketAllocation"
 
 #: ../../content/ticket-allocation/admin.rst:4
 msgid ""
@@ -20203,6 +20479,10 @@ msgstr "Folyamatok felgyorsítása űrlapok használatával."
 #: ../../content/ticket-forms.rst:33
 msgid "Increases the completeness of forms by defining mandatory fields."
 msgstr "Űrlapok teljességének növelése kötelező mezők meghatározásával."
+
+#: ../../content/ticket-forms.rst:45
+msgid "OTRSTicketForms"
+msgstr "OTRSTicketForms"
 
 #: ../../content/ticket-forms/admin.rst:4
 msgid ""
@@ -21550,6 +21830,10 @@ msgstr ""
 "Ez a csomag két új meghívó, a ``TicketCreate`` és ``TicketUpdate`` "
 "funkcionalitását adja a webszolgáltatásokhoz."
 
+#: ../../content/ticket-invoker.rst:10
+msgid "OTRSTicketInvoker"
+msgstr "OTRSTicketInvoker"
+
 #: ../../content/ticket-invoker/admin.rst:4
 msgid ""
 "This package adds a new settings screen to the *Web Service Management* "
@@ -22033,9 +22317,13 @@ msgstr ""
 msgid "Saves time compared to a manual assignment."
 msgstr "Időt takarít meg a kézi hozzárendeléshez képest."
 
-#: ../../content/ticket-queue-selection.rst:19
+#: ../../content/ticket-queue-selection.rst:16
 msgid "External IT service"
 msgstr "Külső IT-szolgáltatás"
+
+#: ../../content/ticket-queue-selection.rst:26
+msgid "OTRSTicketQueueSelection"
+msgstr "OTRSTicketQueueSelection"
 
 #: ../../content/ticket-queue-selection/admin.rst:4
 msgid ""
@@ -22212,9 +22500,13 @@ msgstr ""
 "Az időközök és az alapértelmezett értékek egyértelmű meghatározása csökkenti"
 " a dokumentálás idejét."
 
-#: ../../content/ticket-time-unit-dropdown.rst:27
+#: ../../content/ticket-time-unit-dropdown.rst:24
 msgid "Globally active companies"
 msgstr "Globálisan működő vállalatok"
+
+#: ../../content/ticket-time-unit-dropdown.rst:30
+msgid "OTRSTicketTimeUnitDropdown"
+msgstr "OTRSTicketTimeUnitDropdown"
 
 #: ../../content/ticket-time-unit-dropdown/admin.rst:8
 msgid ""
@@ -22434,9 +22726,13 @@ msgstr ""
 "Az exportálási funkció lehetővé teszi az Excel-táblázatban való "
 "feldolgozást."
 
-#: ../../content/ticket-watchlist.rst:40
+#: ../../content/ticket-watchlist.rst:37
 msgid "Service manager"
 msgstr "Szolgáltatásmenedzser"
+
+#: ../../content/ticket-watchlist.rst:43
+msgid "OTRSTicketWatchlist"
+msgstr "OTRSTicketWatchlist"
 
 #: ../../content/ticket-watchlist/admin.rst:6
 msgid ""
@@ -23072,7 +23368,11 @@ msgstr "Egyszerűsíti az adatgyűjtést."
 msgid "Reduces error sources."
 msgstr "Csökkenti a hibaforrásokat."
 
-#: ../../content/ticket-workflow.rst:42
+#: ../../content/ticket-workflow.rst:41
+msgid "OTRSTicketWorkflow"
+msgstr "OTRSTicketWorkflow"
+
+#: ../../content/ticket-workflow.rst:45
 msgid "This feature add-on is also available for the OTRS::ITSM module."
 msgstr "Ez a funkciókiegészítő elérhető az OTRS::ITSM modulhoz is."
 
@@ -23171,7 +23471,7 @@ msgid ""
 "be deactivated by setting the *Validity* option to *invalid* or *invalid-"
 "temporarily*."
 msgstr ""
-"A jegy munkafolyamat sablonok nem törölhetők a rendszerről. Azonban "
+"A jegy munkafolyamat sablonok nem törölhetők a rendszerből. Azonban "
 "kikapcsolhatók az *Érvényesség* beállítás *érvénytelen* vagy *átmenetileg "
 "érvénytelen* értékre állításával."
 
@@ -23499,9 +23799,13 @@ msgid ""
 msgstr ""
 "Az aktuális kvóták áttekintése megkönnyíti a tervezést és a megvalósítást."
 
-#: ../../content/time-accounting-quota.rst:21
+#: ../../content/time-accounting-quota.rst:18
 msgid "All companies"
 msgstr "Minden vállalat"
+
+#: ../../content/time-accounting-quota.rst:24
+msgid "OTRSTimeAccountingQuota"
+msgstr "OTRSTimeAccountingQuota"
 
 #: ../../content/time-accounting-quota/admin.rst:4
 msgid ""
@@ -23736,9 +24040,13 @@ msgstr "Gyorsabb válasz a különleges ügyfelek kéréseire."
 msgid "Facilitates SLA management."
 msgstr "Megkönnyíti az SLA-menedzsmentet."
 
-#: ../../content/vip-customer.rst:23
+#: ../../content/vip-customer.rst:20
 msgid "All companies working with SLAs"
 msgstr "Minden olyan vállalat, amely SLA-kal dolgozik"
+
+#: ../../content/vip-customer.rst:26
+msgid "OTRSVIPCustomer"
+msgstr "OTRSVIPCustomer"
 
 #: ../../content/vip-customer/admin.rst:10
 msgid ""
