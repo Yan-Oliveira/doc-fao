@@ -100,6 +100,12 @@ For security reasons, the validity of the corresponding rules is implicitly chec
 
    Since rules are designed to change or completely delete data, it is very important to carefully check all rules in advance and execute the test runs for each rule change.
 
+The console output of rule executions can be redirected into files to preserve the modified objects. Please see the following example:
+
+.. code-block:: bash
+
+   otrs> /opt/otrs/bin/otrs.Console.pl Maint::DataPrivacy::Execute --execute-detail > rule-execution.txt
+
 
 Drivers
 -------
@@ -527,6 +533,27 @@ Delete ticket titles by state names, that are older than one month:
          - open
        TicketCreateTimeOlderMinutes: 43200
 
+Delete article subject and body by state names, that are located in specific queues:
+
+.. code-block:: yaml
+
+   ---
+   RuleName: Delete article subject and body by state names, that are located in specific queues.
+   RuleSource: GDPR
+   RuleType: deletion
+   DataClassification:
+     Ticket:
+       - Subject
+       - Body
+   ObjectFilter:
+     Ticket:
+       State:
+         - new
+         - open
+       Queues:
+         - Postmaster
+         - Misc
+
 Pseudonymize customer user IDs for tickets, that are closed and archived:
 
 .. code-block:: yaml
@@ -545,12 +572,12 @@ Pseudonymize customer user IDs for tickets, that are closed and archived:
        ArchiveFlags:
          - y
 
-Anonymize customer IDs and some dynamic fields, that are closed, have certain services and are located in special queues:
+Anonymize customer IDs and some dynamic fields, that are closed, have certain services and are located in specific queues:
 
 .. code-block:: yaml
 
    ---
-   RuleName: Anonymize Customer IDs and some dynamic fields, that are closed, have certain services and are located in special queues.
+   RuleName: Anonymize Customer IDs and some dynamic fields, that are closed, have certain services and are located in specific queues.
    RuleSource: GDPR
    RuleType: PrivacyByAnonymization
    DataClassification:

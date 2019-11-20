@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 15:59+0100\n"
+"POT-Creation-Date: 2019-11-20 18:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7803,211 +7803,219 @@ msgstr ""
 msgid "Since rules are designed to change or completely delete data, it is very important to carefully check all rules in advance and execute the test runs for each rule change."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:105
-msgid "Drivers"
-msgstr ""
-
-#: ../../content/data-privacy-protection/admin.rst:107
-msgid "This section describe the configuration and usage of the various drivers. In addition, this section contains sample configurations that can be copied and customized to your personal needs."
+#: ../../content/data-privacy-protection/admin.rst:103
+msgid "The console output of rule executions can be redirected into files to preserve the modified objects. Please see the following example:"
 msgstr ""
 
 #: ../../content/data-privacy-protection/admin.rst:111
-msgid "Customer Company Driver"
+msgid "Drivers"
 msgstr ""
 
 #: ../../content/data-privacy-protection/admin.rst:113
+msgid "This section describe the configuration and usage of the various drivers. In addition, this section contains sample configurations that can be copied and customized to your personal needs."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:117
+msgid "Customer Company Driver"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:119
 msgid "The customer company driver provides the functionality to search and modify the information for customer companies."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:115
-#: ../../content/data-privacy-protection/admin.rst:198
-#: ../../content/data-privacy-protection/admin.rst:578
+#: ../../content/data-privacy-protection/admin.rst:121
+#: ../../content/data-privacy-protection/admin.rst:204
+#: ../../content/data-privacy-protection/admin.rst:605
 msgid "Possible data classifications:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:129
-#: ../../content/data-privacy-protection/admin.rst:218
-#: ../../content/data-privacy-protection/admin.rst:332
+#: ../../content/data-privacy-protection/admin.rst:135
+#: ../../content/data-privacy-protection/admin.rst:224
+#: ../../content/data-privacy-protection/admin.rst:338
 msgid "The driver supports dynamic fields for data classification. Dynamic fields will be identified by the prefix ``DynamicField_`` and the related field name."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:131
-#: ../../content/data-privacy-protection/admin.rst:220
-#: ../../content/data-privacy-protection/admin.rst:588
+#: ../../content/data-privacy-protection/admin.rst:137
+#: ../../content/data-privacy-protection/admin.rst:226
+#: ../../content/data-privacy-protection/admin.rst:615
 msgid "Possible object filters:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:146
-#: ../../content/data-privacy-protection/admin.rst:241
-#: ../../content/data-privacy-protection/admin.rst:602
+#: ../../content/data-privacy-protection/admin.rst:152
+#: ../../content/data-privacy-protection/admin.rst:247
+#: ../../content/data-privacy-protection/admin.rst:629
 msgid "Object filter descriptions:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:148
-#: ../../content/data-privacy-protection/admin.rst:243
-#: ../../content/data-privacy-protection/admin.rst:604
+#: ../../content/data-privacy-protection/admin.rst:154
+#: ../../content/data-privacy-protection/admin.rst:249
+#: ../../content/data-privacy-protection/admin.rst:631
 msgid "``Limit``: Limits the number of search results."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:149
-#: ../../content/data-privacy-protection/admin.rst:244
-#: ../../content/data-privacy-protection/admin.rst:605
-msgid "``CreateTime``: Searches for dates *greater than or equal to* (>=) the given time."
-msgstr ""
-
-#: ../../content/data-privacy-protection/admin.rst:150
-#: ../../content/data-privacy-protection/admin.rst:246
-msgid "``WildcardSearch``: Affects all object filters, except ``ValidID``."
-msgstr ""
-
-#: ../../content/data-privacy-protection/admin.rst:154
+#: ../../content/data-privacy-protection/admin.rst:155
 #: ../../content/data-privacy-protection/admin.rst:250
-#: ../../content/data-privacy-protection/admin.rst:508
-#: ../../content/data-privacy-protection/admin.rst:612
-msgid "Rule Configuration Examples"
+#: ../../content/data-privacy-protection/admin.rst:632
+msgid "``CreateTime``: Searches for dates *greater than or equal to* (>=) the given time."
 msgstr ""
 
 #: ../../content/data-privacy-protection/admin.rst:156
 #: ../../content/data-privacy-protection/admin.rst:252
-#: ../../content/data-privacy-protection/admin.rst:510
-#: ../../content/data-privacy-protection/admin.rst:614
+msgid "``WildcardSearch``: Affects all object filters, except ``ValidID``."
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:160
+#: ../../content/data-privacy-protection/admin.rst:256
+#: ../../content/data-privacy-protection/admin.rst:514
+#: ../../content/data-privacy-protection/admin.rst:639
+msgid "Rule Configuration Examples"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:162
+#: ../../content/data-privacy-protection/admin.rst:258
+#: ../../content/data-privacy-protection/admin.rst:516
+#: ../../content/data-privacy-protection/admin.rst:641
 msgid "Here are some examples for rule configurations. These examples are valid YAML codes. You can copy these examples and modify them according to your needs."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:158
+#: ../../content/data-privacy-protection/admin.rst:164
 msgid "Delete customer company name and customer company country by customer company name without wildcard search:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:175
+#: ../../content/data-privacy-protection/admin.rst:181
 msgid "Delete customer company name and customer company country by customer company name with wildcard search:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:194
+#: ../../content/data-privacy-protection/admin.rst:200
 msgid "Customer User Driver"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:196
+#: ../../content/data-privacy-protection/admin.rst:202
 msgid "The customer user driver provides the functionality to search and modify the information for customer users."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:245
-#: ../../content/data-privacy-protection/admin.rst:606
+#: ../../content/data-privacy-protection/admin.rst:251
+#: ../../content/data-privacy-protection/admin.rst:633
 msgid "``Valid``: Searches for valid or invalid users. Possible values are 0 or 1."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:254
+#: ../../content/data-privacy-protection/admin.rst:260
 msgid "Delete user first names and user last names by user first name with wildcard search:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:271
+#: ../../content/data-privacy-protection/admin.rst:277
 msgid "Anonymize user first names and user last names by user first name and without wildcard search:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:288
+#: ../../content/data-privacy-protection/admin.rst:294
 msgid "Delete user first names and user last names by user first name and user last name with wildcard search:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:308
+#: ../../content/data-privacy-protection/admin.rst:314
 msgid "Ticket Driver"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:310
+#: ../../content/data-privacy-protection/admin.rst:316
 msgid "The ticket driver provides the functionality to search and modify the information for tickets and related articles."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:312
+#: ../../content/data-privacy-protection/admin.rst:318
 msgid "Possible data classifications for tickets:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:321
+#: ../../content/data-privacy-protection/admin.rst:327
 msgid "Possible data classifications for articles:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:336
+#: ../../content/data-privacy-protection/admin.rst:342
 msgid "The ticket driver is used to search for tickets, even if the rule contains filters for article fields. If article fields are part of the data classification, all articles of the related, matching ticket will be processed!"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:338
+#: ../../content/data-privacy-protection/admin.rst:344
 msgid "The following fields can be used as search terms or filters for tickets and articles. Possible object filters:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:432
+#: ../../content/data-privacy-protection/admin.rst:438
 msgid "All possible object filter parameters can be used to filter tickets and articles. Most of the attributes can be single strings or array references, like:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:457
+#: ../../content/data-privacy-protection/admin.rst:463
 msgid "The corresponding YAML code could look as follows:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:477
+#: ../../content/data-privacy-protection/admin.rst:483
 msgid "This rule would find all tickets, that are located in the queue *Junk* or *Raw* and which have the service *Service A* or *Service B* assigned. The fields ``CustomerUserID`` and ``CustomerID`` would be deleted."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:479
+#: ../../content/data-privacy-protection/admin.rst:485
 msgid "There are several possible filter parameters, regarding relative times and dates, like:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:488
+#: ../../content/data-privacy-protection/admin.rst:494
 msgid "A filter like ``*\\*TimeOlderMinutes*`` means *older than X minutes*."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:490
+#: ../../content/data-privacy-protection/admin.rst:496
 msgid "The following statement would mean: all tickets, that have a ``CreateTime`` older than one day (1440 minutes)."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:496
+#: ../../content/data-privacy-protection/admin.rst:502
 msgid "The following statement would mean: all tickets, that have a ``CreateTime`` newer than one day (1440 minutes)."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:502
+#: ../../content/data-privacy-protection/admin.rst:508
 msgid "This is principal valid for all filter parameters with this syntax."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:504
+#: ../../content/data-privacy-protection/admin.rst:510
 msgid "For more descriptions about the single search parameters, check the `TicketSearch() in API reference <https://doc.otrs.com/doc/api/otrs/7.0/Perl/Kernel/System/Ticket/TicketSearch.pm.html>`__."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:512
+#: ../../content/data-privacy-protection/admin.rst:518
 msgid "Delete ticket titles by state names, that are older than one month:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:530
+#: ../../content/data-privacy-protection/admin.rst:536
+msgid "Delete article subject and body by state names, that are located in specific queues:"
+msgstr ""
+
+#: ../../content/data-privacy-protection/admin.rst:557
 msgid "Pseudonymize customer user IDs for tickets, that are closed and archived:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:548
-msgid "Anonymize customer IDs and some dynamic fields, that are closed, have certain services and are located in special queues:"
+#: ../../content/data-privacy-protection/admin.rst:575
+msgid "Anonymize customer IDs and some dynamic fields, that are closed, have certain services and are located in specific queues:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:574
+#: ../../content/data-privacy-protection/admin.rst:601
 msgid "User Driver"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:576
+#: ../../content/data-privacy-protection/admin.rst:603
 msgid "The user driver provides the functionality to search and modify the information for users."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:607
+#: ../../content/data-privacy-protection/admin.rst:634
 msgid "``WildcardSearch``: Affects the object filters ``UserFirstname``, ``UserLastname``, ``UserLogin`` and ``UserTitle``."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:608
+#: ../../content/data-privacy-protection/admin.rst:635
 msgid "``UserPreferences``: Array containing the user preferences like user email address as keys with certain search criteria as values (see YAML configuration examples)."
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:616
+#: ../../content/data-privacy-protection/admin.rst:643
 msgid "Delete user first names by user first name:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:631
+#: ../../content/data-privacy-protection/admin.rst:658
 msgid "Delete user first names and user last names by user email:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:648
+#: ../../content/data-privacy-protection/admin.rst:675
 msgid "Delete user first names and user last names with wildcard search:"
 msgstr ""
 
-#: ../../content/data-privacy-protection/admin.rst:665
+#: ../../content/data-privacy-protection/admin.rst:692
 msgid "Delete user first names by user first name and create time, which are greater than or equal with the specified date:"
 msgstr ""
 
