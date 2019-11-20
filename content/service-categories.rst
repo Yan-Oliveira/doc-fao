@@ -8,9 +8,6 @@ Benefits
    - Avoid process errors and incorrect assignments and the additional work they cause.
    - Certain customer groups or request types can be processed more quickly.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Internal and external IT service management
    - Quality management
@@ -18,6 +15,12 @@ Target Groups
    - Facility management
    - Customer satisfaction management
    - Complaint management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSServiceCategories
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-service-categories/
 

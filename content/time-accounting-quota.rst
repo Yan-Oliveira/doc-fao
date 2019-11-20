@@ -11,14 +11,17 @@ Benefits
    - Simple time recording and transparent documentation in one system.
    - Overview of current quotas facilitates the planning and implementation.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT service management
    - Call centers
    - Service providers
    - All companies
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSTimeAccountingQuota
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-time-accounting-quota/
 

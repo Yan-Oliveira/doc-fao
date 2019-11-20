@@ -16,14 +16,17 @@ Benefits
    - Automatic assignment of CIs saves time.
    - Customers can assign CIs to new tickets.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Customer service organizations
    - External IT service providers
    - Logistics
    - Technical field service
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSCIsInCustomerFrontend
 
 .. note::
 

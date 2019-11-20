@@ -17,14 +17,17 @@ Benefits
    - Reduction of error ratio when entering time units.
    - Unmistakable definition of intervals and default values reduces documentation time.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT service management
    - Internal IT service
    - Customer service/support
    - Globally active companies
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSTicketTimeUnitDropdown
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-ticket-time-unit-dropdown/
 

@@ -16,12 +16,15 @@ Benefits
    - Increases transparency and leads to more care and diligence in the change process.
    - Optimizes the general transparency of your system.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service management
    - All customers that use the OTRS::ITSM feature
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSChangeWriteProtection
 
 .. note::
 

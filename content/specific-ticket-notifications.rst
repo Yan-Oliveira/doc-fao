@@ -10,14 +10,17 @@ Benefits
    - React to changes more quickly.
    - More personalized configuration of notifications, avoiding a flood of information.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Internal and external IT
    - Customer service
    - Sales
    - Finance
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSSpecificTicketNotifications
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-specific-ticket-notifications/
 

@@ -10,9 +10,6 @@ Benefits
    - Flexible configuration of ticket information in the agent and external interface.
    - Faster and more accurate entering of information, saving time for your employees and customers.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT services
    - Complaint management
@@ -22,6 +19,12 @@ Target Groups
    - Sales
    - Marketing
    - Procurement
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSHideShowDynamicFields
 
 .. note::
 

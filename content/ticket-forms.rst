@@ -32,14 +32,17 @@ Benefits
    - Acceleration of processes by using forms.
    - Increases the completeness of forms by defining mandatory fields.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Customer service/support
    - IT service management
    - Sales
    - Public authorities
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSTicketForms
 
 .. note::
 

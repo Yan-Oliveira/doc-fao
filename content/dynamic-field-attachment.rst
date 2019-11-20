@@ -8,15 +8,18 @@ Benefits
    - Have control over how many and which size of attachments your agent should use.
    - Possibility to use **OTRS** as your document management system.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Internal and external IT service provider
    - Government departments
    - Human resources
    - Sales
    - Customer service
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicFieldAttachment
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-dynamic-field-attachment/
 

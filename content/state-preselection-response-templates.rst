@@ -11,15 +11,18 @@ Benefits
    - Decreasing the risk of incorrect status inputs.
    - Saving time.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Customer service organizations having many partners or suppliers
    - External IT service providers
    - Call centers
    - Sales departments and sales companies
    - Advertising or communication agencies
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSStatePreselectionResponseTemplates
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-state-preselection-response-templates/
 

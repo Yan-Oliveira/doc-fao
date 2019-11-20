@@ -10,13 +10,16 @@ Benefits
    - More efficient workflow to display FAQ articles in the external interface.
    - Gives customers greater insight into the incident-solving process.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Internal and external IT
    - Customer service
    - Facility management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSCustomerFrontendLinkObject
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-customer-frontend-link-object/
 

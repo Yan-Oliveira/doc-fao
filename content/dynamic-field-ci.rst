@@ -21,15 +21,18 @@ Benefits
    - Rapid search for configuration items when creating a ticket.
    - Useful for statistics and automatic ticket notifications.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Customers of companies that offer services for different devices/products (CIs)
    - Customer service
    - Internal and external IT
    - Facility management
    - Sales
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicFieldCI
 
 .. note::
 

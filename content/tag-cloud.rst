@@ -21,15 +21,18 @@ Benefits
    - See the dynamic and current workload of your agents.
    - React fast to anomalies.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Marketing
    - Human resources
    - Sales
    - IT service management
    - And many more
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSTagCloud
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-tag-cloud/
 

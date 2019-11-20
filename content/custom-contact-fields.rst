@@ -18,9 +18,6 @@ Benefits
    - More transparent and automated communication with business partners, sub-contractors or suppliers.
    - Seamless integration of external customer databases into **OTRS**.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Customer service organizations with many partners or sub-contractors
    - External IT service providers
@@ -28,6 +25,12 @@ Target Groups
    - Web, PR or marketing agencies
    - Consulting businesses
    - Sales departments
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSCustomContactFields
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-custom-contact-fields/
 

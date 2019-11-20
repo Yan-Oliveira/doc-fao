@@ -12,13 +12,16 @@ Benefits
    - Simplified change management in case of new employees.
    - Better customer service when a wide range of products is used by a customer.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Internal IT departments
    - External IT service providers
    - Customer support for a wide range of products
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSCICustomSearch
 
 .. note::
 

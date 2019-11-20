@@ -11,9 +11,6 @@ Benefits
    - Cross-departmental overview of all teams and resources.
    - Calendar, resource planning and project planning in one tool.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Customer service
    - Facility management
@@ -24,6 +21,12 @@ Target Groups
    - Marketing and public relations
    - Project management
    - Sales
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSCalendarResourcePlanning
 
 .. Original content: https://otrs.com/otrs-feature/resource-planning/
 

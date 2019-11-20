@@ -13,13 +13,16 @@ Benefits
    - Facilitates work with the small agent ticket overview.
    - Increases flexibility through optimized adaptability.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service management
    - Internal IT service
    - Customer service/support
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSAdjustSortTicketOverview
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-adjust-sort-ticket-overview/
 

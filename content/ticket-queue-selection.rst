@@ -12,15 +12,18 @@ Benefits
    - Automatic assignment in the correct queue according to individually definable keywords.
    - Saves time compared to a manual assignment.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - External IT service
    - Call centers
    - Sales
    - Customer service
    - And many more
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSTicketQueueSelection
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-ticket-queue-selection/
 

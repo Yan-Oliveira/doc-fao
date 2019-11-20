@@ -34,15 +34,18 @@ Benefits
    - Even more flexible escalation management – individually adoptable to customer or SLA.
    - More precise service time management by detailed indication of remaining time.
 
-Available in Service Package
-   PLATINUM
-
 Target Groups
    - Customer service organizations having many partners or suppliers
    - External IT service providers
    - Call centers
    - Sales departments and sales companies
    - Advertising or communications agencies
+
+Available in Service Package
+   - PLATINUM
+
+Package Name in OTRS Package Manager
+   - OTRSAdvancedEscalations
 
 .. note::
 

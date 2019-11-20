@@ -10,9 +10,6 @@ Benefits
    - More interactivity with the customer or other agents during the process.
    - More efficient design of your business processes.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Process managers
    - External IT
@@ -20,6 +17,12 @@ Target Groups
    - Customer service
    - Facility management
    - And many more
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSProcessManagementArticleEmail
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-process-management-article-email/
 

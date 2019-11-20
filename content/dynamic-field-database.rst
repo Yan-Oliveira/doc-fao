@@ -8,9 +8,6 @@ Benefits
    - All data is centrally accessible in **OTRS**.
    - Automatic transfer of additional data to the record.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Complaint management
    - Customer service
@@ -23,6 +20,12 @@ Target Groups
    - Security management
    - Service providers
    - Supply-chain management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicFieldDatabase
 
 .. Original content: https://otrs.com/otrs-feature/dynamic-field-database/
 

@@ -13,15 +13,18 @@ Benefits
    - Optimal capacity utilization of your service team by automatic allocation of tickets.
    - Simple handling of an increased number of tickets.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service
    - Sales
    - Facility management
    - Internal IT
    - And many more
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSTicketAllocation
 
 .. note::
 

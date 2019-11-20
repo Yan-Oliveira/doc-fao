@@ -9,14 +9,17 @@ Benefits
    - Clear separation of divisions by queue responsibles.
    - More significant reporting.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service management
    - Call centers
    - Sales
    - Logistics
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSQueueResponsible
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-queue-responsible/
 

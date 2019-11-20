@@ -8,12 +8,15 @@ Benefits
    - Resource-saving usage of response templates.
    - Increases your **OTRS** performance.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - OTRS administrators with Template Toolkit experience
    - Organizations that want to easily customize their OTRS templates, e.g. for many languages
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSAdvancedEditor
 
 .. note::
 

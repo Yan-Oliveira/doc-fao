@@ -9,13 +9,16 @@ Benefits
    - Appointments are displayed in a calendar format.
    - Availability can be seen at a glance.
 
-Available in Service Package
-   TITANIUM
-
 Target Groups
    - Service companies that want to visually represent availability
    - Customer service
    - ITSM
+
+Available in Service Package
+   - TITANIUM
+
+Package Name in OTRS Package Manager
+   - OTRSCustomerEventTicketCalendar
 
 .. Original content: https://otrs.com/otrs-feature/customer-event-ticket-calendar/
 

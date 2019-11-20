@@ -14,15 +14,18 @@ Benefits
    - Customer service and sales are more quickly up-to-date.
    - Easier integration of partners from outsourced corporate areas.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Call centers
    - Customer service
    - Wholesalers
    - Sales
    - Order management
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicFieldValueImport
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-dynamic-field-value-import/
 

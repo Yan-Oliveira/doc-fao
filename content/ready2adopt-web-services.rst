@@ -11,9 +11,6 @@ Benefits
    - All data is centrally accessible in **OTRS**.
    - Execute arbitrary complex mappings through the XSLT mapping module.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Customer service
    - Development
@@ -21,6 +18,12 @@ Target Groups
    - IT service
    - Security management
    - Service providers
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSReady2AdoptWebServices
 
 .. note::
 

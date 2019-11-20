@@ -8,14 +8,17 @@ Benefits
    - Important information, such as product news, is always available to agents and can be used immediately in customer contact.
    - Company news is clearly structured and centrally available in one place.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT security
    - Internal and external communication
    - Human resources
    - Internal and external IT
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSDashboardNewsWidget
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-dashboard-news-widget/
 

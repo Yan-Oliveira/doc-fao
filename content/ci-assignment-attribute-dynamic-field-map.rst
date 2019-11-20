@@ -12,14 +12,17 @@ Benefits
    - Optimized visualization of CI attributes with multiple values in a drop-down in the ticket.
    - CI attributes are readable and searchable.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Companies that offer services for different devices/products (CIs)
    - Agents
    - Internal and external IT
    - Facility management
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSCIAssignmentAttributeDynamicFieldMap
 
 .. note::
 

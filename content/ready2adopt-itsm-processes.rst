@@ -34,9 +34,6 @@ Benefits
    - Continual service improvement (CSI) through pre-defined ITIL processes.
    - Higher efficiency and quality through proven ITIL-inspired processes.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Customer service
    - Facility management
@@ -44,6 +41,12 @@ Target Groups
    - IT service
    - Security management
    - Service providers
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSReady2AdoptITSMProcesses
 
 .. note::
 

@@ -11,14 +11,17 @@ Benefits
    - By building template categories recurrent requests can be answered even faster.
    - Facilitates job training of new agents.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service management
    - Call centers
    - Service providers
    - Any company working with SLAs
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSCategoriesForTextModules
 
 .. note::
 

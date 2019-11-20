@@ -8,9 +8,6 @@ Benefits
    - Data management does not have to take place within **OTRS**.
    - Execute arbitrary complex mappings through the XSLT mapping module.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Complaint management
    - Customer service
@@ -21,6 +18,12 @@ Target Groups
    - IT service
    - Project management
    - Security management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicFieldWebService
 
 .. Original content: https://otrs.com/otrs-feature/dynamic-field-web-service/
 

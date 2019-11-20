@@ -13,9 +13,6 @@ Benefits
    - Optimal guidance for the customer regarding for which services he or she can open a ticket.
    - Speed-up of ticket handling process.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Internal IT departments
    - External IT service providers
@@ -23,6 +20,12 @@ Target Groups
    - Agencies
    - Consulting businesses
    - Companies offering a wide range of services or products
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSCustomerSpecificServices
 
 .. note::
 

@@ -21,14 +21,17 @@ Benefits
    - Overview of the current status of an edit.
    - Automation options.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Complaint management
    - Customer service
    - Facility management
    - Human resources
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSReady2AdoptProcesses
 
 .. Original content: https://otrs.com/otrs-feature/ready2adopt-processes/
 

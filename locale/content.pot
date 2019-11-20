@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-15 15:25+0100\n"
+"POT-Creation-Date: 2019-11-20 15:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,93 +112,97 @@ msgstr ""
 msgid "Increases flexibility through optimized adaptability."
 msgstr ""
 
-#: ../../content/adjust-sort-ticket-overview.rst:17
-#: ../../content/advanced-editor.rst:12
-#: ../../content/advanced-escalations.rst:38
-#: ../../content/advanced-generic-agent.rst:15
+#: ../../content/adjust-sort-ticket-overview.rst:19
+#: ../../content/advanced-editor.rst:13
+#: ../../content/advanced-escalations.rst:42
+#: ../../content/advanced-generic-agent.rst:19
 #: ../../content/agent-email-interface.rst:39
+#: ../../content/automated-faq-ticket-creator.rst:20
+#: ../../content/automatic-start-of-processes.rst:19
+#: ../../content/brute-force-attack-protection.rst:15
+#: ../../content/calendar-resource-planning.rst:23
+#: ../../content/categories-for-text-modules.rst:18
+#: ../../content/change-write-protection.rst:21
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
+#: ../../content/ci-custom-search.rst:18
+#: ../../content/ci-references.rst:24
+#: ../../content/cis-in-customer-frontend.rst:23
+#: ../../content/credit-card-filter.rst:17
+#: ../../content/custom-contact-fields.rst:27
+#: ../../content/customer-activity-widget.rst:15
+#: ../../content/customer-event-ticket-calendar.rst:15
+#: ../../content/customer-frontend-link-object.rst:16
+#: ../../content/customer-specific-services.rst:22
+#: ../../content/dashboard-news-widget.rst:15
+#: ../../content/data-privacy-protection.rst:23
+#: ../../content/delete-attachments.rst:21
+#: ../../content/dynamic-field-attachment.rst:16
+#: ../../content/dynamic-field-calculation.rst:9
+#: ../../content/dynamic-field-ci.rst:29
+#: ../../content/dynamic-field-database.rst:22
+#: ../../content/dynamic-field-search-booster.rst:17
+#: ../../content/dynamic-field-value-import.rst:22
+#: ../../content/dynamic-field-web-service.rst:20
+#: ../../content/dynamic-sender-addresses.rst:19
+#: ../../content/escalation-suspend.rst:16
+#: ../../content/extended-ticket-stats.rst:26
+#: ../../content/hide-show-dynamic-fields.rst:21
+#: ../../content/out-of-office.rst:18
+#: ../../content/process-management-article-email.rst:19
+#: ../../content/queue-responsible.rst:16
+#: ../../content/ready2adopt-itsm-processes.rst:43
+#: ../../content/ready2adopt-processes.rst:28
+#: ../../content/ready2adopt-web-services.rst:20
+#: ../../content/restore-pending-information.rst:17
+#: ../../content/restrict-customer-data-view.rst:17
+#: ../../content/service-based-queue-routing.rst:17
+#: ../../content/service-categories.rst:17
+#: ../../content/service-responsible.rst:20
+#: ../../content/specific-ticket-notifications.rst:17
+#: ../../content/state-preselection-response-templates.rst:19
+#: ../../content/system-configuration-history.rst:15
+#: ../../content/tag-cloud.rst:29
+#: ../../content/ticket-allocation.rst:21
+#: ../../content/ticket-forms.rst:39
+#: ../../content/ticket-queue-selection.rst:20
+#: ../../content/ticket-time-unit-dropdown.rst:24
+#: ../../content/ticket-watchlist.rst:37
+#: ../../content/ticket-workflow.rst:35
+#: ../../content/time-accounting-quota.rst:18
+#: ../../content/vip-customer.rst:20
+msgid "Target Groups"
+msgstr ""
+
+#: ../../content/adjust-sort-ticket-overview.rst:17
+#: ../../content/advanced-generic-agent.rst:15
 #: ../../content/automated-faq-ticket-creator.rst:16
-#: ../../content/automatic-start-of-processes.rst:13
-#: ../../content/brute-force-attack-protection.rst:11
-#: ../../content/calendar-resource-planning.rst:15
 #: ../../content/categories-for-text-modules.rst:15
 #: ../../content/change-write-protection.rst:20
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:16
-#: ../../content/ci-custom-search.rst:16
-#: ../../content/ci-references.rst:21
-#: ../../content/cis-in-customer-frontend.rst:20
-#: ../../content/credit-card-filter.rst:13
-#: ../../content/custom-contact-fields.rst:22
-#: ../../content/customer-activity-widget.rst:12
-#: ../../content/customer-event-ticket-calendar.rst:13
-#: ../../content/customer-frontend-link-object.rst:14
-#: ../../content/customer-specific-services.rst:17
-#: ../../content/dashboard-news-widget.rst:12
-#: ../../content/delete-attachments.rst:18
-#: ../../content/dynamic-field-attachment.rst:12
-#: ../../content/dynamic-field-ci.rst:25
-#: ../../content/dynamic-field-database.rst:12
-#: ../../content/dynamic-field-search-booster.rst:13
-#: ../../content/dynamic-field-value-import.rst:18
-#: ../../content/dynamic-field-web-service.rst:12
-#: ../../content/dynamic-sender-addresses.rst:15
+#: ../../content/data-privacy-protection.rst:18
 #: ../../content/escalation-suspend.rst:14
-#: ../../content/extended-ticket-stats.rst:22
-#: ../../content/hide-show-dynamic-fields.rst:14
-#: ../../content/out-of-office.rst:13
-#: ../../content/process-management-article-email.rst:14
+#: ../../content/out-of-office.rst:16
 #: ../../content/queue-responsible.rst:13
-#: ../../content/ready2adopt-itsm-processes.rst:38
-#: ../../content/ready2adopt-processes.rst:25
-#: ../../content/ready2adopt-web-services.rst:15
-#: ../../content/restore-pending-information.rst:13
-#: ../../content/restrict-customer-data-view.rst:15
-#: ../../content/service-based-queue-routing.rst:14
-#: ../../content/service-categories.rst:12
-#: ../../content/service-responsible.rst:16
-#: ../../content/specific-ticket-notifications.rst:14
-#: ../../content/state-preselection-response-templates.rst:15
-#: ../../content/system-configuration-history.rst:14
-#: ../../content/tag-cloud.rst:25
-#: ../../content/ticket-allocation.rst:17
-#: ../../content/ticket-forms.rst:36
-#: ../../content/ticket-queue-selection.rst:16
+#: ../../content/service-based-queue-routing.rst:17
+#: ../../content/tag-cloud.rst:28
+#: ../../content/ticket-forms.rst:37
 #: ../../content/ticket-time-unit-dropdown.rst:21
 #: ../../content/ticket-watchlist.rst:34
 #: ../../content/ticket-workflow.rst:32
 #: ../../content/time-accounting-quota.rst:15
 #: ../../content/vip-customer.rst:17
-msgid "Available in Service Package"
+msgid "IT service management"
 msgstr ""
 
-#: ../../content/adjust-sort-ticket-overview.rst:17
-#: ../../content/advanced-editor.rst:12
-#: ../../content/advanced-generic-agent.rst:15
-#: ../../content/agent-email-interface.rst:39
-#: ../../content/automatic-start-of-processes.rst:13
-#: ../../content/categories-for-text-modules.rst:15
-#: ../../content/change-write-protection.rst:20
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:16
-#: ../../content/ci-custom-search.rst:16
-#: ../../content/ci-references.rst:21
-#: ../../content/cis-in-customer-frontend.rst:20
-#: ../../content/dynamic-field-attachment.rst:12
-#: ../../content/dynamic-field-ci.rst:25
-#: ../../content/dynamic-field-value-import.rst:18
-#: ../../content/dynamic-sender-addresses.rst:15
-#: ../../content/escalation-suspend.rst:14
-#: ../../content/hide-show-dynamic-fields.rst:14
-#: ../../content/introduction.rst:145
-#: ../../content/process-management-article-email.rst:14
-#: ../../content/queue-responsible.rst:13
-#: ../../content/ready2adopt-itsm-processes.rst:38
-#: ../../content/ready2adopt-web-services.rst:15
-#: ../../content/restrict-customer-data-view.rst:15
-#: ../../content/specific-ticket-notifications.rst:14
-#: ../../content/ticket-allocation.rst:17
+#: ../../content/adjust-sort-ticket-overview.rst:18
+#: ../../content/ticket-time-unit-dropdown.rst:22
+msgid "Internal IT service"
+msgstr ""
+
+#: ../../content/adjust-sort-ticket-overview.rst:19
+#: ../../content/advanced-generic-agent.rst:16
 #: ../../content/ticket-forms.rst:36
-#: ../../content/ticket-queue-selection.rst:16
-msgid "GOLD"
+#: ../../content/ticket-time-unit-dropdown.rst:23
+msgid "Customer service/support"
 msgstr ""
 
 #: ../../content/adjust-sort-ticket-overview.rst:22
@@ -223,9 +227,10 @@ msgstr ""
 #: ../../content/customer-frontend-link-object.rst:19
 #: ../../content/customer-specific-services.rst:25
 #: ../../content/dashboard-news-widget.rst:18
-#: ../../content/data-privacy-protection.rst:23
+#: ../../content/data-privacy-protection.rst:26
 #: ../../content/delete-attachments.rst:24
 #: ../../content/dynamic-field-attachment.rst:19
+#: ../../content/dynamic-field-calculation.rst:12
 #: ../../content/dynamic-field-ci.rst:32
 #: ../../content/dynamic-field-database.rst:25
 #: ../../content/dynamic-field-search-booster.rst:20
@@ -252,50 +257,117 @@ msgstr ""
 #: ../../content/tag-cloud.rst:32
 #: ../../content/ticket-allocation.rst:24
 #: ../../content/ticket-forms.rst:42
+#: ../../content/ticket-invoker.rst:7
 #: ../../content/ticket-queue-selection.rst:23
 #: ../../content/ticket-time-unit-dropdown.rst:27
 #: ../../content/ticket-watchlist.rst:40
 #: ../../content/ticket-workflow.rst:38
 #: ../../content/time-accounting-quota.rst:21
 #: ../../content/vip-customer.rst:23
-msgid "Target Groups"
-msgstr ""
-
-#: ../../content/adjust-sort-ticket-overview.rst:20
-#: ../../content/advanced-generic-agent.rst:18
-#: ../../content/automated-faq-ticket-creator.rst:19
-#: ../../content/categories-for-text-modules.rst:18
-#: ../../content/change-write-protection.rst:23
-#: ../../content/data-privacy-protection.rst:18
-#: ../../content/escalation-suspend.rst:17
-#: ../../content/out-of-office.rst:19
-#: ../../content/queue-responsible.rst:16
-#: ../../content/service-based-queue-routing.rst:20
-#: ../../content/tag-cloud.rst:31
-#: ../../content/ticket-forms.rst:40
-#: ../../content/ticket-time-unit-dropdown.rst:24
-#: ../../content/ticket-watchlist.rst:37
-#: ../../content/ticket-workflow.rst:35
-#: ../../content/time-accounting-quota.rst:18
-#: ../../content/vip-customer.rst:20
-msgid "IT service management"
-msgstr ""
-
-#: ../../content/adjust-sort-ticket-overview.rst:21
-#: ../../content/ticket-time-unit-dropdown.rst:25
-msgid "Internal IT service"
+msgid "Available in Service Package"
 msgstr ""
 
 #: ../../content/adjust-sort-ticket-overview.rst:22
-#: ../../content/advanced-generic-agent.rst:19
-#: ../../content/ticket-forms.rst:39
-#: ../../content/ticket-time-unit-dropdown.rst:26
-msgid "Customer service/support"
+#: ../../content/advanced-editor.rst:16
+#: ../../content/advanced-generic-agent.rst:22
+#: ../../content/agent-email-interface.rst:42
+#: ../../content/automatic-start-of-processes.rst:22
+#: ../../content/categories-for-text-modules.rst:21
+#: ../../content/change-write-protection.rst:24
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:22
+#: ../../content/ci-custom-search.rst:21
+#: ../../content/ci-references.rst:27
+#: ../../content/cis-in-customer-frontend.rst:26
+#: ../../content/dynamic-field-attachment.rst:19
+#: ../../content/dynamic-field-calculation.rst:12
+#: ../../content/dynamic-field-ci.rst:32
+#: ../../content/dynamic-field-value-import.rst:25
+#: ../../content/dynamic-sender-addresses.rst:22
+#: ../../content/escalation-suspend.rst:19
+#: ../../content/hide-show-dynamic-fields.rst:24
+#: ../../content/introduction.rst:150
+#: ../../content/process-management-article-email.rst:22
+#: ../../content/queue-responsible.rst:19
+#: ../../content/ready2adopt-itsm-processes.rst:46
+#: ../../content/ready2adopt-web-services.rst:23
+#: ../../content/restrict-customer-data-view.rst:20
+#: ../../content/specific-ticket-notifications.rst:20
+#: ../../content/ticket-allocation.rst:24
+#: ../../content/ticket-forms.rst:42
+#: ../../content/ticket-invoker.rst:7
+#: ../../content/ticket-queue-selection.rst:23
+msgid "GOLD"
 msgstr ""
 
-#: ../../content/adjust-sort-ticket-overview.rst:26
-#: ../../content/advanced-editor.rst:28
-#: ../../content/advanced-escalations.rst:56
+#: ../../content/adjust-sort-ticket-overview.rst:25
+#: ../../content/advanced-editor.rst:19
+#: ../../content/advanced-escalations.rst:48
+#: ../../content/advanced-generic-agent.rst:25
+#: ../../content/agent-email-interface.rst:45
+#: ../../content/automated-faq-ticket-creator.rst:26
+#: ../../content/automatic-start-of-processes.rst:25
+#: ../../content/brute-force-attack-protection.rst:21
+#: ../../content/calendar-resource-planning.rst:29
+#: ../../content/categories-for-text-modules.rst:24
+#: ../../content/change-write-protection.rst:27
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:25
+#: ../../content/ci-custom-search.rst:24
+#: ../../content/ci-references.rst:30
+#: ../../content/cis-in-customer-frontend.rst:29
+#: ../../content/credit-card-filter.rst:23
+#: ../../content/custom-contact-fields.rst:33
+#: ../../content/customer-activity-widget.rst:21
+#: ../../content/customer-event-ticket-calendar.rst:21
+#: ../../content/customer-frontend-link-object.rst:22
+#: ../../content/customer-specific-services.rst:28
+#: ../../content/dashboard-news-widget.rst:21
+#: ../../content/data-privacy-protection.rst:29
+#: ../../content/delete-attachments.rst:27
+#: ../../content/dynamic-field-attachment.rst:22
+#: ../../content/dynamic-field-calculation.rst:15
+#: ../../content/dynamic-field-ci.rst:35
+#: ../../content/dynamic-field-database.rst:28
+#: ../../content/dynamic-field-search-booster.rst:23
+#: ../../content/dynamic-field-value-import.rst:28
+#: ../../content/dynamic-field-web-service.rst:26
+#: ../../content/dynamic-sender-addresses.rst:25
+#: ../../content/escalation-suspend.rst:22
+#: ../../content/extended-ticket-stats.rst:32
+#: ../../content/hide-show-dynamic-fields.rst:27
+#: ../../content/out-of-office.rst:24
+#: ../../content/process-management-article-email.rst:25
+#: ../../content/queue-responsible.rst:22
+#: ../../content/ready2adopt-itsm-processes.rst:49
+#: ../../content/ready2adopt-processes.rst:34
+#: ../../content/ready2adopt-web-services.rst:26
+#: ../../content/restore-pending-information.rst:23
+#: ../../content/restrict-customer-data-view.rst:23
+#: ../../content/service-based-queue-routing.rst:23
+#: ../../content/service-categories.rst:23
+#: ../../content/service-responsible.rst:26
+#: ../../content/specific-ticket-notifications.rst:23
+#: ../../content/state-preselection-response-templates.rst:25
+#: ../../content/system-configuration-history.rst:21
+#: ../../content/tag-cloud.rst:35
+#: ../../content/ticket-allocation.rst:27
+#: ../../content/ticket-forms.rst:45
+#: ../../content/ticket-invoker.rst:10
+#: ../../content/ticket-queue-selection.rst:26
+#: ../../content/ticket-time-unit-dropdown.rst:30
+#: ../../content/ticket-watchlist.rst:43
+#: ../../content/ticket-workflow.rst:41
+#: ../../content/time-accounting-quota.rst:24
+#: ../../content/vip-customer.rst:26
+msgid "Package Name in OTRS Package Manager"
+msgstr ""
+
+#: ../../content/adjust-sort-ticket-overview.rst:25
+msgid "OTRSAdjustSortTicketOverview"
+msgstr ""
+
+#: ../../content/adjust-sort-ticket-overview.rst:29
+#: ../../content/advanced-editor.rst:31
+#: ../../content/advanced-escalations.rst:59
 #: ../../content/advanced-escalations/admin.rst:8
 #: ../../content/advanced-escalations/admin/administration.rst:8
 #: ../../content/advanced-escalations/admin/communication-notifications.rst:6
@@ -303,171 +375,171 @@ msgstr ""
 #: ../../content/advanced-escalations/agent.rst:12
 #: ../../content/advanced-escalations/agent/reports.rst:6
 #: ../../content/advanced-escalations/agent/tickets.rst:6
-#: ../../content/advanced-generic-agent.rst:32
-#: ../../content/agent-email-interface.rst:46
-#: ../../content/automated-faq-ticket-creator.rst:27
+#: ../../content/advanced-generic-agent.rst:35
+#: ../../content/agent-email-interface.rst:49
+#: ../../content/automated-faq-ticket-creator.rst:30
 #: ../../content/automated-faq-ticket-creator/admin.rst:6
 #: ../../content/automated-faq-ticket-creator/admin/processes-automation.rst:6
 #: ../../content/automated-faq-ticket-creator/agent.rst:6
 #: ../../content/automated-faq-ticket-creator/agent/faq.rst:6
-#: ../../content/automatic-start-of-processes.rst:26
+#: ../../content/automatic-start-of-processes.rst:29
 #: ../../content/automatic-start-of-processes/admin.rst:6
 #: ../../content/automatic-start-of-processes/admin/processes-automation.rst:6
-#: ../../content/brute-force-attack-protection.rst:22
+#: ../../content/brute-force-attack-protection.rst:25
 #: ../../content/brute-force-attack-protection/admin.rst:6
 #: ../../content/brute-force-attack-protection/admin/administration.rst:6
 #: ../../content/brute-force-attack-protection/admin/users-groups-roles.rst:6
-#: ../../content/calendar-resource-planning.rst:30
+#: ../../content/calendar-resource-planning.rst:33
 #: ../../content/calendar-resource-planning/agent.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar.rst:6
-#: ../../content/categories-for-text-modules.rst:34
+#: ../../content/categories-for-text-modules.rst:37
 #: ../../content/categories-for-text-modules/admin.rst:6
 #: ../../content/categories-for-text-modules/admin/ticket-settings.rst:6
 #: ../../content/categories-for-text-modules/agent.rst:6
 #: ../../content/categories-for-text-modules/agent/tickets.rst:6
-#: ../../content/change-write-protection.rst:32
+#: ../../content/change-write-protection.rst:35
 #: ../../content/change-write-protection/agent.rst:6
 #: ../../content/change-write-protection/agent/itsm-changes.rst:6
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:30
-#: ../../content/ci-custom-search.rst:29
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:33
+#: ../../content/ci-custom-search.rst:32
 #: ../../content/ci-custom-search/agent.rst:6
 #: ../../content/ci-custom-search/agent/cmdb.rst:12
-#: ../../content/ci-references.rst:35
+#: ../../content/ci-references.rst:38
 #: ../../content/ci-references/agent.rst:6
 #: ../../content/ci-references/agent/cmdb.rst:12
-#: ../../content/cis-in-customer-frontend.rst:41
-#: ../../content/credit-card-filter.rst:24
-#: ../../content/custom-contact-fields.rst:34
+#: ../../content/cis-in-customer-frontend.rst:44
+#: ../../content/credit-card-filter.rst:27
+#: ../../content/custom-contact-fields.rst:37
 #: ../../content/custom-contact-fields/admin.rst:6
 #: ../../content/custom-contact-fields/admin/communication-notifications.rst:10
 #: ../../content/custom-contact-fields/admin/processes-automation.rst:6
-#: ../../content/customer-activity-widget.rst:28
+#: ../../content/customer-activity-widget.rst:31
 #: ../../content/customer-activity-widget/agent.rst:6
 #: ../../content/customer-activity-widget/agent/dashboard.rst:6
-#: ../../content/customer-event-ticket-calendar.rst:22
-#: ../../content/customer-frontend-link-object.rst:23
-#: ../../content/customer-specific-services.rst:37
+#: ../../content/customer-event-ticket-calendar.rst:25
+#: ../../content/customer-frontend-link-object.rst:26
+#: ../../content/customer-specific-services.rst:40
 #: ../../content/customer-specific-services/admin.rst:10
 #: ../../content/customer-specific-services/admin/users-groups-roles.rst:6
 #: ../../content/customer-specific-services/agent.rst:8
 #: ../../content/customer-specific-services/agent/customers.rst:6
-#: ../../content/dashboard-news-widget.rst:22
+#: ../../content/dashboard-news-widget.rst:25
 #: ../../content/dashboard-news-widget/admin.rst:6
 #: ../../content/dashboard-news-widget/admin/communication-notifications.rst:6
 #: ../../content/dashboard-news-widget/agent.rst:6
 #: ../../content/dashboard-news-widget/agent/avatar.rst:6
 #: ../../content/dashboard-news-widget/agent/dashboard.rst:6
 #: ../../content/dashboard-news-widget/agent/dashboard-news.rst:6
-#: ../../content/data-privacy-protection.rst:27
-#: ../../content/delete-attachments.rst:28
-#: ../../content/dynamic-field-attachment.rst:23
+#: ../../content/data-privacy-protection.rst:33
+#: ../../content/delete-attachments.rst:31
+#: ../../content/dynamic-field-attachment.rst:26
 #: ../../content/dynamic-field-attachment/admin.rst:6
 #: ../../content/dynamic-field-attachment/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-calculation.rst:6
+#: ../../content/dynamic-field-calculation.rst:17
 #: ../../content/dynamic-field-calculation/admin.rst:6
 #: ../../content/dynamic-field-calculation/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-ci.rst:46
+#: ../../content/dynamic-field-ci.rst:49
 #: ../../content/dynamic-field-ci/admin.rst:6
 #: ../../content/dynamic-field-ci/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-database.rst:29
+#: ../../content/dynamic-field-database.rst:32
 #: ../../content/dynamic-field-database/admin.rst:6
 #: ../../content/dynamic-field-database/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-search-booster.rst:24
-#: ../../content/dynamic-field-value-import.rst:29
+#: ../../content/dynamic-field-search-booster.rst:27
+#: ../../content/dynamic-field-value-import.rst:32
 #: ../../content/dynamic-field-value-import/admin.rst:6
 #: ../../content/dynamic-field-value-import/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-web-service.rst:27
+#: ../../content/dynamic-field-web-service.rst:30
 #: ../../content/dynamic-field-web-service/admin.rst:10
 #: ../../content/dynamic-field-web-service/admin/processes-automation.rst:6
-#: ../../content/dynamic-sender-addresses.rst:26
+#: ../../content/dynamic-sender-addresses.rst:29
 #: ../../content/dynamic-sender-addresses/admin.rst:6
 #: ../../content/dynamic-sender-addresses/admin/communication-notifications.rst:6
 #: ../../content/dynamic-sender-addresses/admin/processes-automation.rst:6
-#: ../../content/escalation-suspend.rst:29
-#: ../../content/extended-ticket-stats.rst:33
+#: ../../content/escalation-suspend.rst:32
+#: ../../content/extended-ticket-stats.rst:36
 #: ../../content/extended-ticket-stats/agent.rst:6
 #: ../../content/extended-ticket-stats/agent/reports.rst:6
-#: ../../content/hide-show-dynamic-fields.rst:38
+#: ../../content/hide-show-dynamic-fields.rst:41
 #: ../../content/index.rst:9
-#: ../../content/out-of-office.rst:25
-#: ../../content/process-management-article-email.rst:26
+#: ../../content/out-of-office.rst:28
+#: ../../content/process-management-article-email.rst:29
 #: ../../content/process-management-article-email/admin.rst:6
 #: ../../content/process-management-article-email/admin/processes-automation.rst:6
 #: ../../content/process-management-article-email/agent.rst:6
 #: ../../content/process-management-article-email/agent/tickets.rst:6
-#: ../../content/queue-responsible.rst:23
-#: ../../content/ready2adopt-itsm-processes.rst:54
+#: ../../content/queue-responsible.rst:26
+#: ../../content/ready2adopt-itsm-processes.rst:57
 #: ../../content/ready2adopt-itsm-processes/admin.rst:6
 #: ../../content/ready2adopt-itsm-processes/admin/processes-automation.rst:6
-#: ../../content/ready2adopt-processes.rst:35
+#: ../../content/ready2adopt-processes.rst:38
 #: ../../content/ready2adopt-processes/admin.rst:6
 #: ../../content/ready2adopt-processes/admin/processes-automation.rst:6
-#: ../../content/ready2adopt-web-services.rst:31
+#: ../../content/ready2adopt-web-services.rst:34
 #: ../../content/ready2adopt-web-services/admin.rst:6
 #: ../../content/ready2adopt-web-services/admin/processes-automation.rst:6
-#: ../../content/restore-pending-information.rst:31
+#: ../../content/restore-pending-information.rst:34
 #: ../../content/restore-pending-information/agent.rst:6
 #: ../../content/restore-pending-information/agent/tickets.rst:13
-#: ../../content/restrict-customer-data-view.rst:30
+#: ../../content/restrict-customer-data-view.rst:33
 #: ../../content/restrict-customer-data-view/admin.rst:6
 #: ../../content/restrict-customer-data-view/admin/miscellaneous.rst:6
-#: ../../content/service-based-queue-routing.rst:28
+#: ../../content/service-based-queue-routing.rst:31
 #: ../../content/service-based-queue-routing/admin.rst:6
 #: ../../content/service-based-queue-routing/admin/ticket-settings.rst:6
-#: ../../content/service-categories.rst:24
+#: ../../content/service-categories.rst:27
 #: ../../content/service-categories/admin.rst:6
 #: ../../content/service-categories/admin/ticket-settings.rst:6
-#: ../../content/service-responsible.rst:27
+#: ../../content/service-responsible.rst:30
 #: ../../content/service-responsible/admin.rst:6
 #: ../../content/service-responsible/admin/communication-notifications.rst:6
 #: ../../content/service-responsible/agent.rst:6
 #: ../../content/service-responsible/agent/avatar.rst:6
-#: ../../content/specific-ticket-notifications.rst:24
+#: ../../content/specific-ticket-notifications.rst:27
 #: ../../content/specific-ticket-notifications/admin.rst:6
 #: ../../content/specific-ticket-notifications/admin/communication-notifications.rst:6
 #: ../../content/specific-ticket-notifications/admin/users-groups-roles.rst:6
 #: ../../content/specific-ticket-notifications/agent.rst:6
 #: ../../content/specific-ticket-notifications/agent/avatar.rst:6
-#: ../../content/state-preselection-response-templates.rst:26
+#: ../../content/state-preselection-response-templates.rst:29
 #: ../../content/state-preselection-response-templates/admin.rst:6
 #: ../../content/state-preselection-response-templates/admin/ticket-settings.rst:6
-#: ../../content/system-configuration-history.rst:22
+#: ../../content/system-configuration-history.rst:25
 #: ../../content/system-configuration-history/admin.rst:6
 #: ../../content/system-configuration-history/admin/administration.rst:6
-#: ../../content/tag-cloud.rst:36
+#: ../../content/tag-cloud.rst:39
 #: ../../content/tag-cloud/agent.rst:6
 #: ../../content/tag-cloud/agent/dashboard.rst:6
-#: ../../content/ticket-allocation.rst:34
+#: ../../content/ticket-allocation.rst:37
 #: ../../content/ticket-allocation/admin.rst:17
 #: ../../content/ticket-allocation/admin/processes-automation.rst:6
 #: ../../content/ticket-allocation/admin/users-groups-roles.rst:6
-#: ../../content/ticket-forms.rst:58
+#: ../../content/ticket-forms.rst:61
 #: ../../content/ticket-forms/admin.rst:16
 #: ../../content/ticket-forms/admin/communication-notifications.rst:6
 #: ../../content/ticket-forms/admin/ticket-settings.rst:6
 #: ../../content/ticket-forms/admin/users-groups-roles.rst:6
-#: ../../content/ticket-invoker.rst:6
+#: ../../content/ticket-invoker.rst:12
 #: ../../content/ticket-invoker/admin.rst:6
 #: ../../content/ticket-invoker/admin/processes-automation.rst:6
-#: ../../content/ticket-queue-selection.rst:27
-#: ../../content/ticket-time-unit-dropdown.rst:31
-#: ../../content/ticket-watchlist.rst:50
+#: ../../content/ticket-queue-selection.rst:30
+#: ../../content/ticket-time-unit-dropdown.rst:34
+#: ../../content/ticket-watchlist.rst:53
 #: ../../content/ticket-watchlist/admin.rst:10
 #: ../../content/ticket-watchlist/admin/communication-notifications.rst:6
 #: ../../content/ticket-watchlist/agent.rst:8
 #: ../../content/ticket-watchlist/agent/tickets.rst:6
-#: ../../content/ticket-workflow.rst:46
+#: ../../content/ticket-workflow.rst:49
 #: ../../content/ticket-workflow/admin.rst:6
 #: ../../content/ticket-workflow/admin/ticket-settings.rst:6
 #: ../../content/ticket-workflow/agent.rst:6
 #: ../../content/ticket-workflow/agent/tickets.rst:6
-#: ../../content/time-accounting-quota.rst:25
+#: ../../content/time-accounting-quota.rst:28
 #: ../../content/time-accounting-quota/admin.rst:6
 #: ../../content/time-accounting-quota/admin/users-groups-roles.rst:6
 #: ../../content/time-accounting-quota/agent.rst:6
 #: ../../content/time-accounting-quota/agent/customers.rst:6
 #: ../../content/time-accounting-quota/agent/tickets.rst:6
-#: ../../content/vip-customer.rst:33
+#: ../../content/vip-customer.rst:36
 msgid "Contents"
 msgstr ""
 
@@ -976,54 +1048,58 @@ msgstr ""
 msgid "Increases your **OTRS** performance."
 msgstr ""
 
-#: ../../content/advanced-editor.rst:15
+#: ../../content/advanced-editor.rst:12
 msgid "OTRS administrators with Template Toolkit experience"
 msgstr ""
 
-#: ../../content/advanced-editor.rst:16
+#: ../../content/advanced-editor.rst:13
 msgid "Organizations that want to easily customize their OTRS templates, e.g. for many languages"
 msgstr ""
 
-#: ../../content/advanced-editor.rst:20
-#: ../../content/advanced-escalations.rst:49
-#: ../../content/categories-for-text-modules.rst:25
-#: ../../content/cis-in-customer-frontend.rst:30
-#: ../../content/customer-activity-widget.rst:22
-#: ../../content/dynamic-field-ci.rst:40
-#: ../../content/escalation-suspend.rst:23
-#: ../../content/hide-show-dynamic-fields.rst:28
-#: ../../content/restore-pending-information.rst:24
-#: ../../content/ticket-forms.rst:46
-msgid "Not compatible with the following feature add-ons:"
-msgstr ""
-
-#: ../../content/advanced-editor.rst:22
-#: ../../content/customer-activity-widget.rst:24
-#: ../../content/hide-show-dynamic-fields.rst:31
-#: ../../content/introduction.rst:77
-#: ../../content/introduction.rst:125
-#: ../../content/ticket-forms.rst:49
-msgid ":doc:`categories-for-text-modules`"
+#: ../../content/advanced-editor.rst:19
+msgid "OTRSAdvancedEditor"
 msgstr ""
 
 #: ../../content/advanced-editor.rst:23
-#: ../../content/categories-for-text-modules.rst:29
-#: ../../content/cis-in-customer-frontend.rst:32
-#: ../../content/introduction.rst:47
-#: ../../content/introduction.rst:137
-#: ../../content/restore-pending-information.rst:26
+#: ../../content/advanced-escalations.rst:52
+#: ../../content/categories-for-text-modules.rst:28
+#: ../../content/cis-in-customer-frontend.rst:33
+#: ../../content/customer-activity-widget.rst:25
+#: ../../content/dynamic-field-ci.rst:43
+#: ../../content/escalation-suspend.rst:26
+#: ../../content/hide-show-dynamic-fields.rst:31
+#: ../../content/restore-pending-information.rst:27
+#: ../../content/ticket-forms.rst:49
+msgid "Not compatible with the following feature add-ons:"
+msgstr ""
+
+#: ../../content/advanced-editor.rst:25
+#: ../../content/customer-activity-widget.rst:27
+#: ../../content/hide-show-dynamic-fields.rst:34
+#: ../../content/introduction.rst:79
+#: ../../content/introduction.rst:128
 #: ../../content/ticket-forms.rst:52
+msgid ":doc:`categories-for-text-modules`"
+msgstr ""
+
+#: ../../content/advanced-editor.rst:26
+#: ../../content/categories-for-text-modules.rst:32
+#: ../../content/cis-in-customer-frontend.rst:35
+#: ../../content/introduction.rst:47
+#: ../../content/introduction.rst:141
+#: ../../content/restore-pending-information.rst:29
+#: ../../content/ticket-forms.rst:55
 msgid ":doc:`hide-show-dynamic-fields`"
 msgstr ""
 
-#: ../../content/advanced-editor.rst:24
-#: ../../content/categories-for-text-modules.rst:30
-#: ../../content/cis-in-customer-frontend.rst:33
-#: ../../content/dynamic-field-ci.rst:42
-#: ../../content/hide-show-dynamic-fields.rst:34
+#: ../../content/advanced-editor.rst:27
+#: ../../content/categories-for-text-modules.rst:33
+#: ../../content/cis-in-customer-frontend.rst:36
+#: ../../content/dynamic-field-ci.rst:45
+#: ../../content/hide-show-dynamic-fields.rst:37
 #: ../../content/introduction.rst:49
-#: ../../content/introduction.rst:144
-#: ../../content/restore-pending-information.rst:27
+#: ../../content/introduction.rst:148
+#: ../../content/restore-pending-information.rst:30
 msgid ":doc:`ticket-forms`"
 msgstr ""
 
@@ -1292,64 +1368,68 @@ msgid "More precise service time management by detailed indication of remaining 
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:38
+#: ../../content/state-preselection-response-templates.rst:15
+msgid "Customer service organizations having many partners or suppliers"
+msgstr ""
+
+#: ../../content/advanced-escalations.rst:39
+#: ../../content/ci-custom-search.rst:17
+#: ../../content/cis-in-customer-frontend.rst:21
+#: ../../content/custom-contact-fields.rst:23
+#: ../../content/customer-specific-services.rst:18
+#: ../../content/state-preselection-response-templates.rst:16
+msgid "External IT service providers"
+msgstr ""
+
+#: ../../content/advanced-escalations.rst:40
+#: ../../content/categories-for-text-modules.rst:16
+#: ../../content/custom-contact-fields.rst:24
+#: ../../content/customer-specific-services.rst:19
 #: ../../content/dynamic-field-search-booster.rst:13
-#: ../../content/extended-ticket-stats.rst:22
-#: ../../content/introduction.rst:157
-msgid "PLATINUM"
+#: ../../content/dynamic-field-value-import.rst:18
+#: ../../content/dynamic-sender-addresses.rst:15
+#: ../../content/extended-ticket-stats.rst:23
+#: ../../content/queue-responsible.rst:14
+#: ../../content/restore-pending-information.rst:16
+#: ../../content/restrict-customer-data-view.rst:16
+#: ../../content/service-based-queue-routing.rst:14
+#: ../../content/state-preselection-response-templates.rst:17
+#: ../../content/ticket-queue-selection.rst:17
+#: ../../content/ticket-watchlist.rst:36
+#: ../../content/time-accounting-quota.rst:16
+#: ../../content/vip-customer.rst:18
+msgid "Call centers"
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:41
 #: ../../content/state-preselection-response-templates.rst:18
-msgid "Customer service organizations having many partners or suppliers"
-msgstr ""
-
-#: ../../content/advanced-escalations.rst:42
-#: ../../content/ci-custom-search.rst:20
-#: ../../content/cis-in-customer-frontend.rst:24
-#: ../../content/custom-contact-fields.rst:26
-#: ../../content/customer-specific-services.rst:21
-#: ../../content/state-preselection-response-templates.rst:19
-msgid "External IT service providers"
-msgstr ""
-
-#: ../../content/advanced-escalations.rst:43
-#: ../../content/categories-for-text-modules.rst:19
-#: ../../content/custom-contact-fields.rst:27
-#: ../../content/customer-specific-services.rst:22
-#: ../../content/dynamic-field-search-booster.rst:16
-#: ../../content/dynamic-field-value-import.rst:21
-#: ../../content/dynamic-sender-addresses.rst:18
-#: ../../content/extended-ticket-stats.rst:26
-#: ../../content/queue-responsible.rst:17
-#: ../../content/restore-pending-information.rst:19
-#: ../../content/restrict-customer-data-view.rst:19
-#: ../../content/service-based-queue-routing.rst:17
-#: ../../content/state-preselection-response-templates.rst:20
-#: ../../content/ticket-queue-selection.rst:20
-#: ../../content/ticket-watchlist.rst:39
-#: ../../content/time-accounting-quota.rst:19
-#: ../../content/vip-customer.rst:21
-msgid "Call centers"
-msgstr ""
-
-#: ../../content/advanced-escalations.rst:44
-#: ../../content/state-preselection-response-templates.rst:21
 msgid "Sales departments and sales companies"
 msgstr ""
 
-#: ../../content/advanced-escalations.rst:45
+#: ../../content/advanced-escalations.rst:42
 msgid "Advertising or communications agencies"
 msgstr ""
 
-#: ../../content/advanced-escalations.rst:51
-#: ../../content/introduction.rst:88
-#: ../../content/introduction.rst:136
+#: ../../content/advanced-escalations.rst:45
+#: ../../content/dynamic-field-search-booster.rst:20
+#: ../../content/extended-ticket-stats.rst:29
+#: ../../content/introduction.rst:163
+msgid "PLATINUM"
+msgstr ""
+
+#: ../../content/advanced-escalations.rst:48
+msgid "OTRSAdvancedEscalations"
+msgstr ""
+
+#: ../../content/advanced-escalations.rst:54
+#: ../../content/introduction.rst:91
+#: ../../content/introduction.rst:140
 msgid ":doc:`escalation-suspend`"
 msgstr ""
 
-#: ../../content/advanced-escalations.rst:52
-#: ../../content/introduction.rst:84
-#: ../../content/introduction.rst:115
+#: ../../content/advanced-escalations.rst:55
+#: ../../content/introduction.rst:87
+#: ../../content/introduction.rst:118
 msgid ":doc:`ticket-watchlist`"
 msgstr ""
 
@@ -3107,48 +3187,52 @@ msgstr ""
 msgid "Saves work through automation."
 msgstr ""
 
-#: ../../content/advanced-generic-agent.rst:20
-#: ../../content/calendar-resource-planning.rst:26
-#: ../../content/ci-references.rst:27
-#: ../../content/credit-card-filter.rst:18
-#: ../../content/customer-activity-widget.rst:17
-#: ../../content/dynamic-field-attachment.rst:18
-#: ../../content/dynamic-field-ci.rst:32
-#: ../../content/dynamic-field-search-booster.rst:18
-#: ../../content/dynamic-field-value-import.rst:24
-#: ../../content/dynamic-sender-addresses.rst:20
-#: ../../content/hide-show-dynamic-fields.rst:22
-#: ../../content/queue-responsible.rst:18
-#: ../../content/service-categories.rst:17
-#: ../../content/specific-ticket-notifications.rst:19
-#: ../../content/tag-cloud.rst:30
-#: ../../content/ticket-allocation.rst:21
-#: ../../content/ticket-forms.rst:41
-#: ../../content/ticket-queue-selection.rst:21
+#: ../../content/advanced-generic-agent.rst:17
+#: ../../content/calendar-resource-planning.rst:23
+#: ../../content/ci-references.rst:24
+#: ../../content/credit-card-filter.rst:15
+#: ../../content/customer-activity-widget.rst:14
+#: ../../content/dynamic-field-attachment.rst:15
+#: ../../content/dynamic-field-ci.rst:29
+#: ../../content/dynamic-field-search-booster.rst:15
+#: ../../content/dynamic-field-value-import.rst:21
+#: ../../content/dynamic-sender-addresses.rst:17
+#: ../../content/hide-show-dynamic-fields.rst:19
+#: ../../content/queue-responsible.rst:15
+#: ../../content/service-categories.rst:14
+#: ../../content/specific-ticket-notifications.rst:16
+#: ../../content/tag-cloud.rst:27
+#: ../../content/ticket-allocation.rst:18
+#: ../../content/ticket-forms.rst:38
+#: ../../content/ticket-queue-selection.rst:18
 msgid "Sales"
 msgstr ""
 
-#: ../../content/advanced-generic-agent.rst:21
+#: ../../content/advanced-generic-agent.rst:18
 msgid "Universities"
 msgstr ""
 
-#: ../../content/advanced-generic-agent.rst:22
-#: ../../content/brute-force-attack-protection.rst:16
+#: ../../content/advanced-generic-agent.rst:19
+#: ../../content/brute-force-attack-protection.rst:13
 #: ../../content/data-privacy-protection.rst:21
 msgid "Government"
 msgstr ""
 
-#: ../../content/advanced-generic-agent.rst:26
-#: ../../content/restrict-customer-data-view.rst:24
-#: ../../content/ticket-allocation.rst:28
-#: ../../content/ticket-watchlist.rst:44
-#: ../../content/vip-customer.rst:27
+#: ../../content/advanced-generic-agent.rst:25
+msgid "OTRSAdvancedGenericAgent"
+msgstr ""
+
+#: ../../content/advanced-generic-agent.rst:29
+#: ../../content/restrict-customer-data-view.rst:27
+#: ../../content/ticket-allocation.rst:31
+#: ../../content/ticket-watchlist.rst:47
+#: ../../content/vip-customer.rst:30
 msgid "Not compatible with the following feature add-on:"
 msgstr ""
 
-#: ../../content/advanced-generic-agent.rst:28
+#: ../../content/advanced-generic-agent.rst:31
 #: ../../content/introduction.rst:33
-#: ../../content/introduction.rst:143
+#: ../../content/introduction.rst:147
 msgid ":doc:`ticket-allocation`"
 msgstr ""
 
@@ -3252,8 +3336,12 @@ msgstr ""
 msgid "Increase flexibility because you do not have to log in to the system."
 msgstr ""
 
-#: ../../content/agent-email-interface.rst:42
+#: ../../content/agent-email-interface.rst:39
 msgid "Can be used in all areas where agents are not logged in permanently to the **OTRS** agent interface."
+msgstr ""
+
+#: ../../content/agent-email-interface.rst:45
+msgid "OTRSAgentEmailInterface"
 msgstr ""
 
 #: ../../content/agent-email-interface/admin.rst:10
@@ -3338,52 +3426,57 @@ msgstr ""
 msgid "Even complex tasks can be done by new or untrained employees."
 msgstr ""
 
-#: ../../content/automated-faq-ticket-creator.rst:16
-#: ../../content/customer-event-ticket-calendar.rst:13
-#: ../../content/introduction.rst:152
-#: ../../content/out-of-office.rst:13
-#: ../../content/service-responsible.rst:16
-msgid "TITANIUM"
-msgstr ""
-
-#: ../../content/automated-faq-ticket-creator.rst:20
-#: ../../content/automatic-start-of-processes.rst:18
-#: ../../content/calendar-resource-planning.rst:19
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:22
-#: ../../content/ci-references.rst:26
-#: ../../content/customer-frontend-link-object.rst:19
-#: ../../content/dynamic-field-ci.rst:31
-#: ../../content/dynamic-field-database.rst:18
-#: ../../content/process-management-article-email.rst:21
-#: ../../content/ready2adopt-itsm-processes.rst:42
-#: ../../content/ready2adopt-processes.rst:30
-#: ../../content/restore-pending-information.rst:18
-#: ../../content/service-categories.rst:18
-#: ../../content/ticket-allocation.rst:22
+#: ../../content/automated-faq-ticket-creator.rst:17
+#: ../../content/automatic-start-of-processes.rst:15
+#: ../../content/calendar-resource-planning.rst:16
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
+#: ../../content/ci-references.rst:23
+#: ../../content/customer-frontend-link-object.rst:16
+#: ../../content/dynamic-field-ci.rst:28
+#: ../../content/dynamic-field-database.rst:15
+#: ../../content/process-management-article-email.rst:18
+#: ../../content/ready2adopt-itsm-processes.rst:39
+#: ../../content/ready2adopt-processes.rst:27
+#: ../../content/restore-pending-information.rst:15
+#: ../../content/service-categories.rst:15
+#: ../../content/ticket-allocation.rst:19
 msgid "Facility management"
 msgstr ""
 
-#: ../../content/automated-faq-ticket-creator.rst:21
-#: ../../content/automatic-start-of-processes.rst:22
-#: ../../content/brute-force-attack-protection.rst:18
-#: ../../content/categories-for-text-modules.rst:20
-#: ../../content/dynamic-field-database.rst:24
-#: ../../content/out-of-office.rst:21
-#: ../../content/ready2adopt-itsm-processes.rst:46
-#: ../../content/ready2adopt-web-services.rst:23
-#: ../../content/service-based-queue-routing.rst:19
-#: ../../content/ticket-watchlist.rst:38
-#: ../../content/time-accounting-quota.rst:20
-#: ../../content/vip-customer.rst:22
+#: ../../content/automated-faq-ticket-creator.rst:18
+#: ../../content/automatic-start-of-processes.rst:19
+#: ../../content/brute-force-attack-protection.rst:15
+#: ../../content/categories-for-text-modules.rst:17
+#: ../../content/dynamic-field-database.rst:21
+#: ../../content/out-of-office.rst:18
+#: ../../content/ready2adopt-itsm-processes.rst:43
+#: ../../content/ready2adopt-web-services.rst:20
+#: ../../content/service-based-queue-routing.rst:16
+#: ../../content/ticket-watchlist.rst:35
+#: ../../content/time-accounting-quota.rst:17
+#: ../../content/vip-customer.rst:19
 msgid "Service providers"
 msgstr ""
 
-#: ../../content/automated-faq-ticket-creator.rst:22
+#: ../../content/automated-faq-ticket-creator.rst:19
 msgid "Companies with recurring activities, such as maintenance work"
 msgstr ""
 
-#: ../../content/automated-faq-ticket-creator.rst:23
+#: ../../content/automated-faq-ticket-creator.rst:20
 msgid "Companies with a large number of employees"
+msgstr ""
+
+#: ../../content/automated-faq-ticket-creator.rst:23
+#: ../../content/customer-event-ticket-calendar.rst:18
+#: ../../content/data-privacy-protection.rst:26
+#: ../../content/introduction.rst:158
+#: ../../content/out-of-office.rst:21
+#: ../../content/service-responsible.rst:23
+msgid "TITANIUM"
+msgstr ""
+
+#: ../../content/automated-faq-ticket-creator.rst:26
+msgid "OTRSAutomatedFAQTicketCreator"
 msgstr ""
 
 #: ../../content/automated-faq-ticket-creator/admin.rst:4
@@ -3953,67 +4046,73 @@ msgstr ""
 msgid "The right tasks are completed at the right times."
 msgstr ""
 
-#: ../../content/automatic-start-of-processes.rst:16
-#: ../../content/credit-card-filter.rst:20
-#: ../../content/dynamic-field-database.rst:15
-#: ../../content/dynamic-field-search-booster.rst:20
-#: ../../content/dynamic-field-web-service.rst:15
-#: ../../content/hide-show-dynamic-fields.rst:18
-#: ../../content/ready2adopt-processes.rst:28
-#: ../../content/service-categories.rst:20
+#: ../../content/automatic-start-of-processes.rst:13
+#: ../../content/credit-card-filter.rst:17
+#: ../../content/dynamic-field-database.rst:12
+#: ../../content/dynamic-field-search-booster.rst:17
+#: ../../content/dynamic-field-web-service.rst:12
+#: ../../content/hide-show-dynamic-fields.rst:15
+#: ../../content/ready2adopt-processes.rst:25
+#: ../../content/service-categories.rst:17
 msgid "Complaint management"
+msgstr ""
+
+#: ../../content/automatic-start-of-processes.rst:14
+#: ../../content/brute-force-attack-protection.rst:11
+#: ../../content/calendar-resource-planning.rst:15
+#: ../../content/credit-card-filter.rst:13
+#: ../../content/customer-event-ticket-calendar.rst:14
+#: ../../content/customer-frontend-link-object.rst:15
+#: ../../content/dynamic-field-attachment.rst:16
+#: ../../content/dynamic-field-ci.rst:26
+#: ../../content/dynamic-field-database.rst:13
+#: ../../content/dynamic-field-search-booster.rst:14
+#: ../../content/dynamic-field-value-import.rst:19
+#: ../../content/dynamic-field-web-service.rst:13
+#: ../../content/dynamic-sender-addresses.rst:16
+#: ../../content/escalation-suspend.rst:16
+#: ../../content/out-of-office.rst:17
+#: ../../content/process-management-article-email.rst:17
+#: ../../content/ready2adopt-itsm-processes.rst:38
+#: ../../content/ready2adopt-processes.rst:26
+#: ../../content/ready2adopt-web-services.rst:15
+#: ../../content/restore-pending-information.rst:17
+#: ../../content/service-based-queue-routing.rst:15
+#: ../../content/specific-ticket-notifications.rst:15
+#: ../../content/ticket-queue-selection.rst:19
+msgid "Customer service"
+msgstr ""
+
+#: ../../content/automatic-start-of-processes.rst:16
+#: ../../content/dynamic-field-calculation.rst:7
+msgid "Finance and accounting"
 msgstr ""
 
 #: ../../content/automatic-start-of-processes.rst:17
 #: ../../content/brute-force-attack-protection.rst:14
-#: ../../content/calendar-resource-planning.rst:18
-#: ../../content/credit-card-filter.rst:16
-#: ../../content/customer-event-ticket-calendar.rst:17
-#: ../../content/customer-frontend-link-object.rst:18
-#: ../../content/dynamic-field-attachment.rst:19
-#: ../../content/dynamic-field-ci.rst:29
-#: ../../content/dynamic-field-database.rst:16
-#: ../../content/dynamic-field-search-booster.rst:17
-#: ../../content/dynamic-field-value-import.rst:22
-#: ../../content/dynamic-field-web-service.rst:16
-#: ../../content/dynamic-sender-addresses.rst:19
-#: ../../content/escalation-suspend.rst:19
-#: ../../content/out-of-office.rst:20
-#: ../../content/process-management-article-email.rst:20
-#: ../../content/ready2adopt-itsm-processes.rst:41
-#: ../../content/ready2adopt-processes.rst:29
-#: ../../content/ready2adopt-web-services.rst:18
-#: ../../content/restore-pending-information.rst:20
-#: ../../content/service-based-queue-routing.rst:18
-#: ../../content/specific-ticket-notifications.rst:18
-#: ../../content/ticket-queue-selection.rst:22
-msgid "Customer service"
-msgstr ""
-
-#: ../../content/automatic-start-of-processes.rst:19
-msgid "Finance and accounting"
-msgstr ""
-
-#: ../../content/automatic-start-of-processes.rst:20
-#: ../../content/brute-force-attack-protection.rst:17
-#: ../../content/calendar-resource-planning.rst:22
+#: ../../content/calendar-resource-planning.rst:19
 #: ../../content/data-privacy-protection.rst:22
-#: ../../content/dynamic-field-database.rst:21
-#: ../../content/dynamic-field-web-service.rst:21
-#: ../../content/ready2adopt-itsm-processes.rst:44
-#: ../../content/ready2adopt-web-services.rst:21
-#: ../../content/ticket-allocation.rst:20
+#: ../../content/dynamic-field-database.rst:18
+#: ../../content/dynamic-field-web-service.rst:18
+#: ../../content/ready2adopt-itsm-processes.rst:41
+#: ../../content/ready2adopt-web-services.rst:18
+#: ../../content/ticket-allocation.rst:17
 msgid "IT service"
 msgstr ""
 
-#: ../../content/automatic-start-of-processes.rst:21
+#: ../../content/automatic-start-of-processes.rst:18
 #: ../../content/data-privacy-protection.rst:23
-#: ../../content/dynamic-field-database.rst:23
-#: ../../content/dynamic-field-web-service.rst:23
-#: ../../content/ready2adopt-itsm-processes.rst:45
-#: ../../content/ready2adopt-web-services.rst:22
-#: ../../content/system-configuration-history.rst:18
+#: ../../content/dynamic-field-calculation.rst:9
+#: ../../content/dynamic-field-database.rst:20
+#: ../../content/dynamic-field-web-service.rst:20
+#: ../../content/ready2adopt-itsm-processes.rst:42
+#: ../../content/ready2adopt-web-services.rst:19
+#: ../../content/system-configuration-history.rst:15
 msgid "Security management"
+msgstr ""
+
+#: ../../content/automatic-start-of-processes.rst:25
+msgid "OTRSAutomaticStartOfProcesses"
 msgstr ""
 
 #: ../../content/automatic-start-of-processes/admin.rst:4
@@ -4119,37 +4218,41 @@ msgstr ""
 msgid "Protects from misuse of your customer accounts."
 msgstr ""
 
-#: ../../content/brute-force-attack-protection.rst:11
-#: ../../content/calendar-resource-planning.rst:15
-#: ../../content/credit-card-filter.rst:13
-#: ../../content/custom-contact-fields.rst:22
-#: ../../content/customer-activity-widget.rst:12
-#: ../../content/customer-frontend-link-object.rst:14
-#: ../../content/customer-specific-services.rst:17
-#: ../../content/dashboard-news-widget.rst:12
-#: ../../content/delete-attachments.rst:18
-#: ../../content/dynamic-field-database.rst:12
-#: ../../content/dynamic-field-web-service.rst:12
-#: ../../content/introduction.rst:118
-#: ../../content/ready2adopt-processes.rst:25
-#: ../../content/restore-pending-information.rst:13
-#: ../../content/service-based-queue-routing.rst:14
-#: ../../content/service-categories.rst:12
-#: ../../content/state-preselection-response-templates.rst:15
-#: ../../content/system-configuration-history.rst:14
-#: ../../content/tag-cloud.rst:25
-#: ../../content/ticket-time-unit-dropdown.rst:21
-#: ../../content/ticket-watchlist.rst:34
-#: ../../content/ticket-workflow.rst:32
-#: ../../content/time-accounting-quota.rst:15
-#: ../../content/vip-customer.rst:17
+#: ../../content/brute-force-attack-protection.rst:12
+#: ../../content/dynamic-field-web-service.rst:16
+#: ../../content/hide-show-dynamic-fields.rst:16
+msgid "E-commerce"
+msgstr ""
+
+#: ../../content/brute-force-attack-protection.rst:18
+#: ../../content/calendar-resource-planning.rst:26
+#: ../../content/credit-card-filter.rst:20
+#: ../../content/custom-contact-fields.rst:30
+#: ../../content/customer-activity-widget.rst:18
+#: ../../content/customer-frontend-link-object.rst:19
+#: ../../content/customer-specific-services.rst:25
+#: ../../content/dashboard-news-widget.rst:18
+#: ../../content/delete-attachments.rst:24
+#: ../../content/dynamic-field-database.rst:25
+#: ../../content/dynamic-field-web-service.rst:23
+#: ../../content/introduction.rst:121
+#: ../../content/ready2adopt-processes.rst:31
+#: ../../content/restore-pending-information.rst:20
+#: ../../content/service-based-queue-routing.rst:20
+#: ../../content/service-categories.rst:20
+#: ../../content/state-preselection-response-templates.rst:22
+#: ../../content/system-configuration-history.rst:18
+#: ../../content/tag-cloud.rst:32
+#: ../../content/ticket-time-unit-dropdown.rst:27
+#: ../../content/ticket-watchlist.rst:40
+#: ../../content/ticket-workflow.rst:38
+#: ../../content/time-accounting-quota.rst:21
+#: ../../content/vip-customer.rst:23
 msgid "SILVER"
 msgstr ""
 
-#: ../../content/brute-force-attack-protection.rst:15
-#: ../../content/dynamic-field-web-service.rst:19
-#: ../../content/hide-show-dynamic-fields.rst:19
-msgid "E-commerce"
+#: ../../content/brute-force-attack-protection.rst:21
+msgid "OTRSBruteForceAttackProtection"
 msgstr ""
 
 #: ../../content/brute-force-attack-protection/admin/administration.rst:4
@@ -4322,42 +4425,47 @@ msgstr ""
 msgid "Calendar, resource planning and project planning in one tool."
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:20
-#: ../../content/dashboard-news-widget.rst:17
+#: ../../content/calendar-resource-planning.rst:17
+#: ../../content/dashboard-news-widget.rst:14
 #: ../../content/data-privacy-protection.rst:19
-#: ../../content/delete-attachments.rst:21
-#: ../../content/dynamic-field-attachment.rst:17
-#: ../../content/dynamic-field-database.rst:19
-#: ../../content/ready2adopt-processes.rst:31
-#: ../../content/tag-cloud.rst:29
-#: ../../content/ticket-workflow.rst:36
+#: ../../content/delete-attachments.rst:18
+#: ../../content/dynamic-field-attachment.rst:14
+#: ../../content/dynamic-field-database.rst:16
+#: ../../content/ready2adopt-processes.rst:28
+#: ../../content/tag-cloud.rst:26
+#: ../../content/ticket-workflow.rst:33
 msgid "Human resources"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:21
-#: ../../content/dynamic-field-database.rst:20
-#: ../../content/dynamic-field-web-service.rst:20
-#: ../../content/ready2adopt-itsm-processes.rst:43
-#: ../../content/ready2adopt-web-services.rst:20
-#: ../../content/system-configuration-history.rst:17
+#: ../../content/calendar-resource-planning.rst:18
+#: ../../content/dynamic-field-database.rst:17
+#: ../../content/dynamic-field-web-service.rst:17
+#: ../../content/ready2adopt-itsm-processes.rst:40
+#: ../../content/ready2adopt-web-services.rst:17
+#: ../../content/system-configuration-history.rst:14
 msgid "IT"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:23
-#: ../../content/cis-in-customer-frontend.rst:25
-#: ../../content/queue-responsible.rst:19
+#: ../../content/calendar-resource-planning.rst:20
+#: ../../content/cis-in-customer-frontend.rst:22
+#: ../../content/queue-responsible.rst:16
 msgid "Logistics"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:24
+#: ../../content/calendar-resource-planning.rst:21
 msgid "Marketing and public relations"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:25
-#: ../../content/dynamic-field-database.rst:22
-#: ../../content/dynamic-field-web-service.rst:22
-#: ../../content/extended-ticket-stats.rst:28
+#: ../../content/calendar-resource-planning.rst:22
+#: ../../content/dynamic-field-calculation.rst:8
+#: ../../content/dynamic-field-database.rst:19
+#: ../../content/dynamic-field-web-service.rst:19
+#: ../../content/extended-ticket-stats.rst:25
 msgid "Project management"
+msgstr ""
+
+#: ../../content/calendar-resource-planning.rst:29
+msgid "OTRSCalendarResourcePlanning"
 msgstr ""
 
 #: ../../content/calendar-resource-planning/admin.rst:4
@@ -4678,21 +4786,25 @@ msgstr ""
 msgid "Facilitates job training of new agents."
 msgstr ""
 
-#: ../../content/categories-for-text-modules.rst:21
+#: ../../content/categories-for-text-modules.rst:18
 msgid "Any company working with SLAs"
 msgstr ""
 
-#: ../../content/categories-for-text-modules.rst:27
-#: ../../content/hide-show-dynamic-fields.rst:30
+#: ../../content/categories-for-text-modules.rst:24
+msgid "OTRSCategoriesForTextModules"
+msgstr ""
+
+#: ../../content/categories-for-text-modules.rst:30
+#: ../../content/hide-show-dynamic-fields.rst:33
 #: ../../content/introduction.rst:21
-#: ../../content/introduction.rst:122
-#: ../../content/ticket-forms.rst:48
+#: ../../content/introduction.rst:125
+#: ../../content/ticket-forms.rst:51
 msgid ":doc:`advanced-editor`"
 msgstr ""
 
-#: ../../content/categories-for-text-modules.rst:28
+#: ../../content/categories-for-text-modules.rst:31
 #: ../../content/introduction.rst:38
-#: ../../content/introduction.rst:100
+#: ../../content/introduction.rst:103
 msgid ":doc:`custom-contact-fields`"
 msgstr ""
 
@@ -4971,11 +5083,15 @@ msgstr ""
 msgid "Optimizes the general transparency of your system."
 msgstr ""
 
-#: ../../content/change-write-protection.rst:24
+#: ../../content/change-write-protection.rst:21
 msgid "All customers that use the OTRS::ITSM feature"
 msgstr ""
 
-#: ../../content/change-write-protection.rst:28
+#: ../../content/change-write-protection.rst:27
+msgid "OTRSChangeWriteProtection"
+msgstr ""
+
+#: ../../content/change-write-protection.rst:31
 msgid "This feature add-on requires the *ITSM Change Management* feature."
 msgstr ""
 
@@ -5068,30 +5184,34 @@ msgstr ""
 msgid "CI attributes are readable and searchable."
 msgstr ""
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:16
 msgid "Companies that offer services for different devices/products (CIs)"
 msgstr ""
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:20
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:17
 #: ../../content/ticket-allocation/admin/users-groups-roles/agents.rst:2
 msgid "Agents"
 msgstr ""
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:21
-#: ../../content/ci-references.rst:25
-#: ../../content/customer-frontend-link-object.rst:17
-#: ../../content/dashboard-news-widget.rst:18
-#: ../../content/delete-attachments.rst:22
-#: ../../content/dynamic-field-ci.rst:30
-#: ../../content/specific-ticket-notifications.rst:17
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:18
+#: ../../content/ci-references.rst:22
+#: ../../content/customer-frontend-link-object.rst:14
+#: ../../content/dashboard-news-widget.rst:15
+#: ../../content/delete-attachments.rst:19
+#: ../../content/dynamic-field-ci.rst:27
+#: ../../content/specific-ticket-notifications.rst:14
 msgid "Internal and external IT"
 msgstr ""
 
-#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:26
-#: ../../content/ci-custom-search.rst:25
-#: ../../content/cis-in-customer-frontend.rst:37
-#: ../../content/dynamic-field-ci.rst:36
-#: ../../content/ready2adopt-itsm-processes.rst:50
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:25
+msgid "OTRSCIAssignmentAttributeDynamicFieldMap"
+msgstr ""
+
+#: ../../content/ci-assignment-attribute-dynamic-field-map.rst:29
+#: ../../content/ci-custom-search.rst:28
+#: ../../content/cis-in-customer-frontend.rst:40
+#: ../../content/dynamic-field-ci.rst:39
+#: ../../content/ready2adopt-itsm-processes.rst:53
 msgid "This feature add-on requires the *ITSM Configuration Management* feature."
 msgstr ""
 
@@ -5281,13 +5401,17 @@ msgstr ""
 msgid "Better customer service when a wide range of products is used by a customer."
 msgstr ""
 
-#: ../../content/ci-custom-search.rst:19
-#: ../../content/customer-specific-services.rst:20
+#: ../../content/ci-custom-search.rst:16
+#: ../../content/customer-specific-services.rst:17
 msgid "Internal IT departments"
 msgstr ""
 
-#: ../../content/ci-custom-search.rst:21
+#: ../../content/ci-custom-search.rst:18
 msgid "Customer support for a wide range of products"
+msgstr ""
+
+#: ../../content/ci-custom-search.rst:24
+msgid "OTRSCICustomSearch"
 msgstr ""
 
 #: ../../content/ci-custom-search/admin.rst:8
@@ -5434,11 +5558,15 @@ msgstr ""
 msgid "Clear visualization of complex dependencies between CIs and other CIs, services, and users."
 msgstr ""
 
-#: ../../content/ci-references.rst:24
+#: ../../content/ci-references.rst:21
 msgid "Configuration item managers"
 msgstr ""
 
-#: ../../content/ci-references.rst:31
+#: ../../content/ci-references.rst:30
+msgid "OTRSCIReferences"
+msgstr ""
+
+#: ../../content/ci-references.rst:34
 msgid "This feature add-on requires the *ITSM Configuration Management* and *Import/Export* features."
 msgstr ""
 
@@ -5756,12 +5884,16 @@ msgstr ""
 msgid "Customers can assign CIs to new tickets."
 msgstr ""
 
-#: ../../content/cis-in-customer-frontend.rst:23
+#: ../../content/cis-in-customer-frontend.rst:20
 msgid "Customer service organizations"
 msgstr ""
 
-#: ../../content/cis-in-customer-frontend.rst:26
+#: ../../content/cis-in-customer-frontend.rst:23
 msgid "Technical field service"
+msgstr ""
+
+#: ../../content/cis-in-customer-frontend.rst:29
+msgid "OTRSCIsInCustomerFrontend"
 msgstr ""
 
 #: ../../content/cis-in-customer-frontend/admin.rst:8
@@ -6023,18 +6155,22 @@ msgstr ""
 msgid "Less security risks for credit card data."
 msgstr ""
 
-#: ../../content/credit-card-filter.rst:17
-#: ../../content/customer-activity-widget.rst:16
-#: ../../content/delete-attachments.rst:23
-#: ../../content/specific-ticket-notifications.rst:20
-#: ../../content/ticket-workflow.rst:37
+#: ../../content/credit-card-filter.rst:14
+#: ../../content/customer-activity-widget.rst:13
+#: ../../content/delete-attachments.rst:20
+#: ../../content/specific-ticket-notifications.rst:17
+#: ../../content/ticket-workflow.rst:34
 msgid "Finance"
 msgstr ""
 
-#: ../../content/credit-card-filter.rst:19
-#: ../../content/dynamic-field-search-booster.rst:19
-#: ../../content/dynamic-field-value-import.rst:25
+#: ../../content/credit-card-filter.rst:16
+#: ../../content/dynamic-field-search-booster.rst:16
+#: ../../content/dynamic-field-value-import.rst:22
 msgid "Order management"
+msgstr ""
+
+#: ../../content/credit-card-filter.rst:23
+msgid "OTRSCreditCardFilter"
 msgstr ""
 
 #: ../../content/credit-card-filter/admin.rst:8
@@ -6269,21 +6405,25 @@ msgstr ""
 msgid "Seamless integration of external customer databases into **OTRS**."
 msgstr ""
 
-#: ../../content/custom-contact-fields.rst:25
+#: ../../content/custom-contact-fields.rst:22
 msgid "Customer service organizations with many partners or sub-contractors"
 msgstr ""
 
-#: ../../content/custom-contact-fields.rst:28
+#: ../../content/custom-contact-fields.rst:25
 msgid "Web, PR or marketing agencies"
 msgstr ""
 
-#: ../../content/custom-contact-fields.rst:29
-#: ../../content/customer-specific-services.rst:24
+#: ../../content/custom-contact-fields.rst:26
+#: ../../content/customer-specific-services.rst:21
 msgid "Consulting businesses"
 msgstr ""
 
-#: ../../content/custom-contact-fields.rst:30
+#: ../../content/custom-contact-fields.rst:27
 msgid "Sales departments"
+msgstr ""
+
+#: ../../content/custom-contact-fields.rst:33
+msgid "OTRSCustomContactFields"
 msgstr ""
 
 #: ../../content/custom-contact-fields/admin.rst:4
@@ -6624,12 +6764,16 @@ msgstr ""
 msgid "Facilitates ticket prioritization."
 msgstr ""
 
-#: ../../content/customer-activity-widget.rst:15
+#: ../../content/customer-activity-widget.rst:12
 msgid "IT service providers"
 msgstr ""
 
-#: ../../content/customer-activity-widget.rst:18
+#: ../../content/customer-activity-widget.rst:15
 msgid "and many more"
+msgstr ""
+
+#: ../../content/customer-activity-widget.rst:21
+msgid "OTRSCustomerActivityWidget"
 msgstr ""
 
 #: ../../content/customer-activity-widget/agent.rst:4
@@ -6736,12 +6880,16 @@ msgstr ""
 msgid "Availability can be seen at a glance."
 msgstr ""
 
-#: ../../content/customer-event-ticket-calendar.rst:16
+#: ../../content/customer-event-ticket-calendar.rst:13
 msgid "Service companies that want to visually represent availability"
 msgstr ""
 
-#: ../../content/customer-event-ticket-calendar.rst:18
+#: ../../content/customer-event-ticket-calendar.rst:15
 msgid "ITSM"
+msgstr ""
+
+#: ../../content/customer-event-ticket-calendar.rst:21
+msgid "OTRSCustomerEventTicketCalendar"
 msgstr ""
 
 #: ../../content/customer-event-ticket-calendar/admin.rst:4
@@ -6933,6 +7081,10 @@ msgstr ""
 msgid "Gives customers greater insight into the incident-solving process."
 msgstr ""
 
+#: ../../content/customer-frontend-link-object.rst:22
+msgid "OTRSCustomerFrontendLinkObject"
+msgstr ""
+
 #: ../../content/customer-frontend-link-object/agent.rst:6
 msgid "To use this functionality on :doc:`external`:"
 msgstr ""
@@ -7022,19 +7174,23 @@ msgstr ""
 msgid "Speed-up of ticket handling process."
 msgstr ""
 
-#: ../../content/customer-specific-services.rst:23
+#: ../../content/customer-specific-services.rst:20
 msgid "Agencies"
 msgstr ""
 
-#: ../../content/customer-specific-services.rst:25
+#: ../../content/customer-specific-services.rst:22
 msgid "Companies offering a wide range of services or products"
 msgstr ""
 
-#: ../../content/customer-specific-services.rst:29
+#: ../../content/customer-specific-services.rst:28
+msgid "OTRSCustomerSpecificServices"
+msgstr ""
+
+#: ../../content/customer-specific-services.rst:32
 msgid "Before your first use, please make sure that you activate the *Services* option in the administrator interface."
 msgstr ""
 
-#: ../../content/customer-specific-services.rst:33
+#: ../../content/customer-specific-services.rst:36
 msgid "The ``CustomerUserSearchListLimit`` setting should be configured in the ``CustomerUser`` section in the ``Kernel/Config.pm``."
 msgstr ""
 
@@ -7209,12 +7365,16 @@ msgstr ""
 msgid "Company news is clearly structured and centrally available in one place."
 msgstr ""
 
-#: ../../content/dashboard-news-widget.rst:15
+#: ../../content/dashboard-news-widget.rst:12
 msgid "IT security"
 msgstr ""
 
-#: ../../content/dashboard-news-widget.rst:16
+#: ../../content/dashboard-news-widget.rst:13
 msgid "Internal and external communication"
+msgstr ""
+
+#: ../../content/dashboard-news-widget.rst:21
+msgid "OTRSDashboardNewsWidget"
 msgstr ""
 
 #: ../../content/dashboard-news-widget/admin/communication-notifications.rst:4
@@ -7454,11 +7614,15 @@ msgid "Compliance with data protection guidelines."
 msgstr ""
 
 #: ../../content/data-privacy-protection.rst:20
-#: ../../content/escalation-suspend.rst:18
-#: ../../content/process-management-article-email.rst:19
-#: ../../content/ticket-allocation.rst:23
-#: ../../content/ticket-workflow.rst:38
+#: ../../content/escalation-suspend.rst:15
+#: ../../content/process-management-article-email.rst:16
+#: ../../content/ticket-allocation.rst:20
+#: ../../content/ticket-workflow.rst:35
 msgid "Internal IT"
+msgstr ""
+
+#: ../../content/data-privacy-protection.rst:29
+msgid "OTRSDataPrivacyProtection"
 msgstr ""
 
 #: ../../content/data-privacy-protection/admin.rst:4
@@ -7883,9 +8047,13 @@ msgstr ""
 msgid "Reduced administrative effort."
 msgstr ""
 
-#: ../../content/delete-attachments.rst:24
-#: ../../content/ticket-forms.rst:42
+#: ../../content/delete-attachments.rst:21
+#: ../../content/ticket-forms.rst:39
 msgid "Public authorities"
+msgstr ""
+
+#: ../../content/delete-attachments.rst:27
+msgid "OTRSDeleteAttachments"
 msgstr ""
 
 #: ../../content/delete-attachments/admin.rst:10
@@ -8027,12 +8195,16 @@ msgstr ""
 msgid "Possibility to use **OTRS** as your document management system."
 msgstr ""
 
-#: ../../content/dynamic-field-attachment.rst:15
+#: ../../content/dynamic-field-attachment.rst:12
 msgid "Internal and external IT service provider"
 msgstr ""
 
-#: ../../content/dynamic-field-attachment.rst:16
+#: ../../content/dynamic-field-attachment.rst:13
 msgid "Government departments"
+msgstr ""
+
+#: ../../content/dynamic-field-attachment.rst:22
+msgid "OTRSDynamicFieldAttachment"
 msgstr ""
 
 #: ../../content/dynamic-field-attachment/admin.rst:4
@@ -8218,6 +8390,10 @@ msgstr ""
 msgid "This feature gives a configuration interface for creating or changing dynamic fields of type calculation. Simple mathematical operations and OTRS tags like ``<OTRS_TICKET_AccountedTime>`` can be used."
 msgstr ""
 
+#: ../../content/dynamic-field-calculation.rst:15
+msgid "OTRSDynamicFieldCalculation"
+msgstr ""
+
 #: ../../content/dynamic-field-calculation/admin.rst:4
 msgid "This package contains a configuration interface to create dynamic fields of the type *Calculation*. These fields can perform simple mathematical operations."
 msgstr ""
@@ -8315,8 +8491,12 @@ msgstr ""
 msgid "Useful for statistics and automatic ticket notifications."
 msgstr ""
 
-#: ../../content/dynamic-field-ci.rst:28
+#: ../../content/dynamic-field-ci.rst:25
 msgid "Customers of companies that offer services for different devices/products (CIs)"
+msgstr ""
+
+#: ../../content/dynamic-field-ci.rst:35
+msgid "OTRSDynamicFieldCI"
 msgstr ""
 
 #: ../../content/dynamic-field-ci/admin.rst:4
@@ -8598,14 +8778,18 @@ msgstr ""
 msgid "Automatic transfer of additional data to the record."
 msgstr ""
 
-#: ../../content/dynamic-field-database.rst:17
-#: ../../content/dynamic-field-web-service.rst:18
+#: ../../content/dynamic-field-database.rst:14
+#: ../../content/dynamic-field-web-service.rst:15
 msgid "Document management"
 msgstr ""
 
-#: ../../content/dynamic-field-database.rst:25
-#: ../../content/hide-show-dynamic-fields.rst:20
+#: ../../content/dynamic-field-database.rst:22
+#: ../../content/hide-show-dynamic-fields.rst:17
 msgid "Supply-chain management"
+msgstr ""
+
+#: ../../content/dynamic-field-database.rst:28
+msgid "OTRSDynamicFieldDatabase"
 msgstr ""
 
 #: ../../content/dynamic-field-database/admin.rst:4
@@ -8923,6 +9107,10 @@ msgstr ""
 msgid "System performance improvements."
 msgstr ""
 
+#: ../../content/dynamic-field-search-booster.rst:23
+msgid "OTRSDynamicFieldSearchBooster"
+msgstr ""
+
 #: ../../content/dynamic-field-search-booster/admin.rst:4
 msgid "This package has no administrator interface. It provides performance optimizations for the ticket search for some heavily used systems."
 msgstr ""
@@ -8979,8 +9167,12 @@ msgstr ""
 msgid "Easier integration of partners from outsourced corporate areas."
 msgstr ""
 
-#: ../../content/dynamic-field-value-import.rst:23
+#: ../../content/dynamic-field-value-import.rst:20
 msgid "Wholesalers"
+msgstr ""
+
+#: ../../content/dynamic-field-value-import.rst:28
+msgid "OTRSDynamicFieldValueImport"
 msgstr ""
 
 #: ../../content/dynamic-field-value-import/admin.rst:4
@@ -9214,9 +9406,13 @@ msgstr ""
 msgid "Execute arbitrary complex mappings through the XSLT mapping module."
 msgstr ""
 
-#: ../../content/dynamic-field-web-service.rst:17
-#: ../../content/ready2adopt-web-services.rst:19
+#: ../../content/dynamic-field-web-service.rst:14
+#: ../../content/ready2adopt-web-services.rst:16
 msgid "Development"
+msgstr ""
+
+#: ../../content/dynamic-field-web-service.rst:26
+msgid "OTRSDynamicFieldWebService"
 msgstr ""
 
 #: ../../content/dynamic-field-web-service/admin.rst:4
@@ -9386,15 +9582,19 @@ msgstr ""
 msgid "Simplified teamwork with partners or outsourced divisions."
 msgstr ""
 
-#: ../../content/dynamic-sender-addresses.rst:21
-#: ../../content/hide-show-dynamic-fields.rst:23
-#: ../../content/tag-cloud.rst:28
+#: ../../content/dynamic-sender-addresses.rst:18
+#: ../../content/hide-show-dynamic-fields.rst:20
+#: ../../content/tag-cloud.rst:25
 msgid "Marketing"
 msgstr ""
 
-#: ../../content/dynamic-sender-addresses.rst:22
-#: ../../content/hide-show-dynamic-fields.rst:24
+#: ../../content/dynamic-sender-addresses.rst:19
+#: ../../content/hide-show-dynamic-fields.rst:21
 msgid "Procurement"
+msgstr ""
+
+#: ../../content/dynamic-sender-addresses.rst:25
+msgid "OTRSDynamicSenderAddresses"
 msgstr ""
 
 #: ../../content/dynamic-sender-addresses/admin.rst:4
@@ -9696,10 +9896,14 @@ msgstr ""
 msgid "Provides greater flexibility through its configurable status."
 msgstr ""
 
-#: ../../content/escalation-suspend.rst:25
-#: ../../content/introduction.rst:87
-#: ../../content/introduction.rst:155
-#: ../../content/ticket-watchlist.rst:46
+#: ../../content/escalation-suspend.rst:22
+msgid "OTRSEscalationSuspend"
+msgstr ""
+
+#: ../../content/escalation-suspend.rst:28
+#: ../../content/introduction.rst:90
+#: ../../content/introduction.rst:161
+#: ../../content/ticket-watchlist.rst:49
 msgid ":doc:`advanced-escalations`"
 msgstr ""
 
@@ -9843,18 +10047,22 @@ msgstr ""
 msgid "Detect employee overload at an early stage and take timely measures."
 msgstr ""
 
-#: ../../content/extended-ticket-stats.rst:25
-#: ../../content/hide-show-dynamic-fields.rst:17
-#: ../../content/restore-pending-information.rst:17
+#: ../../content/extended-ticket-stats.rst:22
+#: ../../content/hide-show-dynamic-fields.rst:14
+#: ../../content/restore-pending-information.rst:14
 msgid "IT services"
 msgstr ""
 
-#: ../../content/extended-ticket-stats.rst:27
+#: ../../content/extended-ticket-stats.rst:24
 msgid "Customer service manager"
 msgstr ""
 
-#: ../../content/extended-ticket-stats.rst:29
+#: ../../content/extended-ticket-stats.rst:26
 msgid "Senior management"
+msgstr ""
+
+#: ../../content/extended-ticket-stats.rst:32
+msgid "OTRSExtendedTicketStats"
 msgstr ""
 
 #: ../../content/extended-ticket-stats/agent.rst:4
@@ -10088,22 +10296,26 @@ msgstr ""
 msgid "Faster and more accurate entering of information, saving time for your employees and customers."
 msgstr ""
 
-#: ../../content/hide-show-dynamic-fields.rst:21
-#: ../../content/restore-pending-information.rst:16
+#: ../../content/hide-show-dynamic-fields.rst:18
+#: ../../content/restore-pending-information.rst:13
 msgid "IT support"
 msgstr ""
 
-#: ../../content/hide-show-dynamic-fields.rst:32
-#: ../../content/introduction.rst:57
-#: ../../content/introduction.rst:130
-#: ../../content/ticket-forms.rst:50
+#: ../../content/hide-show-dynamic-fields.rst:27
+msgid "OTRSHideShowDynamicFields"
+msgstr ""
+
+#: ../../content/hide-show-dynamic-fields.rst:35
+#: ../../content/introduction.rst:58
+#: ../../content/introduction.rst:133
+#: ../../content/ticket-forms.rst:53
 msgid ":doc:`cis-in-customer-frontend`"
 msgstr ""
 
-#: ../../content/hide-show-dynamic-fields.rst:33
-#: ../../content/introduction.rst:81
-#: ../../content/introduction.rst:108
-#: ../../content/ticket-forms.rst:53
+#: ../../content/hide-show-dynamic-fields.rst:36
+#: ../../content/introduction.rst:84
+#: ../../content/introduction.rst:111
+#: ../../content/ticket-forms.rst:56
 msgid ":doc:`restore-pending-information`"
 msgstr ""
 
@@ -10490,12 +10702,12 @@ msgid "Each feature add-on can be categorized based on its purpose."
 msgstr ""
 
 #: ../../content/introduction.rst:17
-#: ../../content/introduction.rst:133
+#: ../../content/introduction.rst:137
 msgid ":doc:`dynamic-field-value-import`"
 msgstr ""
 
 #: ../../content/introduction.rst:18
-#: ../../content/introduction.rst:112
+#: ../../content/introduction.rst:115
 msgid ":doc:`system-configuration-history`"
 msgstr ""
 
@@ -10504,69 +10716,69 @@ msgid "Automation & Processes"
 msgstr ""
 
 #: ../../content/introduction.rst:22
-#: ../../content/introduction.rst:123
-#: ../../content/ticket-allocation.rst:30
+#: ../../content/introduction.rst:126
+#: ../../content/ticket-allocation.rst:33
 msgid ":doc:`advanced-generic-agent`"
 msgstr ""
 
 #: ../../content/introduction.rst:23
-#: ../../content/introduction.rst:124
+#: ../../content/introduction.rst:127
 msgid ":doc:`agent-email-interface`"
 msgstr ""
 
 #: ../../content/introduction.rst:24
-#: ../../content/introduction.rst:148
+#: ../../content/introduction.rst:153
 msgid ":doc:`automated-faq-ticket-creator`"
 msgstr ""
 
 #: ../../content/introduction.rst:25
-#: ../../content/introduction.rst:127
+#: ../../content/introduction.rst:130
 msgid ":doc:`ci-assignment-attribute-dynamic-field-map`"
 msgstr ""
 
 #: ../../content/introduction.rst:26
-#: ../../content/introduction.rst:135
+#: ../../content/introduction.rst:139
 msgid ":doc:`dynamic-sender-addresses`"
 msgstr ""
 
 #: ../../content/introduction.rst:27
-#: ../../content/introduction.rst:138
+#: ../../content/introduction.rst:142
 msgid ":doc:`process-management-article-email`"
 msgstr ""
 
 #: ../../content/introduction.rst:28
-#: ../../content/introduction.rst:139
+#: ../../content/introduction.rst:143
 msgid ":doc:`queue-responsible`"
 msgstr ""
 
 #: ../../content/introduction.rst:29
-#: ../../content/introduction.rst:151
+#: ../../content/introduction.rst:157
 msgid ":doc:`ready2adopt-itsm-processes`"
 msgstr ""
 
 #: ../../content/introduction.rst:30
-#: ../../content/introduction.rst:107
+#: ../../content/introduction.rst:110
 msgid ":doc:`ready2adopt-processes`"
 msgstr ""
 
 #: ../../content/introduction.rst:31
-#: ../../content/introduction.rst:109
-#: ../../content/ticket-forms.rst:54
+#: ../../content/introduction.rst:112
+#: ../../content/ticket-forms.rst:57
 msgid ":doc:`service-based-queue-routing`"
 msgstr ""
 
 #: ../../content/introduction.rst:32
-#: ../../content/introduction.rst:152
+#: ../../content/introduction.rst:158
 msgid ":doc:`service-responsible`"
 msgstr ""
 
 #: ../../content/introduction.rst:34
-#: ../../content/introduction.rst:145
+#: ../../content/introduction.rst:150
 msgid ":doc:`ticket-queue-selection`"
 msgstr ""
 
 #: ../../content/introduction.rst:35
-#: ../../content/introduction.rst:116
+#: ../../content/introduction.rst:119
 msgid ":doc:`ticket-workflow`"
 msgstr ""
 
@@ -10575,23 +10787,23 @@ msgid "Customer Management"
 msgstr ""
 
 #: ../../content/introduction.rst:39
-#: ../../content/introduction.rst:101
+#: ../../content/introduction.rst:104
 msgid ":doc:`customer-activity-widget`"
 msgstr ""
 
 #: ../../content/introduction.rst:40
-#: ../../content/introduction.rst:103
+#: ../../content/introduction.rst:106
 msgid ":doc:`customer-specific-services`"
 msgstr ""
 
 #: ../../content/introduction.rst:41
-#: ../../content/introduction.rst:117
+#: ../../content/introduction.rst:120
 msgid ":doc:`time-accounting-quota`"
 msgstr ""
 
 #: ../../content/introduction.rst:42
-#: ../../content/introduction.rst:118
-#: ../../content/restrict-customer-data-view.rst:26
+#: ../../content/introduction.rst:121
+#: ../../content/restrict-customer-data-view.rst:29
 msgid ":doc:`vip-customer`"
 msgstr ""
 
@@ -10600,159 +10812,174 @@ msgid "Individualization"
 msgstr ""
 
 #: ../../content/introduction.rst:45
-#: ../../content/introduction.rst:121
+#: ../../content/introduction.rst:124
 msgid ":doc:`adjust-sort-ticket-overview`"
 msgstr ""
 
 #: ../../content/introduction.rst:46
-#: ../../content/introduction.rst:128
+#: ../../content/introduction.rst:131
 msgid ":doc:`ci-custom-search`"
 msgstr ""
 
 #: ../../content/introduction.rst:48
-#: ../../content/introduction.rst:142
+#: ../../content/introduction.rst:146
 msgid ":doc:`specific-ticket-notifications`"
 msgstr ""
 
-#: ../../content/introduction.rst:54
+#: ../../content/introduction.rst:55
 msgid "Integration"
 msgstr ""
 
 #: ../../content/introduction.rst:52
-#: ../../content/introduction.rst:106
+#: ../../content/introduction.rst:109
 msgid ":doc:`dynamic-field-database`"
 msgstr ""
 
 #: ../../content/introduction.rst:53
-#: ../../content/introduction.rst:134
+#: ../../content/introduction.rst:138
 msgid ":doc:`dynamic-field-web-service`"
 msgstr ""
 
 #: ../../content/introduction.rst:54
-#: ../../content/introduction.rst:140
+#: ../../content/introduction.rst:144
 msgid ":doc:`ready2adopt-web-services`"
 msgstr ""
 
-#: ../../content/introduction.rst:62
+#: ../../content/introduction.rst:55
+#: ../../content/introduction.rst:149
+msgid ":doc:`ticket-invoker`"
+msgstr ""
+
+#: ../../content/introduction.rst:63
 msgid "Knowledge Management & Self Service"
 msgstr ""
 
-#: ../../content/introduction.rst:58
-#: ../../content/introduction.rst:149
+#: ../../content/introduction.rst:59
+#: ../../content/introduction.rst:154
 msgid ":doc:`customer-event-ticket-calendar`"
 msgstr ""
 
-#: ../../content/introduction.rst:59
-#: ../../content/introduction.rst:102
+#: ../../content/introduction.rst:60
+#: ../../content/introduction.rst:105
 msgid ":doc:`customer-frontend-link-object`"
 msgstr ""
 
-#: ../../content/introduction.rst:60
-#: ../../content/introduction.rst:104
+#: ../../content/introduction.rst:61
+#: ../../content/introduction.rst:107
 msgid ":doc:`dashboard-news-widget`"
 msgstr ""
 
-#: ../../content/introduction.rst:61
-#: ../../content/introduction.rst:129
+#: ../../content/introduction.rst:62
+#: ../../content/introduction.rst:132
 msgid ":doc:`ci-references`"
 msgstr ""
 
-#: ../../content/introduction.rst:62
-#: ../../content/introduction.rst:113
+#: ../../content/introduction.rst:63
+#: ../../content/introduction.rst:116
 msgid ":doc:`tag-cloud`"
 msgstr ""
 
-#: ../../content/introduction.rst:65
+#: ../../content/introduction.rst:66
 msgid "Performance"
 msgstr ""
 
-#: ../../content/introduction.rst:65
-#: ../../content/introduction.rst:156
+#: ../../content/introduction.rst:66
+#: ../../content/introduction.rst:162
 msgid ":doc:`dynamic-field-search-booster`"
 msgstr ""
 
-#: ../../content/introduction.rst:68
+#: ../../content/introduction.rst:69
 msgid "Reporting"
 msgstr ""
 
-#: ../../content/introduction.rst:68
-#: ../../content/introduction.rst:157
+#: ../../content/introduction.rst:69
+#: ../../content/introduction.rst:163
 msgid ":doc:`extended-ticket-stats`"
 msgstr ""
 
-#: ../../content/introduction.rst:74
+#: ../../content/introduction.rst:76
 msgid "Security & Permissions"
 msgstr ""
 
-#: ../../content/introduction.rst:71
-#: ../../content/introduction.rst:126
+#: ../../content/introduction.rst:72
+#: ../../content/introduction.rst:129
 msgid ":doc:`change-write-protection`"
 msgstr ""
 
-#: ../../content/introduction.rst:72
-#: ../../content/introduction.rst:98
+#: ../../content/introduction.rst:73
+#: ../../content/introduction.rst:101
 msgid ":doc:`credit-card-filter`"
 msgstr ""
 
-#: ../../content/introduction.rst:73
-#: ../../content/introduction.rst:105
+#: ../../content/introduction.rst:74
+#: ../../content/introduction.rst:155
+msgid ":doc:`data-privacy-protection`"
+msgstr ""
+
+#: ../../content/introduction.rst:75
+#: ../../content/introduction.rst:108
 msgid ":doc:`delete-attachments`"
 msgstr ""
 
-#: ../../content/introduction.rst:74
-#: ../../content/introduction.rst:141
-#: ../../content/vip-customer.rst:29
+#: ../../content/introduction.rst:76
+#: ../../content/introduction.rst:145
+#: ../../content/vip-customer.rst:32
 msgid ":doc:`restrict-customer-data-view`"
 msgstr ""
 
-#: ../../content/introduction.rst:84
+#: ../../content/introduction.rst:87
 msgid "Ticket Management"
 msgstr ""
 
-#: ../../content/introduction.rst:78
-#: ../../content/introduction.rst:131
+#: ../../content/introduction.rst:80
+#: ../../content/introduction.rst:134
 msgid ":doc:`dynamic-field-attachment`"
 msgstr ""
 
-#: ../../content/introduction.rst:79
-#: ../../content/introduction.rst:132
-#: ../../content/ticket-forms.rst:51
-msgid ":doc:`dynamic-field-ci`"
-msgstr ""
-
-#: ../../content/introduction.rst:80
-#: ../../content/introduction.rst:150
-msgid ":doc:`out-of-office`"
+#: ../../content/introduction.rst:81
+#: ../../content/introduction.rst:135
+msgid ":doc:`dynamic-field-calculation`"
 msgstr ""
 
 #: ../../content/introduction.rst:82
-#: ../../content/introduction.rst:110
-msgid ":doc:`service-categories`"
+#: ../../content/introduction.rst:136
+#: ../../content/ticket-forms.rst:54
+msgid ":doc:`dynamic-field-ci`"
 msgstr ""
 
 #: ../../content/introduction.rst:83
-#: ../../content/introduction.rst:111
+#: ../../content/introduction.rst:156
+msgid ":doc:`out-of-office`"
+msgstr ""
+
+#: ../../content/introduction.rst:85
+#: ../../content/introduction.rst:113
+msgid ":doc:`service-categories`"
+msgstr ""
+
+#: ../../content/introduction.rst:86
+#: ../../content/introduction.rst:114
 msgid ":doc:`state-preselection-response-templates`"
 msgstr ""
 
-#: ../../content/introduction.rst:90
+#: ../../content/introduction.rst:93
 msgid "Time Management"
 msgstr ""
 
-#: ../../content/introduction.rst:89
-#: ../../content/introduction.rst:114
+#: ../../content/introduction.rst:92
+#: ../../content/introduction.rst:117
 msgid ":doc:`ticket-time-unit-dropdown`"
 msgstr ""
 
-#: ../../content/introduction.rst:93
+#: ../../content/introduction.rst:96
 msgid "Service Levels"
 msgstr ""
 
-#: ../../content/introduction.rst:95
+#: ../../content/introduction.rst:98
 msgid "Not all feature add-ons are available on any service levels. The following categorization is based on service levels."
 msgstr ""
 
-#: ../../content/introduction.rst:99
+#: ../../content/introduction.rst:102
 msgid ":doc:`calendar-resource-planning`"
 msgstr ""
 
@@ -10776,16 +11003,20 @@ msgstr ""
 msgid "Closed tickets are no longer opened by out-of-office replies."
 msgstr ""
 
-#: ../../content/out-of-office.rst:16
+#: ../../content/out-of-office.rst:13
 msgid "Companies of all sizes with high ticket volumes"
 msgstr ""
 
-#: ../../content/out-of-office.rst:17
+#: ../../content/out-of-office.rst:14
 msgid "Anyone using out-of-office frequently"
 msgstr ""
 
-#: ../../content/out-of-office.rst:18
+#: ../../content/out-of-office.rst:15
 msgid "Companies with frequent email traffic"
+msgstr ""
+
+#: ../../content/out-of-office.rst:24
+msgid "OTRSOutOfOffice"
 msgstr ""
 
 #: ../../content/out-of-office/admin.rst:10
@@ -10848,19 +11079,23 @@ msgstr ""
 msgid "More efficient design of your business processes."
 msgstr ""
 
-#: ../../content/process-management-article-email.rst:17
+#: ../../content/process-management-article-email.rst:14
 msgid "Process managers"
 msgstr ""
 
-#: ../../content/process-management-article-email.rst:18
+#: ../../content/process-management-article-email.rst:15
 msgid "External IT"
 msgstr ""
 
-#: ../../content/process-management-article-email.rst:22
-#: ../../content/tag-cloud.rst:32
-#: ../../content/ticket-allocation.rst:24
-#: ../../content/ticket-queue-selection.rst:23
+#: ../../content/process-management-article-email.rst:19
+#: ../../content/tag-cloud.rst:29
+#: ../../content/ticket-allocation.rst:21
+#: ../../content/ticket-queue-selection.rst:20
 msgid "And many more"
+msgstr ""
+
+#: ../../content/process-management-article-email.rst:25
+msgid "OTRSProcessManagementArticleEmail"
 msgstr ""
 
 #: ../../content/process-management-article-email/admin.rst:4
@@ -10974,6 +11209,10 @@ msgstr ""
 
 #: ../../content/queue-responsible.rst:10
 msgid "More significant reporting."
+msgstr ""
+
+#: ../../content/queue-responsible.rst:22
+msgid "OTRSQueueResponsible"
 msgstr ""
 
 #: ../../content/queue-responsible/admin.rst:10
@@ -11102,6 +11341,10 @@ msgstr ""
 
 #: ../../content/ready2adopt-itsm-processes.rst:35
 msgid "Higher efficiency and quality through proven ITIL-inspired processes."
+msgstr ""
+
+#: ../../content/ready2adopt-itsm-processes.rst:49
+msgid "OTRSReady2AdoptITSMProcesses"
 msgstr ""
 
 #: ../../content/ready2adopt-itsm-processes/admin.rst:4
@@ -11287,6 +11530,10 @@ msgstr ""
 msgid "Automation options."
 msgstr ""
 
+#: ../../content/ready2adopt-processes.rst:34
+msgid "OTRSReady2AdoptProcesses"
+msgstr ""
+
 #: ../../content/ready2adopt-processes/admin/processes-automation/process-management.rst:8
 msgid "``Conference Room Reservation``"
 msgstr ""
@@ -11331,7 +11578,11 @@ msgstr ""
 msgid "OTRS-OTRS connector"
 msgstr ""
 
-#: ../../content/ready2adopt-web-services.rst:27
+#: ../../content/ready2adopt-web-services.rst:26
+msgid "OTRSReady2AdoptWebServices"
+msgstr ""
+
+#: ../../content/ready2adopt-web-services.rst:30
 msgid "This feature add-on requires the :doc:`ticket-invoker` feature."
 msgstr ""
 
@@ -11397,6 +11648,10 @@ msgstr ""
 
 #: ../../content/restore-pending-information.rst:10
 msgid "Saves time managing recurring requests from a customer."
+msgstr ""
+
+#: ../../content/restore-pending-information.rst:23
+msgid "OTRSRestorePendingInformation"
 msgstr ""
 
 #: ../../content/restore-pending-information/agent.rst:4
@@ -11487,12 +11742,16 @@ msgstr ""
 msgid "Simplifies the collaboration with subsidiaries, subcontractors and partners."
 msgstr ""
 
-#: ../../content/restrict-customer-data-view.rst:18
+#: ../../content/restrict-customer-data-view.rst:15
 msgid "International companies"
 msgstr ""
 
-#: ../../content/restrict-customer-data-view.rst:20
+#: ../../content/restrict-customer-data-view.rst:17
 msgid "Companies offering a wide range of products"
+msgstr ""
+
+#: ../../content/restrict-customer-data-view.rst:23
+msgid "OTRSRestrictCustomerDataView"
 msgstr ""
 
 #: ../../content/restrict-customer-data-view/admin.rst:4
@@ -11641,7 +11900,11 @@ msgstr ""
 msgid "Reduced workload."
 msgstr ""
 
-#: ../../content/service-based-queue-routing.rst:24
+#: ../../content/service-based-queue-routing.rst:23
+msgid "OTRSServiceBasedQueueRouting"
+msgstr ""
+
+#: ../../content/service-based-queue-routing.rst:27
 msgid "This feature add-on is does not correspond with every ticket screen, e.g. in the notification and close screens."
 msgstr ""
 
@@ -11750,16 +12013,20 @@ msgstr ""
 msgid "Certain customer groups or request types can be processed more quickly."
 msgstr ""
 
-#: ../../content/service-categories.rst:15
+#: ../../content/service-categories.rst:12
 msgid "Internal and external IT service management"
 msgstr ""
 
-#: ../../content/service-categories.rst:16
+#: ../../content/service-categories.rst:13
 msgid "Quality management"
 msgstr ""
 
-#: ../../content/service-categories.rst:19
+#: ../../content/service-categories.rst:16
 msgid "Customer satisfaction management"
+msgstr ""
+
+#: ../../content/service-categories.rst:23
+msgid "OTRSServiceCategories"
 msgstr ""
 
 #: ../../content/service-categories/admin/ticket-settings/types-services.rst:2
@@ -11879,24 +12146,28 @@ msgstr ""
 msgid "Assignment to outsourced first-level support is seamless."
 msgstr ""
 
-#: ../../content/service-responsible.rst:19
+#: ../../content/service-responsible.rst:16
 msgid "Large companies"
 msgstr ""
 
-#: ../../content/service-responsible.rst:20
+#: ../../content/service-responsible.rst:17
 msgid "Companies with a high volume of tickets"
 msgstr ""
 
-#: ../../content/service-responsible.rst:21
+#: ../../content/service-responsible.rst:18
 msgid "Companies with many employees"
 msgstr ""
 
-#: ../../content/service-responsible.rst:22
+#: ../../content/service-responsible.rst:19
 msgid "Service-oriented workgroups"
 msgstr ""
 
-#: ../../content/service-responsible.rst:23
+#: ../../content/service-responsible.rst:20
 msgid "Companies with outsourced first-level support"
+msgstr ""
+
+#: ../../content/service-responsible.rst:26
+msgid "OTRSServiceResponsible"
 msgstr ""
 
 #: ../../content/service-responsible/admin.rst:4
@@ -12015,6 +12286,10 @@ msgstr ""
 
 #: ../../content/specific-ticket-notifications.rst:11
 msgid "More personalized configuration of notifications, avoiding a flood of information."
+msgstr ""
+
+#: ../../content/specific-ticket-notifications.rst:23
+msgid "OTRSSpecificTicketNotifications"
 msgstr ""
 
 #: ../../content/specific-ticket-notifications/admin.rst:4
@@ -12204,8 +12479,12 @@ msgstr ""
 msgid "Decreasing the risk of incorrect status inputs."
 msgstr ""
 
-#: ../../content/state-preselection-response-templates.rst:22
+#: ../../content/state-preselection-response-templates.rst:19
 msgid "Advertising or communication agencies"
+msgstr ""
+
+#: ../../content/state-preselection-response-templates.rst:25
+msgid "OTRSStatePreselectionResponseTemplates"
 msgstr ""
 
 #: ../../content/state-preselection-response-templates/admin/ticket-settings.rst:4
@@ -12311,6 +12590,10 @@ msgstr ""
 
 #: ../../content/system-configuration-history.rst:11
 msgid "Accountability of changes."
+msgstr ""
+
+#: ../../content/system-configuration-history.rst:21
+msgid "OTRSSystemConfigurationHistory"
 msgstr ""
 
 #: ../../content/system-configuration-history/admin.rst:4
@@ -12458,6 +12741,10 @@ msgstr ""
 msgid "React fast to anomalies."
 msgstr ""
 
+#: ../../content/tag-cloud.rst:35
+msgid "OTRSTagCloud"
+msgstr ""
+
 #: ../../content/tag-cloud/agent.rst:4
 msgid "This package includes the functionality of a tag cloud, which can be displayed as a small and/or large widget in the dashboard."
 msgstr ""
@@ -12592,6 +12879,10 @@ msgstr ""
 
 #: ../../content/ticket-allocation.rst:14
 msgid "Simple handling of an increased number of tickets."
+msgstr ""
+
+#: ../../content/ticket-allocation.rst:27
+msgid "OTRSTicketAllocation"
 msgstr ""
 
 #: ../../content/ticket-allocation/admin.rst:4
@@ -12769,6 +13060,10 @@ msgstr ""
 
 #: ../../content/ticket-forms.rst:33
 msgid "Increases the completeness of forms by defining mandatory fields."
+msgstr ""
+
+#: ../../content/ticket-forms.rst:45
+msgid "OTRSTicketForms"
 msgstr ""
 
 #: ../../content/ticket-forms/admin.rst:4
@@ -13723,6 +14018,10 @@ msgstr ""
 msgid "This package adds the functionality of two new invokers ``TicketCreate`` and ``TicketUpdate`` for web services."
 msgstr ""
 
+#: ../../content/ticket-invoker.rst:10
+msgid "OTRSTicketInvoker"
+msgstr ""
+
 #: ../../content/ticket-invoker/admin.rst:4
 msgid "This package adds a new settings screen to the *Web Service Management* screen to configure the invokers."
 msgstr ""
@@ -13984,8 +14283,12 @@ msgstr ""
 msgid "Saves time compared to a manual assignment."
 msgstr ""
 
-#: ../../content/ticket-queue-selection.rst:19
+#: ../../content/ticket-queue-selection.rst:16
 msgid "External IT service"
+msgstr ""
+
+#: ../../content/ticket-queue-selection.rst:26
+msgid "OTRSTicketQueueSelection"
 msgstr ""
 
 #: ../../content/ticket-queue-selection/admin.rst:4
@@ -14072,8 +14375,12 @@ msgstr ""
 msgid "Unmistakable definition of intervals and default values reduces documentation time."
 msgstr ""
 
-#: ../../content/ticket-time-unit-dropdown.rst:27
+#: ../../content/ticket-time-unit-dropdown.rst:24
 msgid "Globally active companies"
+msgstr ""
+
+#: ../../content/ticket-time-unit-dropdown.rst:30
+msgid "OTRSTicketTimeUnitDropdown"
 msgstr ""
 
 #: ../../content/ticket-time-unit-dropdown/admin.rst:8
@@ -14212,8 +14519,12 @@ msgstr ""
 msgid "Export function enables the processing in Excel sheets."
 msgstr ""
 
-#: ../../content/ticket-watchlist.rst:40
+#: ../../content/ticket-watchlist.rst:37
 msgid "Service manager"
+msgstr ""
+
+#: ../../content/ticket-watchlist.rst:43
+msgid "OTRSTicketWatchlist"
 msgstr ""
 
 #: ../../content/ticket-watchlist/admin.rst:6
@@ -14651,7 +14962,11 @@ msgstr ""
 msgid "Reduces error sources."
 msgstr ""
 
-#: ../../content/ticket-workflow.rst:42
+#: ../../content/ticket-workflow.rst:41
+msgid "OTRSTicketWorkflow"
+msgstr ""
+
+#: ../../content/ticket-workflow.rst:45
 msgid "This feature add-on is also available for the OTRS::ITSM module."
 msgstr ""
 
@@ -14936,8 +15251,12 @@ msgstr ""
 msgid "Overview of current quotas facilitates the planning and implementation."
 msgstr ""
 
-#: ../../content/time-accounting-quota.rst:21
+#: ../../content/time-accounting-quota.rst:18
 msgid "All companies"
+msgstr ""
+
+#: ../../content/time-accounting-quota.rst:24
+msgid "OTRSTimeAccountingQuota"
 msgstr ""
 
 #: ../../content/time-accounting-quota/admin.rst:4
@@ -15080,8 +15399,12 @@ msgstr ""
 msgid "Facilitates SLA management."
 msgstr ""
 
-#: ../../content/vip-customer.rst:23
+#: ../../content/vip-customer.rst:20
 msgid "All companies working with SLAs"
+msgstr ""
+
+#: ../../content/vip-customer.rst:26
+msgid "OTRSVIPCustomer"
 msgstr ""
 
 #: ../../content/vip-customer/admin.rst:10

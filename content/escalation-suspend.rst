@@ -10,13 +10,16 @@ Benefits
    - Enables precise time accounting.
    - Provides greater flexibility through its configurable status.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service management
    - Internal IT
    - Customer service
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSEscalationSuspend
 
 .. note::
 

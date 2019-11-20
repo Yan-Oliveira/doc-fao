@@ -8,14 +8,17 @@ Benefits
    - Tickets can be selected from the overview using just one click.
    - Facilitates ticket prioritization.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT service providers
    - Finance
    - Sales
    - and many more
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSCustomerActivityWidget
 
 .. note::
 

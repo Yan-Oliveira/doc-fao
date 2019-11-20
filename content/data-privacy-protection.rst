@@ -22,6 +22,12 @@ Target Groups
    - IT service
    - Security management
 
+Available in Service Package
+   - TITANIUM
+
+Package Name in OTRS Package Manager
+   - OTRSDataPrivacyProtection
+
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-data-privacy-protection/
 
 .. toctree::

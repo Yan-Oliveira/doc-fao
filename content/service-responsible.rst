@@ -12,15 +12,18 @@ Benefits
    - Ticket allocation is faster and more efficient.
    - Assignment to outsourced first-level support is seamless.
 
-Available in Service Package
-   TITANIUM
-
 Target Groups
    - Large companies
    - Companies with a high volume of tickets
    - Companies with many employees
    - Service-oriented workgroups
    - Companies with outsourced first-level support
+
+Available in Service Package
+   - TITANIUM
+
+Package Name in OTRS Package Manager
+   - OTRSServiceResponsible
 
 .. Original content: https://otrs.com/otrs-feature/service-responsible/
 

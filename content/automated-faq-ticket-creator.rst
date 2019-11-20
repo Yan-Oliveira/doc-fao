@@ -12,15 +12,18 @@ Benefits
    - Functionality can be used for one-time activities that include an end date.
    - Even complex tasks can be done by new or untrained employees.
 
-Available in Service Package
-   TITANIUM
-
 Target Groups
    - IT service management
    - Facility management
    - Service providers
    - Companies with recurring activities, such as maintenance work
    - Companies with a large number of employees
+
+Available in Service Package
+   - TITANIUM
+
+Package Name in OTRS Package Manager
+   - OTRSAutomatedFAQTicketCreator
 
 .. Original content: https://otrs.com/otrs-feature/automated-faq-ticket-creator/
 

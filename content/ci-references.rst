@@ -17,14 +17,17 @@ Benefits
    - Quicker autocomplete search for values referenced in CI fields.
    - Clear visualization of complex dependencies between CIs and other CIs, services, and users.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Configuration item managers
    - Internal and external IT
    - Facility management
    - Sales
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSCIReferences
 
 .. note::
 

@@ -18,15 +18,18 @@ Benefits
    - Find clues for optimizing your processes.
    - Detect employee overload at an early stage and take timely measures.
 
-Available in Service Package
-   PLATINUM
-
 Target Groups
    - IT services
    - Call centers
    - Customer service manager
    - Project management
    - Senior management
+
+Available in Service Package
+   - PLATINUM
+
+Package Name in OTRS Package Manager
+   - OTRSExtendedTicketStats
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-extended-ticket-stats/
 

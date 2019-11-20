@@ -9,9 +9,6 @@ Benefits
    - Individual configuration that filters out-of-office messages.
    - Closed tickets are no longer opened by out-of-office replies.
 
-Available in Service Package
-   TITANIUM
-
 Target Groups
    - Companies of all sizes with high ticket volumes
    - Anyone using out-of-office frequently
@@ -19,6 +16,12 @@ Target Groups
    - IT service management
    - Customer service
    - Service providers
+
+Available in Service Package
+   - TITANIUM
+
+Package Name in OTRS Package Manager
+   - OTRSOutOfOffice
 
 .. Original content: https://otrs.com/otrs-feature/out-of-office/
 

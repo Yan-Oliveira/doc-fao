@@ -11,15 +11,18 @@ Benefits
    - Prevents process errors and processes from being forgotten.
    - Saves work through automation.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - IT service management
    - Customer service/support
    - Sales
    - Universities
    - Government
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSAdvancedGenericAgent
 
 .. note::
 

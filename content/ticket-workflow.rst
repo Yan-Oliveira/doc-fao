@@ -28,14 +28,17 @@ Benefits
    - Simplifies data collection.
    - Reduces error sources.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT service management
    - Human resources
    - Finance
    - Internal IT
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSTicketWorkflow
 
 .. note::
 

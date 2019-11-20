@@ -9,9 +9,6 @@ Benefits
    - Performance is consistent and errors are reduced.
    - The right tasks are completed at the right times.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Complaint management
    - Customer service
@@ -20,6 +17,12 @@ Target Groups
    - IT service
    - Security management
    - Service providers
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSAutomaticStartOfProcesses
 
 .. Original content: https://otrs.com/otrs-feature/automatic-start-of-processes/
 

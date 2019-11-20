@@ -10,14 +10,17 @@ Benefits
    - Saving time.
    - Reduced workload.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Call centers
    - Customer service
    - Service providers
    - IT service management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSServiceBasedQueueRouting
 
 .. note::
 

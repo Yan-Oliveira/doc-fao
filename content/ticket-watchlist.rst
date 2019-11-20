@@ -30,14 +30,17 @@ Benefits
    - Administration of several watchlists saves time.
    - Export function enables the processing in Excel sheets.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT service management
    - Service providers
    - Call centers
    - Service manager
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSTicketWatchlist
 
 .. note::
 

@@ -13,14 +13,17 @@ Benefits
    - Respond faster to requests of specific customers.
    - Facilitates SLA management.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT service management
    - Call centers
    - Service providers
    - All companies working with SLAs
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSVIPCustomer
 
 .. note::
 

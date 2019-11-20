@@ -7,15 +7,18 @@ Benefits
    - Increases the security of **OTRS**.
    - Protects from misuse of your customer accounts.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Customer service
    - E-commerce
    - Government
    - IT service
    - Service providers
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSBruteForceAttackProtection
 
 .. Original content: https://otrs.com/otrs-feature/brute-force-attack-protection/
 

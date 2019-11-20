@@ -11,13 +11,16 @@ Benefits
    - Specific allocation of access permissions allows protection of your customer data.
    - Simplifies the collaboration with subsidiaries, subcontractors and partners.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - International companies
    - Call centers
    - Companies offering a wide range of products
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSRestrictCustomerDataView
 
 .. note::
 

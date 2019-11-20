@@ -9,15 +9,18 @@ Benefits
    - Fewer clicks and less work by using the memory function.
    - Saves time managing recurring requests from a customer.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT support
    - IT services
    - Facility management
    - Call centers
    - Customer service
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSRestorePendingInformation
 
 .. note::
 

@@ -9,15 +9,18 @@ Benefits
    - Fast database inquiries.
    - System performance improvements.
 
-Available in Service Package
-   PLATINUM
-
 Target Groups
    - Call centers
    - Customer service
    - Sales
    - Order management
    - Complaint management
+
+Available in Service Package
+   - PLATINUM
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicFieldSearchBooster
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-dynamic-field-search-booster/
 

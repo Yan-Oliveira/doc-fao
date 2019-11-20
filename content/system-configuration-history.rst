@@ -10,12 +10,15 @@ Benefits
    - Detailed change log for all settings.
    - Accountability of changes.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - IT
    - Security management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSSystemConfigurationHistory
 
 .. Original content: https://otrs.com/otrs-feature/system-configuration-history/
 

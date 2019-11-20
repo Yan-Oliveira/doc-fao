@@ -52,6 +52,7 @@ Integration
    - :doc:`dynamic-field-database`
    - :doc:`dynamic-field-web-service`
    - :doc:`ready2adopt-web-services`
+   - :doc:`ticket-invoker`
 
 Knowledge Management & Self Service
    - :doc:`cis-in-customer-frontend`
@@ -70,12 +71,14 @@ Reporting
 Security & Permissions
    - :doc:`change-write-protection`
    - :doc:`credit-card-filter`
+   - :doc:`data-privacy-protection`
    - :doc:`delete-attachments`
    - :doc:`restrict-customer-data-view`
 
 Ticket Management
    - :doc:`categories-for-text-modules`
    - :doc:`dynamic-field-attachment`
+   - :doc:`dynamic-field-calculation`
    - :doc:`dynamic-field-ci`
    - :doc:`out-of-office`
    - :doc:`restore-pending-information`
@@ -129,6 +132,7 @@ GOLD
    - :doc:`ci-references`
    - :doc:`cis-in-customer-frontend`
    - :doc:`dynamic-field-attachment`
+   - :doc:`dynamic-field-calculation`
    - :doc:`dynamic-field-ci`
    - :doc:`dynamic-field-value-import`
    - :doc:`dynamic-field-web-service`
@@ -142,11 +146,13 @@ GOLD
    - :doc:`specific-ticket-notifications`
    - :doc:`ticket-allocation`
    - :doc:`ticket-forms`
+   - :doc:`ticket-invoker`
    - :doc:`ticket-queue-selection`
 
 TITANIUM
    - :doc:`automated-faq-ticket-creator`
    - :doc:`customer-event-ticket-calendar`
+   - :doc:`data-privacy-protection`
    - :doc:`out-of-office`
    - :doc:`ready2adopt-itsm-processes`
    - :doc:`service-responsible`

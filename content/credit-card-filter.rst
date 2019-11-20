@@ -9,15 +9,18 @@ Benefits
    - Improved data protection.
    - Less security risks for credit card data.
 
-Available in Service Package
-   SILVER
-
 Target Groups
    - Customer service
    - Finance
    - Sales
    - Order management
    - Complaint management
+
+Available in Service Package
+   - SILVER
+
+Package Name in OTRS Package Manager
+   - OTRSCreditCardFilter
 
 .. Original content: https://otrs.com/otrs-feature/feature-add-on-credit-card-filter/
 

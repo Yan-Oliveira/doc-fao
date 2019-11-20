@@ -11,15 +11,18 @@ Benefits
    - Improved customer loyalty.
    - Simplified teamwork with partners or outsourced divisions.
 
-Available in Service Package
-   GOLD
-
 Target Groups
    - Call centers
    - Customer service
    - Sales
    - Marketing
    - Procurement
+
+Available in Service Package
+   - GOLD
+
+Package Name in OTRS Package Manager
+   - OTRSDynamicSenderAddresses
 
 .. Original content: https://otrs.com/otrs-feature/dynamic-sender-addresses/
 
