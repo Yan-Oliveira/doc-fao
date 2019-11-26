@@ -333,9 +333,73 @@ Possible data classifications for articles:
    - Cc
    - Subject
    - Body
+   - Attachments
    - DynamicField_NameX
 
 The driver supports dynamic fields for data classification. Dynamic fields will be identified by the prefix ``DynamicField_`` and the related field name.
+
+The data classification supports history types. Since history types may vary (framework versions, framework updates, installed packages etc.), the driver will dynamically determine those types by name.
+
+History types have to be prefixed with the term ``History``. Please see the examples in the following listing:
+
+.. code-block:: none
+
+   - HistoryAddNote
+   - HistoryAddSMS
+   - HistoryArchiveFlagUpdate
+   - HistoryBounce
+   - HistoryCustomerUpdate
+   - HistoryEmailAgent
+   - HistoryEmailCustomer
+   - HistoryEmailResend
+   - HistoryEscalationResponseTimeNotifyBefore
+   - HistoryEscalationResponseTimeStart
+   - HistoryEscalationResponseTimeStop
+   - HistoryEscalationSolutionTimeNotifyBefore
+   - HistoryEscalationSolutionTimeStart
+   - HistoryEscalationSolutionTimeStop
+   - HistoryEscalationUpdateTimeNotifyBefore
+   - HistoryEscalationUpdateTimeStart
+   - HistoryEscalationUpdateTimeStop
+   - HistoryFollowUp
+   - HistoryForward
+   - HistoryLock
+   - HistoryLoopProtection
+   - HistoryMerged
+   - HistoryMisc
+   - HistoryMove
+   - HistoryNewTicket
+   - HistoryOwnerUpdate
+   - HistoryPhoneCallAgent
+   - HistoryPhoneCallCustomer
+   - HistoryPriorityUpdate
+   - HistoryRemove
+   - HistoryResponsibleUpdate
+   - HistorySendAgentNotification
+   - HistorySendAnswer
+   - HistorySendAutoFollowUp
+   - HistorySendAutoReject
+   - HistorySendAutoReply
+   - HistorySendCustomerNotification
+   - HistoryServiceUpdate
+   - HistorySetPendingTime
+   - HistorySLAUpdate
+   - HistoryStateUpdate
+   - HistorySubscribe
+   - HistorySystemRequest
+   - HistoryTicketDynamicFieldUpdate
+   - HistoryTicketLinkAdd
+   - HistoryTicketLinkDelete
+   - HistoryTimeAccounting
+   - HistoryTitleUpdate
+   - HistoryTypeUpdate
+   - HistoryUnlock
+   - HistoryUnsubscribe
+   - HistoryWebRequestCustomer
+
+All contents of the classified history types will be affected during executions.
+
+If attachments are classified, every attachment of all matching articles or tickets will be affected during executions.
 
 .. warning::
 
