@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-26 10:17+0100\n"
+"POT-Creation-Date: 2019-11-27 17:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -390,8 +390,13 @@ msgstr ""
 #: ../../content/brute-force-attack-protection/admin/administration.rst:6
 #: ../../content/brute-force-attack-protection/admin/users-groups-roles.rst:6
 #: ../../content/calendar-resource-planning.rst:33
-#: ../../content/calendar-resource-planning/agent.rst:6
+#: ../../content/calendar-resource-planning/admin.rst:6
+#: ../../content/calendar-resource-planning/admin/administration.rst:6
+#: ../../content/calendar-resource-planning/admin/communication-notifications.rst:6
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:10
+#: ../../content/calendar-resource-planning/agent.rst:10
 #: ../../content/calendar-resource-planning/agent/calendar.rst:6
+#: ../../content/calendar-resource-planning/agent/reports.rst:6
 #: ../../content/categories-for-text-modules.rst:37
 #: ../../content/categories-for-text-modules/admin.rst:6
 #: ../../content/categories-for-text-modules/admin/ticket-settings.rst:6
@@ -1444,6 +1449,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/administration.rst:2
 #: ../../content/brute-force-attack-protection/admin/administration.rst:2
+#: ../../content/calendar-resource-planning/admin/administration.rst:2
 #: ../../content/introduction.rst:18
 #: ../../content/system-configuration-history/admin/administration.rst:2
 msgid "Administration"
@@ -2085,6 +2091,7 @@ msgid "Total amount of seconds that the timer was running last time with ``BaseT
 msgstr ""
 
 #: ../../content/advanced-escalations/admin/communication-notifications.rst:2
+#: ../../content/calendar-resource-planning/admin/communication-notifications.rst:2
 #: ../../content/custom-contact-fields/admin/communication-notifications.rst:2
 #: ../../content/dashboard-news-widget/admin/communication-notifications.rst:2
 #: ../../content/dynamic-sender-addresses/admin/communication-notifications.rst:2
@@ -2363,6 +2370,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:24
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-types.rst:20
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:11
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:22
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:18
 #: ../../content/ci-references/agent/cmdb/new.rst:9
@@ -2437,7 +2445,9 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:58
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-types.rst:65
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:23
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:80
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:47
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:45
 #: ../../content/ci-references/admin.rst:40
 #: ../../content/ci-references/admin.rst:113
@@ -2891,6 +2901,7 @@ msgid "Escalation automatism is not supported. Use the generic agent or generic 
 msgstr ""
 
 #: ../../content/advanced-escalations/agent/reports.rst:2
+#: ../../content/calendar-resource-planning/agent/reports.rst:2
 #: ../../content/extended-ticket-stats/agent/reports.rst:2
 msgid "Reports"
 msgstr ""
@@ -2900,6 +2911,7 @@ msgid "The escalation information can be displayed in reports and statistics usi
 msgstr ""
 
 #: ../../content/advanced-escalations/agent/reports/statistics.rst:2
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:2
 #: ../../content/extended-ticket-stats/agent/reports/statistics.rst:2
 msgid "Statistics"
 msgstr ""
@@ -3487,6 +3499,7 @@ msgstr ""
 
 #: ../../content/automated-faq-ticket-creator/admin/processes-automation.rst:2
 #: ../../content/automatic-start-of-processes/admin/processes-automation.rst:2
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:2
 #: ../../content/custom-contact-fields/admin/processes-automation.rst:2
 #: ../../content/dynamic-field-attachment/admin/processes-automation.rst:2
 #: ../../content/dynamic-field-calculation/admin/processes-automation.rst:2
@@ -3509,6 +3522,8 @@ msgid "After installation of the package some new dynamic fields are added to th
 msgstr ""
 
 #: ../../content/automated-faq-ticket-creator/admin/processes-automation/dynamic-fields.rst:2
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:27
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:2
 #: ../../content/custom-contact-fields/admin/processes-automation/dynamic-fields.rst:2
 #: ../../content/dynamic-field-attachment/admin/processes-automation/dynamic-fields.rst:2
 #: ../../content/dynamic-field-calculation/admin/processes-automation/dynamic-fields.rst:2
@@ -4469,11 +4484,208 @@ msgid "OTRSCalendarResourcePlanning"
 msgstr ""
 
 #: ../../content/calendar-resource-planning/admin.rst:4
-msgid "This package has no administrator interface, but the agent have to be the member of ``admin`` group to access :doc:`agent/calendar/manage-teams` and :doc:`agent/calendar/manage-team-agents` screens."
+msgid "This package extends the *Calendar Management* screen with a new section to set default values and add dynamic fields to appointments. New management screens for teams and team agents are also available from the :doc:`agent/calendar/manage-teams` and :doc:`agent/calendar/manage-team-agents` menu item of the *Calendar* menu in the agent interface. It is also possible to send out ICS files in appointment notifications."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration.rst:4
+msgid "This package extends the *Calendar Management* screen with a new section to set default values and add dynamic fields to appointments."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:2
+msgid "Calendars"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:4
+msgid "Use this screen to add default values to appointments. The calendar management screen is available in the *Calendars* module of the *Administration* group in the administrator interface or from the *Manage Calendars* menu item of the *Calendar* menu in the agent interface."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:6
+msgid "This package extends the *Calendar Management* screen with a new section to set default title, description and location for appointments."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:8
+msgid "To set default values for appointments:"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:10
+msgid "Click on the *Add Calendar* button in the left sidebar or click on a calendar in the list of calendars."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:12
+msgid "Add default values in the *Manage Settings* widget."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:17
+msgid "Manage Settings Widget"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:21
+msgid "Manage Settings"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:31
+msgid "This section is visible only, if :doc:`../processes-automation/dynamic-fields` for appointments are added to the system."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:33
+msgid "Each appointment dynamic fields are listed in this section."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:35
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:11
+msgid "Define for each appointment dynamic field to *Hide*, *Show* or *Show as mandatory*."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:39
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:42
+msgid "Title (default)"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:42
+msgid "Define the default title for appointments using this calendar."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:45
+msgid "Description (default)"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:45
+msgid "Define the default description for appointments using this calendar."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:48
+msgid "Location (default)"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:48
+msgid "Define the default location for appointments using this calendar."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:51
+msgid "Additional description"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:51
+msgid "Define the additional text which is shown on each appointment in *Timeline Custom* view to display more information in the overview screens. It is possible to show attributes of the appointments, as well as stored dynamic fields. Even the access to linked ticket data is possible."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:53
+msgid "It is possible to use OTRS smart tags related to the appointment, e.g. ``<OTRS_APPOINTMENT_X>``, ``<OTRS_APPOINTMENT_DYNAMICFIELD_X>``. You can even access data of linked tickets using ``<OTRS_APPOINTMENT_TICKET_X>``. If more than one ticket is linked, you can use ``<OTRS_APPOINTMENT_TICKET_1_X>``. Tickets are sorted by ticket ID."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:57
+msgid "The appointment is not created at this time and not all values are there (e.g. no dynamic field values can be used). The defined texts are only used during appointment creation (no update functionality), therefore not all OTRS smart tags are usable."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:59
+msgid "The default values are populated whenever the calendar is chosen and the title, description or location is empty."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:61
+msgid "Behind the input fields for title, description and location, there is a refresh button if default values are specified. This refresh button could be used to re-apply the stored default values if for example dynamic fields are entered in the screen."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:65
+msgid "The already entered data will be overwritten using the refresh buttons."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications.rst:4
+msgid "This feature adds the possibility to send out ICS files in appointment notifications."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:2
+msgid "Appointment Notifications"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:4
+msgid "Use this screen to filter appointments and send ICS files in appointment notifications, that can be opened with any regular calendar application. The appointment notification management screen is available in the *Appointment Notifications* module of the *Communication & Notifications* group."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:8
+msgid "Appointment Filter"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:10
+msgid "Use this section in new or existing appointment notification to filter appointments."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:15
+msgid "Appointment Filter Section"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:17
+msgid "It is possible to filter based on calendar, title, location, team or resource, as well as dynamic fields (if dynamic field for appointments is created in :doc:`../processes-automation/dynamic-fields` screen)."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:21
+msgid "Send ICS Files in Notifications"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:23
+msgid "It is possible to include an ICS file to the appointment notification sent to users."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:25
+msgid "To activate the sending of ICS files:"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:27
+msgid "Create a new appointment notification or select an existing appointment notification."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:28
+msgid "In the *Events* widget select ``AppointmentCreate``, ``AppointmentUpdate`` or ``AppointmentDelete`` as event."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:29
+msgid "In the *Notification Methods* widget select *Send ICS file*."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:31
+msgid "You can even configure to use the additional shown information out of the *Timeline Custom* view (configurable per calendar) in the ICS file generation as well. Just activate the setting ``AppointmentCalendar::ICSFiles::UseAppointmentDescription`` to combine the regular description with the configured text."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:4
+msgid "This package adds support for dynamic fields to appointments."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:8
+msgid "The usage of :doc:`../../dynamic-field-database` feature is not supported."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:4
+msgid "Use this screen to manage dynamic fields for appointments. Dynamic fields for appointments have to be configured in the same way as dynamic fields for other object. Once you have set up the dynamic fields, you have to activate the dynamic fields for calendars."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:6
+msgid "To activate dynamic fields for calendars:"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:8
+msgid "Go to the :doc:`../administration/calendars` screen."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:9
+msgid "Select a calendar or create a new one."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:10
+msgid "Find the *Dynamic Fields* section in the *Manage Settings* widget."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:13
+msgid "Dynamic fields are available in the linked appointments widget in the *Ticket Zoom* screen as well."
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent.rst:4
-msgid "This feature add-on enhances the original calendar implementation by introducing resource allocation for appointments. Furthermore, resources can be assigned to separate teams, which in turn can be used to filter resource overview and availability."
+msgid "This feature add-on enhances the original calendar implementation by introducing resource allocation for appointments. Furthermore, resources can be assigned to separate teams, which in turn can be used to filter resource overview and availability. The appointments now can be used in dynamic list statistics."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent.rst:8
+msgid "The agent have to be the member of ``admin`` group to access :doc:`agent/calendar/manage-calendars`, :doc:`agent/calendar/manage-teams` and :doc:`agent/calendar/manage-team-agents` screens."
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar.rst:2
@@ -4484,13 +4696,22 @@ msgstr ""
 msgid "After installation of the package, some new menu items will be available in the *Calendar* menu."
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:2
-msgid "Manage Team Agents"
+#: ../../content/calendar-resource-planning/agent/calendar/manage-calendars.rst:2
+msgid "Manage Calendars"
 msgstr ""
 
+#: ../../content/calendar-resource-planning/agent/calendar/manage-calendars.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:6
 msgid "You have to be the member of ``admin`` group to access this screen."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/manage-calendars.rst:8
+msgid "This menu item opens the :doc:`../../admin/administration/calendars` management screen of the administrator interface."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:2
+msgid "Manage Team Agents"
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:8
@@ -4695,7 +4916,7 @@ msgid "While it is possible to assign resources to an appointment in any calenda
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:6
-msgid "This screen looks very much like a regular calendar overview, except it has a filter for teams on top and a list of agents for that team (available only in time-line views). By choosing a team from the top filter, you will be presented with all appointments assigned to it."
+msgid "This screen looks very much like a regular calendar overview. It has a filter for teams on top and a list of agents for that team (available only in time-line views). By choosing a team from the top filter, you will be presented with all appointments assigned to it. A new button *Timeline Custom* is also added as a new customizable view."
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:11
@@ -4707,7 +4928,7 @@ msgid "Management screens for the *Resource Overview* screen:"
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:15
-msgid "Click on the *Manage Calendars* button to set up some calendars."
+msgid "Click on the :doc:`manage-calendars` button to set up some calendars."
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:16
@@ -4731,35 +4952,195 @@ msgid "Once you have both teams and their agents set up, you can proceed to a ca
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:26
-msgid "By simply dragging an appointment to a row line with an agent’s name in time-line view, it is possible to assign an appointment to this resource. If an appointment does not have an agent assigned to it, it will appear in the unassigned area of the screen. An appointment with multiple assigned agents will be displayed in each row of assigned agents. Dragging one instance of this appointment will move all them in the same fashion."
+msgid "By simply dragging an appointment to a row line with an agent’s name in time-line view, it is possible to assign an appointment to this resource. If an appointment does not have an agent assigned to it, it will appear in the *Unassigned* row of the screen. An appointment with multiple assigned agents will be displayed in each row of assigned agents. Dragging one instance of this appointment will move all them in the same fashion."
 msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:28
-msgid "By editing settings of the resource overview via gear icon in top right corner, you can choose which team agents are displayed within the overview."
+msgid "By editing settings of the resource overview via gear icon in top right corner, you can choose which team agents are displayed within the overview and you can customize the *Timeline Custom* view."
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:33
-msgid "Calendar Settings Dialog"
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:30
+msgid "There is an other icon in the top right corner labeled with double arrow. Clicking on this icon makes the current view full screen and hides the left sidebar. If you click on the full screen icon again, the view is restored and the left sidebar will be visible. The full width mode is stored in the user preferences, so the full screen mode is remembered even after reloading the overview screens."
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:35
-msgid "This setting is user and team specific, and if you have defined an agent filter in this way, a trash icon will be displayed on top of the list of agents so you can remove it easily."
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:32
+msgid "The *Timeline Custom* view with the extended settings dialog and the full screen mode is available also in the *Calendar Overview* screen."
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:37
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:34
 msgid "In all other aspects, resource overview screen behaves in the same way as a regular calendar overview."
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:41
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:38
+msgid "Timeline Custom Settings"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:40
+msgid "Some of these settings have been applied also to the regular calendar overview."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:45
+msgid "Calendar Settings Dialog"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:50
+msgid "Shown resources"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:50
+msgid "This setting is user and team specific, and if you have defined an agent filter in this way, a trash icon will be displayed on top of the list of agents so you can remove it easily."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:57
+msgid "Resource information"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:53
+msgid "Show additional resource information next to the agent name in the *Resource Overview* screen. You can use OTRS smart tags related to agents, e.g. ``<OTRS_AGENT_X>``. You can even access agent preferences."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:57
+msgid "The additional resource information can be added in setting ``AppointmentCalendar::CustomTimeline::ResourceInformation`` in the system configuration."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:60
+msgid "Show weekends"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:60
+msgid "Select whether the weekends should be displayed or not."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:63
+msgid "Shown weeks"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:63
+msgid "Select how many weeks should be displayed in the *Timeline Custom* view."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:66
+msgid "Start time"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:66
+msgid "Select the start time for the *Timeline Custom* view. The default *00:00* means the start time will be at the very beginning of the day (midnight)."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:69
+msgid "End time"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:69
+msgid "Select the end time for the *Timeline Custom* view. The default *24:00* means the end time will be at the very end of the day (midnight)."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:72
+msgid "Slot duration"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:72
+msgid "Select the time slot duration for the *Timeline Custom* view. The default *2 Hours* means that each shown time slot has the duration of two hours (e.g. 12 slots are shown for a day 00:00 - 24:00)."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:75
+msgid "Slot width"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:75
+msgid "Select the time slot width for the *Timeline Custom* view. The default *100 Pixel* means that each shown time slot has a width of 100 pixel."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:77
+msgid "In *Timeline Custom* view, it is possible to show more information on each shown appointment. For this, you have to configure the setting *Additional Description* in the :doc:`../../admin/administration/calendars` screen."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:81
 msgid "Add Appointment"
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:43
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:83
 msgid "You can assign multiple teams and agents to a single appointment, but you must always choose a team first. Resulting list of agents is an aggregate of all selected teams, without any duplicates. Choosing an agent from the list is also optional, so you can leave an appointment assigned only to a team."
 msgstr ""
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:48
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:88
 msgid "Add Appointment Dialog"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:92
+msgid "Calendar Subscriptions"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:94
+msgid "It is possible to use a filter in calendar subscription feature."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:96
+msgid "To use the calendar subscription feature:"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:98
+msgid "Open the *Calendar Overview* or the *Resource Overview* screens."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:99
+msgid "Click on the gear icon next to a calendar in the *Calendars* widget in left sidebar."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:100
+msgid "Select the teams and resources you want to filter for."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:101
+msgid "Click on the *Copy* button. Now the URL is copied to the clipboard."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:102
+msgid "Go to your calendar application and paste the URL."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:107
+msgid "Calendar Subscription Settings Dialog"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:109
+msgid "The dialog is kept open after clicking on *Copy* button, to be able to change the selected teams and resources."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports.rst:4
+msgid "After installation of the package a new object type ``AppointmentList`` will be available to create dynamic list statistics."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:4
+msgid "After installation of the package you can set up new statistics using the ``AppointmentList`` statistic back end to create statistics about the stored appointments in your **OTRS** system. It is a regular statistic (e.g. like the ``TicketList`` statistic), which means you can configure the X-axis and Y-axis to your needs. A lot of the appointment attributes are even available as restrictions."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:6
+msgid "Some of the selectable attributes are calculated on-the-fly:"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:8
+msgid "Age"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:9
+msgid "Days"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:10
+msgid "Hours"
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:12
+msgid "The filter *Period* could be used to combine start and end time of an appointment with the OR operator instead of AND operator. For example the filter *Start Time* with a relative time period for the current one month will not show appointments starting one month before but ends in the current month. To see such appointments, you have to use the *Period* filter. Appointments which are overlapping are split."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:14
+msgid "For each linked ticket one row is added to the statistic output. For example an appointment is linked with two tickets, the appointment is shown twice."
+msgstr ""
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:18
+msgid "Please be careful if you are using teams and resources to filter the appointments. Unfortunately it is not possible to filter for teams and resources on database level, meaning the time which is needed to create a statistic could be higher than usual."
 msgstr ""
 
 #: ../../content/categories-for-text-modules.rst:2

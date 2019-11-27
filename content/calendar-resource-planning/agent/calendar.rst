@@ -8,5 +8,6 @@ After installation of the package, some new menu items will be available in the 
    :caption: Contents
 
    calendar/resource-overview
+   calendar/manage-calendars
    calendar/manage-teams
    calendar/manage-team-agents
