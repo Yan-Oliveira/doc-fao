@@ -7,6 +7,7 @@
 # Dusan Vuckovic, 2019
 # Carlos Rodríguez <carlos.rodriguez@otrs.com>, 2019
 # Martin Gruner <martin.gruner@otrs.com>, 2019
+# Peter Matyas <mr.peter.matyas@gmail.com>, 2019
 # Balázs Úr, 2019
 # 
 #, fuzzy
@@ -14,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 15:59+0100\n"
+"POT-Creation-Date: 2019-11-27 17:02+0100\n"
 "PO-Revision-Date: 2019-08-15 09:24+0000\n"
 "Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -387,8 +388,13 @@ msgstr "OTRSAdjustSortTicketOverview"
 #: ../../content/brute-force-attack-protection/admin/administration.rst:6
 #: ../../content/brute-force-attack-protection/admin/users-groups-roles.rst:6
 #: ../../content/calendar-resource-planning.rst:33
-#: ../../content/calendar-resource-planning/agent.rst:6
+#: ../../content/calendar-resource-planning/admin.rst:6
+#: ../../content/calendar-resource-planning/admin/administration.rst:6
+#: ../../content/calendar-resource-planning/admin/communication-notifications.rst:6
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:10
+#: ../../content/calendar-resource-planning/agent.rst:10
 #: ../../content/calendar-resource-planning/agent/calendar.rst:6
+#: ../../content/calendar-resource-planning/agent/reports.rst:6
 #: ../../content/categories-for-text-modules.rst:37
 #: ../../content/categories-for-text-modules/admin.rst:6
 #: ../../content/categories-for-text-modules/admin/ticket-settings.rst:6
@@ -1686,6 +1692,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/administration.rst:2
 #: ../../content/brute-force-attack-protection/admin/administration.rst:2
+#: ../../content/calendar-resource-planning/admin/administration.rst:2
 #: ../../content/introduction.rst:18
 #: ../../content/system-configuration-history/admin/administration.rst:2
 msgid "Administration"
@@ -2642,6 +2649,7 @@ msgstr ""
 "naptárakkal (csak akkor, ha a naptár meg van határozva)."
 
 #: ../../content/advanced-escalations/admin/communication-notifications.rst:2
+#: ../../content/calendar-resource-planning/admin/communication-notifications.rst:2
 #: ../../content/custom-contact-fields/admin/communication-notifications.rst:2
 #: ../../content/dashboard-news-widget/admin/communication-notifications.rst:2
 #: ../../content/dynamic-sender-addresses/admin/communication-notifications.rst:2
@@ -3114,6 +3122,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:24
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-types.rst:20
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:11
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:22
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:18
 #: ../../content/ci-references/agent/cmdb/new.rst:9
@@ -3198,7 +3207,9 @@ msgstr "Eszkalációtípus-csomag beállításai"
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:58
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-types.rst:65
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:23
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:80
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:47
 #: ../../content/categories-for-text-modules/admin/ticket-settings/categories.rst:45
 #: ../../content/ci-references/admin.rst:40
 #: ../../content/ci-references/admin.rst:113
@@ -3953,6 +3964,7 @@ msgstr ""
 "aktiválásához."
 
 #: ../../content/advanced-escalations/agent/reports.rst:2
+#: ../../content/calendar-resource-planning/agent/reports.rst:2
 #: ../../content/extended-ticket-stats/agent/reports.rst:2
 msgid "Reports"
 msgstr "Jelentések"
@@ -3966,6 +3978,7 @@ msgstr ""
 "statisztikákban az új statisztikaobjektum-modulok használatával."
 
 #: ../../content/advanced-escalations/agent/reports/statistics.rst:2
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:2
 #: ../../content/extended-ticket-stats/agent/reports/statistics.rst:2
 msgid "Statistics"
 msgstr "Statisztikák"
@@ -4870,6 +4883,7 @@ msgstr ""
 
 #: ../../content/automated-faq-ticket-creator/admin/processes-automation.rst:2
 #: ../../content/automatic-start-of-processes/admin/processes-automation.rst:2
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:2
 #: ../../content/custom-contact-fields/admin/processes-automation.rst:2
 #: ../../content/dynamic-field-attachment/admin/processes-automation.rst:2
 #: ../../content/dynamic-field-calculation/admin/processes-automation.rst:2
@@ -4896,6 +4910,8 @@ msgstr ""
 "rendszerhez."
 
 #: ../../content/automated-faq-ticket-creator/admin/processes-automation/dynamic-fields.rst:2
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:27
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:2
 #: ../../content/custom-contact-fields/admin/processes-automation/dynamic-fields.rst:2
 #: ../../content/dynamic-field-attachment/admin/processes-automation/dynamic-fields.rst:2
 #: ../../content/dynamic-field-calculation/admin/processes-automation/dynamic-fields.rst:2
@@ -6277,26 +6293,378 @@ msgstr "OTRSCalendarResourcePlanning"
 
 #: ../../content/calendar-resource-planning/admin.rst:4
 msgid ""
-"This package has no administrator interface, but the agent have to be the "
-"member of ``admin`` group to access :doc:`agent/calendar/manage-teams` and "
-":doc:`agent/calendar/manage-team-agents` screens."
+"This package extends the *Calendar Management* screen with a new section to "
+"set default values and add dynamic fields to appointments. New management "
+"screens for teams and team agents are also available from the "
+":doc:`agent/calendar/manage-teams` and :doc:`agent/calendar/manage-team-"
+"agents` menu item of the *Calendar* menu in the agent interface. It is also "
+"possible to send out ICS files in appointment notifications."
 msgstr ""
-"Ennek a csomagnak nincs adminisztrátori felülete, de az ügyintézőnek az "
-"``admin`` csoport tagjának kell lennie, hogy hozzáférjen a "
+"Ez a csomag a *Naptárkezelés* képernyőt bővíti ki egy új szakasszal, hogy "
+"alapértelmezett értékeket lehessen beállítani és dinamikus mezőket lehessen "
+"hozzáadni az időpontokhoz. Új kezelőképernyők is elérhetők a csapatokhoz és "
+"a csapatügyintézőkhöz az ügyintézői felületen lévő *Naptár* menü "
 ":doc:`agent/calendar/manage-teams` és :doc:`agent/calendar/manage-team-"
-"agents` képernyőkhöz."
+"agents` menüpontjaiból. Lehetőség van ICS-fájlok kiküldésére is az időpont-"
+"értesítésekben."
+
+#: ../../content/calendar-resource-planning/admin/administration.rst:4
+msgid ""
+"This package extends the *Calendar Management* screen with a new section to "
+"set default values and add dynamic fields to appointments."
+msgstr ""
+"Ez a csomag a *Naptárkezelés* képernyőt bővíti ki egy új szakasszal, hogy "
+"alapértelmezett értékeket lehessen beállítani és dinamikus mezőket lehessen "
+"hozzáadni az időpontokhoz."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:2
+msgid "Calendars"
+msgstr "Naptárak"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:4
+msgid ""
+"Use this screen to add default values to appointments. The calendar "
+"management screen is available in the *Calendars* module of the "
+"*Administration* group in the administrator interface or from the *Manage "
+"Calendars* menu item of the *Calendar* menu in the agent interface."
+msgstr ""
+"Használja ezt a képernyőt, hogy alapértelmezett értékeket adjon az "
+"időpontokhoz. A napárkezelés képernyő az adminisztrátori felületen lévő "
+"*Adminisztráció* csoport *Naptárak* moduljában vagy az ügyintézői felületen "
+"lévő *Naptár* menü *Naptárak kezelése* menüpontjából érhető el."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:6
+msgid ""
+"This package extends the *Calendar Management* screen with a new section to "
+"set default title, description and location for appointments."
+msgstr ""
+"Ez a csomag a *Naptárkezelés* képernyőt bővíti ki egy új szakasszal, hogy "
+"alapértelmezett címet, leírást és helyet lehessen beállítani az "
+"időpontokhoz."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:8
+msgid "To set default values for appointments:"
+msgstr "Az időpontokhoz történő alapértelmezett értékek beállításához:"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:10
+msgid ""
+"Click on the *Add Calendar* button in the left sidebar or click on a "
+"calendar in the list of calendars."
+msgstr ""
+"Kattintson a *Naptár hozzáadása* gombra a bal oldalsávban vagy kattintson "
+"egy naptárra a naptárak listájában."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:12
+msgid "Add default values in the *Manage Settings* widget."
+msgstr ""
+"Adjon hozzá alapértelmezett értékeket a *Beállítások kezelése* felületi "
+"elemben."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:17
+msgid "Manage Settings Widget"
+msgstr "Beállítások kezelése felületi elem"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:21
+msgid "Manage Settings"
+msgstr "Beállítások kezelése"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:31
+msgid ""
+"This section is visible only, if :doc:`../processes-automation/dynamic-"
+"fields` for appointments are added to the system."
+msgstr ""
+"Ez a szakasz csak akkor látható, ha időpontokhoz tartozó :doc:`../processes-"
+"automation/dynamic-fields` lettek hozzáadva a rendszerhez."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:33
+msgid "Each appointment dynamic fields are listed in this section."
+msgstr ""
+"Minden egyes időpont dinamikus mező fel van sorolva ebben a szakaszban."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:35
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:11
+msgid ""
+"Define for each appointment dynamic field to *Hide*, *Show* or *Show as "
+"mandatory*."
+msgstr ""
+"Határozza meg minden egyes időpontont dinamikus mezőhöz, hogy *Elrejtés*, "
+"*Megjelenítés* vagy *Megjelenítés kötelezőként* szükséges."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:39
+msgid "Advanced Settings"
+msgstr "Speciális beállítások"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:42
+msgid "Title (default)"
+msgstr "Cím (alapértelmezett)"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:42
+msgid "Define the default title for appointments using this calendar."
+msgstr ""
+"A naptár által használt időpontok alapértelmezett címének meghatározása."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:45
+msgid "Description (default)"
+msgstr "Leírás (alapértelmezett)"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:45
+msgid "Define the default description for appointments using this calendar."
+msgstr ""
+"A naptár által használt időpontok alapértelmezett leírásának meghatározása."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:48
+msgid "Location (default)"
+msgstr "Hely (alapértelmezett)"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:48
+msgid "Define the default location for appointments using this calendar."
+msgstr ""
+"A naptár által használt időpontok alapértelmezett helyének meghatározása."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:51
+msgid "Additional description"
+msgstr "További leírás"
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:51
+msgid ""
+"Define the additional text which is shown on each appointment in *Timeline "
+"Custom* view to display more information in the overview screens. It is "
+"possible to show attributes of the appointments, as well as stored dynamic "
+"fields. Even the access to linked ticket data is possible."
+msgstr ""
+"További szöveg meghatározása, amely az egyes időpontoknál jelenik meg az "
+"*Egyéni idővonal* nézetben, hogy több információt jelenítsen meg az "
+"áttekintő nézeteken. Lehetőség van az időpontok attribútumainak, valamint a "
+"tárolt dinamikus mezők megjelenítésére. Még a kapcsolt jegyek adataihoz "
+"történő hozzáférés is lehetséges."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:53
+msgid ""
+"It is possible to use OTRS smart tags related to the appointment, e.g. "
+"``<OTRS_APPOINTMENT_X>``, ``<OTRS_APPOINTMENT_DYNAMICFIELD_X>``. You can "
+"even access data of linked tickets using ``<OTRS_APPOINTMENT_TICKET_X>``. If"
+" more than one ticket is linked, you can use "
+"``<OTRS_APPOINTMENT_TICKET_1_X>``. Tickets are sorted by ticket ID."
+msgstr ""
+"Lehetőség van az időponthoz kapcsolódó OTRS okos címkéket is használni, "
+"például ``<OTRS_APPOINTMENT_X>`` vagy ``<OTRS_APPOINTMENT_DYNAMICFIELD_X>``."
+" Még a kapcsolt jegyek adataihoz is hozzáférhet az "
+"``<OTRS_APPOINTMENT_TICKET_X>`` használatával. Ha egynél több jegy van "
+"hozzákapcsolva, akkor használhatja az ``<OTRS_APPOINTMENT_TICKET_1_X>`` "
+"címkét. A jegyek a jegyazonosító szerint vannak rendezve."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:57
+msgid ""
+"The appointment is not created at this time and not all values are there "
+"(e.g. no dynamic field values can be used). The defined texts are only used "
+"during appointment creation (no update functionality), therefore not all "
+"OTRS smart tags are usable."
+msgstr ""
+"Az időpont ekkor még nincs létrehozva, és nem érhető el az összes érték "
+"(például nem használhatók a dinamikus mező adatai). A meghatározott szövegek"
+" csak az időpont létrehozása során vannak használva (nincs frissítési "
+"funkcionalitás), emiatt nem használható az összes OTRS okos címke."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:59
+msgid ""
+"The default values are populated whenever the calendar is chosen and the "
+"title, description or location is empty."
+msgstr ""
+"Az alapértelmezett értékek akkor lesznek kitöltve, amikor egy naptárat "
+"kiválasztanak és a cím, a leírás vagy a hely üres."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:61
+msgid ""
+"Behind the input fields for title, description and location, there is a "
+"refresh button if default values are specified. This refresh button could be"
+" used to re-apply the stored default values if for example dynamic fields "
+"are entered in the screen."
+msgstr ""
+"A cím, a leírás és a hely beviteli mezői mögött egy frissítés ikon "
+"található, ha alapértelmezett értékek vannak megadva. Ez a frissítés gomb "
+"használható a tárolt alapértelmezett értékek újbóli alkalmazásához, ha "
+"például dinamikus mezők vannak megadva a képernyőn."
+
+#: ../../content/calendar-resource-planning/admin/administration/calendars.rst:65
+msgid ""
+"The already entered data will be overwritten using the refresh buttons."
+msgstr ""
+"A már megadott adatok felül lesznek írva a frissítés gombok használatával."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications.rst:4
+msgid ""
+"This feature adds the possibility to send out ICS files in appointment "
+"notifications."
+msgstr ""
+"Ez a funkció lehetőséget ad ICS-fájlok kiküldésére az időpont-"
+"értesítésekben."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:2
+msgid "Appointment Notifications"
+msgstr "Időpont-értesítések"
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:4
+msgid ""
+"Use this screen to filter appointments and send ICS files in appointment "
+"notifications, that can be opened with any regular calendar application. The"
+" appointment notification management screen is available in the *Appointment"
+" Notifications* module of the *Communication & Notifications* group."
+msgstr ""
+"Használja ez a képernyőt az időpontok szűréséhez és az időpont-"
+"értesítésekben történő ICS-fájlok kiküldéséhez, amelyek megnyithatók bármely"
+" szabványos naptáralkalmazással. Az időpont-értesítések kezelőképernyője a "
+"*Kommunikáció és értesítések* csoport *Időpont-értesítések* moduljában "
+"érhető el."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:8
+msgid "Appointment Filter"
+msgstr "Időpont szűrő"
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:10
+msgid ""
+"Use this section in new or existing appointment notification to filter "
+"appointments."
+msgstr ""
+"Használja ezt a szakaszt az új vagy meglévő időpont-értesítésekben az "
+"időpontok szűréséhez."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:15
+msgid "Appointment Filter Section"
+msgstr "Időpont szűrő szakasz"
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:17
+msgid ""
+"It is possible to filter based on calendar, title, location, team or "
+"resource, as well as dynamic fields (if dynamic field for appointments is "
+"created in :doc:`../processes-automation/dynamic-fields` screen)."
+msgstr ""
+"Lehetőség van naptár, cím, hely, csapat vagy erőforrás, valamint dinamikus "
+"mezők alapján is szűrni (ha az időpontokhoz dinamikus mezők lettek "
+"létrehozva a :doc:`../processes-automation/dynamic-fields` képernyőn)."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:21
+msgid "Send ICS Files in Notifications"
+msgstr "ICS-fájlok küldése az értesítésekben"
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:23
+msgid ""
+"It is possible to include an ICS file to the appointment notification sent "
+"to users."
+msgstr ""
+"Lehetőség van beágyazni egy ICS-fájlt a felhasználóknak küldött időpont-"
+"értesítésbe."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:25
+msgid "To activate the sending of ICS files:"
+msgstr "Az ICS-fájlok küldésének bekapcsolásához:"
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:27
+msgid ""
+"Create a new appointment notification or select an existing appointment "
+"notification."
+msgstr ""
+"Hozzon létre egy új időpont-értesítést vagy válasszon egy meglévő időpont-"
+"értesítést."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:28
+msgid ""
+"In the *Events* widget select ``AppointmentCreate``, ``AppointmentUpdate`` "
+"or ``AppointmentDelete`` as event."
+msgstr ""
+"Az *Események* felületi elemben válassza ki az ``AppointmentCreate``, "
+"``AppointmentUpdate`` vagy ``AppointmentDelete`` események egyikét."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:29
+msgid "In the *Notification Methods* widget select *Send ICS file*."
+msgstr ""
+"Az *Értesítési módszerek* felületi elemben jelölje be az *ICS-fájl küldése* "
+"lehetőséget."
+
+#: ../../content/calendar-resource-planning/admin/communication-notifications/appointment-notifications.rst:31
+msgid ""
+"You can even configure to use the additional shown information out of the "
+"*Timeline Custom* view (configurable per calendar) in the ICS file "
+"generation as well. Just activate the setting "
+"``AppointmentCalendar::ICSFiles::UseAppointmentDescription`` to combine the "
+"regular description with the configured text."
+msgstr ""
+"Még azt is beállíthatja, hogy a további megjelenített információkat is "
+"használja az *Egyéni idővonal* nézetből (naptáranként állítható be) az ICS-"
+"fájl előállításakor. Egyszerűen kapcsolja be az "
+"``AppointmentCalendar::ICSFiles::UseAppointmentDescription`` beállítást a "
+"szokásos leírás és a beállított szöveg egyesítéséhez."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:4
+msgid "This package adds support for dynamic fields to appointments."
+msgstr "Ez a csomag támogatást ad az időpontokhoz adható dinamikus mezőkhöz."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation.rst:8
+msgid ""
+"The usage of :doc:`../../dynamic-field-database` feature is not supported."
+msgstr ""
+"A :doc:`../../dynamic-field-database` funkció használata nem támogatott."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:4
+msgid ""
+"Use this screen to manage dynamic fields for appointments. Dynamic fields "
+"for appointments have to be configured in the same way as dynamic fields for"
+" other object. Once you have set up the dynamic fields, you have to activate"
+" the dynamic fields for calendars."
+msgstr ""
+"Használja ezt a képernyőt az időpontok dinamikus mezőinek kezeléséhez. Az "
+"időpontok dinamikus mezőit ugyanúgy kell beállítani mint az egyéb objektumok"
+" dinamikus mezőit. Miután beállította a dinamikus mezőket, be is kell "
+"kapcsolnia a dinamikus mezőket a naptáraknál."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:6
+msgid "To activate dynamic fields for calendars:"
+msgstr "A naptáraknál történő dinamikus mezők bekapcsolásához:"
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:8
+msgid "Go to the :doc:`../administration/calendars` screen."
+msgstr "Menjen a :doc:`../administration/calendars` képernyőre."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:9
+msgid "Select a calendar or create a new one."
+msgstr "Válasszon egy naptárat vagy hozzon létre egy újat."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:10
+msgid "Find the *Dynamic Fields* section in the *Manage Settings* widget."
+msgstr ""
+"Keresse meg a *Dinamikus mezők* szakaszt a *Beállítások kezelése* felületi "
+"elemen."
+
+#: ../../content/calendar-resource-planning/admin/processes-automation/dynamic-fields.rst:13
+msgid ""
+"Dynamic fields are available in the linked appointments widget in the "
+"*Ticket Zoom* screen as well."
+msgstr ""
+"A dinamikus mezők elérhetők a *Jegynagyítás* képernyőn lévő kapcsolt "
+"időpontok felületi elemen is."
 
 #: ../../content/calendar-resource-planning/agent.rst:4
 msgid ""
 "This feature add-on enhances the original calendar implementation by "
 "introducing resource allocation for appointments. Furthermore, resources can"
 " be assigned to separate teams, which in turn can be used to filter resource"
-" overview and availability."
+" overview and availability. The appointments now can be used in dynamic list"
+" statistics."
 msgstr ""
 "Ez a funkciókiegészítő feljavítja az eredeti naptár-megvalósítást az "
 "időpontokhoz történő erőforrás-lefoglalás bevezetésével. Ezenkívül az "
 "erőforrások hozzárendelhetők különálló csapatokhoz, amelyek viszont "
-"használhatók az erőforrás-áttekintés és erőforrás-elérhetőség szűréséhez."
+"használhatók az erőforrás-áttekintés és erőforrás-elérhetőség szűréséhez. Az"
+" időpontok mostantól használhatók a dinamikus lista statisztikákban."
+
+#: ../../content/calendar-resource-planning/agent.rst:8
+msgid ""
+"The agent have to be the member of ``admin`` group to access "
+":doc:`agent/calendar/manage-calendars`, :doc:`agent/calendar/manage-teams` "
+"and :doc:`agent/calendar/manage-team-agents` screens."
+msgstr ""
+"Az ügyintézőnek az ``admin`` csoport tagjának kell lennie a "
+":doc:`agent/calendar/manage-calendars`, a :doc:`agent/calendar/manage-teams`"
+" és a :doc:`agent/calendar/manage-team-agents` képernyők eléréséhez."
 
 #: ../../content/calendar-resource-planning/agent/calendar.rst:2
 msgid "Calendar"
@@ -6310,16 +6678,29 @@ msgstr ""
 "A csomag telepítése után néhány új menüpont lesz elérhető a *Naptár* "
 "menüben."
 
-#: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:2
-msgid "Manage Team Agents"
-msgstr "Csapatügyintézők kezelése"
+#: ../../content/calendar-resource-planning/agent/calendar/manage-calendars.rst:2
+msgid "Manage Calendars"
+msgstr "Naptárak kezelése"
 
+#: ../../content/calendar-resource-planning/agent/calendar/manage-calendars.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:6
 #: ../../content/calendar-resource-planning/agent/calendar/manage-teams.rst:6
 msgid "You have to be the member of ``admin`` group to access this screen."
 msgstr ""
 "Az ``admin`` csoport tagjának kell lennie, hogy hozzáférjen ehhez a "
 "képernyőhöz."
+
+#: ../../content/calendar-resource-planning/agent/calendar/manage-calendars.rst:8
+msgid ""
+"This menu item opens the :doc:`../../admin/administration/calendars` "
+"management screen of the administrator interface."
+msgstr ""
+"Ez a menüpont az adminisztrátori felület "
+":doc:`../../admin/administration/calendars` kezelése képernyőjét nyitja meg."
+
+#: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:2
+msgid "Manage Team Agents"
+msgstr "Csapatügyintézők kezelése"
 
 #: ../../content/calendar-resource-planning/agent/calendar/manage-team-agents.rst:8
 msgid ""
@@ -6607,16 +6988,18 @@ msgstr ""
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:6
 msgid ""
-"This screen looks very much like a regular calendar overview, except it has "
-"a filter for teams on top and a list of agents for that team (available only"
-" in time-line views). By choosing a team from the top filter, you will be "
-"presented with all appointments assigned to it."
+"This screen looks very much like a regular calendar overview. It has a "
+"filter for teams on top and a list of agents for that team (available only "
+"in time-line views). By choosing a team from the top filter, you will be "
+"presented with all appointments assigned to it. A new button *Timeline "
+"Custom* is also added as a new customizable view."
 msgstr ""
-"Ez a képernyő nagyon hasonlóan néz ki, mint a szokásos naptáráttekintő, "
-"kivéve hogy rendelkezik egy szűrővel a csapatokhoz a felső részen, valamint "
-"egy ügyintézőlistával ahhoz a csapathoz (csak idővonal nézetekben érhető "
-"el). A felső szűrőből egy csapat kiválasztásával meg fog jelenni az összes "
-"időpont, amely hozzá van rendelve."
+"Ez a képernyő nagyon hasonlóan néz ki, mint a szokásos naptáráttekintő. "
+"Rendelkezik egy szűrővel a csapatokhoz a felső részen, valamint egy "
+"ügyintézőlistával ahhoz a csapathoz (csak idővonal nézetekben érhető el). A "
+"felső szűrőből egy csapat kiválasztásával meg fog jelenni az összes időpont,"
+" amely hozzá van rendelve. Egy új *Egyéni idővonal* gomb is hozzáadásra "
+"került új személyre szabható nézetként."
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:11
 msgid "Resource Overview Screen"
@@ -6627,8 +7010,9 @@ msgid "Management screens for the *Resource Overview* screen:"
 msgstr "Kezelőképernyők az *Erőforrás áttekintő* képernyőnél:"
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:15
-msgid "Click on the *Manage Calendars* button to set up some calendars."
-msgstr "Kattintson a *Naptárak kezelése* gombra néhány naptár beállításához."
+msgid "Click on the :doc:`manage-calendars` button to set up some calendars."
+msgstr ""
+"Kattintson a :doc:`manage-calendars` gombra néhány naptár beállításához."
 
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:16
 msgid "Click on the :doc:`manage-teams` button to create teams."
@@ -6677,14 +7061,14 @@ msgid ""
 "By simply dragging an appointment to a row line with an agent’s name in "
 "time-line view, it is possible to assign an appointment to this resource. If"
 " an appointment does not have an agent assigned to it, it will appear in the"
-" unassigned area of the screen. An appointment with multiple assigned agents"
-" will be displayed in each row of assigned agents. Dragging one instance of "
-"this appointment will move all them in the same fashion."
+" *Unassigned* row of the screen. An appointment with multiple assigned "
+"agents will be displayed in each row of assigned agents. Dragging one "
+"instance of this appointment will move all them in the same fashion."
 msgstr ""
 "Az idővonal nézeten egy időpontnak az ügyintéző nevével rendelkező sorba "
 "történő egyszerű húzással lehetőség van egy időpontot ehhez az erőforráshoz "
 "rendelni. Ha egy időponthoz nincs hozzárendelt ügyintéző, akkor az a "
-"képernyő hozzárendeletlen területén fog megjelenni. A több hozzárendelt "
+"képernyő *Nincs hozzárendelve* sorában fog megjelenni. A több hozzárendelt "
 "ügyintézővel rendelkező időpont a minden hozzárendelt ügyintéző sorában meg "
 "fog jelenni. Ezen időpont egyik példányának húzása az összeset ugyanúgy át "
 "fogja helyezni."
@@ -6692,17 +7076,66 @@ msgstr ""
 #: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:28
 msgid ""
 "By editing settings of the resource overview via gear icon in top right "
-"corner, you can choose which team agents are displayed within the overview."
+"corner, you can choose which team agents are displayed within the overview "
+"and you can customize the *Timeline Custom* view."
 msgstr ""
 "Az erőforrás áttekintő beállításainak a jobb felső sarokban lévő fogaskerék "
 "ikonon keresztül történő szerkesztésével kiválaszthatja, hogy mely "
-"csapatügyintézők legyenek megjelenítve az áttekintőben."
+"csapatügyintézők legyenek megjelenítve az áttekintőben, valamint személyre "
+"szabhatja az *Egyéni idővonal* nézetet."
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:33
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:30
+msgid ""
+"There is an other icon in the top right corner labeled with double arrow. "
+"Clicking on this icon makes the current view full screen and hides the left "
+"sidebar. If you click on the full screen icon again, the view is restored "
+"and the left sidebar will be visible. The full width mode is stored in the "
+"user preferences, so the full screen mode is remembered even after reloading"
+" the overview screens."
+msgstr ""
+"Van egy másik ikon is a jobb felső sarokban, amelynek dupla nyíl ikonja van."
+" Erre az ikonra kattintva teljes képernyőssé teszi a jelenlegi nézetet és "
+"elrejti a bal oldalsávot. Ha ismét rákattint a teljes képernyő ikonra, akkor"
+" a nézet visszaáll és a bal oldalsáv látható lesz. A teljes szélesség mód a "
+"felhasználói beállításokban van tárolva, így a teljes képernyős mód "
+"megjegyzésre kerül még az áttekintő képernyők újratöltése után is."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:32
+msgid ""
+"The *Timeline Custom* view with the extended settings dialog and the full "
+"screen mode is available also in the *Calendar Overview* screen."
+msgstr ""
+"Az *Egyéni idővonal* nézet a kiterjesztett beállítások párbeszédablakkal és "
+"a teljes képernyős mód elérhető a *Naptár áttekintő* képernyőn is."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:34
+msgid ""
+"In all other aspects, resource overview screen behaves in the same way as a "
+"regular calendar overview."
+msgstr ""
+"Minden más szempontból az erőforrás áttekintő képernyő ugyanúgy viselkedik, "
+"mint a szokásos naptáráttekintő."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:38
+msgid "Timeline Custom Settings"
+msgstr "Egyéni idővonal beállításai"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:40
+msgid ""
+"Some of these settings have been applied also to the regular calendar "
+"overview."
+msgstr ""
+"Ezen beállítások némelyike alkalmazva lesz a szokásos naptár áttekintőre is."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:45
 msgid "Calendar Settings Dialog"
 msgstr "Naptár beállításai párbeszédablak"
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:35
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:50
+msgid "Shown resources"
+msgstr "Megjelenített erőforrások"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:50
 msgid ""
 "This setting is user and team specific, and if you have defined an agent "
 "filter in this way, a trash icon will be displayed on top of the list of "
@@ -6712,19 +7145,118 @@ msgstr ""
 " meghatározott ügyintézőszűrővel ily módon, akkor egy kuka ikon lesz "
 "megjelenítve az ügyintézőlista tetején, így egyszerűen eltávolíthatja azt."
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:37
-msgid ""
-"In all other aspects, resource overview screen behaves in the same way as a "
-"regular calendar overview."
-msgstr ""
-"Minden más szempontból az erőforrás áttekintő képernyő ugyanúgy viselkedik, "
-"mint a szokásos naptáráttekintő."
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:57
+msgid "Resource information"
+msgstr "Erőforrás-információk"
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:41
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:53
+msgid ""
+"Show additional resource information next to the agent name in the *Resource"
+" Overview* screen. You can use OTRS smart tags related to agents, e.g. "
+"``<OTRS_AGENT_X>``. You can even access agent preferences."
+msgstr ""
+"További erőforrás-információk megjelenítése az ügyintéző neve mellett az "
+"*Erőforrás áttekintő* képernyőn. Használhatja az ügyintézőkhöz kapcsolódó "
+"OTRS okos címkéket, mint például ``<OTRS_AGENT_X>``. Még az ügyintéző "
+"beállításaihoz is hozzáférhet."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:57
+msgid ""
+"The additional resource information can be added in setting "
+"``AppointmentCalendar::CustomTimeline::ResourceInformation`` in the system "
+"configuration."
+msgstr ""
+"A további erőforrás-információk a rendszerbeállításokban lévő "
+"``AppointmentCalendar::CustomTimeline::ResourceInformation`` beállításban "
+"adhatók hozzá."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:60
+msgid "Show weekends"
+msgstr "Hétvégék megjelenítése"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:60
+msgid "Select whether the weekends should be displayed or not."
+msgstr "Annak kiválasztása, hogy a hétvégéket meg kell-e jeleníteni vagy sem."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:63
+msgid "Shown weeks"
+msgstr "Megjelenített hetek"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:63
+msgid ""
+"Select how many weeks should be displayed in the *Timeline Custom* view."
+msgstr ""
+"Annak kiválasztása, hogy hány hetet kell megjeleníteni az *Egyéni idővonal* "
+"nézetben."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:66
+msgid "Start time"
+msgstr "Kezdési idő"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:66
+msgid ""
+"Select the start time for the *Timeline Custom* view. The default *00:00* "
+"means the start time will be at the very beginning of the day (midnight)."
+msgstr ""
+"A kezdési idő kiválasztása az *Egyéni idővonal* nézethez. Az alapértelmezett"
+" *00:00* azt jelenti, hogy a kezdési idő a nap legelején lesz (éjfélkor)."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:69
+msgid "End time"
+msgstr "Befejezési idő"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:69
+msgid ""
+"Select the end time for the *Timeline Custom* view. The default *24:00* "
+"means the end time will be at the very end of the day (midnight)."
+msgstr ""
+"A befejezési idő kiválasztása az *Egyéni idővonal* nézethez. Az "
+"alapértelmezett *24:00* azt jelenti, hogy a befejezési idő a nap legvégén "
+"lesz (éjfélkor)."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:72
+msgid "Slot duration"
+msgstr "Időrés hossza"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:72
+msgid ""
+"Select the time slot duration for the *Timeline Custom* view. The default *2"
+" Hours* means that each shown time slot has the duration of two hours (e.g. "
+"12 slots are shown for a day 00:00 - 24:00)."
+msgstr ""
+"Az időrés hosszának kiválasztása az *Egyéni idővonal* nézethez. Az "
+"alapértelmezett *2 óra* azt jelenti, hogy minden megjelenített időrés két "
+"óra hosszúságú lesz (például 12 időrés lesz megjelenítve egy nap 00:00 és "
+"24:00 óra között)."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:75
+msgid "Slot width"
+msgstr "Időrés szélessége"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:75
+msgid ""
+"Select the time slot width for the *Timeline Custom* view. The default *100 "
+"Pixel* means that each shown time slot has a width of 100 pixel."
+msgstr ""
+"Az időrés szélességének kiválasztása az *Egyéni idővonal* nézethez. Az "
+"alapértelmezett *100 képpont* azt jelenti, hogy minden megjelenített időrés "
+"100 képpont szélességű lesz."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:77
+msgid ""
+"In *Timeline Custom* view, it is possible to show more information on each "
+"shown appointment. For this, you have to configure the setting *Additional "
+"Description* in the :doc:`../../admin/administration/calendars` screen."
+msgstr ""
+"Az *Egyéni idővonal* nézetben lehetőség van több információt megjeleníteni "
+"az egyes megjelenített időpontokról. Ehhez be kell állítania a *További "
+"leírás* beállítást a :doc:`../../admin/administration/calendars` képernyőn."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:81
 msgid "Add Appointment"
 msgstr "Időpont hozzáadása"
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:43
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:83
 msgid ""
 "You can assign multiple teams and agents to a single appointment, but you "
 "must always choose a team first. Resulting list of agents is an aggregate of"
@@ -6737,9 +7269,140 @@ msgstr ""
 "ismétlődések nélkül. Egy ügyintéző választása a listából nem is kötelező, "
 "így egy időpontot hagyhat csak egy csapathoz rendelten."
 
-#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:48
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:88
 msgid "Add Appointment Dialog"
 msgstr "Időpont hozzáadása párbeszédablak"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:92
+msgid "Calendar Subscriptions"
+msgstr "Naptár-feliratkozások"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:94
+msgid "It is possible to use a filter in calendar subscription feature."
+msgstr ""
+"Lehetőség van egy szűrő használatára a naptár-feliratkozás funkcióban."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:96
+msgid "To use the calendar subscription feature:"
+msgstr "A naptár-feliratkozás funkció használatához:"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:98
+msgid "Open the *Calendar Overview* or the *Resource Overview* screens."
+msgstr ""
+"Nyissa meg a *Naptár áttekintő* vagy az *Erőforrás áttekintő* képernyőket."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:99
+msgid ""
+"Click on the gear icon next to a calendar in the *Calendars* widget in left "
+"sidebar."
+msgstr ""
+"Kattintson egy naptár melletti fogaskerék ikonra a bal oldalsávban lévő "
+"*Naptárak* felületi elemben."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:100
+msgid "Select the teams and resources you want to filter for."
+msgstr ""
+"Válassza ki a csapatokat és az erőforrásokat, amelyekre szűrni szeretne."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:101
+msgid "Click on the *Copy* button. Now the URL is copied to the clipboard."
+msgstr "Kattintson a *Másolás* gombra. Most az URL a vágólapra lett másolva."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:102
+msgid "Go to your calendar application and paste the URL."
+msgstr "Menjen a naptáralkalmazásához, és illessze be az URL-t."
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:107
+msgid "Calendar Subscription Settings Dialog"
+msgstr "Naptár-feliratkozás beállításai párbeszédablak"
+
+#: ../../content/calendar-resource-planning/agent/calendar/resource-overview.rst:109
+msgid ""
+"The dialog is kept open after clicking on *Copy* button, to be able to "
+"change the selected teams and resources."
+msgstr ""
+"A párbeszédablak nyitva marad a *Másolás* gombra kattintás után, hogy képes "
+"legyen megváltoztatni a kiválasztott csapatokat és erőforrásokat."
+
+#: ../../content/calendar-resource-planning/agent/reports.rst:4
+msgid ""
+"After installation of the package a new object type ``AppointmentList`` will"
+" be available to create dynamic list statistics."
+msgstr ""
+"A csomag telepítése után egy új ``AppointmentList`` objektumtípus válik "
+"elérhetővé dinamikus lista statisztikák létrehozásához."
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:4
+msgid ""
+"After installation of the package you can set up new statistics using the "
+"``AppointmentList`` statistic back end to create statistics about the stored"
+" appointments in your **OTRS** system. It is a regular statistic (e.g. like "
+"the ``TicketList`` statistic), which means you can configure the X-axis and "
+"Y-axis to your needs. A lot of the appointment attributes are even available"
+" as restrictions."
+msgstr ""
+"A csomag telepítése után új statisztikákat állíthat be az "
+"``AppointmentList`` statikus háttérprogram használatával, hogy "
+"statisztikákat hozzon létre az **OTRS** rendszerben tárolt időpontokkal "
+"kapcsolatban. Ez egy szokásos statisztika (mint például a ``TicketList`` "
+"statisztika), amely azt jelenti, hogy az igényei szerint állíthatja be az "
+"X-tengelyt és az Y-tengelyt. Számos időpont-attribútum is elérhető "
+"korlátozásokként."
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:6
+msgid "Some of the selectable attributes are calculated on-the-fly:"
+msgstr ""
+"A kiválasztható attribútumok némelyike használat közben kerül kiszámításra:"
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:8
+msgid "Age"
+msgstr "Életkor"
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:9
+msgid "Days"
+msgstr "Nap"
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:10
+msgid "Hours"
+msgstr "Óra"
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:12
+msgid ""
+"The filter *Period* could be used to combine start and end time of an "
+"appointment with the OR operator instead of AND operator. For example the "
+"filter *Start Time* with a relative time period for the current one month "
+"will not show appointments starting one month before but ends in the current"
+" month. To see such appointments, you have to use the *Period* filter. "
+"Appointments which are overlapping are split."
+msgstr ""
+"Az *Időszak* szűrő használható egy időpont kezdési és befejezési dátumának "
+"VAGY operátorral történő egyesítéséhez az ÉS operátor helyett. Például a "
+"*Kezdési idő* szűrő az aktuális egy hónap relatív időszakával nem fogja "
+"megjeleníteni azokat az időpontokat, amelyek egy hónappal korábban "
+"kezdődnek, de az aktuális hónapban fejeződnek be. Az ilyen időpontok "
+"megtekintéséhez kell használnia az *Időszak* szűrőt. Az átfedésben lévő "
+"időpontok felosztásra kerülnek."
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:14
+msgid ""
+"For each linked ticket one row is added to the statistic output. For example"
+" an appointment is linked with two tickets, the appointment is shown twice."
+msgstr ""
+"Minden egyes kapcsolt jegyhez egy sor kerül hozzáadásra a statisztika "
+"kimenetében. Például ha egy időpont két jegyhez van hozzákapcsolva, akkor az"
+" időpont kétszer jelenik meg."
+
+#: ../../content/calendar-resource-planning/agent/reports/statistics.rst:18
+msgid ""
+"Please be careful if you are using teams and resources to filter the "
+"appointments. Unfortunately it is not possible to filter for teams and "
+"resources on database level, meaning the time which is needed to create a "
+"statistic could be higher than usual."
+msgstr ""
+"Legyen óvatos, ha csapatokat és erőforrásokat használ az időpontok "
+"szűréséhez. Sajnálatos módon nem lehetséges adatbázis szinten szűrni a "
+"csapatokra és erőforrásokra, ami azt jelenti, hogy egy statisztika "
+"létrehozásához szükséges idő nagyobb lehet a megszokottnál."
 
 #: ../../content/categories-for-text-modules.rst:2
 msgid "Categories for Text Modules"
@@ -11916,11 +12579,19 @@ msgstr ""
 "szabályt, és tesztfuttatásokat hajtson végre minden egyes "
 "szabályváltoztatásnál."
 
-#: ../../content/data-privacy-protection/admin.rst:105
+#: ../../content/data-privacy-protection/admin.rst:103
+msgid ""
+"The console output of rule executions can be redirected into files to "
+"preserve the modified objects. Please see the following example:"
+msgstr ""
+"A szabály végrehajtásainak konzolkimenete átirányítható fájlokba a "
+"módosított objektumok megőrzéséhez. Nézze meg a következő példát:"
+
+#: ../../content/data-privacy-protection/admin.rst:111
 msgid "Drivers"
 msgstr "Illesztőprogramok"
 
-#: ../../content/data-privacy-protection/admin.rst:107
+#: ../../content/data-privacy-protection/admin.rst:113
 msgid ""
 "This section describe the configuration and usage of the various drivers. In"
 " addition, this section contains sample configurations that can be copied "
@@ -11930,11 +12601,11 @@ msgstr ""
 "mutatja be. Ezenkívül a szakasz tartalmaz mintabeállításokat, amelyek "
 "kimásolhatók és személyre szabhatók a személyes igények szerint."
 
-#: ../../content/data-privacy-protection/admin.rst:111
+#: ../../content/data-privacy-protection/admin.rst:117
 msgid "Customer Company Driver"
 msgstr "Ügyfél-vállalat illesztőprogram"
 
-#: ../../content/data-privacy-protection/admin.rst:113
+#: ../../content/data-privacy-protection/admin.rst:119
 msgid ""
 "The customer company driver provides the functionality to search and modify "
 "the information for customer companies."
@@ -11942,15 +12613,15 @@ msgstr ""
 "Az ügyfél-vállalat illesztőprogram az ügyfél-vállalatok információinak "
 "kereséséhez és módosításához nyújt funkcionalitást."
 
-#: ../../content/data-privacy-protection/admin.rst:115
-#: ../../content/data-privacy-protection/admin.rst:198
-#: ../../content/data-privacy-protection/admin.rst:578
+#: ../../content/data-privacy-protection/admin.rst:121
+#: ../../content/data-privacy-protection/admin.rst:204
+#: ../../content/data-privacy-protection/admin.rst:669
 msgid "Possible data classifications:"
 msgstr "Lehetséges adatosztályozások:"
 
-#: ../../content/data-privacy-protection/admin.rst:129
-#: ../../content/data-privacy-protection/admin.rst:218
-#: ../../content/data-privacy-protection/admin.rst:332
+#: ../../content/data-privacy-protection/admin.rst:135
+#: ../../content/data-privacy-protection/admin.rst:224
+#: ../../content/data-privacy-protection/admin.rst:339
 msgid ""
 "The driver supports dynamic fields for data classification. Dynamic fields "
 "will be identified by the prefix ``DynamicField_`` and the related field "
@@ -11960,27 +12631,27 @@ msgstr ""
 "dinamikus mezők a ``DynamicField_`` előtaggal és a megfelelő mezőnévvel "
 "lesznek azonosítva."
 
-#: ../../content/data-privacy-protection/admin.rst:131
-#: ../../content/data-privacy-protection/admin.rst:220
-#: ../../content/data-privacy-protection/admin.rst:588
+#: ../../content/data-privacy-protection/admin.rst:137
+#: ../../content/data-privacy-protection/admin.rst:226
+#: ../../content/data-privacy-protection/admin.rst:679
 msgid "Possible object filters:"
 msgstr "Lehetséges objektumszűrők:"
 
-#: ../../content/data-privacy-protection/admin.rst:146
-#: ../../content/data-privacy-protection/admin.rst:241
-#: ../../content/data-privacy-protection/admin.rst:602
+#: ../../content/data-privacy-protection/admin.rst:152
+#: ../../content/data-privacy-protection/admin.rst:247
+#: ../../content/data-privacy-protection/admin.rst:693
 msgid "Object filter descriptions:"
 msgstr "Objektumszűrő leírásai:"
 
-#: ../../content/data-privacy-protection/admin.rst:148
-#: ../../content/data-privacy-protection/admin.rst:243
-#: ../../content/data-privacy-protection/admin.rst:604
+#: ../../content/data-privacy-protection/admin.rst:154
+#: ../../content/data-privacy-protection/admin.rst:249
+#: ../../content/data-privacy-protection/admin.rst:695
 msgid "``Limit``: Limits the number of search results."
 msgstr "``Limit``: korlátozza a keresési eredmények számát."
 
-#: ../../content/data-privacy-protection/admin.rst:149
-#: ../../content/data-privacy-protection/admin.rst:244
-#: ../../content/data-privacy-protection/admin.rst:605
+#: ../../content/data-privacy-protection/admin.rst:155
+#: ../../content/data-privacy-protection/admin.rst:250
+#: ../../content/data-privacy-protection/admin.rst:696
 msgid ""
 "``CreateTime``: Searches for dates *greater than or equal to* (>=) the given"
 " time."
@@ -11988,24 +12659,24 @@ msgstr ""
 "``CreateTime``: a megadott időnél *nagyobb vagy egyenlő* (>=) dátumokra "
 "keres."
 
-#: ../../content/data-privacy-protection/admin.rst:150
-#: ../../content/data-privacy-protection/admin.rst:246
+#: ../../content/data-privacy-protection/admin.rst:156
+#: ../../content/data-privacy-protection/admin.rst:252
 msgid "``WildcardSearch``: Affects all object filters, except ``ValidID``."
 msgstr ""
 "``WildcardSearch``: az összes objektumszűrőt érinti, kivéve a ``ValidID`` "
 "szűrőt."
 
-#: ../../content/data-privacy-protection/admin.rst:154
-#: ../../content/data-privacy-protection/admin.rst:250
-#: ../../content/data-privacy-protection/admin.rst:508
-#: ../../content/data-privacy-protection/admin.rst:612
+#: ../../content/data-privacy-protection/admin.rst:160
+#: ../../content/data-privacy-protection/admin.rst:256
+#: ../../content/data-privacy-protection/admin.rst:578
+#: ../../content/data-privacy-protection/admin.rst:703
 msgid "Rule Configuration Examples"
 msgstr "Szabálybeállítás példák"
 
-#: ../../content/data-privacy-protection/admin.rst:156
-#: ../../content/data-privacy-protection/admin.rst:252
-#: ../../content/data-privacy-protection/admin.rst:510
-#: ../../content/data-privacy-protection/admin.rst:614
+#: ../../content/data-privacy-protection/admin.rst:162
+#: ../../content/data-privacy-protection/admin.rst:258
+#: ../../content/data-privacy-protection/admin.rst:580
+#: ../../content/data-privacy-protection/admin.rst:705
 msgid ""
 "Here are some examples for rule configurations. These examples are valid "
 "YAML codes. You can copy these examples and modify them according to your "
@@ -12014,7 +12685,7 @@ msgstr ""
 "Itt van néhány példa a szűrőbeállításokra. Ezek a példák érvényes YAML-"
 "kódok. Kimásolhatja ezeket a példákat, és módosíthatja az igényei szerint."
 
-#: ../../content/data-privacy-protection/admin.rst:158
+#: ../../content/data-privacy-protection/admin.rst:164
 msgid ""
 "Delete customer company name and customer company country by customer "
 "company name without wildcard search:"
@@ -12022,7 +12693,7 @@ msgstr ""
 "Az ügyfél-vállalat nevének és az ügyfél-vállalat országának törlése az "
 "ügyfél-vállalat neve alapján, helyettesítő karakteres keresés nélkül:"
 
-#: ../../content/data-privacy-protection/admin.rst:175
+#: ../../content/data-privacy-protection/admin.rst:181
 msgid ""
 "Delete customer company name and customer company country by customer "
 "company name with wildcard search:"
@@ -12030,11 +12701,11 @@ msgstr ""
 "Az ügyfél-vállalat nevének és az ügyfél-vállalat országának törlése az "
 "ügyfél-vállalat neve alapján, helyettesítő karakteres kereséssel:"
 
-#: ../../content/data-privacy-protection/admin.rst:194
+#: ../../content/data-privacy-protection/admin.rst:200
 msgid "Customer User Driver"
 msgstr "Ügyfél-felhasználó illesztőprogram"
 
-#: ../../content/data-privacy-protection/admin.rst:196
+#: ../../content/data-privacy-protection/admin.rst:202
 msgid ""
 "The customer user driver provides the functionality to search and modify the"
 " information for customer users."
@@ -12042,15 +12713,15 @@ msgstr ""
 "Az ügyfél-felhasználó illesztőprogram az ügyfél-felhasználók információinak "
 "kereséséhez és módosításához nyújt funkcionalitást."
 
-#: ../../content/data-privacy-protection/admin.rst:245
-#: ../../content/data-privacy-protection/admin.rst:606
+#: ../../content/data-privacy-protection/admin.rst:251
+#: ../../content/data-privacy-protection/admin.rst:697
 msgid ""
 "``Valid``: Searches for valid or invalid users. Possible values are 0 or 1."
 msgstr ""
 "``Valid``: érvényes vagy érvénytelen felhasználókra keres. A lehetséges "
 "értékek: 0 vagy 1."
 
-#: ../../content/data-privacy-protection/admin.rst:254
+#: ../../content/data-privacy-protection/admin.rst:260
 msgid ""
 "Delete user first names and user last names by user first name with wildcard"
 " search:"
@@ -12058,7 +12729,7 @@ msgstr ""
 "A felhasználók keresztnevének és a felhasználók vezetéknevének törlése a "
 "felhasználó keresztneve alapján, helyettesítő karakteres kereséssel:"
 
-#: ../../content/data-privacy-protection/admin.rst:271
+#: ../../content/data-privacy-protection/admin.rst:277
 msgid ""
 "Anonymize user first names and user last names by user first name and "
 "without wildcard search:"
@@ -12066,7 +12737,7 @@ msgstr ""
 "A felhasználók keresztnevének és a felhasználók vezetéknevének anonimizálása"
 " a felhasználó keresztneve alapján, helyettesítő karakteres keresés nélkül:"
 
-#: ../../content/data-privacy-protection/admin.rst:288
+#: ../../content/data-privacy-protection/admin.rst:294
 msgid ""
 "Delete user first names and user last names by user first name and user last"
 " name with wildcard search:"
@@ -12075,11 +12746,11 @@ msgstr ""
 "felhasználó keresztneve és a felhasználó vezetékneve alapján, helyettesítő "
 "karakteres kereséssel:"
 
-#: ../../content/data-privacy-protection/admin.rst:308
+#: ../../content/data-privacy-protection/admin.rst:314
 msgid "Ticket Driver"
 msgstr "Jegy illesztőprogram"
 
-#: ../../content/data-privacy-protection/admin.rst:310
+#: ../../content/data-privacy-protection/admin.rst:316
 msgid ""
 "The ticket driver provides the functionality to search and modify the "
 "information for tickets and related articles."
@@ -12087,15 +12758,50 @@ msgstr ""
 "A jegy illesztőprogram a jegyek és a kapcsolódó bejegyzések információinak "
 "kereséséhez és módosításához nyújt funkcionalitást."
 
-#: ../../content/data-privacy-protection/admin.rst:312
+#: ../../content/data-privacy-protection/admin.rst:318
 msgid "Possible data classifications for tickets:"
 msgstr "Lehetséges adatosztályozások a jegyeknél:"
 
-#: ../../content/data-privacy-protection/admin.rst:321
+#: ../../content/data-privacy-protection/admin.rst:327
 msgid "Possible data classifications for articles:"
 msgstr "Lehetséges adatosztályozások a bejegyzéseknél:"
 
-#: ../../content/data-privacy-protection/admin.rst:336
+#: ../../content/data-privacy-protection/admin.rst:341
+msgid ""
+"The data classification supports history types. Since history types may vary"
+" (framework versions, framework updates, installed packages etc.), the "
+"driver will dynamically determine those types by name."
+msgstr ""
+"Az adatosztályozás támogatja az előzménytípusokat. Mivel az előzménytípusok "
+"változhatnak (keretrendszer verziója, keretrendszer frissítései, telepített "
+"csomagok, stb.), az illesztőprogram dinamikusan fogja meghatározni azokat a "
+"típusokat név alapján."
+
+#: ../../content/data-privacy-protection/admin.rst:343
+msgid ""
+"History types have to be prefixed with the term ``History``. Please see the "
+"examples in the following listing:"
+msgstr ""
+"Az előzménytípusokat a ``History`` kifejezés előtaggal kell ellátni. Nézze "
+"meg a példákat a következő felsorolásban:"
+
+#: ../../content/data-privacy-protection/admin.rst:400
+msgid ""
+"All contents of the classified history types will be affected during "
+"executions."
+msgstr ""
+"Az osztályozott előzménytípusok összes tartalma érintve lesz a végrehajtások"
+" során."
+
+#: ../../content/data-privacy-protection/admin.rst:402
+msgid ""
+"If attachments are classified, every attachment of all matching articles or "
+"tickets will be affected during executions."
+msgstr ""
+"Ha a mellékletek osztályozva vannak, akkor az összes illeszkedő bejegyzés "
+"vagy jegy minden egyes melléklete érintve lesz a végrehajtások során."
+
+#: ../../content/data-privacy-protection/admin.rst:406
 msgid ""
 "The ticket driver is used to search for tickets, even if the rule contains "
 "filters for article fields. If article fields are part of the data "
@@ -12107,7 +12813,7 @@ msgstr ""
 "adatosztályozás részei, akkor a kapcsolódó, illeszkedő jegy összes "
 "bejegyzése feldolgozásra kerül!"
 
-#: ../../content/data-privacy-protection/admin.rst:338
+#: ../../content/data-privacy-protection/admin.rst:408
 msgid ""
 "The following fields can be used as search terms or filters for tickets and "
 "articles. Possible object filters:"
@@ -12115,7 +12821,7 @@ msgstr ""
 "A következő mezők használhatók keresési kifejezésekként vagy szűrőkként a "
 "jegyeknél és bejegyzéseknél. A lehetséges objektumszűrők:"
 
-#: ../../content/data-privacy-protection/admin.rst:432
+#: ../../content/data-privacy-protection/admin.rst:502
 msgid ""
 "All possible object filter parameters can be used to filter tickets and "
 "articles. Most of the attributes can be single strings or array references, "
@@ -12125,11 +12831,11 @@ msgstr ""
 "bejegyzések szűréséhez. Az attribútumok nagy része lehet önálló szöveg vagy "
 "tömbhivatkozás, mint például:"
 
-#: ../../content/data-privacy-protection/admin.rst:457
+#: ../../content/data-privacy-protection/admin.rst:527
 msgid "The corresponding YAML code could look as follows:"
 msgstr "A megfelelő YAML-kód a következőképpen nézhet ki:"
 
-#: ../../content/data-privacy-protection/admin.rst:477
+#: ../../content/data-privacy-protection/admin.rst:547
 msgid ""
 "This rule would find all tickets, that are located in the queue *Junk* or "
 "*Raw* and which have the service *Service A* or *Service B* assigned. The "
@@ -12140,7 +12846,7 @@ msgstr ""
 "szolgáltatás van hozzárendelve. A ``CustomerUserID`` és a ``CustomerID`` "
 "mezők törölve lennének."
 
-#: ../../content/data-privacy-protection/admin.rst:479
+#: ../../content/data-privacy-protection/admin.rst:549
 msgid ""
 "There are several possible filter parameters, regarding relative times and "
 "dates, like:"
@@ -12148,13 +12854,13 @@ msgstr ""
 "Számos lehetséges szűrőparaméter létezik a relatív időkre és dátumokra "
 "vonatkozóan, mint például:"
 
-#: ../../content/data-privacy-protection/admin.rst:488
+#: ../../content/data-privacy-protection/admin.rst:558
 msgid "A filter like ``*\\*TimeOlderMinutes*`` means *older than X minutes*."
 msgstr ""
 "Például a ``*\\*TimeOlderMinutes*`` szűrő azt jelenti, hogy *régebbi mint X "
 "perc*."
 
-#: ../../content/data-privacy-protection/admin.rst:490
+#: ../../content/data-privacy-protection/admin.rst:560
 msgid ""
 "The following statement would mean: all tickets, that have a ``CreateTime`` "
 "older than one day (1440 minutes)."
@@ -12162,7 +12868,7 @@ msgstr ""
 "A következő állítás ezt jelentené: az összes jegy, amely ``CreateTime`` "
 "értéke régebbi egy napnál (1440 percnél)."
 
-#: ../../content/data-privacy-protection/admin.rst:496
+#: ../../content/data-privacy-protection/admin.rst:566
 msgid ""
 "The following statement would mean: all tickets, that have a ``CreateTime`` "
 "newer than one day (1440 minutes)."
@@ -12170,13 +12876,13 @@ msgstr ""
 "A következő állítás ezt jelentené: az összes jegy, amely ``CreateTime`` "
 "értéke újabb egy napnál (1440 percnél)."
 
-#: ../../content/data-privacy-protection/admin.rst:502
+#: ../../content/data-privacy-protection/admin.rst:572
 msgid "This is principal valid for all filter parameters with this syntax."
 msgstr ""
 "Ez főszabály szerint érvényes az összes szűrőparaméternél ezzel a "
 "szintaxissal."
 
-#: ../../content/data-privacy-protection/admin.rst:504
+#: ../../content/data-privacy-protection/admin.rst:574
 msgid ""
 "For more descriptions about the single search parameters, check the "
 "`TicketSearch() in API reference "
@@ -12186,31 +12892,39 @@ msgstr ""
 " a `TicketSearch() függvény API hivatkozását "
 "<https://doc.otrs.com/doc/api/otrs/7.0/Perl/Kernel/System/Ticket/TicketSearch.pm.html>`__."
 
-#: ../../content/data-privacy-protection/admin.rst:512
+#: ../../content/data-privacy-protection/admin.rst:582
 msgid "Delete ticket titles by state names, that are older than one month:"
 msgstr ""
 "Jegycímek törlése állapotnevek alapján, amelyek régebbiek egy hónapnál:"
 
-#: ../../content/data-privacy-protection/admin.rst:530
+#: ../../content/data-privacy-protection/admin.rst:600
+msgid ""
+"Delete article subject and body by state names, that are located in specific"
+" queues:"
+msgstr ""
+"Bejegyzés tárgyának és törzsének törlése állapotnevek alapján, amelyek "
+"bizonyos várólistákban találhatók:"
+
+#: ../../content/data-privacy-protection/admin.rst:621
 msgid ""
 "Pseudonymize customer user IDs for tickets, that are closed and archived:"
 msgstr ""
 "Az ügyfél-felhasználó azonosítóinak pszeudoanonimizálása azoknál a "
 "jegyeknél, amelyeket lezártak és archiváltak:"
 
-#: ../../content/data-privacy-protection/admin.rst:548
+#: ../../content/data-privacy-protection/admin.rst:639
 msgid ""
 "Anonymize customer IDs and some dynamic fields, that are closed, have "
-"certain services and are located in special queues:"
+"certain services and are located in specific queues:"
 msgstr ""
 "Ügyfél-azonosítók és néhány dinamikus mező anonimizálása, amelyek lezártak, "
-"bizonyos szolgáltatásokkal rendelkeznek és adott várólistákban találhatók:"
+"adott szolgáltatásokkal rendelkeznek és bizonyos várólistákban találhatók:"
 
-#: ../../content/data-privacy-protection/admin.rst:574
+#: ../../content/data-privacy-protection/admin.rst:665
 msgid "User Driver"
 msgstr "Felhasználó illesztőprogram"
 
-#: ../../content/data-privacy-protection/admin.rst:576
+#: ../../content/data-privacy-protection/admin.rst:667
 msgid ""
 "The user driver provides the functionality to search and modify the "
 "information for users."
@@ -12218,7 +12932,7 @@ msgstr ""
 "A felhasználó illesztőprogram a felhasználók információinak kereséséhez és "
 "módosításához nyújt funkcionalitást."
 
-#: ../../content/data-privacy-protection/admin.rst:607
+#: ../../content/data-privacy-protection/admin.rst:698
 msgid ""
 "``WildcardSearch``: Affects the object filters ``UserFirstname``, "
 "``UserLastname``, ``UserLogin`` and ``UserTitle``."
@@ -12226,7 +12940,7 @@ msgstr ""
 "``WildcardSearch``: a ``UserFirstname``, ``UserLastname``, ``UserLogin`` és "
 "``UserTitle`` objektumszűrőket érinti."
 
-#: ../../content/data-privacy-protection/admin.rst:608
+#: ../../content/data-privacy-protection/admin.rst:699
 msgid ""
 "``UserPreferences``: Array containing the user preferences like user email "
 "address as keys with certain search criteria as values (see YAML "
@@ -12236,24 +12950,24 @@ msgstr ""
 "például a felhasználó e-mail címét) tartalmazza kulcsokként bizonyos "
 "keresési feltételekkel értékekként (nézze meg a YAML beállítási példákat)."
 
-#: ../../content/data-privacy-protection/admin.rst:616
+#: ../../content/data-privacy-protection/admin.rst:707
 msgid "Delete user first names by user first name:"
 msgstr ""
 "A felhasználók keresztnevének törlése a felhasználó keresztneve alapján:"
 
-#: ../../content/data-privacy-protection/admin.rst:631
+#: ../../content/data-privacy-protection/admin.rst:722
 msgid "Delete user first names and user last names by user email:"
 msgstr ""
 "A felhasználók keresztnevének és a felhasználók vezetéknevének törlése a "
 "felhasználó e-mail címe alapján:"
 
-#: ../../content/data-privacy-protection/admin.rst:648
+#: ../../content/data-privacy-protection/admin.rst:739
 msgid "Delete user first names and user last names with wildcard search:"
 msgstr ""
 "A felhasználók keresztnevének és a felhasználók vezetéknevének törlése, "
 "helyettesítő karakteres kereséssel:"
 
-#: ../../content/data-privacy-protection/admin.rst:665
+#: ../../content/data-privacy-protection/admin.rst:756
 msgid ""
 "Delete user first names by user first name and create time, which are "
 "greater than or equal with the specified date:"
