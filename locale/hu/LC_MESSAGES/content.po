@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-27 17:02+0100\n"
+"POT-Creation-Date: 2019-11-29 08:48+0100\n"
 "PO-Revision-Date: 2019-08-15 09:24+0000\n"
 "Last-Translator: Balázs Úr, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/otrs/teams/23435/hu/)\n"
@@ -1076,7 +1076,6 @@ msgstr "Külső felület"
 #: ../../content/dynamic-field-attachment/external.rst:4
 #: ../../content/dynamic-field-calculation/external.rst:4
 #: ../../content/dynamic-field-ci/external.rst:4
-#: ../../content/dynamic-field-database/external.rst:4
 #: ../../content/dynamic-field-search-booster/external.rst:4
 #: ../../content/dynamic-field-value-import/external.rst:4
 #: ../../content/dynamic-field-web-service/external.rst:4
@@ -14781,6 +14780,22 @@ msgstr ""
 "akkor az eredmények fel lesznek sorolva, és a bejegyzések egyike "
 "kiválasztható egy egérkattintással. Az érték ezután hozzá lesz adva a "
 "mentett értékek listájához."
+
+#: ../../content/dynamic-field-database/external.rst:4
+msgid ""
+"This package has no external interface, but the dynamic field of type "
+"database can be added to many screens."
+msgstr ""
+"Ennek a csomagnak nincs külső felülete, de az adatbázis típusú dinamikus "
+"mező hozzáadható több képernyőhöz is."
+
+#: ../../content/dynamic-field-database/external.rst:6
+msgid ""
+"The features added by this package are the same as described in the "
+":doc:`agent`."
+msgstr ""
+"A csomag által hozzáadott funkciók megegyeznek azokkal, amelyeket az "
+":doc:`agent` ismertet."
 
 #: ../../content/dynamic-field-search-booster.rst:2
 msgid "Dynamic Field Search Booster"

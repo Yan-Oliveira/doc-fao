@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-27 17:02+0100\n"
+"POT-Creation-Date: 2019-11-29 08:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1000,7 +1000,6 @@ msgstr ""
 #: ../../content/dynamic-field-attachment/external.rst:4
 #: ../../content/dynamic-field-calculation/external.rst:4
 #: ../../content/dynamic-field-ci/external.rst:4
-#: ../../content/dynamic-field-database/external.rst:4
 #: ../../content/dynamic-field-search-booster/external.rst:4
 #: ../../content/dynamic-field-value-import/external.rst:4
 #: ../../content/dynamic-field-web-service/external.rst:4
@@ -9490,6 +9489,14 @@ msgstr ""
 
 #: ../../content/dynamic-field-database/agent.rst:32
 msgid "The database search will be executed via the *Start search* button and the results will be tabular displayed. If the search was successful, the results will be listed and one of the entries can be selected via a mouse click. The value will be added to the list of saved values afterwards."
+msgstr ""
+
+#: ../../content/dynamic-field-database/external.rst:4
+msgid "This package has no external interface, but the dynamic field of type database can be added to many screens."
+msgstr ""
+
+#: ../../content/dynamic-field-database/external.rst:6
+msgid "The features added by this package are the same as described in the :doc:`agent`."
 msgstr ""
 
 #: ../../content/dynamic-field-search-booster.rst:2
