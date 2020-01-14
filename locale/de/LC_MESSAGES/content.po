@@ -11806,7 +11806,7 @@ msgid ""
 "This package has no external interface, but the service selection can be "
 "restricted to the configured ones."
 msgstr ""
-"Dieses Paket hat kein externes Interface, aber die Auswahl der Services "
+"Dieses Paket hat kein externes Interface, aber die Auswahl der Services "
 "kann auf die konfigurierten beschränkt werden."
 
 #: ../../content/customer-specific-services/external.rst:8
