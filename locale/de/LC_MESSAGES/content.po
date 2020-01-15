@@ -18176,23 +18176,23 @@ msgstr "Service Design:"
 
 #: ../../content/ready2adopt-itsm-processes.rst:8
 msgid "Availability Management (proactive)"
-msgstr ""
+msgstr "Verfügbarkeitsmanagement (proaktiv)"
 
 #: ../../content/ready2adopt-itsm-processes.rst:9
 msgid "Availability Management (reactive)"
-msgstr ""
+msgstr "Verfügbarkeitsmanagement (reaktiv)"
 
 #: ../../content/ready2adopt-itsm-processes.rst:10
 msgid "Catalog Management"
-msgstr ""
+msgstr "Katalogverwaltung"
 
 #: ../../content/ready2adopt-itsm-processes.rst:11
 msgid "Continuity Management"
-msgstr ""
+msgstr "Kontinuitäts-Management "
 
 #: ../../content/ready2adopt-itsm-processes.rst:12
 msgid "Service Design Coordination (individual design)"
-msgstr ""
+msgstr "Service-Design-Koordination (individuelle Gestaltung)"
 
 #: ../../content/ready2adopt-itsm-processes.rst:13
 msgid "Service Level Management"
@@ -18200,19 +18200,19 @@ msgstr "Service Level-Management"
 
 #: ../../content/ready2adopt-itsm-processes.rst:14
 msgid "Supplier Management"
-msgstr ""
+msgstr "Lieferantenmanagement"
 
 #: ../../content/ready2adopt-itsm-processes.rst:16
 msgid "Service Operation:"
-msgstr ""
+msgstr "Service Operation:"
 
 #: ../../content/ready2adopt-itsm-processes.rst:18
 msgid "Access Management"
-msgstr ""
+msgstr "Zugriffsmanagement"
 
 #: ../../content/ready2adopt-itsm-processes.rst:19
 msgid "Event Management"
-msgstr ""
+msgstr "Veranstaltungsmanagement"
 
 #: ../../content/ready2adopt-itsm-processes.rst:20
 msgid "Incident Management"
@@ -18224,35 +18224,35 @@ msgstr "Problem-Management"
 
 #: ../../content/ready2adopt-itsm-processes.rst:22
 msgid "Request Fulfillment Management"
-msgstr ""
+msgstr "Request Fulfillment Management"
 
 #: ../../content/ready2adopt-itsm-processes.rst:23
 msgid "Service Validation and Testing"
-msgstr ""
+msgstr "Service-Validierung und Prüfung"
 
 #: ../../content/ready2adopt-itsm-processes.rst:25
 msgid "Service Transition:"
-msgstr ""
+msgstr "Service-Übergang:"
 
 #: ../../content/ready2adopt-itsm-processes.rst:27
 msgid "Change Evaluation"
-msgstr ""
+msgstr "Change Evaluation"
 
 #: ../../content/ready2adopt-itsm-processes.rst:28
 msgid "Knowledge Management"
-msgstr ""
+msgstr "Wissensmanagement"
 
 #: ../../content/ready2adopt-itsm-processes.rst:29
 msgid "Release and Deployment Management"
-msgstr ""
+msgstr "Release und Deployment Management"
 
 #: ../../content/ready2adopt-itsm-processes.rst:30
 msgid "Service Asset and Configuration Management"
-msgstr ""
+msgstr "Service Asset und Configuration Management"
 
 #: ../../content/ready2adopt-itsm-processes.rst:31
 msgid "Service Transition Planning and Support"
-msgstr ""
+msgstr "Service Transition Planning and Support"
 
 #: ../../content/ready2adopt-itsm-processes.rst:34
 msgid ""
@@ -20732,7 +20732,7 @@ msgstr "Fügen Sie einige Filterkriterien mit den Filteroptionen hinzu."
 
 #: ../../content/tag-cloud/agent/dashboard/dashboard.rst:63
 msgid "Tag Cloud Filters"
-msgstr ""
+msgstr "Tag Cloud Filters"
 
 #: ../../content/tag-cloud/agent/dashboard/dashboard.rst:65
 msgid ""
@@ -23609,7 +23609,7 @@ msgstr "Watchlist-Benachrichtigung über Statuswechsel"
 
 #: ../../content/ticket-watchlist/admin/communication-notifications/ticket-notifications.rst:12
 msgid "Ticket watcher reminder notification"
-msgstr ""
+msgstr "Ticketbeobachtungs-Erinnerungsbenachrichtigung"
 
 #: ../../content/ticket-watchlist/admin/communication-notifications/ticket-notifications.rst:14
 msgid "To view the notifications:"
