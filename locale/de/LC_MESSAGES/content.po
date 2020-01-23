@@ -61,7 +61,7 @@ msgstr "Konfigurierbare Spaltenbreite per Drag&Drop auf Benutzerebene."
 
 #: ../../content/adjust-sort-ticket-overview.rst:9
 msgid "Setting the queue and service display names."
-msgstr "Festlegen der Anzeigenamen für die Queue und den Dienst."
+msgstr "Festlegen der Anzeigenamen für die Queue und den Service."
 
 #: ../../content/adjust-sort-ticket-overview.rst:10
 msgid "Make ticket number column always visible."
@@ -126,7 +126,7 @@ msgstr "Vorteile"
 
 #: ../../content/adjust-sort-ticket-overview.rst:13
 msgid "Facilitates work with the small agent ticket overview."
-msgstr "Erleichtert die Arbeit mit der kleinen Ticketübersicht für Agenten."
+msgstr "Erleichtert die Arbeit mit der kleinen Ticket-Übersicht für Agenten."
 
 #: ../../content/adjust-sort-ticket-overview.rst:14
 msgid "Increases flexibility through optimized adaptability."
@@ -649,7 +649,7 @@ msgstr "Breite der Spalten"
 msgid ""
 "The width of the columns in the small ticket overviews are configurable."
 msgstr ""
-"Die Breite der Spalten in der kleinen Ticketübersicht sind konfigurierbar."
+"Die Breite der Spalten in der kleinen Ticket-Übersicht sind konfigurierbar."
 
 #: ../../content/adjust-sort-ticket-overview/admin.rst:13
 msgid "To configure the width of columns:"
@@ -756,7 +756,7 @@ msgid ""
 "The word length of the title column in the ticket overview widgets is "
 "configurable."
 msgstr ""
-"Die Wortlänge der Titelspalte in den Widgets der Ticketübersichten ist "
+"Die Wortlänge der Titelspalte in den Widgets der Ticket-Übersichten ist "
 "konfigurierbar."
 
 #: ../../content/adjust-sort-ticket-overview/admin.rst:32
@@ -817,8 +817,8 @@ msgid ""
 " ``::`` and their names, or just by their names in the ticket overview "
 "widgets."
 msgstr ""
-"Abhängig von einer Systemkonfigurationseinstellung können Queue- und "
-"Servicenamen mit vollständigen Pfaden angezeigt werden oder nur mit dem "
+"Abhängig von der Einstellung in der Systemkonfiguration können Queue- und "
+"Service-Namen mit vollständigen Pfaden angezeigt werden oder nur mit dem "
 "Anfangsbuchstaben der Eltern, gefolgt von ``::`` und ihren Namen, oder "
 "einfach nur mit ihren Namen in den Widgets der Ticket-Übersichten."
 
@@ -888,7 +888,9 @@ msgstr ""
 
 #: ../../content/adjust-sort-ticket-overview/admin.rst:83
 msgid "Add or remove screen names in the ``Template`` key of each setting."
-msgstr "Fügen oder entfernen Sie die Ansichtennamen im Schlüssel ``Template``"
+msgstr ""
+"Fügen Sie hinzu oder entfernen Sie die Ansichtennamen im Schlüssel "
+"``Template``."
 
 #: ../../content/adjust-sort-ticket-overview/agent.rst:2
 #: ../../content/advanced-editor/agent.rst:2
@@ -1110,7 +1112,7 @@ msgstr "Dieses Paket hat kein externes Interface."
 
 #: ../../content/advanced-editor.rst:2
 msgid "Advanced Editor"
-msgstr "Erweiterter Editor"
+msgstr "Advanced Editor"
 
 #: ../../content/advanced-editor.rst:4
 msgid ""
@@ -1229,7 +1231,7 @@ msgid ""
 "Open *Templates*, *Signatures* or *Salutations* modules in the administrator"
 " interface."
 msgstr ""
-"Öffnen Sie eines der Module *Vorlagen* , *Signaturen* oder *Anreden* im "
+"Öffnen Sie eines der Module *Vorlagen*, *Signaturen* oder *Anreden* im "
 "Administrator-Interface."
 
 #: ../../content/advanced-editor/admin.rst:15
@@ -1249,7 +1251,7 @@ msgstr "Symbol „Codeschnipsel einfügen”"
 
 #: ../../content/advanced-editor/admin.rst:23
 msgid "Click on the new icon to open a new window."
-msgstr "Click on the new icon to open a new window."
+msgstr "Klicken Sie auf das Symbol \"Neu\", um ein neues Fenster zu öffnen."
 
 #: ../../content/advanced-editor/admin.rst:24
 msgid "Select *TemplateToolkit* from the *Language* drop-down."
@@ -1262,7 +1264,7 @@ msgstr "Schreiben Sie folgenden Zeilen in den Textbereich."
 #: ../../content/advanced-editor/admin.rst:37
 msgid "Click on the *OK* button to save the code snippet."
 msgstr ""
-"Klicken Sie auf die *OK* Schaltfläche, um das Codeschnipsel zu speichern."
+"Klicken Sie auf die Schaltfläche *OK*, um das Codeschnipsel zu speichern."
 
 #: ../../content/advanced-editor/admin.rst:42
 msgid "Rich Text Editor Code Snippet"
@@ -1336,9 +1338,9 @@ msgid ""
 "to write correct Template Toolkit syntax. If you make mistakes there, you "
 "will get an error during choosing a template."
 msgstr ""
-"Wie Sie sehen können, können Bedingungen in Vorlagen sehr nützlich sein. "
-"Beachten Sie aber die korrekte Syntax des Template Toolkits. Wenn Sie dort "
-"Fehler machen, erhalten Sie einen Fehler bei der Auswahl einer Vorlage."
+"Wie Sie sehen, können Bedingungen in Vorlagen sehr nützlich sein. Beachten "
+"Sie aber die korrekte Syntax des Template Toolkits. Wenn Sie dort Fehler "
+"machen, erhalten Sie einen Fehler bei der Auswahl einer Vorlage."
 
 #: ../../content/advanced-editor/admin.rst:54
 msgid ""
@@ -1348,7 +1350,7 @@ msgid ""
 msgstr ""
 "Detaillierte Anweisungen zum Schreiben von Template Toolkit-Code finden Sie "
 "im Benutzerhandbuch für Template Toolkit <http://www.template-"
-"toolkit.org/docs/manual/index.html>`__ für weitere Informationen."
+"toolkit.org/docs/manual/index.html>`__."
 
 #: ../../content/advanced-editor/admin.rst:58
 msgid "Debugging Templates"
@@ -1364,7 +1366,7 @@ msgstr ""
 "Das Schreiben von Template Toolkit-Code ist im Vergleich zu anderen Sprachen"
 " nicht allzu schwierig. Dennoch treten Fehler auf, da wir alle nur Menschen "
 "sind. Um Ihre Vorlage zu validieren, öffnen Sie die Ansichten für die Sie "
-"Ihre Vorlagen für die Verwendung konfiguriert habe , und wählen Sie eine "
+"Ihre Vorlagen für die Verwendung konfiguriert haben und wählen Sie eine "
 "Vorlage aus."
 
 #: ../../content/advanced-editor/admin.rst:62
@@ -1388,7 +1390,7 @@ msgid ""
 "%]``. A second opening bracket was entered inside the same Template Toolkit "
 "tag, which for sure is forbidden."
 msgstr ""
-"In diesem Beispiel hat uns das **OTRS** system mitgeteilt, dass es in der "
+"In diesem Beispiel hat uns das **OTRS** System mitgeteilt, dass es in der "
 "Zeile ``[% IF Data.OTRSTagData.TypeID == 1 [% %]`` ein unerwartetes Token "
 "``[`` gab. Es wurde eine zweite öffnende Klammer in das gleiche Template "
 "Toolkit-Tag eingegeben, was verboten ist."
@@ -1475,19 +1477,19 @@ msgstr ""
 
 #: ../../content/advanced-escalations.rst:8
 msgid "start,"
-msgstr "Starten sollen"
+msgstr "starten sollen"
 
 #: ../../content/advanced-escalations.rst:9
 msgid "stop,"
-msgstr "Stoppen sollen"
+msgstr "stoppen sollen"
 
 #: ../../content/advanced-escalations.rst:10
 msgid "be suspended,"
-msgstr "Unterbrochen werden sollen"
+msgstr "unterbrochen werden sollen"
 
 #: ../../content/advanced-escalations.rst:11
 msgid "be resumed"
-msgstr "Fortgesetzt werden sollen"
+msgstr "fortgesetzt werden sollen"
 
 #: ../../content/advanced-escalations.rst:12
 msgid "and be restarted."
@@ -2318,9 +2320,9 @@ msgid ""
 "escalations columns you want to use in ticket overviews and ticket dashboard"
 " widgets."
 msgstr ""
-"Darüber hinaus haben Sie die Möglichkeit, festzulegen, welche erweiterten "
-"Eskalationsspalten Sie in Ticketübersichten und Ticket-Widgets verwenden "
-"möchten."
+"Darüber hinaus haben Sie die Möglichkeit, festzulegen, welche Spalten für "
+"erweiterte Eskalationen Sie in Ticket-Übersichten und Ticket-Widgets "
+"verwenden möchten."
 
 #: ../../content/advanced-escalations/admin/admistration/system-configuration.rst:12
 msgid ""
@@ -3204,7 +3206,7 @@ msgstr "Klicken Sie in der Spalte *Löschen* auf das Papierkorb-Symbol."
 #: ../../content/ticket-watchlist/agent/tickets/watchlist-management.rst:93
 #: ../../content/ticket-workflow/admin/ticket-settings/ticket-workflows.rst:103
 msgid "Click on the *OK* button in the confirmation dialog."
-msgstr "Klicken Sie im Bestätigungs-Dialog auf die Schaltfläche *OK*."
+msgstr "Klicken Sie im Bestätigungsdialog auf die Schaltfläche *OK*."
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:52
 msgid "Delete Escalation Type Bundle Screen"
@@ -3408,7 +3410,7 @@ msgstr ""
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:88
 msgid "Escalate after"
-msgstr "Eskalation danach"
+msgstr "Eskalieren nach"
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:88
 msgid "Define the escalation time span and unit."
@@ -3416,7 +3418,7 @@ msgstr "Definieren Sie die Eskalationszeitspanne und Einheit."
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:93
 msgid "Round up times"
-msgstr "Aufrundungszeiten"
+msgstr "Zeiten aufrunden"
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-type-bundle.rst:91
 msgid ""
@@ -3630,9 +3632,9 @@ msgid ""
 "This widget has five tabs for *Start*, *Restart*, *Suspend*, *Resume* and "
 "*Stop* events. The following options are available for the tabs."
 msgstr ""
-"Das Widget hat fünf Tabs für *Start* , *Neustarten* , *Anhalten* , "
-"*Fortsetzen* und *Stoppen* Ereignisse. Die folgenden Optionen sind für die "
-"Tabs verfügbar."
+"Das Widget hat fünf Tabs für die Ereignisse *Start* , *Neustarten* , "
+"*Anhalten* , *Fortsetzen* und *Stoppen*. Folgende Optionen sind für die Tabs"
+" verfügbar."
 
 #: ../../content/advanced-escalations/admin/ticket-settings/escalation-types.rst:96
 msgid "General"
@@ -3967,7 +3969,7 @@ msgid ""
 "calculated on-the-fly and could have a huge negative performance impact on "
 "the whole system."
 msgstr ""
-"Es ist möglich, in Ticketübersichten, Ticket Dashboard Widgets und "
+"Es ist möglich, in Ticket-Übersichten, Ticket Dashboard Widgets und "
 "Statistiken die Spalten für erweiterte Eskalationen anzuzeigen. Die Daten "
 "der erweiterten Eskalationen werden direkt berechnet und können sich "
 "erheblich negativ auf die Leistung des Gesamtsystems auswirken."
@@ -4583,7 +4585,7 @@ msgstr ""
 
 #: ../../content/agent-email-interface.rst:2
 msgid "Agent Email Interface"
-msgstr "E-Mail-Schnittstelle für Agenten"
+msgstr "Agent Email Interface"
 
 #: ../../content/agent-email-interface.rst:4
 msgid ""
@@ -11745,8 +11747,8 @@ msgid ""
 " not applied."
 msgstr ""
 "Die Kombination von Standard-Services und kundenspezifischen Services kann "
-"verwirrend sein. Wenn einem Kunden bestimmte Dienste zugeordnet sind, werden"
-" die Standard-Services nicht angewendet."
+"verwirrend sein. Wenn einem Kunden bestimmte Services zugeordnet sind, "
+"werden die Standard-Services nicht angewendet."
 
 #: ../../content/customer-specific-services/agent.rst:4
 msgid ""
@@ -11806,8 +11808,8 @@ msgid ""
 "This package has no external interface, but the service selection can be "
 "restricted to the configured ones."
 msgstr ""
-"Dieses Paket hat kein externes Interface, aber die Auswahl der Services "
-"kann auf die konfigurierten beschränkt werden."
+"Dieses Paket hat kein externes Interface, aber die Auswahl der Services kann"
+" auf die konfigurierten beschränkt werden."
 
 #: ../../content/customer-specific-services/external.rst:8
 msgid "Restrict Service Selection"
@@ -12200,7 +12202,7 @@ msgstr "Meldungsübersicht"
 
 #: ../../content/data-privacy-protection.rst:2
 msgid "Data Privacy Protection"
-msgstr "Datenschutzerklärung"
+msgstr "Data Privacy Protection"
 
 #: ../../content/data-privacy-protection.rst:4
 msgid ""
@@ -12943,7 +12945,7 @@ msgid ""
 "certain services and are located in specific queues:"
 msgstr ""
 "Kunden-IDs und einige dynamische Felder, die geschlossen sind, bestimmte "
-"Dienste haben und sich in bestimmten Queues befinden, anonymisieren:"
+"Services haben und sich in bestimmten Services befinden, anonymisieren:"
 
 #: ../../content/data-privacy-protection/admin.rst:665
 msgid "User Driver"
@@ -14429,9 +14431,9 @@ msgid ""
 "overviews and zoom screens. If special characters (&, @, :, /, etc.) should "
 "not be encoded, use ``url`` instead of ``uri`` filter."
 msgstr ""
-"Hier können Sie einen optionalen HTTP-Link für den Feldwert in "
-"Ticketübersichten und Detailansichten angeben. Wenn Sonderzeichen (&, @, :, "
-"/, etc.) nicht kodiert werden sollen, verwenden Sie ``url`` anstelle des "
+"Hier können Sie einen optionalen HTTP-Link für den Feldwert in Ticket-"
+"Übersichten und Detailansichten angeben. Wenn Sonderzeichen (&, @, :, /, "
+"etc.) nicht kodiert werden sollen, verwenden Sie ``url`` anstelle des "
 "Filters ``uri``."
 
 #: ../../content/dynamic-field-database/admin/processes-automation/dynamic-fields.rst:59
@@ -15394,7 +15396,7 @@ msgstr ""
 
 #: ../../content/dynamic-field-web-service.rst:2
 msgid "Dynamic Field Web Service"
-msgstr "Das dynamische Feld „Webservice”"
+msgstr "Dynamic Field Web Service"
 
 #: ../../content/dynamic-field-web-service.rst:4
 msgid ""
@@ -15959,12 +15961,12 @@ msgid ""
 msgstr ""
 "Um die Nutzung des Services zu ermöglichen, erstellen Sie ein neues "
 "dynamisches Feld und verwenden Sie einen Generic Agent Job. Das Hilfsmodul "
-"wird hinzugefügt, um das neue dynamische Feld automatisch mit dem "
-"Servicenamen zu füllen."
+"wird hinzugefügt, um das neue dynamische Feld automatisch mit dem Service-"
+"Namen zu füllen."
 
 #: ../../content/dynamic-sender-addresses/admin/processes-automation/generic-agent.rst:8
 msgid "To fill the dynamic field value with the service name:"
-msgstr "So füllen Sie den Wert des dynamischen Felds mit dem Servicenamen:"
+msgstr "So füllen Sie den Wert des dynamischen Felds mit dem Service-Namen:"
 
 #: ../../content/dynamic-sender-addresses/admin/processes-automation/generic-agent.rst:10
 msgid ""
@@ -16056,7 +16058,7 @@ msgid ""
 "actual sender addresses."
 msgstr ""
 "Das Mapping von dynamischen Feldwerten kann nun verwendet werden, um "
-"Servicenamen mit tatsächlichen Absenderadressen zu verknüpfen."
+"Service-Namen mit tatsächlichen Absenderadressen zu verknüpfen."
 
 #: ../../content/dynamic-sender-addresses/admin/processes-automation/generic-agent.rst:38
 msgid "Generic Agent Configuration Example"
@@ -17472,7 +17474,7 @@ msgid ""
 msgstr ""
 "Die Feature Add-ons werden vom *Customer Solution Team* in **OTRS** "
 "installiert. Bei *On-Premise*-Systemen kann der Kunde die Feature Add-ons "
-"aus dem Paketmanager installieren, wenn das *Customer Solution Team* die "
+"mit dem Paketmanager installieren, wenn das *Customer Solution Team* die "
 "ausgewählten Feature Add-ons zum Repository hinzugefügt hat. Um ein Feature "
 "Add-on zu installieren, wenden Sie sich bitte an das *Customer Solution "
 "Team* über support@otrs.com oder im `OTRS Portal "
@@ -18062,7 +18064,7 @@ msgstr ""
 
 #: ../../content/queue-responsible.rst:2
 msgid "Queue Responsible"
-msgstr "Queue-Verantwortlicher"
+msgstr "Queue Responsible"
 
 #: ../../content/queue-responsible.rst:4
 msgid ""
@@ -18114,7 +18116,7 @@ msgstr ""
 
 #: ../../content/queue-responsible/admin.rst:12
 msgid "To activate the queue responsible feature:"
-msgstr "So aktivieren Sie die Queue-Verantwortlicher-Funktion:"
+msgstr "So aktivieren Sie die Queue Responsible-Funktion:"
 
 #: ../../content/queue-responsible/admin.rst:15
 msgid ""
@@ -18626,7 +18628,7 @@ msgstr ""
 
 #: ../../content/restore-pending-information.rst:2
 msgid "Restore Pending Information"
-msgstr "Wiederherstellen von noch ausstehenden Informationen"
+msgstr "Restore Pending Information"
 
 #: ../../content/restore-pending-information.rst:4
 msgid ""
@@ -18798,7 +18800,7 @@ msgstr ""
 
 #: ../../content/restrict-customer-data-view.rst:2
 msgid "Restrict Customer Data View"
-msgstr "Kundendatensicht einschränken"
+msgstr "Restrict Customer Data View"
 
 #: ../../content/restrict-customer-data-view.rst:4
 msgid ""
@@ -19066,7 +19068,7 @@ msgstr ""
 
 #: ../../content/service-based-queue-routing.rst:2
 msgid "Service-based Queue Routing"
-msgstr "Service-basiertes Queue-Routing"
+msgstr "Service-based Queue Routing"
 
 #: ../../content/service-based-queue-routing.rst:4
 msgid ""
@@ -19105,7 +19107,7 @@ msgid ""
 msgstr ""
 "Mit diesem Feature Add-on ist es nun möglich, Queues mehreren Services "
 "zuzuordnen, so dass bei Auswahl dieses Services nur die entsprechenden "
-"Queues angezeigt werden. So kann beispielsweise der Dienst *Support Mobile "
+"Queues angezeigt werden. So kann beispielsweise der Service *Support Mobile "
 "Devices* den Service-Queues *IT-2nd Level-Support Hardware* und *IT-2nd "
 "Level Support Mobile Applications* zugeordnet werden, um die richtige "
 "Auswahl leichter zu treffen. Dieses Modul kann auch so konfiguriert werden, "
@@ -19291,7 +19293,7 @@ msgstr ""
 
 #: ../../content/service-categories.rst:2
 msgid "Service Categories"
-msgstr "Servicekategorien"
+msgstr "Service Categories"
 
 #: ../../content/service-categories.rst:4
 msgid ""
@@ -19479,7 +19481,7 @@ msgstr ""
 #: ../../content/service-responsible.rst:2
 #: ../../content/service-responsible/agent/avatar/personal-preferences.rst:14
 msgid "Service Responsible"
-msgstr "Service-Verantwortlicher"
+msgstr "Service Responsible"
 
 #: ../../content/service-responsible.rst:4
 msgid ""
@@ -19714,7 +19716,7 @@ msgstr "``Ticket::Responsible``"
 
 #: ../../content/specific-ticket-notifications.rst:2
 msgid "Specific Ticket Notifications"
-msgstr "Spezielle Ticket-Benachrichtigungen"
+msgstr "Specific Ticket Notifications"
 
 #: ../../content/specific-ticket-notifications.rst:4
 msgid ""
@@ -20083,7 +20085,7 @@ msgstr ""
 
 #: ../../content/state-preselection-response-templates.rst:2
 msgid "State Pre-selection Response Templates"
-msgstr "Statusvorauswahl für Antwortvorlagen"
+msgstr "State Pre-selection Response Templates"
 
 #: ../../content/state-preselection-response-templates.rst:4
 msgid ""
@@ -20261,7 +20263,7 @@ msgstr ""
 
 #: ../../content/system-configuration-history.rst:2
 msgid "System Configuration History"
-msgstr "Systemkonfigurations-Historie"
+msgstr "System Configuration History"
 
 #: ../../content/system-configuration-history.rst:4
 msgid ""
@@ -20308,7 +20310,7 @@ msgid ""
 "configuration settings."
 msgstr ""
 "Dieses Paket fügt zwei neue Ansichten hinzu, um die Historie der "
-"Systemkonfigurationseinstellungen anzuzeigen."
+"Einstellungen in der Systemkonfiguration anzuzeigen."
 
 #: ../../content/system-configuration-history/admin/administration.rst:4
 msgid ""
@@ -21024,7 +21026,7 @@ msgstr ""
 "Sollte die Bestellung manipuliert werden, ist es notwendig, das Bestellmodul"
 " *TicketAllocation* zu verwenden. Das Pre-Action-Modul ist notwendig, um die"
 " Ticket-Attribute zu manipulieren, die die Tickets gesetzt werden sollen. Es"
-" gibt auch einige Systemkonfigurationseinstellungen, um den "
+" gibt auch einige Einstellungen in der Systemkonfiguration, um den "
 "Zuweisungsprozess zu beeinflussen."
 
 #: ../../content/ticket-allocation/admin/processes-automation/generic-agent.rst:28
@@ -21366,10 +21368,9 @@ msgid ""
 "or disable the dynamic fields:"
 msgstr ""
 "Um die volle Funktionalität der dynamischen Ticket-Vorlagen zu zeigen, "
-"können wir einfach alle dynamischen Felder für *Neues Telefon-Ticket* in der"
-" Systemkonfigurationseinstellung "
-"``Ticket::Frontend::AgentTicketPhone####DynamicField`` entfernen oder die "
-"dynamischen Felder deaktivieren:"
+"können wir einfach alle dynamischen Felder für *Neues Telefon-Ticket* mit "
+"der Einstellung ``Ticket::Frontend::AgentTicketPhone####DynamicField`` "
+"entfernen oder die dynamischen Felder deaktivieren:"
 
 #: ../../content/ticket-forms/admin.rst:53
 msgid ""
@@ -22692,7 +22693,7 @@ msgstr ""
 msgid ""
 "Prepare the invocation of the configured remote web service. Event data:"
 msgstr ""
-"Bereiten Sie den Aufruf des konfigurierten Remote-Webdienstes vor. "
+"Bereiten Sie den Aufruf des konfigurierten Remote-Websrvice vor. "
 "Ereignisdaten:"
 
 #: ../../content/ticket-invoker/admin/processes-automation/web-services.rst:24
@@ -23080,7 +23081,7 @@ msgstr ""
 
 #: ../../content/ticket-queue-selection.rst:2
 msgid "Ticket Queue Selection"
-msgstr "Ticket-Queueauswahl"
+msgstr "Ticket Queue Selection"
 
 #: ../../content/ticket-queue-selection.rst:4
 msgid ""
@@ -23241,7 +23242,7 @@ msgstr ""
 
 #: ../../content/ticket-time-unit-dropdown.rst:2
 msgid "Ticket Time Unit Dropdown"
-msgstr "Ticket-Zeiteinheit Dropdown"
+msgstr "Ticket Time Unit Dropdown"
 
 #: ../../content/ticket-time-unit-dropdown.rst:4
 msgid ""
@@ -24241,7 +24242,7 @@ msgstr ""
 
 #: ../../content/ticket-workflow/admin/ticket-settings/states.rst:12
 msgid "task pending dependency"
-msgstr ""
+msgstr "blockiert durch Abhängigkeit"
 
 #: ../../content/ticket-workflow/admin/ticket-settings/states.rst:11
 msgid ""
@@ -24602,7 +24603,7 @@ msgstr ""
 
 #: ../../content/time-accounting-quota.rst:2
 msgid "Time Accounting Quota"
-msgstr "Zeitabrechnungskontingent"
+msgstr "Time Accounting Quota"
 
 #: ../../content/time-accounting-quota.rst:4
 msgid ""
@@ -24847,7 +24848,7 @@ msgstr ""
 
 #: ../../content/vip-customer.rst:2
 msgid "VIP Customer"
-msgstr "VIP-Kunde"
+msgstr "VIP Customer"
 
 #: ../../content/vip-customer.rst:4
 msgid ""
