@@ -20,7 +20,7 @@ The following Ready2Adopt processes are available from the *Ready2Adopt Processe
 - ``Service Operation::Service Validation and Testing``
 - ``Service Transition::Change Evaluation``
 - ``Service Transition::Knowledge Management``
-- ``Service Transition::Release And Deployment Management``
+- ``Service Transition::Release and Deployment Management``
 - ``Service Transition::Service Asset and Configuration Management``
 - ``Service Transition::Service Transition Planning and Support``
 

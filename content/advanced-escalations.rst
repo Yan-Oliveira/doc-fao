@@ -27,8 +27,8 @@ The following scenarios can now be handled more flexibly with *Advanced Escalati
 
 - A customer requests a rework of a solution – the escalation must be adjusted.
 - To present a solution, more information is required from the customer – the escalation must be suspended.
-- A service technician can’t get into the building or has no free access to the machine that needs to be fixed – the escalation must be suspended
-- and many more!
+- A service technician can’t get into the building or has no free access to the machine that needs to be fixed – the escalation must be suspended.
+- And many more
 
 Benefits
    - Even more flexible escalation management – individually adoptable to customer or SLA.

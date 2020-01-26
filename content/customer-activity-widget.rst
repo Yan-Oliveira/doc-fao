@@ -12,7 +12,7 @@ Target Groups
    - IT service providers
    - Finance
    - Sales
-   - and many more
+   - And many more
 
 Available in Service Package
    - SILVER

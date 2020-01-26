@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2019 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
 # This file is distributed under the same license as the OTRS Feature Add-ons Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 08:48+0100\n"
+"POT-Creation-Date: 2020-01-26 10:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1356,11 +1356,16 @@ msgid "To present a solution, more information is required from the customer –
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:30
-msgid "A service technician can’t get into the building or has no free access to the machine that needs to be fixed – the escalation must be suspended"
+msgid "A service technician can’t get into the building or has no free access to the machine that needs to be fixed – the escalation must be suspended."
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:31
-msgid "and many more!"
+#: ../../content/customer-activity-widget.rst:15
+#: ../../content/process-management-article-email.rst:19
+#: ../../content/tag-cloud.rst:29
+#: ../../content/ticket-allocation.rst:21
+#: ../../content/ticket-queue-selection.rst:20
+msgid "And many more"
 msgstr ""
 
 #: ../../content/advanced-escalations.rst:34
@@ -7148,10 +7153,6 @@ msgstr ""
 msgid "IT service providers"
 msgstr ""
 
-#: ../../content/customer-activity-widget.rst:15
-msgid "and many more"
-msgstr ""
-
 #: ../../content/customer-activity-widget.rst:21
 msgid "OTRSCustomerActivityWidget"
 msgstr ""
@@ -11499,13 +11500,6 @@ msgstr ""
 msgid "External IT"
 msgstr ""
 
-#: ../../content/process-management-article-email.rst:19
-#: ../../content/tag-cloud.rst:29
-#: ../../content/ticket-allocation.rst:21
-#: ../../content/ticket-queue-selection.rst:20
-msgid "And many more"
-msgstr ""
-
 #: ../../content/process-management-article-email.rst:25
 msgid "OTRSProcessManagementArticleEmail"
 msgstr ""
@@ -11840,7 +11834,7 @@ msgid "``Service Transition::Knowledge Management``"
 msgstr ""
 
 #: ../../content/ready2adopt-itsm-processes/admin/processes-automation/process-management.rst:23
-msgid "``Service Transition::Release And Deployment Management``"
+msgid "``Service Transition::Release and Deployment Management``"
 msgstr ""
 
 #: ../../content/ready2adopt-itsm-processes/admin/processes-automation/process-management.rst:24
