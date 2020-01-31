@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Feature Add-ons Manual 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-26 10:44+0100\n"
+"POT-Creation-Date: 2020-01-31 13:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:13
 #: ../../content/automatic-start-of-processes.rst:10
 #: ../../content/brute-force-attack-protection.rst:8
-#: ../../content/calendar-resource-planning.rst:12
+#: ../../content/calendar-resource-planning.rst:16
 #: ../../content/categories-for-text-modules.rst:12
 #: ../../content/change-write-protection.rst:17
 #: ../../content/ci-assignment-attribute-dynamic-field-map.rst:13
@@ -69,6 +69,7 @@ msgstr ""
 #: ../../content/data-privacy-protection.rst:15
 #: ../../content/delete-attachments.rst:15
 #: ../../content/dynamic-field-attachment.rst:9
+#: ../../content/dynamic-field-calculation.rst:10
 #: ../../content/dynamic-field-ci.rst:22
 #: ../../content/dynamic-field-database.rst:9
 #: ../../content/dynamic-field-search-booster.rst:10
@@ -120,7 +121,7 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:20
 #: ../../content/automatic-start-of-processes.rst:19
 #: ../../content/brute-force-attack-protection.rst:15
-#: ../../content/calendar-resource-planning.rst:23
+#: ../../content/calendar-resource-planning.rst:27
 #: ../../content/categories-for-text-modules.rst:18
 #: ../../content/change-write-protection.rst:21
 #: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
@@ -137,7 +138,7 @@ msgstr ""
 #: ../../content/data-privacy-protection.rst:23
 #: ../../content/delete-attachments.rst:21
 #: ../../content/dynamic-field-attachment.rst:16
-#: ../../content/dynamic-field-calculation.rst:9
+#: ../../content/dynamic-field-calculation.rst:15
 #: ../../content/dynamic-field-ci.rst:29
 #: ../../content/dynamic-field-database.rst:22
 #: ../../content/dynamic-field-search-booster.rst:17
@@ -176,6 +177,7 @@ msgstr ""
 #: ../../content/adjust-sort-ticket-overview.rst:17
 #: ../../content/advanced-generic-agent.rst:15
 #: ../../content/automated-faq-ticket-creator.rst:16
+#: ../../content/calendar-resource-planning.rst:23
 #: ../../content/categories-for-text-modules.rst:15
 #: ../../content/change-write-protection.rst:20
 #: ../../content/data-privacy-protection.rst:18
@@ -213,7 +215,7 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:23
 #: ../../content/automatic-start-of-processes.rst:22
 #: ../../content/brute-force-attack-protection.rst:18
-#: ../../content/calendar-resource-planning.rst:26
+#: ../../content/calendar-resource-planning.rst:30
 #: ../../content/categories-for-text-modules.rst:21
 #: ../../content/change-write-protection.rst:24
 #: ../../content/ci-assignment-attribute-dynamic-field-map.rst:22
@@ -230,7 +232,7 @@ msgstr ""
 #: ../../content/data-privacy-protection.rst:26
 #: ../../content/delete-attachments.rst:24
 #: ../../content/dynamic-field-attachment.rst:19
-#: ../../content/dynamic-field-calculation.rst:12
+#: ../../content/dynamic-field-calculation.rst:18
 #: ../../content/dynamic-field-ci.rst:32
 #: ../../content/dynamic-field-database.rst:25
 #: ../../content/dynamic-field-search-booster.rst:20
@@ -279,7 +281,7 @@ msgstr ""
 #: ../../content/ci-references.rst:27
 #: ../../content/cis-in-customer-frontend.rst:26
 #: ../../content/dynamic-field-attachment.rst:19
-#: ../../content/dynamic-field-calculation.rst:12
+#: ../../content/dynamic-field-calculation.rst:18
 #: ../../content/dynamic-field-ci.rst:32
 #: ../../content/dynamic-field-value-import.rst:25
 #: ../../content/dynamic-sender-addresses.rst:22
@@ -307,7 +309,7 @@ msgstr ""
 #: ../../content/automated-faq-ticket-creator.rst:26
 #: ../../content/automatic-start-of-processes.rst:25
 #: ../../content/brute-force-attack-protection.rst:21
-#: ../../content/calendar-resource-planning.rst:29
+#: ../../content/calendar-resource-planning.rst:33
 #: ../../content/categories-for-text-modules.rst:24
 #: ../../content/change-write-protection.rst:27
 #: ../../content/ci-assignment-attribute-dynamic-field-map.rst:25
@@ -324,7 +326,7 @@ msgstr ""
 #: ../../content/data-privacy-protection.rst:29
 #: ../../content/delete-attachments.rst:27
 #: ../../content/dynamic-field-attachment.rst:22
-#: ../../content/dynamic-field-calculation.rst:15
+#: ../../content/dynamic-field-calculation.rst:21
 #: ../../content/dynamic-field-ci.rst:35
 #: ../../content/dynamic-field-database.rst:28
 #: ../../content/dynamic-field-search-booster.rst:23
@@ -389,7 +391,7 @@ msgstr ""
 #: ../../content/brute-force-attack-protection/admin.rst:6
 #: ../../content/brute-force-attack-protection/admin/administration.rst:6
 #: ../../content/brute-force-attack-protection/admin/users-groups-roles.rst:6
-#: ../../content/calendar-resource-planning.rst:33
+#: ../../content/calendar-resource-planning.rst:37
 #: ../../content/calendar-resource-planning/admin.rst:6
 #: ../../content/calendar-resource-planning/admin/administration.rst:6
 #: ../../content/calendar-resource-planning/admin/communication-notifications.rst:6
@@ -440,7 +442,7 @@ msgstr ""
 #: ../../content/dynamic-field-attachment.rst:26
 #: ../../content/dynamic-field-attachment/admin.rst:6
 #: ../../content/dynamic-field-attachment/admin/processes-automation.rst:6
-#: ../../content/dynamic-field-calculation.rst:17
+#: ../../content/dynamic-field-calculation.rst:23
 #: ../../content/dynamic-field-calculation/admin.rst:6
 #: ../../content/dynamic-field-calculation/admin/processes-automation.rst:6
 #: ../../content/dynamic-field-ci.rst:49
@@ -3204,7 +3206,7 @@ msgid "Saves work through automation."
 msgstr ""
 
 #: ../../content/advanced-generic-agent.rst:17
-#: ../../content/calendar-resource-planning.rst:23
+#: ../../content/calendar-resource-planning.rst:27
 #: ../../content/ci-references.rst:24
 #: ../../content/credit-card-filter.rst:15
 #: ../../content/customer-activity-widget.rst:14
@@ -3444,7 +3446,7 @@ msgstr ""
 
 #: ../../content/automated-faq-ticket-creator.rst:17
 #: ../../content/automatic-start-of-processes.rst:15
-#: ../../content/calendar-resource-planning.rst:16
+#: ../../content/calendar-resource-planning.rst:20
 #: ../../content/ci-assignment-attribute-dynamic-field-map.rst:19
 #: ../../content/ci-references.rst:23
 #: ../../content/customer-frontend-link-object.rst:16
@@ -4078,7 +4080,7 @@ msgstr ""
 
 #: ../../content/automatic-start-of-processes.rst:14
 #: ../../content/brute-force-attack-protection.rst:11
-#: ../../content/calendar-resource-planning.rst:15
+#: ../../content/calendar-resource-planning.rst:19
 #: ../../content/credit-card-filter.rst:13
 #: ../../content/customer-event-ticket-calendar.rst:14
 #: ../../content/customer-frontend-link-object.rst:15
@@ -4103,13 +4105,12 @@ msgid "Customer service"
 msgstr ""
 
 #: ../../content/automatic-start-of-processes.rst:16
-#: ../../content/dynamic-field-calculation.rst:7
+#: ../../content/dynamic-field-calculation.rst:13
 msgid "Finance and accounting"
 msgstr ""
 
 #: ../../content/automatic-start-of-processes.rst:17
 #: ../../content/brute-force-attack-protection.rst:14
-#: ../../content/calendar-resource-planning.rst:19
 #: ../../content/data-privacy-protection.rst:22
 #: ../../content/dynamic-field-database.rst:18
 #: ../../content/dynamic-field-web-service.rst:18
@@ -4121,7 +4122,7 @@ msgstr ""
 
 #: ../../content/automatic-start-of-processes.rst:18
 #: ../../content/data-privacy-protection.rst:23
-#: ../../content/dynamic-field-calculation.rst:9
+#: ../../content/dynamic-field-calculation.rst:15
 #: ../../content/dynamic-field-database.rst:20
 #: ../../content/dynamic-field-web-service.rst:20
 #: ../../content/ready2adopt-itsm-processes.rst:42
@@ -4244,7 +4245,7 @@ msgid "E-commerce"
 msgstr ""
 
 #: ../../content/brute-force-attack-protection.rst:18
-#: ../../content/calendar-resource-planning.rst:26
+#: ../../content/calendar-resource-planning.rst:30
 #: ../../content/credit-card-filter.rst:20
 #: ../../content/custom-contact-fields.rst:30
 #: ../../content/customer-activity-widget.rst:18
@@ -4425,26 +4426,38 @@ msgid "Calendar Resource Planning"
 msgstr ""
 
 #: ../../content/calendar-resource-planning.rst:4
-msgid "This feature add-on provides a detailed overview of the entire team’s operations. By linking calendar entries with tickets, you have easy access to your appointments."
+msgid "This feature add-on gives you an operations overview of the entire team. And that’s not all. Dynamic fields, reporting functions and notifications can make your work simpler by allowing you to have individualized calendar views, resource planning per person or team, and selected import options into the calendar."
 msgstr ""
 
 #: ../../content/calendar-resource-planning.rst:6
-msgid "You can also use pre-defined authorization groups to create common calendars for select teams so that important information, such as meetings or deadlines, is available to all relevant agents."
+msgid "Additionally, customer and ticket data can be synchronized from a linked ticket into an appointment. This data can then be made available to the agent in the field as an offline local calendar. By linking the calendar entries with tickets, you always have complete details about your appointments on hand."
 msgstr ""
 
 #: ../../content/calendar-resource-planning.rst:8
-msgid "Visualize which agent is responsible for which tasks and the expected amount of time needed to complete the tasks. Meetings, appointments and simple project planning are now centrally available for the entire department in **OTRS**."
+msgid "With pre-defined authorization groups, you can even create shared calendars for select teams. Now, important information, such as meetings or deadlines, are available for all relevant agents."
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:11
+#: ../../content/calendar-resource-planning.rst:10
+msgid "Visualize which agent has which tasks to perform and how much time is estimated for completing these. Meetings, appointments and simple project planning can now be displayed centrally in **OTRS** for the entire department."
+msgstr ""
+
+#: ../../content/calendar-resource-planning.rst:13
 msgid "Cross-departmental overview of all teams and resources."
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:12
+#: ../../content/calendar-resource-planning.rst:14
 msgid "Calendar, resource planning and project planning in one tool."
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:17
+#: ../../content/calendar-resource-planning.rst:15
+msgid "Reporting functions and notifications."
+msgstr ""
+
+#: ../../content/calendar-resource-planning.rst:16
+msgid "Customer and ticket data also available offline for field service use."
+msgstr ""
+
+#: ../../content/calendar-resource-planning.rst:21
 #: ../../content/dashboard-news-widget.rst:14
 #: ../../content/data-privacy-protection.rst:19
 #: ../../content/delete-attachments.rst:18
@@ -4456,7 +4469,7 @@ msgstr ""
 msgid "Human resources"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:18
+#: ../../content/calendar-resource-planning.rst:22
 #: ../../content/dynamic-field-database.rst:17
 #: ../../content/dynamic-field-web-service.rst:17
 #: ../../content/ready2adopt-itsm-processes.rst:40
@@ -4465,25 +4478,25 @@ msgstr ""
 msgid "IT"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:20
+#: ../../content/calendar-resource-planning.rst:24
 #: ../../content/cis-in-customer-frontend.rst:22
 #: ../../content/queue-responsible.rst:16
 msgid "Logistics"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:21
+#: ../../content/calendar-resource-planning.rst:25
 msgid "Marketing and public relations"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:22
-#: ../../content/dynamic-field-calculation.rst:8
+#: ../../content/calendar-resource-planning.rst:26
+#: ../../content/dynamic-field-calculation.rst:14
 #: ../../content/dynamic-field-database.rst:19
 #: ../../content/dynamic-field-web-service.rst:19
 #: ../../content/extended-ticket-stats.rst:25
 msgid "Project management"
 msgstr ""
 
-#: ../../content/calendar-resource-planning.rst:29
+#: ../../content/calendar-resource-planning.rst:33
 msgid "OTRSCalendarResourcePlanning"
 msgstr ""
 
@@ -8792,10 +8805,22 @@ msgid "Dynamic Field Calculation"
 msgstr ""
 
 #: ../../content/dynamic-field-calculation.rst:4
-msgid "This feature gives a configuration interface for creating or changing dynamic fields of type calculation. Simple mathematical operations and OTRS tags like ``<OTRS_TICKET_AccountedTime>`` can be used."
+msgid "This feature add-on makes it possible to create dynamic fields of the type *Calculation*, which can perform simple mathematical operations."
 msgstr ""
 
-#: ../../content/dynamic-field-calculation.rst:15
+#: ../../content/dynamic-field-calculation.rst:6
+msgid "They can be used when a sum is required, such as with invoices, reporting or other number-related data. Administrators can run calculations in numeric fields if they want to add or divide values from one numeric field into another numeric field."
+msgstr ""
+
+#: ../../content/dynamic-field-calculation.rst:9
+msgid "Perform calculations in numeric fields."
+msgstr ""
+
+#: ../../content/dynamic-field-calculation.rst:10
+msgid "Save time by easily adding or multiplying values in a numeric field."
+msgstr ""
+
+#: ../../content/dynamic-field-calculation.rst:21
 msgid "OTRSDynamicFieldCalculation"
 msgstr ""
 
