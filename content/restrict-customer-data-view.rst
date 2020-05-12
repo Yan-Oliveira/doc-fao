@@ -28,7 +28,7 @@ Package Name in OTRS Package Manager
 
    - :doc:`vip-customer`
 
-.. Original content: https://otrs.com/otrs-feature/brute-force-attack-protection/
+.. Original content: https://otrs.com/otrs-feature/feature-add-on-restrict-customer-data-view/
 
 .. toctree::
    :maxdepth: 1
